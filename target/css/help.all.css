@@ -779,13 +779,13 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 .search-submit {
-    left: 2rem;
+    left: 9.7rem;
     right: auto;
 }
 
 .search-clear-text-icon {
     position: absolute;
-    right: 0;
+    right: 15%;
     top: 50%;
     width: 32px;
     height: 32px;
@@ -806,8 +806,8 @@ a.button:active, a.button:focus, a.button:hover {
     border-color: #9fa0a8
 }
 
-#searchArticle:focus+.search-icons .icon__visible path,
-#searchArticle:active+.search-icons .icon__visible path {
+#searchArticle:focus+.search-icons .interface-icon path,
+#searchArticle:active+.search-icons .interface-icon path {
     fill-opacity: 1
 }
 
@@ -822,6 +822,21 @@ a.button:active, a.button:focus, a.button:hover {
 .interface-icon path {
     fill: #9fa0a8 !important;
     fill-opacity: 0.01
+}
+
+.header-title {
+    color: white;
+    padding: 35px 0;
+    margin-bottom: 7px;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    position: relative;
+    z-index: 10;
+    background-size: cover;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    background-position: 50%;
 }
 
 @media (max-width: 576px) {

@@ -145,8 +145,8 @@
 		      /* Chceck if elements are present, then scrolls to them */
 		      if(ddItemac && scrollToEl && ddItemac.offset() && scrollToEl.offset()) {
 	    	  	scrollToEl.scrollTop(ddItemac.offset().top - scrollToEl.offset().top + scrollToEl.scrollTop());
-		      }
-		  }
+		    }
+		}
 	}
 
 	/*
@@ -155,44 +155,14 @@
 
 	/*An array containing all the country names in the world:*/
 	let countries = [];
-	let lToC = {};
-	let locToCou = window.localeToCountry.localeToCountry;
-	for(let i = 0, l = locToCou.length; i < l; i++) {
-		// Map of country and locale to be used later
-		lToC[locToCou[i].name] = locToCou[i].country
+	let faq = ['Getting Started', 'Questions'];
+	for(let i = 0, l = faq.length; i < l; i++) {
 		// To be used for Auto complete
-		countries.push(locToCou[i].name);
+		countries.push(faq[i]);
 	}
 
 	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
 	autocomplete(document.getElementById("searchArticle"), countries, "searchArticleDD");
-
-	// Close all lists within element
-	function closeAllDDLists(elmnt) {
-	    /*close all autocomplete lists in the document,
-	    except the one passed as an argument:*/
-	    let x = elmnt.getElementsByClassName("autocomplete-items");
-	    for (let i = 0, len = x.length; i < len; i++) {
-	      if (elmnt != x[i]) {
-	        x[i].parentNode.removeChild(x[i]);
-	      }
-	    }
-	}
-
-	// On click drop down btn of country search
-	$(document).on("click", ".dropdown-item" , function(event){
-		let chooseCtyId = 'searchArticleautocomplete-list';
-		let id = this.parentElement.id;
-		// Choose country DD update locale
-		if(isEqual(id, chooseCtyId))  {
-			let valObj = { parentElId : "searchArticle", valueChosen : this.lastChild.value};
-			updateUserAttr('locale', locale +  lToC[this.lastChild.value], this, valObj);
-		} 
-	});
-
-	// Update user attributes
-	function updateUserAttr(param, paramVal, event, valObj) {
-	}
 
 }(jQuery));
 		

@@ -13,7 +13,6 @@
             "name": "help.all.js",
             "files": [
                 "/core/jquery.min.js",
-                "/data/faq.js",
                 "/index.js",
                 "/plugins/animateOnScroll.js",
                 "/plugins/libraries.js"
