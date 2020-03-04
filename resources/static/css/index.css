@@ -779,14 +779,15 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 .search-submit {
-    left: 9.7rem;
+    left: 9.1rem;
     right: auto;
+    top: -2.25rem;
 }
 
 .search-clear-text-icon {
     position: absolute;
     right: 15%;
-    top: 50%;
+    top: -2.1rem;
     width: 32px;
     height: 32px;
     -webkit-box-sizing: border-box;
@@ -794,20 +795,20 @@ a.button:active, a.button:focus, a.button:hover {
     margin-top: -14px
 }
 
-#searchArticle:focus+.search-icons .search-submit,
-#searchArticle:active+.search-icons .search-submit {
+#searchArticle:focus+.searchIconAndResult .search-icons .search-submit,
+#searchArticle:active+.searchIconAndResult .search-icons .search-submit {
     pointer-events: none
 }
 
-#searchArticle:focus+.search-icons .search-submit:before,
-#searchArticle:focus+.search-icons .search-submit:after,
-#searchArticle:active+.search-icons .search-submit:before,
-#searchArticle:active+.search-icons .search-submit:after {
+#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:before,
+#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:after,
+#searchArticle:active+.searchIconAndResult.search-icons .search-submit:before,
+#searchArticle:active+.searchIconAndResult .search-icons .search-submit:after {
     border-color: #9fa0a8
 }
 
-#searchArticle:focus+.search-icons .interface-icon path,
-#searchArticle:active+.search-icons .interface-icon path {
+#searchArticle:focus+.searchIconAndResult .search-icons .interface-icon path,
+#searchArticle:active+.searchIconAndResult .search-icons .interface-icon path {
     fill-opacity: 1
 }
 
@@ -837,6 +838,42 @@ a.button:active, a.button:focus, a.button:hover {
     -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
     background-position: 50%;
+}
+
+.search-icons {
+    position: relative;
+}
+
+#searchArticleDD {
+    display: none;
+    width: 75%;
+    padding: 20px 32px 21px 59px;
+    background: rgb(255, 255, 255,0.9);
+    border: 0;
+    outline: 0;
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
+    -webkit-transition: background .4s,-webkit-box-shadow .2s;
+    transition: background .4s,-webkit-box-shadow .2s;
+    -o-transition: background .4s,box-shadow .2s;
+    transition: background .4s,box-shadow .2s;
+    transition: background .4s,box-shadow .2s,-webkit-box-shadow .2s;
+}
+
+#searchArticle:focus+.searchIconAndResult #searchArticleDD,
+#searchArticle:focus+.searchIconAndResult #searchArticleDD,
+#searchArticle:active+.searchIconAndResult #searchArticleDD,
+#searchArticle:active+.searchIconAndResult #searchArticleDD {
+    display: block;
+}
+
+
+#searchArticleDD .dropdown-item {
+    color: #000;
+    text-align: left;
 }
 
 @media (max-width: 576px) {

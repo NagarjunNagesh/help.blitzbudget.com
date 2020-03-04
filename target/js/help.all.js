@@ -3237,8 +3237,38 @@
     return r.noConflict = function(b) {
         return a.$ === r && (a.$ = Wb), b && a.jQuery === r && (a.jQuery = Vb), r
     }, b || (a.jQuery = a.$ = r), r
-});"use strict";
+});/**
+*
+* Category Information
+*
+**/
+
+window.caregoryInfo = [
+
+	{
+		"categoryName": "Getting Started",
+		"dataUrl": "/getting-started/"
+	},
+	{
+		"categoryName": "Budget",
+		"dataUrl": "/budget/"
+	},
+	{
+		"categoryName": "Transactions",
+		"dataUrl": "/transactions/"
+	},
+	{
+		"categoryName": "Goals",
+		"dataUrl": "/goals/"
+	},
+	{
+		"categoryName": "Financial Accounts",
+		"dataUrl": "/financial-accounts/"
+	}
+
+];"use strict";
 (function scopeWrapper($) {
+	let searchArticleDD = document.getElementById('searchArticleDD');
 	/**
 	* Autocomplete Module
 	**/
@@ -3278,7 +3308,7 @@
 		    let x = document.getElementsByClassName("autocomplete-items");
 		    for (let i = 0, len = x.length; i < len; i++) {
 		      if (elmnt != x[i] && elmnt != inp) {
-		        x[i].parentNode.removeChild(x[i]);
+		        searchArticleDD.removeChild(x[i]);
 		      }
 		    }
 		  }
@@ -3300,7 +3330,7 @@
 		      a.setAttribute("id", this.id + "autocomplete-list");
 		      a.setAttribute("class", "autocomplete-items");
 		      /*append the DIV element as a child of the autocomplete container:*/
-		      this.parentNode.appendChild(a);
+		      searchArticleDD.appendChild(a);
 		      /*for each item in the array...*/
 		      for (let i = 0; i < len; i++) {
 		      	let autoFilEl = false;
@@ -3308,11 +3338,11 @@
 			  		autoFilEl = true;
 			  	} else {
 			  		/* check if the starting characters match */
-			        startsWithChar = arr[i].substr(0, val.length).toUpperCase() == upperVal;
+			        startsWithChar = arr[i].categoryName.substr(0, val.length).toUpperCase() == upperVal;
 			        /* build a regex with the value entered */
 			        regVal = new RegExp(upperVal,"g");
 			        /*check if the item starts with the same letters as the text field value:*/
-			        if (startsWithChar || includesStr(arr[i].toUpperCase(), upperVal)) {
+			        if (startsWithChar || includesStr(arr[i].categoryName.toUpperCase(), upperVal)) {
 			        	autoFilEl = true;
 			        }	
 			  	}
@@ -3323,28 +3353,21 @@
 			  	}
 		        
 		        /*create a DIV element for each matching element:*/
-		        b = document.createElement("DIV");
+		        b = document.createElement("div");
 		        b.classList.add("dropdown-item");
 		        /*make the matching letters bold:*/
 		        if(startsWithChar) {
-		          	b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>" + arr[i].substr(val.length);
+		          	b.innerHTML = "<strong>" + arr[i].categoryName.substr(0, val.length) + "</strong>" + arr[i].categoryName.substr(val.length);
 		        } else if(!val) {
-		        	b.innerHTML = arr[i];
+		        	b.innerHTML = arr[i].categoryName;
 		        } else {
-		          	let startPos = regVal.exec(arr[i].toUpperCase()).index;
+		          	let startPos = regVal.exec(arr[i].categoryName.toUpperCase()).index;
 		          	let startPos2 = startPos + val.length;
-		          	b.innerHTML = arr[i].substr(0, startPos) + "<strong>" + arr[i].substr(startPos, val.length) + "</strong>" + arr[i].substr(startPos2);
+		          	b.innerHTML = arr[i].categoryName.substr(0, startPos) + "<strong>" + arr[i].categoryName.substr(startPos, val.length) + "</strong>" + arr[i].categoryName.substr(startPos2);
 		        }
 		        /*insert a input field that will hold the current array item's value:*/
-		        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-		        /*execute a function when someone clicks on the item value (DIV element):*/
-		        b.addEventListener("click", function(e) {
-		              /*insert the value for the autocomplete text field:*/
-		              if(isNotEmpty(inp)) inp.value = this.getElementsByTagName("input")[0].value;
-		              /*close the list of autocompleted values,
-		              (or any other open lists of autocompleted values:*/
-		              closeAllLists();
-		        });
+	        	b.innerHTML += "<input type='hidden' value='" + arr[i].dataUrl + "'>";
+		        
 		        a.appendChild(b);
 		      }
 		  }
@@ -3388,20 +3411,13 @@
 		}
 	}
 
-	/*
-	*	Country Drop down Populate
-	*/
-
-	/*An array containing all the country names in the world:*/
-	let countries = [];
-	let faq = ['Getting Started', 'Questions'];
-	for(let i = 0, l = faq.length; i < l; i++) {
-		// To be used for Auto complete
-		countries.push(faq[i]);
-	}
-
 	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
-	autocomplete(document.getElementById("searchArticle"), countries, "searchArticleDD");
+	autocomplete(document.getElementById("searchArticle"), window.caregoryInfo, "searchArticleDD");
+
+	// On click drop down btn of country search
+	$(document).on("click", ".dropdown-item" , function(event){
+		debugger;
+	});
 
 }(jQuery));
 		"use strict";
