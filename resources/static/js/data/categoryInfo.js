@@ -4,7 +4,7 @@
 *
 **/
 
-window.caregoryInfo = [
+window.categoryInfo = [
 
 	{
 		"categoryName": "Getting Started",

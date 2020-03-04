@@ -3243,7 +3243,7 @@
 *
 **/
 
-window.caregoryInfo = [
+window.categoryInfo = [
 
 	{
 		"categoryName": "Getting Started",
@@ -3269,6 +3269,7 @@ window.caregoryInfo = [
 ];"use strict";
 (function scopeWrapper($) {
 	let searchArticleDD = document.getElementById('searchArticleDD');
+
 	/**
 	* Autocomplete Module
 	**/
@@ -3412,11 +3413,18 @@ window.caregoryInfo = [
 	}
 
 	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
-	autocomplete(document.getElementById("searchArticle"), window.caregoryInfo, "searchArticleDD");
+	autocomplete(document.getElementById("searchArticle"), window.categoryInfo, "searchArticleDD");
 
 	// On click drop down btn of country search
-	$(document).on("click", ".dropdown-item" , function(event){
-		debugger;
+	$('#searchArticleDD').on("click", ".dropdown-item" , function(event){
+       /*insert the value for the autocomplete text field:*/
+       this.getElementsByTagName("input")[0].value;
+	});
+
+	// Search clear button
+	document.getElementById('search-clear').addEventListener("click",function(e){
+		// Search article clear
+		document.getElementById('searchArticle').value = '';
 	});
 
 }(jQuery));

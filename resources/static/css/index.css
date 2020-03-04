@@ -786,18 +786,13 @@ a.button:active, a.button:focus, a.button:hover {
 
 .search-clear-text-icon {
     position: absolute;
-    right: 15%;
+    right: 14%;
     top: -2.1rem;
     width: 32px;
     height: 32px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: -14px
-}
-
-#searchArticle:focus+.searchIconAndResult .search-icons .search-submit,
-#searchArticle:active+.searchIconAndResult .search-icons .search-submit {
-    pointer-events: none
 }
 
 #searchArticle:focus+.searchIconAndResult .search-icons .search-submit:before,
@@ -845,7 +840,7 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 #searchArticleDD {
-    display: none;
+    display: block;
     width: 75%;
     padding: 20px 32px 21px 59px;
     background: rgb(255, 255, 255,0.9);
@@ -863,17 +858,52 @@ a.button:active, a.button:focus, a.button:hover {
     transition: background .4s,box-shadow .2s,-webkit-box-shadow .2s;
 }
 
-#searchArticle:focus+.searchIconAndResult #searchArticleDD,
-#searchArticle:focus+.searchIconAndResult #searchArticleDD,
-#searchArticle:active+.searchIconAndResult #searchArticleDD,
-#searchArticle:active+.searchIconAndResult #searchArticleDD {
-    display: block;
-}
-
 
 #searchArticleDD .dropdown-item {
     color: #000;
     text-align: left;
+    cursor: pointer;
+    padding: .75rem 1.25rem .75rem .75rem
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: .8125rem;
+    border-radius: .125rem;
+    margin: 0 .3125rem;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    min-width: 7rem;
+    padding: .625rem 1.25rem;
+    overflow: hidden;
+    line-height: 1.428571;
+    text-overflow: ellipsis;
+    word-wrap: break-word
+}
+
+#searchArticleDD .dropdown-item:hover,
+#searchArticleDD .dropdown-item:focus {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14),0 7px 10px -5px rgba(156,39,176,0.4);
+    background-color: #00bcd4;
+    color: #fff
+}
+
+#searchArticleDD .dropdown-menu .dropdown-item:hover, 
+#searchArticleDD .dropdown-menu .dropdown-item:focus, 
+#searchArticleDD .dropdown-menu a:hover, 
+#searchArticleDD .dropdown-menu a:focus, 
+#searchArticleDD .dropdown-menu a:active,
+#searchArticleDD .autocomplete-active {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 10px -5px rgba(0,188,212,0.4);
+    background-color: #00bcd4;
+    color: #fff;
 }
 
 @media (max-width: 576px) {
@@ -934,6 +964,11 @@ a.button:active, a.button:focus, a.button:hover {
     h4, h5, h6 {
 	    font-size: 1.625rem;
 	}
+
+    #searchArticleDD .dropdown-item {
+        padding-right:1.5rem;
+        padding-left: 1.5rem
+    }
 }
 
 @media (min-width: 769px) {
