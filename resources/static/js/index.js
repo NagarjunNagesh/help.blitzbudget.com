@@ -86,7 +86,7 @@
 			  	}
 		        
 		        /*create a DIV element for each matching element:*/
-		        b = document.createElement("div");
+		        b = document.createElement("a");
 		        b.classList.add("dropdown-item");
 		        /*make the matching letters bold:*/
 		        if(startsWithChar) {
@@ -99,7 +99,7 @@
 		          	b.innerHTML = arr[i].categoryName.substr(0, startPos) + "<strong>" + arr[i].categoryName.substr(startPos, val.length) + "</strong>" + arr[i].categoryName.substr(startPos2);
 		        }
 		        /*insert a input field that will hold the current array item's value:*/
-	        	b.innerHTML += "<input type='hidden' value='" + arr[i].dataUrl + "'>";
+	        	b.href = arr[i].dataUrl;
 		        
 		        a.appendChild(b);
 		      }
@@ -146,12 +146,6 @@
 
 	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
 	autocomplete(document.getElementById("searchArticle"), window.categoryInfo, "searchArticleDD");
-
-	// On click drop down btn of country search
-	$('#searchArticleDD').on("click", ".dropdown-item" , function(event){
-       /*insert the value for the autocomplete text field:*/
-       this.getElementsByTagName("input")[0].value;
-	});
 
 	// Search clear button
 	document.getElementById('search-clear').addEventListener("click",function(e){

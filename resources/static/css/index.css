@@ -648,7 +648,8 @@ a.button:active, a.button:focus, a.button:hover {
 *
 **/
 
-#helpSearch {
+#helpSearch,
+.helpResult {
     padding: 7rem;
 }
 
@@ -904,6 +905,22 @@ a.button:active, a.button:focus, a.button:hover {
     box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 10px -5px rgba(0,188,212,0.4);
     background-color: #00bcd4;
     color: #fff;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.helpResult .material-icons,
+.helpResult svg {
+    color: #244564;
+    font-size: 3rem;
 }
 
 @media (max-width: 576px) {
