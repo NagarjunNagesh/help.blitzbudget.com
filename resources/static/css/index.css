@@ -929,6 +929,14 @@ a.button:active, a.button:focus, a.button:hover {
 
 .headerResult {
     font-style: normal;
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #585858;
+    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 10px 0 10px 0;
 }
 
 .category {
@@ -938,7 +946,6 @@ a.button:active, a.button:focus, a.button:hover {
 .category {
     text-align: center;
     display: inline-block;
-    width: 29%;
     border: 1px solid #e0e0e0;
     margin: 0 .8% 20px;
     padding: 1.5em 1em;
@@ -964,8 +971,17 @@ a.button:active, a.button:focus, a.button:hover {
     color: #b3b3b3;
 }
 
-.article-count {
-    color: #4381b5;
+.category .article-count {
+    color: #00bcd4;
+}
+
+.categoryTitle {
+    background-color: aliceblue;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
 }
 
 @media (max-width: 576px) {
