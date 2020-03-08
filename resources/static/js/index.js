@@ -181,5 +181,7 @@
 
 	document.getElementById("searchArticle").dispatchEvent(event);
 
+	
+
 }(jQuery));
 		
