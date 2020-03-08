@@ -182,6 +182,31 @@
 	document.getElementById("searchArticle").dispatchEvent(event);
 
 	
+	// On click a tag then
+	$("a").click(function() {
+		let anchorHref = this.href;
+		if(anchorHref.indexOf("http://app.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("https://app.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("http://www.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("https://www.blitzbudget.com") == 0 ||
+			anchorHref.indexOf("http://blitzbudget.com") == 0 ||
+			anchorHref.indexOf("https://blitzbudget.com") == 0) {
+			return true;
+		}
+
+		jQuery.ajax({
+			url: this.href + 'info.json',
+	        type: 'GET',
+	        success: function(result) {
+	        	return false;
+	        },
+	        error: function(userTransactionsList) {
+
+	        }
+		});
+
+		return false;
+	});
 
 }(jQuery));
 		

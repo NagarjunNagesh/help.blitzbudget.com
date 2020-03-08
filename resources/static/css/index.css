@@ -648,11 +648,8 @@ a.button:active, a.button:focus, a.button:hover {
 *
 **/
 
+#helpSearch,
 .helpResult {
-    padding: 7rem;
-}
-
-#helpSearch {
     padding: 7rem 7rem 0 7rem;   
 }
 
