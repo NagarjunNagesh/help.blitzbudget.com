@@ -103,6 +103,14 @@
 		        
 		        a.appendChild(b);
 		      }
+
+		      // If empty then show no results
+		      if(isNotEmpty(a) && isEmpty(a.firstChild)) {
+		      	b = document.createElement("span");
+			    b.classList.add("tripleNineColor");
+			    b.innerText = 'No Results';
+			    a.appendChild(b);
+		      }
 		  }
 
 		  /*
@@ -111,7 +119,7 @@
 		  function keydownAutoCompleteTrigger(e) {
 		  	  let wrapClassId = this.id + "autocomplete-list";
 		      let x = document.getElementById(wrapClassId);
-		      if (x) x = x.getElementsByTagName("div");
+		      if (x) x = x.getElementsByTagName("a");
 		      if (e.keyCode == 40) {
 		        /*If the arrow DOWN key is pressed,
 		        increase the currentFocus variable:*/
@@ -152,6 +160,26 @@
 		// Search article clear
 		document.getElementById('searchArticle').value = '';
 	});
+
+	// Search Article focus in
+	document.getElementById('searchArticle').addEventListener('focusin', (event) => {
+		document.getElementById('searchArticleDD').classList.add('fadeInDown');
+		document.getElementById('searchArticleDD').classList.remove('fadeOut');
+	});
+
+	// Search Article focus out
+	document.getElementById('searchArticle').addEventListener('focusout', (event) => {
+			document.getElementById('searchArticleDD').classList.add('fadeOut');
+			document.getElementById('searchArticleDD').classList.remove('fadeInDown');
+	});
+
+	// Dispatch click event
+	let event = new Event('input', {
+	    bubbles: true,
+	    cancelable: true,
+	});
+
+	document.getElementById("searchArticle").dispatchEvent(event);
 
 }(jQuery));
 		

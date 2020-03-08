@@ -648,9 +648,16 @@ a.button:active, a.button:focus, a.button:hover {
 *
 **/
 
-#helpSearch,
 .helpResult {
     padding: 7rem;
+}
+
+#helpSearch {
+    padding: 7rem 7rem 0 7rem;   
+}
+
+.tripleNineColor {
+    color:#999;
 }
 
 #searchArticle {
@@ -1024,6 +1031,92 @@ a.button:active, a.button:focus, a.button:hover {
 
 .background-yellow {
     background-color: #f4c236;
+}
+
+.text-animation {
+    opacity: 0;
+}
+
+.fadeInDown {
+    -webkit-animation: 0.8s ease FadeInDown;
+    -moz-animation: 0.8s ease FadeInDown;
+    animation: 0.8s ease FadeInDown;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;   
+}
+
+@-webkit-keyframes FadeInDown {
+    from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes FadeInDown {
+    from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.fadeOut {
+    -webkit-animation: 0.8s ease FadeOut;
+    -moz-animation: 0.8s ease FadeOut;
+    animation: 0.8s ease FadeOut;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;   
+}
+
+@-webkit-keyframes FadeOut {
+    from {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0);
+        opacity: 0
+    }
+}
+
+@keyframes FadeOut {
+    from {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%%, 0);
+        opacity: 0
+    }
+}
+
+.heading-search {
+    display: block;
+    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(255,255,255);
 }
 
 @media (max-width: 576px) {
