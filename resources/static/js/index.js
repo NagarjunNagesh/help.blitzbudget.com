@@ -1,6 +1,7 @@
 "use strict";
 (function scopeWrapper($) {
 	let searchArticleDD = document.getElementById('searchArticleDD');
+	let pageCount = 2;
 
 	/**
 	* Autocomplete Module
@@ -198,10 +199,19 @@
 			url: this.href + 'info.json',
 	        type: 'GET',
 	        success: function(result) {
+	        	// Detect if pushState is available
+  				if (window.history.pushState) {
+	        		window.history.pushState({page: pageCount}, result.title, result.url);
+	        	}
+	        	// Page Count increased
+	        	pageCount++;
+	        	// Document Title for browser
+	        	document.title = result.title;
 	        	return false;
 	        },
 	        error: function(userTransactionsList) {
-
+	        	// Window location href
+	        	window.location.href = 'https://help.blitzbudget.com';
 	        }
 		});
 
