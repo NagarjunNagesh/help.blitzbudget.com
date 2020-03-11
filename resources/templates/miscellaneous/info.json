@@ -1,4 +1,10 @@
 {
 	"url" : "/settings/",
-	"title" : "Settings"
+	"title" : "Settings",
+	"breadcrumb" : [
+		{
+			"crumb-title" : "Help Center",
+			"crumb-url" : "/"
+		}
+	]
 }

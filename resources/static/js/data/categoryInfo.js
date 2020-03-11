@@ -40,7 +40,33 @@ window.categoryInfo = [
 	},
 	{
 		"categoryName": "Transactions",
-		"dataUrl": "/transactions/"
+		"dataUrl": "/transactions/",
+		"subCategory": [
+			{
+				"title": "Adding Transactions",
+				"url": "/adding-income/"
+			},
+			{
+				"title": "File-Based Import",
+				"url": "/file-based-import/"
+			},
+			{
+				"title": "Scheduled Transactions",
+				"url": "/scheduled-transactions"
+			},
+			{
+				"title": "Scheduled Transactions",
+				"url": "/scheduled-transactions"
+			},
+			{
+				"title": "Edit Account Name & Notes",
+				"url": "/edit-account-name-and-notes/"
+			},
+			{
+				"title": "Export Selected File Format",
+				"url": "/export-selected-file-format/"
+			}
+		]
 	},
 	{
 		"categoryName": "Goals",

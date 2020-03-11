@@ -1,4 +1,10 @@
 {
 	"url" : "/financial-accounts/",
-	"title" : "Financial Accounts"
+	"title" : "Financial Accounts",
+	"breadcrumb" : [
+		{
+			"crumb-title" : "Help Center",
+			"crumb-url" : "/"
+		}
+	]
 }

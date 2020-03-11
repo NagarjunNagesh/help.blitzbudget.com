@@ -649,7 +649,8 @@ a.button:active, a.button:focus, a.button:hover {
 **/
 
 #helpSearch,
-.helpResult {
+.helpResult,
+.categoryResult {
     padding: 7rem 7rem 0 7rem;   
 }
 
@@ -1114,6 +1115,34 @@ a.button:active, a.button:focus, a.button:hover {
     font-size: 4rem;
     font-weight: 900;
     color: rgba(255,255,255);
+}
+
+.sticky-header {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 4rem;
+}
+
+#category-nav .category-item a {
+    font-weight: normal;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    -webkit-letter-spacing: 0px;
+    -moz-letter-spacing: 0px;
+    -ms-letter-spacing: 0px;
+    letter-spacing: 0px;
+}
+
+#category-nav .category-item {
+    margin: 0.2rem 0 1rem;
+    padding-left: 0.4rem;
+}
+
+#category-nav .category-item a.active {
+    color: #00bcd4;
+    font-weight: 600;
 }
 
 @media (max-width: 576px) {

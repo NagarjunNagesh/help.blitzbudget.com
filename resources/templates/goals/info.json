@@ -1,4 +1,10 @@
 {
 	"url" : "/goals/",
-	"title" : "Goals"
+	"title" : "Goals",
+	"breadcrumb" : [
+		{
+			"crumb-title" : "Help Center",
+			"crumb-url" : "/"
+		}
+	]
 }
