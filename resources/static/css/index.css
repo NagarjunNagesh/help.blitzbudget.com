@@ -1154,6 +1154,25 @@ a.button:active, a.button:focus, a.button:hover {
     position: relative;
 }
 
+#article-title {
+    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1.85rem;
+    font-weight: 900;
+    color: #12323d;
+    margin-bottom: 0.3rem;
+}
+
+#article-description {
+    font-size: 1rem;
+    color: #999;
+}
+
+.crumbAnchor,
+.nextCrumb {
+    color: #5d5353;
+    margin-right: 0.35rem;
+}
+
 @media (max-width: 576px) {
 	.footerInternal {
         padding-top:1rem;

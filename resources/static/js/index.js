@@ -207,9 +207,13 @@
 	        	pageCount++;
 	        	// Document Title for browser
 	        	document.title = result.title;
+	        	// Update body
+	        	document.getElementById('article-title').innerText = category.categoryName;
+				document.getElementById('article-description').innerText = category.description;
+				document.getElementById('breadcrumb').appendChild(populateBreadcrumb(result, category));
 	        	// Check if subcategory
 	        	if(result.subcategoryPresent) {
-	        		populateSubCategory(result.title);
+	        		populateSubCategory(result);
 	        	}
 	        	return false;
 	        },
@@ -254,17 +258,64 @@
 	}
 
 	// Populate Sub category
-	function populateSubCategory(title) {
+	function populateSubCategory(result) {
+		let title = result.title;
 		let categoryInfo = window.categoryInfo;
 
 		// Category Information iteration
 		for(let i=0, len=categoryInfo.length; i<len ; i++) {
 			let category = categoryInfo[i];
-			if(isEqual(category.title, title)) {
-				document.getElementById('article-title').innerText = category.title;
-				document.getElementById('article-description').innerText = category.description;
+			if(isEqual(category.categoryName, title)) {
+				
 			}
 		}
+	}
+
+	// Populate the breadcrumb
+	function populateBreadcrumb(result, category) {
+		let breadcrumbDiv = document.createDocumentFragment();
+		let breadcrumbSC = result.breadcrumb;
+
+		if(isEmpty(breadcrumbSC)) {
+			return breadcrumbDiv;
+		}
+
+		// Bread crumb 0
+		let breadcrumbAnchor = breadcrumbSC[0];
+		let anchorZero = document.createElement('a');
+		anchorZero.href = breadcrumbAnchor.crumbUrl;
+		anchorZero.classList.add('crumbAnchor');
+		anchorZero.innerText = breadcrumbAnchor.crumbTitle;
+		breadcrumbDiv.appendChild(anchorZero);	
+
+		for(let i=1, len = breadcrumbSC.length; i < len; i++) {
+			let span = document.createElement('span');
+			span.classList.add('nextCrumb');
+			span.innerText = '>';
+			breadcrumbDiv.appendChild(span);
+
+			let breadcrumbAnchor = breadcrumbSC[i];
+			let anchorOther = document.createElement('a');
+			anchorOther.classList.add('crumbAnchor');
+			anchorOther.href = breadcrumbAnchor.crumbUrl;
+			anchorOther.innerText = breadcrumbAnchor.crumbTitle;
+			breadcrumbDiv.appendChild(anchorOther);
+		}
+
+		// Upload the category
+		let span = document.createElement('span');
+		span.classList.add('nextCrumb');
+		span.innerText = '>';
+		breadcrumbDiv.appendChild(span);
+
+		// Bread crumb last
+		let anchorLast = document.createElement('a');
+		anchorLast.href = result.url;
+		anchorLast.classList.add('crumbAnchor');
+		anchorLast.innerText = result.title;
+		breadcrumbDiv.appendChild(anchorLast);
+
+		return breadcrumbDiv;
 	}
 
 

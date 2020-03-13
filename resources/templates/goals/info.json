@@ -4,8 +4,8 @@
 	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
-			"crumb-title" : "Help Center",
-			"crumb-url" : "/"
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
 		}
 	]
 }
