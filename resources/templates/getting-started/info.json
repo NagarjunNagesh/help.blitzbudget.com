@@ -1,6 +1,7 @@
 {
 	"url" : "/getting-started/",
 	"title" : "Getting Started",
+	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
 			"crumb-title" : "Help Center",

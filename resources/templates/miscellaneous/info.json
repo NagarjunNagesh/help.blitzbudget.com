@@ -1,6 +1,7 @@
 {
 	"url" : "/settings/",
 	"title" : "Settings",
+	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
 			"crumb-title" : "Help Center",

@@ -1,6 +1,7 @@
 {
 	"url" : "/transactions/",
 	"title" : "Transactions",
+	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
 			"crumb-title" : "Help Center",

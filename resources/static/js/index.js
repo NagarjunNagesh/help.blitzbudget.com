@@ -207,6 +207,10 @@
 	        	pageCount++;
 	        	// Document Title for browser
 	        	document.title = result.title;
+	        	// Check if subcategory
+	        	if(result.subcategoryPresent) {
+	        		populateSubCategory(result.title);
+	        	}
 	        	return false;
 	        },
 	        error: function(userTransactionsList) {
@@ -248,6 +252,21 @@
 
 		return categoryDiv;
 	}
+
+	// Populate Sub category
+	function populateSubCategory(title) {
+		let categoryInfo = window.categoryInfo;
+
+		// Category Information iteration
+		for(let i=0, len=categoryInfo.length; i<len ; i++) {
+			let category = categoryInfo[i];
+			if(isEqual(category.title, title)) {
+				document.getElementById('article-title').innerText = category.title;
+				document.getElementById('article-description').innerText = category.description;
+			}
+		}
+	}
+
 
 }(jQuery));
 		

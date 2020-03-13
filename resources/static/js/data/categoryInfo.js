@@ -5,10 +5,10 @@
 **/
 
 window.categoryInfo = [
-
 	{
 		"categoryName": "Getting Started",
 		"dataUrl": "/getting-started/",
+		"description": "Total control over your money in a few clicks.",
 		"subCategory": [
 			{
 				"title": "About BlitzBudget",
@@ -31,6 +31,7 @@ window.categoryInfo = [
 	{
 		"categoryName": "Budget",
 		"dataUrl": "/budget/",
+		"description": "Plan what you spend & automate your financial plan.",
 		"subCategory": [
 			{
 				"title": "Compensate Budget",
@@ -41,6 +42,7 @@ window.categoryInfo = [
 	{
 		"categoryName": "Transactions",
 		"dataUrl": "/transactions/",
+		"description": "Make sure every spending is accounted for and tracked.",
 		"subCategory": [
 			{
 				"title": "Adding Transactions",
@@ -70,11 +72,13 @@ window.categoryInfo = [
 	},
 	{
 		"categoryName": "Goals",
-		"dataUrl": "/goals/"
+		"dataUrl": "/goals/",
+		"description": "Planning to buy save your money for something worth saving?."
 	},
 	{
 		"categoryName": "Financial Accounts",
 		"dataUrl": "/financial-accounts/",
+		"description": "Credit cards and debit cards are easily tracked with financial accounts.",
 		"subCategory": [
 			{
 				"title": "Synchronized Bank Account",
@@ -87,8 +91,9 @@ window.categoryInfo = [
 		]
 	},
 	{
-		"categoryName": "Settings",
-		"dataUrl": "/settings/",
+		"categoryName": "Miscellaneous",
+		"dataUrl": "/miscellaneous/",
+		"description": "Tweak your preferences, notifications and more.",
 		"subCategory": [
 			{
 				"title": "Updating Your Notification Settings",
@@ -120,5 +125,4 @@ window.categoryInfo = [
 			}
 		]
 	}
-
 ];

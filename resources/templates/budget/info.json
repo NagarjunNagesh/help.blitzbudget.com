@@ -1,6 +1,7 @@
 {
 	"url" : "/budget/",
 	"title" : "Budget",
+	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
 			"crumb-title" : "Help Center",

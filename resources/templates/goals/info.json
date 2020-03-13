@@ -1,6 +1,7 @@
 {
 	"url" : "/goals/",
 	"title" : "Goals",
+	"subcategoryPresent" : true,
 	"breadcrumb" : [
 		{
 			"crumb-title" : "Help Center",
