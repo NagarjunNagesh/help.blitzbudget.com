@@ -1,0 +1,18 @@
+{
+	"url" : "/transactions/file-based-import/",
+	"title" : "File Based Import",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Transactions",
+			"crumbUrl" : "/transactions/"
+		}
+	],
+	"content": [
+		
+	]
+}

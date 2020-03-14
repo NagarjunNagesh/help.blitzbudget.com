@@ -19,7 +19,8 @@
 		},
 		{
 			"tag": "img",
-			"src": "https://help.blitzbudget.com/img/getting-started/add-budget.png"
+			"classInfo": "article-image",
+			"srcUrl": "/img/getting-started/add-budget.png"
 		},
 		{
 			"tag": "p",
@@ -27,7 +28,8 @@
 		},
 		{
 			"tag": "img",
-			"src": "https://help.blitzbudget.com/img/getting-started/budget.png"
+			"classInfo": "article-image",
+			"srcUrl": "/img/getting-started/budget.png"
 		},
 		{
 			"tag": "div",

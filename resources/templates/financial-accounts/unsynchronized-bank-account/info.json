@@ -13,6 +13,56 @@
 		}
 	],
 	"content": [
-		
+		{
+			"tag": "p",
+			"html": "Adding an account is as simple as 1,2,3. That's it!" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/account-type.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Choose your account type.</strong> Choose the Unsynchronized Account option from the dropdown.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image w-30",
+			"srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Enter the account details.</strong> Enter the account type, nick name and account balance for the account.</p></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Click the <strong>Create Account</strong> button.</p></div>"
+		},
+		{
+			"tag": "h3",
+			"html": "Confused By Account Type?" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/know-more.png"
+		},
+		{
+			"tag": "p",
+			"html": "There are a few accounts like cash, Which has to fit in to unsynchronous while the others are upto you to decide. Let's see the difference between the two though!" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+		{
+			"tag": "p",
+			"html": "Think of unsynchronized bank account as a manual account where you have to manually enter all the transactions and the synchronous accounts as automatic account where updating the transactions are automatic." 
+		}
 	]
 }

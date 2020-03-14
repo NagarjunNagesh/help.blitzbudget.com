@@ -40,7 +40,7 @@ window.categoryInfo = [
 		"subCategory": [
 			{
 				"title": "Compensate Budget",
-				"url": "/compensate-budget/"
+				"url": "/compensate/"
 			}
 		]
 	},
@@ -51,27 +51,39 @@ window.categoryInfo = [
 		"subCategory": [
 			{
 				"title": "Adding Transactions",
-				"url": "/adding-income/"
+				"url": "/adding-transactions/"
 			},
 			{
 				"title": "File-Based Import",
 				"url": "/file-based-import/"
 			},
 			{
-				"title": "Scheduled Transactions",
-				"url": "/scheduled-transactions"
+				"title": "Sort By",
+				"url": "/sort-by/"
 			},
 			{
-				"title": "Scheduled Transactions",
-				"url": "/scheduled-transactions"
+				"title": "Changing a Transaction's Category",
+				"url": "/changing-a-transactions-category/"
 			},
 			{
-				"title": "Edit Account Name & Notes",
-				"url": "/edit-account-name-and-notes/"
+				"title": "Changing a Budget",
+				"url": "/changing-a-budget/"
+			},
+			{
+				"title": "Edit Notes",
+				"url": "/edit-notes/"
+			},
+			{
+				"title": "Change the Account For a Transaction",
+				"url": "/change-the-account/"
 			},
 			{
 				"title": "Export Selected File Format",
 				"url": "/export-selected-file-format/"
+			},
+			{
+				"title": "Delete Transactions",
+				"url": "/delete-transactions/"
 			}
 		]
 	},

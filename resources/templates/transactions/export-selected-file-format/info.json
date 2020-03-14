@@ -1,0 +1,31 @@
+{
+	"url" : "/transactions/export-selected-file-format/",
+	"title" : "Export Selected File Format",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Transactions",
+			"crumbUrl" : "/transactions/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Prefer exporting your transactions in Excel, CSV or Word documents. Just select the transactions and click on the <strong>Download</strong> button as shown in the image below. " 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/transactions/download-report.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "call-to-attention",
+			"html": "<h4>What Does The Excel File Contain?</h4><p>The downloaded excel file has <i> transaction category, transaction amount, account name, transaction notes, budget amount, recurrence settings and more<i>.</p>"
+		}
+	]
+}
