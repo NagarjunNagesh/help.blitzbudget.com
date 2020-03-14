@@ -207,14 +207,9 @@
 	        	pageCount++;
 	        	// Document Title for browser
 	        	document.title = result.title;
-	        	// Update body
-	        	document.getElementById('article-title').innerText = category.categoryName;
-				document.getElementById('article-description').innerText = category.description;
-				document.getElementById('breadcrumb').appendChild(populateBreadcrumb(result, category));
-	        	// Check if subcategory
-	        	if(result.subcategoryPresent) {
-	        		populateSubCategory(result);
-	        	}
+	        	// Populate article information
+	        	populateArticleInfo(result);
+	        	
 	        	return false;
 	        },
 	        error: function(userTransactionsList) {
@@ -257,8 +252,8 @@
 		return categoryDiv;
 	}
 
-	// Populate Sub category
-	function populateSubCategory(result) {
+	// Populate Article Information
+	function populateArticleInfo(result) {
 		let title = result.title;
 		let categoryInfo = window.categoryInfo;
 
@@ -266,9 +261,60 @@
 		for(let i=0, len=categoryInfo.length; i<len ; i++) {
 			let category = categoryInfo[i];
 			if(isEqual(category.categoryName, title)) {
-				
+				// Update body
+	        	document.getElementById('article-title').innerText = category.categoryName;
+				document.getElementById('article-description').innerText = category.description;
+				let bcEl = document.getElementById('breadcrumb');
+				while(bcEl.firstChild) {
+					bcEl.removeChild(bcEl.firstChild);
+				}
+				bcEl.appendChild(populateBreadcrumb(result, category));
+				// Remove article body
+				let articleBody = document.getElementById('article-body');
+				while(articleBody.firstChild) {
+					articleBody.removeChild(articleBody.firstChild);
+				}
+				// Check if subcategory
+	        	if(result.subcategoryPresent) {
+					articleBody.appendChild(populateSubCategory(category));
+				}
+				return;
 			}
 		}
+	}
+
+	// Populate sub category information
+	function populateSubCategory(category) {
+		let subCategoryDiv = document.createDocumentFragment();
+		let subCategoryNav = category.subCategory;
+
+		if(isEmpty(subCategoryNav)) {
+			return subCategoryDiv;
+		}
+
+		let ul = document.createElement('ul');
+		ul.classList.add('sub-category-list');		
+
+		for(let i=0, len = subCategoryNav.length; i < len; i++) {
+			let subCategoryNavItem = subCategoryNav[i];
+			let li = document.createElement('li');
+			li.classList.add('sub-category-li');
+
+			let articleIcon = document.createElement('i');
+			articleIcon.classList = 'material-icons align-middle';
+			articleIcon.innerText = 'assignment';
+			li.appendChild(articleIcon);
+	
+			let anchorArticle = document.createElement('a');
+			anchorArticle.classList.add('sub-category-link');
+			anchorArticle.href = category.dataUrl + subCategoryNavItem.url.slice(1);
+			anchorArticle.innerText = subCategoryNavItem.title;
+			li.appendChild(anchorArticle);
+			ul.appendChild(li);
+		}
+
+		subCategoryDiv.appendChild(ul);
+		return subCategoryDiv;
 	}
 
 	// Populate the breadcrumb

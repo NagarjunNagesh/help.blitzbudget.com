@@ -1165,12 +1165,34 @@ a.button:active, a.button:focus, a.button:hover {
 #article-description {
     font-size: 1rem;
     color: #999;
+    margin-top: 0.2rem;
 }
 
 .crumbAnchor,
 .nextCrumb {
     color: #5d5353;
     margin-right: 0.35rem;
+}
+
+.sub-category-li {
+    list-style-type: none;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+
+.sub-category-li .material-icons {
+    color: #12323d;
+    margin-right: 0.3rem;    
+}
+
+.sub-category-li .sub-category-link {
+    font-weight: bold;
+    color: #00aec5;
+}
+
+.sub-category-li .sub-category-link:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 576px) {
