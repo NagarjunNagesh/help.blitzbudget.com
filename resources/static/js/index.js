@@ -184,7 +184,7 @@
 
 	
 	// On click a tag then
-	$( "body" ).on( "click", "a" ,function() {
+	$( ".landing-page" ).on( "click", "a" ,function() {
 		let anchorHref = this.href;
 		if(anchorHref.indexOf("http://app.blitzbudget.com") == 0 || 
 			anchorHref.indexOf("https://app.blitzbudget.com") == 0 || 
@@ -195,10 +195,20 @@
 			return true;
 		}
 
+		// If home page is selected then change classList
+		if(isEqual(anchorHref, '/')) {
+			document.getElementsByClassName('HelpResult')[0].classList.remove('d-none');
+			document.getElementsByClassName('CategoryResult')[0].classList.add('d-none');
+			return false;
+		}
+
+		// Retrieve categories / articles
 		jQuery.ajax({
 			url: this.href + 'info.json',
 	        type: 'GET',
 	        success: function(result) {
+	        	document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
+				document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
 	        	// Detect if pushState is available
   				if (window.history.pushState) {
 	        		window.history.pushState({page: pageCount}, result.title, result.url);
@@ -207,14 +217,22 @@
 	        	pageCount++;
 	        	// Document Title for browser
 	        	document.title = result.title;
-	        	// Populate article information
-	        	populateArticleInfo(result);
+	        	// Check if subcategory
+	        	if(result.subcategoryPresent) {
+	        		// Populate article information
+	        		populateSubCategoryInfo(result);
+	        	} else {
+	        		// Populate article information
+	        		populateArticleInfo(result);
+	        	}
 	        	
 	        	return false;
 	        },
 	        error: function(userTransactionsList) {
-	        	// Window location href
-	        	window.location.href = 'https://help.blitzbudget.com';
+	        	Toast.fire({
+					icon: 'error',
+					title: "Unable to fetch the requested url"
+				});
 	        }
 		});
 
@@ -254,6 +272,58 @@
 
 	// Populate Article Information
 	function populateArticleInfo(result) {
+		// Update body
+    	document.getElementById('article-title').innerText = result.title;
+		document.getElementById('article-description').innerText = '';
+		let bcEl = document.getElementById('breadcrumb');
+		while(bcEl.firstChild) {
+			bcEl.removeChild(bcEl.firstChild);
+		}
+		bcEl.appendChild(populateBreadcrumb(result));
+		// Remove article body
+		let articleBody = document.getElementById('article-body');
+		while(articleBody.firstChild) {
+			articleBody.removeChild(articleBody.firstChild);
+		}
+		
+		articleBody.appendChild(populateArticle(result.content));
+
+	}
+
+	// Populate Article
+	function populateArticle(content) {
+		let articleDiv = document.createDocumentFragment();
+
+		if(isEmpty(content)) {
+			return articleDiv;
+		}
+
+		for(let i=0, len = content.length; i < len; i++) {
+			let contentItem = content[i];
+			let tag = document.createElement(contentItem.tag);
+			
+			// Populate innerHTML
+			if(isNotEmpty(contentItem.html)) {			
+				tag.innerHTML = contentItem.html;
+			}
+
+			// Add class list
+			if(isNotEmpty(contentItem.classInfo)) {
+				tag.classList = contentItem.classInfo;
+			}
+
+			// Add src
+			if(isNotEmpty(contentItem.srcUrl)) {
+				tag.src = contentItem.srcUrl;
+			}
+
+			articleDiv.appendChild(tag);
+		}
+		return articleDiv;
+	}
+
+	// Populate Sub Category Info
+	function populateSubCategoryInfo(result) {
 		let title = result.title;
 		let categoryInfo = window.categoryInfo;
 
@@ -268,16 +338,15 @@
 				while(bcEl.firstChild) {
 					bcEl.removeChild(bcEl.firstChild);
 				}
-				bcEl.appendChild(populateBreadcrumb(result, category));
+				bcEl.appendChild(populateBreadcrumb(result));
 				// Remove article body
 				let articleBody = document.getElementById('article-body');
 				while(articleBody.firstChild) {
 					articleBody.removeChild(articleBody.firstChild);
 				}
-				// Check if subcategory
-	        	if(result.subcategoryPresent) {
-					articleBody.appendChild(populateSubCategory(category));
-				}
+				
+				articleBody.appendChild(populateSubCategory(category));
+
 				return;
 			}
 		}
@@ -318,7 +387,7 @@
 	}
 
 	// Populate the breadcrumb
-	function populateBreadcrumb(result, category) {
+	function populateBreadcrumb(result) {
 		let breadcrumbDiv = document.createDocumentFragment();
 		let breadcrumbSC = result.breadcrumb;
 

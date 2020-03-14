@@ -1,0 +1,18 @@
+{
+	"url" : "/financial-accounts/unsynchronized-bank-account/",
+	"title" : "Add Unsynchronized Financial Accounts",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Financial Accounts",
+			"crumbUrl" : "/financial-accounts/"
+		}
+	],
+	"content": [
+		
+	]
+}

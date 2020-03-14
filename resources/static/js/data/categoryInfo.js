@@ -9,23 +9,28 @@ window.categoryInfo = [
 		"categoryName": "Getting Started",
 		"dataUrl": "/getting-started/",
 		"description": "Total control over your money in a few clicks.",
-		"subCategory": [
+		"subCategory": [			
 			{
-				"title": "About BlitzBudget",
-				"url": "/about-blitzbudget/"
+				"title": "Getting Started Step 1: Set your goals",
+				"url": "/set-your-goals/"
 			},
 			{
-				"title": "Financial Planning You Can Do With BlitzBudget",
-				"url": "/financial-planning-you-can-do-with-blitzbudget/"
+				"title": "Getting Started Step 2: Budget your money",
+				"url": "/budget-your-money/"
 			},
 			{
-				"title": "Open My Account",
-				"url": "/open-my-account/"
+				"title": "Getting Started Step 3: Add your investments",
+				"url": "/add-your-investments/"
 			},
 			{
-				"title": "What You Need To Get Started",
-				"url": "/what-you-need-to-get-started/"
+				"title": "Getting Started Step 4: Add your financial accounts",
+				"url": "/add-financial-accounts/"
+			},
+			{
+				"title": "Getting Started: What's next?",
+				"url": "/whats-next/"
 			}
+
 		]
 	},
 	{

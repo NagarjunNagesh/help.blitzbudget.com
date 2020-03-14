@@ -14,10 +14,11 @@
             "files": [
                 "/core/jquery.min.js",
                 "/data/categoryInfo.js",
-                "/index.js",
                 "/plugins/bootstrap-notify.js",
                 "/plugins/animateOnScroll.js",
-                "/plugins/libraries.js"
+                "/plugins/sweetalert2.all.min.js",
+                "/plugins/libraries.js",
+                "/index.js"
             ]
         }
     ]

@@ -1,0 +1,38 @@
+{
+	"url" : "/getting-started/budget-your-money/",
+	"title" : "Getting Started Step 2: Budget Your Money",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Getting Started",
+			"crumbUrl" : "/getting-started/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "You have your goals, You are ready to budget. Rule 1 of budgeting - make it practical." 
+		},
+		{
+			"tag": "img",
+			"src": "https://help.blitzbudget.com/img/getting-started/add-budget.png"
+		},
+		{
+			"tag": "p",
+			"html": "If you already have a budget for the previous month, We make it easy for you to copy your previous month's budget into the current month. <strong>New to BlitzBudget?</strong> Not an issue, Click the add button in the bottom left to automatically add a budget."
+		},
+		{
+			"tag": "img",
+			"src": "https://help.blitzbudget.com/img/getting-started/budget.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "call-to-attention",
+			"html": "<h4>To Be Budgeted</h4><p>Ensure that the <i>To Be Budgeted</i> is always a 0. You could use the full potential of budgeting by adding the relevant budget.</p>"
+		}
+	]
+}
