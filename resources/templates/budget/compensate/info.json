@@ -49,7 +49,8 @@
 		},
 		{
 			"tag": "p",
-			"html": "When multiple compensatable categories are present then categories can be chosen and removed until the satifactory compensation is reached or all the categories are chosen." 
+			"classInfo": "mt-2",
+			"html": "When multiple compensatable categories are present then categories can be chosen and removed until the satifactory compensation is reached or all the compensated categories are exhausted." 
 		}
 	]
 }

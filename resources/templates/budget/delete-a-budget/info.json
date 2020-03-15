@@ -1,0 +1,30 @@
+{
+	"url" : "/budget/delete-a-budget/",
+	"title" : "Delete a Budget",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Budget",
+			"crumbUrl" : "/budget/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Have a budget you are not using anymore? You could delete a budget by hovering over the desired budget and clicking on the delete icon." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/budget/delete-a-budget.png"
+		},
+		{
+			"tag": "p",
+			"html": "Be careful while deleting a budget. You cannot restore a deleted budget but you can create it again." 
+		}
+	]
+}

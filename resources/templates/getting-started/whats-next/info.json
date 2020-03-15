@@ -32,17 +32,17 @@
 		{
 			"tag": "div",
 			"classInfo": "item-container",
-			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Save first.</strong>Received your salary, why not put the money that you promised to save in a another account?</p></div>"
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Save first.</strong> Received your salary? why not put the money that you promised to save in a another account?</p></div>"
 		},
 		{
 			"tag": "div",
 			"classInfo": "item-container",
-			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Track your transactions.</strong>See the difference between the ideal scenario and the real world circumstances.</p></div>"
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Track your transactions.</strong> See the difference between the ideal scenario and the real world circumstances.</p></div>"
 		},
 		{
 			"tag": "div",
 			"classInfo": "item-container",
-			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Adjust your budget.</strong>Budget is not meant to be rigid. It breaks! Stay flexible and <a href=\"/budget/compensate/\" class=\"article-anchor\">compensate them with extra money from other budgets.</a></p></div>"
+			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Adjust your budget.</strong> Budget is not meant to be rigid. It breaks! Stay flexible and <a href=\"/budget/compensate/\" class=\"article-anchor\">compensate them with extra money from other budgets.</a></p></div>"
 		},
 		{
 			"tag": "p",

@@ -15,7 +15,7 @@
 	"content": [
 		{
 			"tag": "p",
-			"html": "You have your goals, You are ready to budget. Rule 1 of budgeting - make it practical." 
+			"html": "You have your goals but that is just a dream unless you start budgeting and the first rule of budgeting is <i>make it practical</i>." 
 		},
 		{
 			"tag": "img",
@@ -24,7 +24,7 @@
 		},
 		{
 			"tag": "p",
-			"html": "If you already have a budget for the previous month, We make it easy for you to copy your previous month's budget into the current month. <strong>New to BlitzBudget?</strong> Not an issue, Click the add button in the bottom left to automatically add a budget."
+			"html": "If you already have a budget for the previous month, We make it easy for you to copy your previous month's budget into the current month. <strong>New to BlitzBudget?</strong> Not an issue, Click the add button in the bottom left to automatically add a new budget."
 		},
 		{
 			"tag": "img",

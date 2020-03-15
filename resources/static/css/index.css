@@ -648,12 +648,6 @@ a.button:active, a.button:focus, a.button:hover {
 *
 **/
 
-#helpSearch,
-.helpResult,
-.categoryResult {
-    padding: 7rem 7rem 0 7rem;   
-}
-
 .tripleNineColor {
     color:#999;
 }
@@ -847,7 +841,6 @@ a.button:active, a.button:focus, a.button:hover {
 
 #searchArticleDD {
     display: block;
-    width: 75%;
     padding: 20px 32px 21px 59px;
     background: rgb(255, 255, 255,0.9);
     border: 0;
@@ -1029,19 +1022,6 @@ a.button:active, a.button:focus, a.button:hover {
 
 .background-yellow {
     background-color: #f4c236;
-}
-
-.text-animation {
-    opacity: 0;
-}
-
-.fadeInDown {
-    -webkit-animation: 0.8s ease FadeInDown;
-    -moz-animation: 0.8s ease FadeInDown;
-    animation: 0.8s ease FadeInDown;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;   
 }
 
 @-webkit-keyframes FadeInDown {
@@ -1287,7 +1267,86 @@ a.button:active, a.button:focus, a.button:hover {
     text-decoration: underline;
 }
 
+@-webkit-keyframes FadeInRight {
+    from {
+        -webkit-transform: translate3d(75px, 0, 0);
+        transform: translate3d(75px, 0, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes FadeInRight {
+    from {
+        -webkit-transform: translate3d(75px, 0, 0);
+        transform: translate3d(75px, 0, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+
+@-webkit-keyframes FadeInUp {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes FadeInUp {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
 @media (max-width: 576px) {
+    .articleContainer {
+        padding: 2.7rem 0.3rem;
+    }
+
+    .article-image {
+        width: 17rem;
+    }
+
+    #searchArticleDD {
+        padding: 0.2rem;
+    }
+
+    .search-submit {
+        left: 1.6rem;
+    }
+
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 0.11rem 0.11rem 0 0.17rem;   
+    }
+
 	.footerInternal {
         padding-top:1rem;
     }
@@ -1353,10 +1412,55 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 @media (min-width: 769px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 4rem 4rem 0 7rem;   
+    }
+
 	p,
 	ul {
 	    margin-bottom: 1.6875rem;
 	}
+}
+
+@media (min-width: 992px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 7rem 7rem 0 7rem;   
+    }
+
+    .text-animation {
+        opacity: 0;
+    }
+
+    .fadeInUp {
+        -webkit-animation: 0.8s ease FadeInUp;
+        -moz-animation: 0.8s ease FadeInUp;
+        animation: 0.8s ease FadeInUp;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+
+    .fadeInRight {
+        -webkit-animation: 0.8s ease FadeInRight;
+        -moz-animation: 0.8s ease FadeInRight;
+        animation: 0.8s ease FadeInRight;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;   
+    }
+
+    .fadeInDown {
+        -webkit-animation: 0.8s ease FadeInDown;
+        -moz-animation: 0.8s ease FadeInDown;
+        animation: 0.8s ease FadeInDown;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;   
+    }
 }
 
 @media (min-width: 1200px) {

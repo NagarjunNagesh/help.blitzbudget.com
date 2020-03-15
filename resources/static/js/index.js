@@ -1,7 +1,7 @@
 "use strict";
 (function scopeWrapper($) {
-	let searchArticleDD = document.getElementById('searchArticleDD');
-	let pageCount = 2;
+	let searchArticleDD = document.getElementById('searchArticleDD');	
+	const reForwardSlash = /\//g;
 
 	/**
 	* Autocomplete Module
@@ -72,11 +72,11 @@
 			  		autoFilEl = true;
 			  	} else {
 			  		/* check if the starting characters match */
-			        startsWithChar = arr[i].categoryName.substr(0, val.length).toUpperCase() == upperVal;
+			        startsWithChar = arr[i].title.substr(0, val.length).toUpperCase() == upperVal;
 			        /* build a regex with the value entered */
 			        regVal = new RegExp(upperVal,"g");
 			        /*check if the item starts with the same letters as the text field value:*/
-			        if (startsWithChar || includesStr(arr[i].categoryName.toUpperCase(), upperVal)) {
+			        if (startsWithChar || includesStr(arr[i].title.toUpperCase(), upperVal)) {
 			        	autoFilEl = true;
 			        }	
 			  	}
@@ -91,16 +91,16 @@
 		        b.classList.add("dropdown-item");
 		        /*make the matching letters bold:*/
 		        if(startsWithChar) {
-		          	b.innerHTML = "<strong>" + arr[i].categoryName.substr(0, val.length) + "</strong>" + arr[i].categoryName.substr(val.length);
+		          	b.innerHTML = "<strong>" + arr[i].title.substr(0, val.length) + "</strong>" + arr[i].title.substr(val.length);
 		        } else if(!val) {
-		        	b.innerHTML = arr[i].categoryName;
+		        	b.innerHTML = arr[i].title;
 		        } else {
-		          	let startPos = regVal.exec(arr[i].categoryName.toUpperCase()).index;
+		          	let startPos = regVal.exec(arr[i].title.toUpperCase()).index;
 		          	let startPos2 = startPos + val.length;
-		          	b.innerHTML = arr[i].categoryName.substr(0, startPos) + "<strong>" + arr[i].categoryName.substr(startPos, val.length) + "</strong>" + arr[i].categoryName.substr(startPos2);
+		          	b.innerHTML = arr[i].title.substr(0, startPos) + "<strong>" + arr[i].title.substr(startPos, val.length) + "</strong>" + arr[i].title.substr(startPos2);
 		        }
 		        /*insert a input field that will hold the current array item's value:*/
-	        	b.href = arr[i].dataUrl;
+	        	b.href = arr[i].url;
 		        
 		        a.appendChild(b);
 		      }
@@ -153,8 +153,57 @@
 		}
 	}
 
+
+	// FAQ populate the questions for search
+	let faq = [];
+	let categoryInformation = window.categoryInfo;
+	for(let i = 0, len = categoryInformation.length; i < len; i++) {
+		let categoryInfoItem = categoryInformation[i];
+		let subCategoryArr = categoryInfoItem.subCategory;
+
+		switch(categoryInfoItem.categoryName) {
+			
+				case 'Getting Started':
+					document.getElementById('gettingStartedCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Budget':
+					document.getElementById('budgetCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Transactions':
+					document.getElementById('transactionsCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Goals':
+					document.getElementById('goalsCount').innerText = isEmpty(subCategoryArr) ? 0  + ' articles' : subCategoryArr.length + ' articles';
+					break;
+				case 'Financial Accounts':
+					document.getElementById('financialAccountsCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Miscellaneous':
+					document.getElementById('miscellaneousCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				default:
+					break;
+
+		}
+
+		// Is subcategory information is empty then continue
+		if(isEmpty(subCategoryArr)) {
+			continue;
+		}
+
+		for(let j = 0, length = subCategoryArr.length; j < length; j++) {
+			// FAQ
+			let subCategoryItem = subCategoryArr[j];
+			let faqItem = {
+				"title" : subCategoryItem.title,
+				"url" : categoryInfoItem.dataUrl.slice(0,-1) + subCategoryItem.url
+			}
+			faq.push(faqItem);
+		}
+	}
+
 	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
-	autocomplete(document.getElementById("searchArticle"), window.categoryInfo, "searchArticleDD");
+	autocomplete(document.getElementById("searchArticle"), faq, "searchArticleDD");
 
 	// Search clear button
 	document.getElementById('search-clear').addEventListener("click",function(e){
@@ -195,37 +244,36 @@
 			return true;
 		}
 
-		// If home page is selected then change classList
-		if(isEqual(anchorHref, '/')) {
-			document.getElementsByClassName('HelpResult')[0].classList.remove('d-none');
-			document.getElementsByClassName('CategoryResult')[0].classList.add('d-none');
+		// Add trailing slash at the end if not present
+		if(anchorHref.charAt(anchorHref.length - 1) !== "/") {
+			anchorHref = anchorHref + '/';
+		}
+
+  		// If home page is selected then change classList
+		if(((anchorHref || '').match(reForwardSlash) || []).length == 3) {
+			// Detect if pushState is available
+			if (window.history.pushState) {
+	    		window.history.pushState("", 'BlitzBudget Help Center', anchorHref);
+	    	}
+	    	// Document Title for browser
+	    	document.title = 'BlitzBudget Help Center';
+			loadHomePage();
+
 			return false;
 		}
 
 		// Retrieve categories / articles
 		jQuery.ajax({
-			url: this.href + 'info.json',
+			url: anchorHref + 'info.json',
 	        type: 'GET',
 	        success: function(result) {
-	        	document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
-				document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
 	        	// Detect if pushState is available
-  				if (window.history.pushState) {
-	        		window.history.pushState({page: pageCount}, result.title, result.url);
-	        	}
-	        	// Page Count increased
-	        	pageCount++;
-	        	// Document Title for browser
-	        	document.title = result.title;
-	        	// Check if subcategory
-	        	if(result.subcategoryPresent) {
-	        		// Populate article information
-	        		populateSubCategoryInfo(result);
-	        	} else {
-	        		// Populate article information
-	        		populateArticleInfo(result);
-	        	}
-	        	
+				if (window.history.pushState) {
+		    		window.history.pushState(result, result.title, result.url);
+		    	}
+		    	// Document Title for browser
+		    	document.title = result.title;
+	        	loadPage(result);
 	        	return false;
 	        },
 	        error: function(userTransactionsList) {
@@ -433,6 +481,50 @@
 		return breadcrumbDiv;
 	}
 
+	// On click Back / forward button move pages
+	window.onpopstate = function (event) { 
+		let state = ''; 
+		// this contains the state data from `pustState`. Use it to decide what to change the page back to.
+		if (event.state) { 
+		    state = event.state; 
+		} 
 
+		if(isEmpty(state)) {
+			loadHomePage();
+			return;
+		}
+
+		// Load the page if state is not empty
+		loadPage(state);
+	}
+
+	// Load the page
+	function loadPage(result) {
+		// This is needed if the user scrolls down during page load and you want to make sure the page is scrolled to the top once it's fully loaded.Cross-browser supported.
+		window.scrollTo(0,0);
+		// Switch to category nav
+    	document.getElementsByClassName('Hero')[0].classList.add('d-none');
+    	document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
+		document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
+    	
+    	// Check if subcategory
+    	if(result.subcategoryPresent) {
+    		// Populate article information
+    		populateSubCategoryInfo(result);
+    	} else {
+    		// Populate article information
+    		populateArticleInfo(result);
+    	}
+
+	}
+
+	// Load Home page
+	function loadHomePage() {
+		// This is needed if the user scrolls down during page load and you want to make sure the page is scrolled to the top once it's fully loaded.Cross-browser supported.
+		window.scrollTo(0,0);
+		document.getElementsByClassName('HelpResult')[0].classList.remove('d-none');
+		document.getElementsByClassName('Hero')[0].classList.remove('d-none');
+		document.getElementsByClassName('CategoryResult')[0].classList.add('d-none');
+	}
 }(jQuery));
 		

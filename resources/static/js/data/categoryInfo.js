@@ -45,6 +45,10 @@ window.categoryInfo = [
 			{
 				"title": "Compensate Budget",
 				"url": "/compensate/"
+			},
+			{
+				"title": "Delete a Budget",
+				"url": "/delete-a-budget/"
 			}
 		]
 	},

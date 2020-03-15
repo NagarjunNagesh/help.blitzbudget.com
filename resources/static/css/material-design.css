@@ -13,6 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 @-ms-viewport {
@@ -475,6 +476,9 @@ i {
 }
 
 @media (min-width: 576px) {
+  .w-sm-75 {
+    width: 75% !important;
+  }
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -725,6 +729,9 @@ i {
 }
 
 @media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
   .m-md-0 {
     margin: 0 !important;
   }
@@ -975,6 +982,9 @@ i {
 }
 
 @media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75% !important;
+  }
   .m-lg-0 {
     margin: 0 !important;
   }
