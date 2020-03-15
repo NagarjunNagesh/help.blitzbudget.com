@@ -1279,6 +1279,14 @@ a.button:active, a.button:focus, a.button:hover {
     width: 80%;
 }
 
+.article-anchor {
+    color: #00bcd4;
+}
+
+.article-anchor:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 576px) {
 	.footerInternal {
         padding-top:1rem;

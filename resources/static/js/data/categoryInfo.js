@@ -39,6 +39,10 @@ window.categoryInfo = [
 		"description": "Plan what you spend & automate your financial plan.",
 		"subCategory": [
 			{
+				"title": "Add a Budget",
+				"url": "/add-a-budget/"
+			},
+			{
 				"title": "Compensate Budget",
 				"url": "/compensate/"
 			}
@@ -123,6 +127,10 @@ window.categoryInfo = [
 			{
 				"title": "Delete Your BlitzBudget Account",
 				"url": "/delete-your-blitzbudget-account/"	
+			},
+			{
+				"title": "Reset Your BlitzBudget Account",
+				"url": "/resetting-your-account/"	
 			},
 			{
 				"title": "Bugs, Feedback, And Feature Request",

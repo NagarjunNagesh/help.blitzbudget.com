@@ -1,0 +1,41 @@
+{
+	"url" : "/miscellaneous/resetting-your-account/",
+	"title" : "Reset Your BlitzBudget Account",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Miscellaneous",
+			"crumbUrl" : "/miscellaneous/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Resetting your account will allow you to make a fresh start, removing all the financial information  while keeping the user preferences intact." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/miscellaneous/reset-account.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on <strong>Reset my Blitz Budget user account</strong>.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/miscellaneous/reset-account-model.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Type the confirm password and click enter.</p></div>"
+		}
+	]
+}
