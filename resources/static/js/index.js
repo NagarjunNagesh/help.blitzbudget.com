@@ -526,5 +526,47 @@
 		document.getElementsByClassName('Hero')[0].classList.remove('d-none');
 		document.getElementsByClassName('CategoryResult')[0].classList.add('d-none');
 	}
+
+	// Ask Us Directly
+	document.getElementById("askUsDirectly").addEventListener("click",function(e){
+		// Show Sweet Alert
+        Swal.fire({
+        	position: 'bottom-right',
+            title: 'Ask us Directly',
+            html: askUsDirectly(),
+            inputAttributes: {
+                autocapitalize: 'on'
+            },
+            confirmButtonClass: 'btn btn-info',
+            confirmButtonText: 'Send',
+            showCloseButton: true,
+            buttonsStyling: false
+        }).then(function(result) {
+            // If confirm button is clicked
+            if (result.value) {
+                // Update User Name 
+				
+            }
+
+        });
+	});
+
+	// HTML for ask us directly
+	function askUsDirectly() {
+		let changePassFrag = document.createDocumentFragment();
+
+		let emailinput = document.createElement('input');
+		emailinput.id='emailIdASD';
+		emailinput.setAttribute('type','email');
+		emailinput.setAttribute('autocapitalize','off');
+		emailinput.setAttribute('spellcheck','false');
+		emailinput.setAttribute('autocorrect','off');
+		emailinput.setAttribute('autocomplete','off');
+		changePassFrag.appendChild(emailinput);
+
+		let textArea = document.createElement('textarea');
+		textArea.classList = '';
+
+	}
 }(jQuery));
 		
