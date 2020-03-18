@@ -549,8 +549,10 @@
         }).then(function(result) {
             // If confirm button is clicked
             if (result.value) {
-                // Update User Name 
-				
+                // send Email
+                let email =  document.getElementById('emailIdAUD').value; 
+                let message =  document.getElementById('askUsDirectlyText').value;
+				sendEmailToSupport(email, message);
             }
 
         });
@@ -661,7 +663,7 @@
 	
 		let sendEmailBtn = document.getElementsByClassName('swal2-confirm')[0];
 		let textErrorDispUA = document.getElementById('textErrorDispUA');
-		let emailEnt = document.getElementById('emailIdAUD');
+		let emailEnt = document.getElementById('emailIdAUD').value;
 		let textAreaEnt = this.value;
 
 		let keyCode = e.keyCode || e.which;
@@ -696,6 +698,8 @@
 		if(isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
 			textErrorDispUA.innerText = 'Please enter a minimum of 40 characters.';
 			sendEmailBtn.setAttribute('disabled','disabled');
+			// Change the focus back to text area
+			this.focus();
 			return;
 		}
 
@@ -711,7 +715,6 @@
     		"message" : message
     	});
 
-    	// TODO
 	 	jQuery.ajax({
 			url:  api.invokeUrl + api.sendEmailUrl,			
 	        type: 'POST',

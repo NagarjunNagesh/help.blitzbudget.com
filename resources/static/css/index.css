@@ -302,7 +302,7 @@ h4, h6 {
 *
 **/
 
-.footerInternal a:-webkit-any-link:hover,
+.footerInternal .navWithHeader .d-block a:-webkit-any-link:hover,
 a.color-white:hover {
     text-decoration: underline;
 }
@@ -328,7 +328,7 @@ a.color-white:hover {
 }  
 
 
-.footerInternal a:-webkit-any-link {
+.footerInternal .navWithHeader .d-block a:-webkit-any-link {
     color: #69757a;
     text-decoration: none;
 }
@@ -855,6 +855,13 @@ a.button:active, a.button:focus, a.button:hover {
     -o-transition: background .4s,box-shadow .2s;
     transition: background .4s,box-shadow .2s;
     transition: background .4s,box-shadow .2s,-webkit-box-shadow .2s;
+    height: auto;
+    max-height: 20rem;
+    overflow-y: scroll;
+}
+
+.autocomplete-items .dropdown-item {
+    white-space: pre-wrap;
 }
 
 
@@ -953,6 +960,7 @@ a.button:active, a.button:focus, a.button:hover {
     -o-transition: background .15s;
     transition: background .15s;
     vertical-align: top;
+    text-decoration: none;
 }
 
 .category:hover {
@@ -1113,6 +1121,7 @@ a.button:active, a.button:focus, a.button:hover {
     -moz-letter-spacing: 0px;
     -ms-letter-spacing: 0px;
     letter-spacing: 0px;
+    text-decoration: none;
 }
 
 #category-nav .category-item {
@@ -1152,6 +1161,13 @@ a.button:active, a.button:focus, a.button:hover {
 .nextCrumb {
     color: #5d5353;
     margin-right: 0.35rem;
+    text-decoration: none;
+}
+
+.crumbAnchor:hover,
+#category-nav .category-item a:hover,
+.sub-category-li .sub-category-link:hover {
+    text-decoration: underline;
 }
 
 .sub-category-li {
@@ -1169,10 +1185,7 @@ a.button:active, a.button:focus, a.button:hover {
 .sub-category-li .sub-category-link {
     font-weight: bold;
     color: #00aec5;
-}
-
-.sub-category-li .sub-category-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .call-to-attention {
