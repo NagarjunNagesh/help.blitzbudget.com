@@ -1,0 +1,22 @@
+{
+	"url" : "/getting-started/add-your-investments/",
+	"title" : "Getting Started Step 3: Add Your Investments",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Getting Started",
+			"crumbUrl" : "/getting-started/"
+		}
+	],
+	"content": [
+		{
+			"tag": "h3",
+			"classInfo": "text-center",
+			"html": "Coming Soon!" 
+		}
+	]
+}

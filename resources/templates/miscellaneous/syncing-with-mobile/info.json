@@ -1,0 +1,22 @@
+{
+	"url" : "/miscellaneous/syncing-with-mobile/",
+	"title" : "Synching With Mobile",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Miscellaneous",
+			"crumbUrl" : "/miscellaneous/"
+		}
+	],
+	"content": [
+		{
+			"tag": "h3",
+			"classInfo": "text-center",
+			"html": "Coming Soon!" 
+		}
+	]
+}

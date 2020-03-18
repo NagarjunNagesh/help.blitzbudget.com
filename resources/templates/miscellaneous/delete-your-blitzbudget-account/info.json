@@ -1,0 +1,41 @@
+{
+	"url" : "/miscellaneous/delete-your-blitzbudget-account/",
+	"title" : "Delete Your BlitzBudget Account",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Miscellaneous",
+			"crumbUrl" : "/miscellaneous/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Unlike <a href=\"/miscellaneous/resetting-your-account/\" class=\"article-anchor\">resetting your account</a>, deleting your account removes your user account along with all your goals, investments, budgets and transactions. <i> Everything! </i>. It may not be possible to revert the changes." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/miscellaneous/delete-account.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on <strong>Delete my Blitz Budget user account</strong>.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/miscellaneous/delete-account-model.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Type the confirm password and click enter.</p></div>"
+		}
+	]
+}

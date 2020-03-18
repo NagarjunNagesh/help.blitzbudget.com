@@ -1,6 +1,12 @@
 "use strict";
 (function scopeWrapper($) {
-	let searchArticleDD = document.getElementById('searchArticleDD');
+	let searchArticleDD = document.getElementById('searchArticleDD');	
+	const reForwardSlash = /\//g;
+	const emailValidation = /^\w+([\.-]?\w+)+@\w+([\.:]?\w+)+(\.[a-zA-Z0-9]{2,3})+$/;
+	let api = {
+		'invokeUrl' : 'https://api.blitzbudget.com',
+		'sendEmailUrl' : '/send-email'
+	}
 
 	/**
 	* Autocomplete Module
@@ -71,11 +77,11 @@
 			  		autoFilEl = true;
 			  	} else {
 			  		/* check if the starting characters match */
-			        startsWithChar = arr[i].categoryName.substr(0, val.length).toUpperCase() == upperVal;
+			        startsWithChar = arr[i].title.substr(0, val.length).toUpperCase() == upperVal;
 			        /* build a regex with the value entered */
 			        regVal = new RegExp(upperVal,"g");
 			        /*check if the item starts with the same letters as the text field value:*/
-			        if (startsWithChar || includesStr(arr[i].categoryName.toUpperCase(), upperVal)) {
+			        if (startsWithChar || includesStr(arr[i].title.toUpperCase(), upperVal)) {
 			        	autoFilEl = true;
 			        }	
 			  	}
@@ -86,22 +92,30 @@
 			  	}
 		        
 		        /*create a DIV element for each matching element:*/
-		        b = document.createElement("div");
+		        b = document.createElement("a");
 		        b.classList.add("dropdown-item");
 		        /*make the matching letters bold:*/
 		        if(startsWithChar) {
-		          	b.innerHTML = "<strong>" + arr[i].categoryName.substr(0, val.length) + "</strong>" + arr[i].categoryName.substr(val.length);
+		          	b.innerHTML = "<strong>" + arr[i].title.substr(0, val.length) + "</strong>" + arr[i].title.substr(val.length);
 		        } else if(!val) {
-		        	b.innerHTML = arr[i].categoryName;
+		        	b.innerHTML = arr[i].title;
 		        } else {
-		          	let startPos = regVal.exec(arr[i].categoryName.toUpperCase()).index;
+		          	let startPos = regVal.exec(arr[i].title.toUpperCase()).index;
 		          	let startPos2 = startPos + val.length;
-		          	b.innerHTML = arr[i].categoryName.substr(0, startPos) + "<strong>" + arr[i].categoryName.substr(startPos, val.length) + "</strong>" + arr[i].categoryName.substr(startPos2);
+		          	b.innerHTML = arr[i].title.substr(0, startPos) + "<strong>" + arr[i].title.substr(startPos, val.length) + "</strong>" + arr[i].title.substr(startPos2);
 		        }
 		        /*insert a input field that will hold the current array item's value:*/
-	        	b.innerHTML += "<input type='hidden' value='" + arr[i].dataUrl + "'>";
+	        	b.href = arr[i].url;
 		        
 		        a.appendChild(b);
+		      }
+
+		      // If empty then show no results
+		      if(isNotEmpty(a) && isEmpty(a.firstChild)) {
+		      	b = document.createElement("span");
+			    b.classList.add("tripleNineColor");
+			    b.innerText = 'No Results';
+			    a.appendChild(b);
 		      }
 		  }
 
@@ -111,7 +125,7 @@
 		  function keydownAutoCompleteTrigger(e) {
 		  	  let wrapClassId = this.id + "autocomplete-list";
 		      let x = document.getElementById(wrapClassId);
-		      if (x) x = x.getElementsByTagName("div");
+		      if (x) x = x.getElementsByTagName("a");
 		      if (e.keyCode == 40) {
 		        /*If the arrow DOWN key is pressed,
 		        increase the currentFocus variable:*/
@@ -144,20 +158,583 @@
 		}
 	}
 
-	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
-	autocomplete(document.getElementById("searchArticle"), window.categoryInfo, "searchArticleDD");
 
-	// On click drop down btn of country search
-	$('#searchArticleDD').on("click", ".dropdown-item" , function(event){
-       /*insert the value for the autocomplete text field:*/
-       this.getElementsByTagName("input")[0].value;
-	});
+	// FAQ populate the questions for search
+	let faq = [];
+	let categoryInformation = window.categoryInfo;
+	for(let i = 0, len = categoryInformation.length; i < len; i++) {
+		let categoryInfoItem = categoryInformation[i];
+		let subCategoryArr = categoryInfoItem.subCategory;
+
+		switch(categoryInfoItem.categoryName) {
+			
+				case 'Getting Started':
+					document.getElementById('gettingStartedCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Budget':
+					document.getElementById('budgetCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Transactions':
+					document.getElementById('transactionsCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Goals':
+					document.getElementById('goalsCount').innerText = isEmpty(subCategoryArr) ? 0  + ' articles' : subCategoryArr.length + ' articles';
+					break;
+				case 'Financial Accounts':
+					document.getElementById('financialAccountsCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				case 'Miscellaneous':
+					document.getElementById('miscellaneousCount').innerText = subCategoryArr.length + ' articles';
+					break;
+				default:
+					break;
+
+		}
+
+		// Is subcategory information is empty then continue
+		if(isEmpty(subCategoryArr)) {
+			continue;
+		}
+
+		for(let j = 0, length = subCategoryArr.length; j < length; j++) {
+			// FAQ
+			let subCategoryItem = subCategoryArr[j];
+			let faqItem = {
+				"title" : subCategoryItem.title,
+				"url" : categoryInfoItem.dataUrl.slice(0,-1) + subCategoryItem.url
+			}
+			faq.push(faqItem);
+		}
+	}
+
+	/*initiate the autocomplete function on the "searchArticle" element, and pass along the countries array as possible autocomplete values:*/
+	autocomplete(document.getElementById("searchArticle"), faq, "searchArticleDD");
 
 	// Search clear button
 	document.getElementById('search-clear').addEventListener("click",function(e){
 		// Search article clear
 		document.getElementById('searchArticle').value = '';
 	});
+
+	// Search Article focus in
+	document.getElementById('searchArticle').addEventListener('focusin', (event) => {
+		document.getElementById('searchArticleDD').classList.add('fadeInDown');
+		document.getElementById('searchArticleDD').classList.remove('fadeOut');
+	});
+
+	// Search Article focus out
+	document.getElementById('searchArticle').addEventListener('focusout', (event) => {
+		document.getElementById('searchArticleDD').classList.add('fadeOut');
+		document.getElementById('searchArticleDD').classList.remove('fadeInDown');
+	});
+
+	// Dispatch click event
+	let event = new Event('input', {
+	    bubbles: true,
+	    cancelable: true,
+	});
+
+	document.getElementById("searchArticle").dispatchEvent(event);
+
+	
+	// On click a tag then
+	$( ".landing-page" ).on( "click", "a" ,function() {
+		let anchorHref = this.href;
+		if(anchorHref.indexOf("http://app.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("https://app.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("http://www.blitzbudget.com") == 0 || 
+			anchorHref.indexOf("https://www.blitzbudget.com") == 0 ||
+			anchorHref.indexOf("http://blitzbudget.com") == 0 ||
+			anchorHref.indexOf("https://blitzbudget.com") == 0) {
+			return true;
+		}
+
+		// Add trailing slash at the end if not present
+		if(anchorHref.charAt(anchorHref.length - 1) !== "/") {
+			anchorHref = anchorHref + '/';
+		}
+
+  		// If home page is selected then change classList
+		if(((anchorHref || '').match(reForwardSlash) || []).length == 3) {
+			// Detect if pushState is available
+			if (window.history.pushState) {
+	    		window.history.pushState("", 'BlitzBudget Help Center', anchorHref);
+	    	}
+	    	// Document Title for browser
+	    	document.title = 'BlitzBudget Help Center';
+			loadHomePage();
+
+			return false;
+		}
+
+		// Retrieve categories / articles
+		jQuery.ajax({
+			url: anchorHref + 'info.json',
+	        type: 'GET',
+	        success: function(result) {
+	        	// Detect if pushState is available
+				if (window.history.pushState) {
+		    		window.history.pushState(result, result.title, result.url);
+		    	}
+		    	// Document Title for browser
+		    	document.title = result.title;
+	        	loadPage(result);
+	        	return false;
+	        },
+	        error: function(userTransactionsList) {
+	        	Toast.fire({
+					icon: 'error',
+					title: "Unable to fetch the requested url"
+				});
+	        }
+		});
+
+		return false;
+	});
+
+	// Category Navigations
+	populateCategoryNav();
+
+	// Populate Category Navigation
+	function populateCategoryNav() {
+		let categoryInfo = window.categoryInfo;
+		let categoryFragment = document.createDocumentFragment();
+
+		// Category Information iteration
+		for(let i=0, len=categoryInfo.length; i<len ; i++) {
+			let category = categoryInfo[i];
+			// Category 
+			categoryFragment.appendChild(uploadCategoryNav(category));
+		}
+
+		document.getElementById('category-nav').appendChild(categoryFragment);
+	}
+
+	// Category Navigation
+	function uploadCategoryNav(category) {
+		let categoryDiv = document.createElement('div');
+		categoryDiv.classList.add('category-item');
+
+		let anchor = document.createElement('a');
+		anchor.href = category.dataUrl;
+		anchor.innerText = category.categoryName;
+		categoryDiv.appendChild(anchor);
+
+		return categoryDiv;
+	}
+
+	// Populate Article Information
+	function populateArticleInfo(result) {
+		// Update body
+    	document.getElementById('article-title').innerText = result.title;
+		document.getElementById('article-description').innerText = '';
+		let bcEl = document.getElementById('breadcrumb');
+		while(bcEl.firstChild) {
+			bcEl.removeChild(bcEl.firstChild);
+		}
+		bcEl.appendChild(populateBreadcrumb(result));
+		// Remove article body
+		let articleBody = document.getElementById('article-body');
+		while(articleBody.firstChild) {
+			articleBody.removeChild(articleBody.firstChild);
+		}
+		
+		articleBody.appendChild(populateArticle(result.content));
+
+	}
+
+	// Populate Article
+	function populateArticle(content) {
+		let articleDiv = document.createDocumentFragment();
+
+		if(isEmpty(content)) {
+			return articleDiv;
+		}
+
+		for(let i=0, len = content.length; i < len; i++) {
+			let contentItem = content[i];
+			let tag = document.createElement(contentItem.tag);
+			
+			// Populate innerHTML
+			if(isNotEmpty(contentItem.html)) {			
+				tag.innerHTML = contentItem.html;
+			}
+
+			// Add class list
+			if(isNotEmpty(contentItem.classInfo)) {
+				tag.classList = contentItem.classInfo;
+			}
+
+			// Add src
+			if(isNotEmpty(contentItem.srcUrl)) {
+				tag.src = contentItem.srcUrl;
+			}
+
+			articleDiv.appendChild(tag);
+		}
+		return articleDiv;
+	}
+
+	// Populate Sub Category Info
+	function populateSubCategoryInfo(result) {
+		let title = result.title;
+		let categoryInfo = window.categoryInfo;
+
+		// Category Information iteration
+		for(let i=0, len=categoryInfo.length; i<len ; i++) {
+			let category = categoryInfo[i];
+			if(isEqual(category.categoryName, title)) {
+				// Update body
+	        	document.getElementById('article-title').innerText = category.categoryName;
+				document.getElementById('article-description').innerText = category.description;
+				let bcEl = document.getElementById('breadcrumb');
+				while(bcEl.firstChild) {
+					bcEl.removeChild(bcEl.firstChild);
+				}
+				bcEl.appendChild(populateBreadcrumb(result));
+				// Remove article body
+				let articleBody = document.getElementById('article-body');
+				while(articleBody.firstChild) {
+					articleBody.removeChild(articleBody.firstChild);
+				}
+				
+				articleBody.appendChild(populateSubCategory(category));
+
+				return;
+			}
+		}
+	}
+
+	// Populate sub category information
+	function populateSubCategory(category) {
+		let subCategoryDiv = document.createDocumentFragment();
+		let subCategoryNav = category.subCategory;
+
+		if(isEmpty(subCategoryNav)) {
+			return subCategoryDiv;
+		}
+
+		let ul = document.createElement('ul');
+		ul.classList.add('sub-category-list');		
+
+		for(let i=0, len = subCategoryNav.length; i < len; i++) {
+			let subCategoryNavItem = subCategoryNav[i];
+			let li = document.createElement('li');
+			li.classList.add('sub-category-li');
+
+			let articleIcon = document.createElement('i');
+			articleIcon.classList = 'material-icons align-middle';
+			articleIcon.innerText = 'assignment';
+			li.appendChild(articleIcon);
+	
+			let anchorArticle = document.createElement('a');
+			anchorArticle.classList.add('sub-category-link');
+			anchorArticle.href = category.dataUrl + subCategoryNavItem.url.slice(1);
+			anchorArticle.innerText = subCategoryNavItem.title;
+			li.appendChild(anchorArticle);
+			ul.appendChild(li);
+		}
+
+		subCategoryDiv.appendChild(ul);
+		return subCategoryDiv;
+	}
+
+	// Populate the breadcrumb
+	function populateBreadcrumb(result) {
+		let breadcrumbDiv = document.createDocumentFragment();
+		let breadcrumbSC = result.breadcrumb;
+
+		if(isEmpty(breadcrumbSC)) {
+			return breadcrumbDiv;
+		}
+
+		// Bread crumb 0
+		let breadcrumbAnchor = breadcrumbSC[0];
+		let anchorZero = document.createElement('a');
+		anchorZero.href = breadcrumbAnchor.crumbUrl;
+		anchorZero.classList.add('crumbAnchor');
+		anchorZero.innerText = breadcrumbAnchor.crumbTitle;
+		breadcrumbDiv.appendChild(anchorZero);	
+
+		for(let i=1, len = breadcrumbSC.length; i < len; i++) {
+			let span = document.createElement('span');
+			span.classList.add('nextCrumb');
+			span.innerText = '>';
+			breadcrumbDiv.appendChild(span);
+
+			let breadcrumbAnchor = breadcrumbSC[i];
+			let anchorOther = document.createElement('a');
+			anchorOther.classList.add('crumbAnchor');
+			anchorOther.href = breadcrumbAnchor.crumbUrl;
+			anchorOther.innerText = breadcrumbAnchor.crumbTitle;
+			breadcrumbDiv.appendChild(anchorOther);
+		}
+
+		// Upload the category
+		let span = document.createElement('span');
+		span.classList.add('nextCrumb');
+		span.innerText = '>';
+		breadcrumbDiv.appendChild(span);
+
+		// Bread crumb last
+		let anchorLast = document.createElement('a');
+		anchorLast.href = result.url;
+		anchorLast.classList.add('crumbAnchor');
+		anchorLast.innerText = result.title;
+		breadcrumbDiv.appendChild(anchorLast);
+
+		return breadcrumbDiv;
+	}
+
+	// On click Back / forward button move pages
+	window.onpopstate = function (event) { 
+		let state = ''; 
+		// this contains the state data from `pustState`. Use it to decide what to change the page back to.
+		if (event.state) { 
+		    state = event.state; 
+		} 
+
+		if(isEmpty(state)) {
+			loadHomePage();
+			return;
+		}
+
+		// Load the page if state is not empty
+		loadPage(state);
+	}
+
+	// Load the page
+	function loadPage(result) {
+		// This is needed if the user scrolls down during page load and you want to make sure the page is scrolled to the top once it's fully loaded.Cross-browser supported.
+		window.scrollTo(0,0);
+		// Switch to category nav
+    	document.getElementsByClassName('Hero')[0].classList.add('d-none');
+    	document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
+		document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
+    	
+    	// Check if subcategory
+    	if(result.subcategoryPresent) {
+    		// Populate article information
+    		populateSubCategoryInfo(result);
+    	} else {
+    		// Populate article information
+    		populateArticleInfo(result);
+    	}
+
+	}
+
+	// Load Home page
+	function loadHomePage() {
+		// This is needed if the user scrolls down during page load and you want to make sure the page is scrolled to the top once it's fully loaded.Cross-browser supported.
+		window.scrollTo(0,0);
+		document.getElementsByClassName('HelpResult')[0].classList.remove('d-none');
+		document.getElementsByClassName('Hero')[0].classList.remove('d-none');
+		document.getElementsByClassName('CategoryResult')[0].classList.add('d-none');
+	}
+
+	// Ask Us Directly
+	document.getElementById("askUsDirectly").addEventListener("click",function(e){
+		// Show Sweet Alert
+        Swal.fire({
+        	position: 'bottom-right',
+            title: 'Ask Us Directly',
+            html: askUsDirectly(),
+            inputAttributes: {
+                autocapitalize: 'on'
+            },
+            confirmButtonClass: 'btn btn-info btn-lg',
+            confirmButtonText: 'Send',
+            showCloseButton: true,
+            buttonsStyling: false
+        }).then(function(result) {
+            // If confirm button is clicked
+            if (result.value) {
+                // send Email
+                let email =  document.getElementById('emailIdAUD').value; 
+                let message =  document.getElementById('askUsDirectlyText').value;
+				sendEmailToSupport(email, message);
+            }
+
+        });
+
+        // Disable Confirm Password button 
+        let confBBBtn = document.getElementsByClassName('swal2-confirm')[0];
+        if(!confBBBtn.disabled) {
+            confBBBtn.setAttribute('disabled','disabled');
+        }
+
+        // CHange Focus to Confirm Password
+        document.getElementById('emailIdAUD').focus();
+	});
+
+	// HTML for ask us directly
+	function askUsDirectly() {
+		let askUsDirectlyDiv = document.createElement('div');
+		askUsDirectlyDiv.classList = 'text-center';
+
+		let labelEmail = document.createElement('label');
+		labelEmail.classList = 'labelEmail text-left ml-5';
+		labelEmail.innerText = 'Email';
+		askUsDirectlyDiv.appendChild(labelEmail);
+
+		let emailinput = document.createElement('input');
+		emailinput.id = 'emailIdAUD';
+		emailinput.setAttribute('type','email');
+		emailinput.setAttribute('autocapitalize','off');
+		emailinput.setAttribute('spellcheck','false');
+		emailinput.setAttribute('autocorrect','off');
+		emailinput.setAttribute('autocomplete','off');
+		askUsDirectlyDiv.appendChild(emailinput);
+
+		// Error Text
+		let errorCPOld = document.createElement('div');
+		errorCPOld.id = 'cpErrorDispUA';
+		errorCPOld.classList = 'text-danger text-left small mb-2 noselect ml-5';
+		askUsDirectlyDiv.appendChild(errorCPOld);
+
+		let messageLabel = document.createElement('label');
+		messageLabel.classList = 'labelEmail text-left ml-5';
+		messageLabel.innerText = 'Message';
+		askUsDirectlyDiv.appendChild(messageLabel);
+
+		let textArea = document.createElement('textarea');
+		textArea.id = "askUsDirectlyText";
+		textArea.classList = 'askUsDirectlyText';
+		askUsDirectlyDiv.appendChild(textArea);
+
+		// Error Text
+		let errorTextArea = document.createElement('div');
+		errorTextArea.id = 'textErrorDispUA';
+		errorTextArea.classList = 'text-danger text-left small mb-2 noselect ml-5';
+		askUsDirectlyDiv.appendChild(errorTextArea);
+
+		return askUsDirectlyDiv;
+	}
+
+	// Email Id Key Up
+	$(document).on('keyup', "#emailIdAUD", function(e) {
+	
+		let sendEmailBtn = document.getElementsByClassName('swal2-confirm')[0];
+		let cpErrorDispUA = document.getElementById('cpErrorDispUA');
+		let askUsDirectlyText = document.getElementById('askUsDirectlyText');
+		let emailEnt = this.value;
+
+		let keyCode = e.keyCode || e.which;
+		if (keyCode === 13) { 
+			document.activeElement.blur();
+		    e.preventDefault();
+		    e.stopPropagation();
+		    // Focus the message Text Area
+		    askUsDirectlyText.focus();
+		    return false;
+		}
+
+		if(isEmpty(emailEnt) || !emailValidation.test(emailEnt)) {
+			sendEmailBtn.setAttribute('disabled','disabled');
+			return;
+		}
+
+		cpErrorDispUA.innerText = '';
+		// Only after text area minimum validation is passed remove disbaled for button
+		if(isNotEmpty(askUsDirectlyText.value) && askUsDirectlyText.value.length > 40) {
+			sendEmailBtn.removeAttribute('disabled');
+		}
+	});
+
+	// Email Id Focus Out
+	$(document).on('focusout', "#emailIdAUD", function() {
+	
+		let sendEmailBtn = document.getElementsByClassName('swal2-confirm')[0];
+		let cpErrorDispUA = document.getElementById('cpErrorDispUA');
+		let emailEnt = this.value;
+
+		if(isEmpty(emailEnt) || !emailValidation.test(emailEnt)) {
+			cpErrorDispUA.innerText = 'Please enter a valid email address.';
+			sendEmailBtn.setAttribute('disabled','disabled');
+			return;
+		}
+
+		cpErrorDispUA.innerText = '';
+
+	});
+
+	// ASk Us Directly test Key Up Listener
+	$(document).on('keyup', "#askUsDirectlyText", function(e) {
+	
+		let sendEmailBtn = document.getElementsByClassName('swal2-confirm')[0];
+		let textErrorDispUA = document.getElementById('textErrorDispUA');
+		let emailEnt = document.getElementById('emailIdAUD').value;
+		let textAreaEnt = this.value;
+
+		let keyCode = e.keyCode || e.which;
+		if (keyCode === 13) { 
+			document.activeElement.blur();
+		    e.preventDefault();
+		    e.stopPropagation();
+		    // Focus the message Text Area
+		    sendEmailBtn.click();
+		    return false;
+		}
+
+		if(isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
+			sendEmailBtn.setAttribute('disabled','disabled');
+			return;
+		}
+
+		textErrorDispUA.innerText = '';
+		// Only after email is vaidated remove disabled
+		if(emailValidation.test(emailEnt)) {
+			sendEmailBtn.removeAttribute('disabled');
+		}
+	});
+
+	// Ask Us Directly test Focus Out Listener
+	$(document).on('focusout', "#askUsDirectlyText", function() {
+	
+		let sendEmailBtn = document.getElementsByClassName('swal2-confirm')[0];
+		let textErrorDispUA = document.getElementById('textErrorDispUA');
+		let textAreaEnt = this.value;
+
+		if(isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
+			textErrorDispUA.innerText = 'Please enter a minimum of 40 characters.';
+			sendEmailBtn.setAttribute('disabled','disabled');
+			// Change the focus back to text area
+			this.focus();
+			return;
+		}
+
+		textErrorDispUA.innerText = '';
+
+	});
+
+	 // Send Email to BlitzBudget Support
+    function sendEmailToSupport(email, message) {
+
+    	let values = JSON.stringify({
+    		"email" : email,
+    		"message" : message
+    	});
+
+	 	jQuery.ajax({
+			url:  api.invokeUrl + api.sendEmailUrl,			
+	        type: 'POST',
+	        contentType:"application/json;charset=UTF-8",
+	        data : values,
+	        success: function(result) {
+	        	Toast.fire({
+					icon: 'success',
+					title: "Thanks for the email. We'll response with in the next 72 hours!"
+				});
+        	},
+	        error: function (thrownError) {
+	    		Toast.fire({
+					icon: 'error',
+					title: "Unable to send the email at the moment. Please try again!"
+				});
+        	}
+    	});
+
+    }
 
 }(jQuery));
 		

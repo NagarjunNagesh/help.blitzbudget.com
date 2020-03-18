@@ -1,0 +1,56 @@
+{
+	"url" : "/budget/compensate/",
+	"title" : "Compensate Budget",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Budget",
+			"crumbUrl" : "/budget/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Budgeting is often related with a rigid unchangable limit. New budgeting strategy promotes change. Our lives change! So should the budget. Compensating money allows you to move money between your budgets when you overspend on some categories." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image w-30",
+			"srcUrl": "/img/budget/compensation.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on the compensation icon that appears only if you have overspent on that category upon hover.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/budget/compensation-one.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Select the categories to be compensated with.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/budget/compensation-two.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">If the categories selected are sufficient to compensate the overspent category then the model disappears and compensates it with the categories that you have chosen.</p></div>"
+		},
+		{
+			"tag": "p",
+			"classInfo": "mt-2",
+			"html": "When multiple compensatable categories are present then categories can be chosen and removed until the satifactory compensation is reached or all the compensated categories are exhausted." 
+		}
+	]
+}

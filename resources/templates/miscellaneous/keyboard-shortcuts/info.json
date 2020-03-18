@@ -1,0 +1,22 @@
+{
+	"url" : "/miscellaneous/keyboard-shortcuts/",
+	"title" : "Keyboard Shortcuts",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Miscellaneous",
+			"crumbUrl" : "/miscellaneous/"
+		}
+	],
+	"content": [
+		{
+			"tag": "h3",
+			"classInfo": "text-center",
+			"html": "Coming Soon!" 
+		}
+	]
+}

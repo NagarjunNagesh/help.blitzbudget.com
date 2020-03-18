@@ -1,0 +1,18 @@
+{
+	"url" : "/financial-accounts/synchronized-bank-account/",
+	"title" : "Add Synchronized Financial Accounts",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Financial Accounts",
+			"crumbUrl" : "/financial-accounts/"
+		}
+	],
+	"content": [
+		
+	]
+}

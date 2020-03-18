@@ -13,6 +13,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 @-ms-viewport {
@@ -112,6 +113,14 @@ button {
     border-style: outset;
     border-color: buttonface;
     border-image: initial;
+}
+
+strong { 
+  font-weight: bold; 
+}
+
+i {
+  font-style: italic;
 }
 
 .w-25 {
@@ -467,6 +476,9 @@ button {
 }
 
 @media (min-width: 576px) {
+  .w-sm-75 {
+    width: 75% !important;
+  }
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -717,6 +729,9 @@ button {
 }
 
 @media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
   .m-md-0 {
     margin: 0 !important;
   }
@@ -967,6 +982,9 @@ button {
 }
 
 @media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75% !important;
+  }
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -1963,6 +1981,12 @@ button {
   color: #00bcd4;
 }
 
+.btn.btn-lg {
+  padding: 0.825rem 5.25rem;
+  font-size: 0.875rem;
+  line-height: 1.333333;
+  border-radius: 0.2rem;
+}
 
 .row {
   display: flex;
@@ -3076,5 +3100,11 @@ h4, h6 {
 .btn-outline-info:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.5);
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
