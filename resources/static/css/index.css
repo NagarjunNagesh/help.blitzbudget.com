@@ -1406,6 +1406,22 @@ a.button:active, a.button:focus, a.button:hover {
     }
 }
 
+@media (min-width: 767px) and (max-width: 840px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 6rem 2rem 0.7rem;   
+    }
+}
+
+@media (min-width: 841px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 4rem 4rem 0 7rem;   
+    }
+}
+
 
 @media (min-width: 768px) {  
 
@@ -1461,11 +1477,6 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 @media (min-width: 769px) {
-    #helpSearch,
-    .helpResult,
-    .categoryResult {
-        padding: 4rem 4rem 0 7rem;   
-    }
 
 	p,
 	ul {
