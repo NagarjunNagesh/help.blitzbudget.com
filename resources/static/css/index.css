@@ -1425,6 +1425,11 @@ a.button:active, a.button:focus, a.button:hover {
 
 @media (min-width: 768px) {  
 
+    .article-image {
+        width: 20rem;
+    }
+
+
     .footerContainer,
     .step1Feature {
         -webkit-box-orient: horizontal;
@@ -1482,6 +1487,24 @@ a.button:active, a.button:focus, a.button:hover {
 	ul {
 	    margin-bottom: 1.6875rem;
 	}
+}
+
+@media (min-width: 770px) and (max-width: 1049px) {
+    .article-image {
+        width: 25rem;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .article-image {
+        width: 32rem;
+    }
+}
+
+@media (min-width: 1050px) {
+    .article-image {
+        width: 40rem;
+    }
 }
 
 @media (min-width: 992px) {
