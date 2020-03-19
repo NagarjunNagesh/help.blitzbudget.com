@@ -13,6 +13,10 @@
 		}
 	],
 	"content": [
-		
+		{
+			"tag": "div",
+			"classInfo": "position-relative text-center h-eighteen-rem",
+			"html": "<h3 class=\"position-absolute coming-soon\">Coming Soon!</h3>" 
+		}
 	]
 }
