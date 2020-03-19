@@ -1359,6 +1359,20 @@ a.button:active, a.button:focus, a.button:hover {
     height: 20rem;
 }
 
+.h-eighteen-rem {
+    height: 18rem;
+}
+
+.position-absolute-center {
+    top: 50%;
+    left: 50%;
+}
+
+.coming-soon {
+    top: 40%;
+    left: 35%;
+}
+
 @media (max-width: 576px) {
     .articleContainer {
         padding: 2.7rem 0.3rem;
