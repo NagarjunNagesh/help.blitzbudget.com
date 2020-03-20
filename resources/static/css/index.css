@@ -1359,6 +1359,20 @@ a.button:active, a.button:focus, a.button:hover {
     height: 20rem;
 }
 
+.h-eighteen-rem {
+    height: 18rem;
+}
+
+.position-absolute-center {
+    top: 50%;
+    left: 50%;
+}
+
+.coming-soon {
+    top: 40%;
+    left: 35%;
+}
+
 @media (max-width: 576px) {
     .articleContainer {
         padding: 2.7rem 0.3rem;
@@ -1392,8 +1406,29 @@ a.button:active, a.button:focus, a.button:hover {
     }
 }
 
+@media (min-width: 767px) and (max-width: 840px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 6rem 2rem 0.7rem;   
+    }
+}
+
+@media (min-width: 841px) {
+    #helpSearch,
+    .helpResult,
+    .categoryResult {
+        padding: 4rem 4rem 0 7rem;   
+    }
+}
+
 
 @media (min-width: 768px) {  
+
+    .article-image {
+        width: 20rem;
+    }
+
 
     .footerContainer,
     .step1Feature {
@@ -1447,16 +1482,29 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 @media (min-width: 769px) {
-    #helpSearch,
-    .helpResult,
-    .categoryResult {
-        padding: 4rem 4rem 0 7rem;   
-    }
 
 	p,
 	ul {
 	    margin-bottom: 1.6875rem;
 	}
+}
+
+@media (min-width: 770px) and (max-width: 1049px) {
+    .article-image {
+        width: 25rem;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .article-image {
+        width: 32rem;
+    }
+}
+
+@media (min-width: 1050px) {
+    .article-image {
+        width: 40rem;
+    }
 }
 
 @media (min-width: 992px) {
