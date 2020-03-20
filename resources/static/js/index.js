@@ -763,7 +763,7 @@
 	        success: function(result) {
 	        	Toast.fire({
 					icon: 'success',
-					title: "Thanks for the email. We'll response with in the next 72 hours!"
+					title: "Thanks for the email. We'll respond with in the next 72 hours!"
 				});
         	},
 	        error: function (thrownError) {
