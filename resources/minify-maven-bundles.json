@@ -20,6 +20,13 @@
                 "/plugins/libraries.js",
                 "/index.js"
             ]
+        },
+        {
+            "type": "js",
+            "name": "categoryInformation.js",
+            "files": [
+                "/data/categoryInfo.js"
+            ]
         }
     ]
 }
