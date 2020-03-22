@@ -1355,6 +1355,11 @@ a.button:active, a.button:focus, a.button:hover {
     margin-top: 0.5rem;
 }
 
+#emailIdAUD:focus,
+.askUsDirectlyText:focus {
+    border: 2px solid #00bcd4;
+}
+
 .askUsDirectlyText {
     height: 20rem;
 }
