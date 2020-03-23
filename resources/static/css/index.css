@@ -303,6 +303,7 @@ h4, h6 {
 **/
 
 .footerInternal .navWithHeader .d-block a:-webkit-any-link:hover,
+.footerInternal .navWithHeader .d-block a:any-link:hover,
 a.color-white:hover {
     text-decoration: underline;
 }
@@ -328,7 +329,8 @@ a.color-white:hover {
 }  
 
 
-.footerInternal .navWithHeader .d-block a:-webkit-any-link {
+.footerInternal .navWithHeader .d-block a:-webkit-any-link,
+.footerInternal .navWithHeader .d-block a:any-link {
     color: #69757a;
     text-decoration: none;
 }
@@ -387,7 +389,9 @@ a.color-white:hover {
 }
 
 
-a.button, a:-webkit-any-link.button {
+a.button, 
+a:-webkit-any-link.button,
+a:any-link.button {
     display: inline-block;
     min-width: 274px;
     padding: 19px 25px;
@@ -405,14 +409,16 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 .article-container a,
-.article-container a:-webkit-any-link {
+.article-container a:-webkit-any-link,
+.article-container a:any-link {
     color: #009aae;
     font-weight: 900;
     text-decoration: none
 }
 
 .article-container a:hover,
-.article-container a:-webkit-any-link:hover {
+.article-container a:-webkit-any-link:hover,
+.article-container a:any-link:hover {
     color: #018798;
     text-decoration: underline;
 }
@@ -631,12 +637,14 @@ a.button:active, a.button:focus, a.button:hover {
     stroke:none;
 }
 
-.article-container .footerInternal a:-webkit-any-link:hover {
+.article-container .footerInternal a:-webkit-any-link:hover,
+.article-container .footerInternal a:any-link:hover {
     text-decoration: underline;
 
 }
 
-.article-container .footerInternal a:-webkit-any-link {
+.article-container .footerInternal a:-webkit-any-link,
+.article-container .footerInternal a:any-link {
     color: #69757a;
     text-decoration: none;
     font-weight: 400;
