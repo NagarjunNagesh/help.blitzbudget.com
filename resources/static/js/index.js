@@ -218,14 +218,14 @@
 
 	// Search Article focus in
 	document.getElementById('searchArticle').addEventListener('focusin', (event) => {
-		document.getElementById('searchArticleDD').classList.add('fadeInDown');
-		document.getElementById('searchArticleDD').classList.remove('fadeOut');
+		searchArticleDD.classList.add('fadeInDown');
+		searchArticleDD.classList.remove('fadeOut');
 	});
 
 	// Search Article focus out
 	document.getElementById('searchArticle').addEventListener('focusout', (event) => {
-		document.getElementById('searchArticleDD').classList.add('fadeOut');
-		document.getElementById('searchArticleDD').classList.remove('fadeInDown');
+		searchArticleDD.classList.add('fadeOut');
+		searchArticleDD.classList.remove('fadeInDown');
 	});
 
 	// Dispatch click event
