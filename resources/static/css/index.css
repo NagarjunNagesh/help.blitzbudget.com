@@ -1004,42 +1004,6 @@ a.button:active, a.button:focus, a.button:hover {
     justify-content: center;
 }
 
-.background-warning {
-  background-color: #ff9800;
-}
-
-.background-primary {
-  background-color: #00bcd4;
-}
-
-.background-danger {
-  background-color: #f44336;
-}
-
-.background-success {
-  background-color: #4caf50;
-}
-
-.background-info {
-  background-color: #00bcd4;
-}
-
-.background-rose {
-  background-color: #e91e63;
-}
-
-.background-overview {
-    background-color: #d4ba00;
-}
-
-.background-orange {
-    background-color: #f49636;
-}
-
-.background-yellow {
-    background-color: #f4c236;
-}
-
 @-webkit-keyframes FadeInDown {
     from {
         -webkit-transform: translate3d(0, -100%, 0);
