@@ -592,7 +592,8 @@
                 // send Email
                 let email =  document.getElementById('emailIdAUD').value; 
                 let message =  document.getElementById('askUsDirectlyText').value;
-				sendEmailToSupport(email, message);
+                let subject = "Customer Support: Requesting More Information 72 hours";
+				sendEmailToSupport(email, message, subject);
             }
 
         });
@@ -746,11 +747,12 @@
 	});
 
 	 // Send Email to BlitzBudget Support
-    function sendEmailToSupport(email, message) {
+    function sendEmailToSupport(email, message, subject) {
 
     	let values = JSON.stringify({
     		"email" : email,
-    		"message" : message
+    		"message" : message,
+    		"subject" : subject
     	});
 
 	 	jQuery.ajax({
