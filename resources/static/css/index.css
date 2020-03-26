@@ -638,13 +638,26 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 .article-container .footerInternal a:-webkit-any-link:hover,
-.article-container .footerInternal a:any-link:hover {
+.article-container .footerInternal a:any-link:hover,
+.footerLink:hover {
+    text-decoration: underline;
+
+}
+
+.footerLink:hover {
     text-decoration: underline;
 
 }
 
 .article-container .footerInternal a:-webkit-any-link,
-.article-container .footerInternal a:any-link {
+.article-container .footerInternal a:any-link,
+.footerLink {
+    color: #69757a;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footerLink {
     color: #69757a;
     text-decoration: none;
     font-weight: 400;
