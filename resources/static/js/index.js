@@ -249,6 +249,17 @@
 			return true;
 		}
 
+		// Remove other active classes
+		$('.category-item .active').removeClass('active');
+		// Add classlist as active for category item
+		let parentElement = this.parentNode;
+		if(isNotEmpty(parentElement) && 
+			isNotEmpty(parentElement.classList) && 
+			parentElement.classList.contains('category-item')) {
+			// Add active class
+			this.classList = 'active';			
+		}
+
 		retrieveAppropriateInformation(anchorHref);
 
 		return false;
@@ -556,12 +567,28 @@
     	if(result.subcategoryPresent) {
     		// Populate article information
     		populateSubCategoryInfo(result);
+    		// Make subcategory active
+    		makeSubCategoryActive(result.url);
     	} else {
     		// Populate article information
     		populateArticleInfo(result);
+    		// Make subcategory active
+    		makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
     	}
 
 	}
+
+	// Make Subcategory Active
+	function makeSubCategoryActive(urlToMatch) {
+		let categoryItems = document.getElementsByClassName('category-item');
+		for(let i = 0, len = categoryItems.length; i < len; i++) {
+			let categoryItem = categoryItems[i];
+			let anchorItem = categoryItem.lastElementChild;
+			if(includesStr(anchorItem.href, urlToMatch)) {
+				anchorItem.classList = 'active';
+			}
+		}
+	}	
 
 	// Load Home page
 	function loadHomePage() {
@@ -706,16 +733,6 @@
 		let textErrorDispUA = document.getElementById('textErrorDispUA');
 		let emailEnt = document.getElementById('emailIdAUD').value;
 		let textAreaEnt = this.value;
-
-		let keyCode = e.keyCode || e.which;
-		if (keyCode === 13) { 
-			document.activeElement.blur();
-		    e.preventDefault();
-		    e.stopPropagation();
-		    // Focus the message Text Area
-		    sendEmailBtn.click();
-		    return false;
-		}
 
 		if(isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
 			sendEmailBtn.setAttribute('disabled','disabled');
