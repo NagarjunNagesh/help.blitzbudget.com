@@ -707,16 +707,6 @@
 		let emailEnt = document.getElementById('emailIdAUD').value;
 		let textAreaEnt = this.value;
 
-		let keyCode = e.keyCode || e.which;
-		if (keyCode === 13) { 
-			document.activeElement.blur();
-		    e.preventDefault();
-		    e.stopPropagation();
-		    // Focus the message Text Area
-		    sendEmailBtn.click();
-		    return false;
-		}
-
 		if(isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
 			sendEmailBtn.setAttribute('disabled','disabled');
 			return;
