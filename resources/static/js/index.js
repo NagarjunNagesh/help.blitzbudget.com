@@ -322,11 +322,12 @@
 	        	loadPage(result);
 	        	return false;
 	        },
-	        error: function(userTransactionsList) {
+	        error: function(result) {
 	        	Toast.fire({
 					icon: 'error',
 					title: "Unable to fetch the requested url"
 				});
+				loadPage(result);
 	        }
 		});
 	}
