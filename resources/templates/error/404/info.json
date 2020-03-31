@@ -11,7 +11,7 @@
 	"content": [
 		{
 			"tag": "img",
-			"classInfo": "article-image",
+			"classInfo": "article-image b-none",
 			"srcUrl": "/img/characters/beon/beon-dead.svg"
 		},
 		{
@@ -20,23 +20,23 @@
 		},
 		{
 			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" class=\"article-anchor\">Set your goals.</a></p></div>"
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Gettig Started St</strong><a href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" class=\"article-anchor\">Set your goals.</a></p></div></div>"
 		},
 		{
 			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/budget-your-money/\" class=\"article-anchor\">Budget your money.</a></p></div>"
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/budget-your-money/\" class=\"article-anchor\">Budget your money.</a></p></div></div>"
 		},
 		{
 			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-your-investments/\" class=\"article-anchor\">Add your investments.</a></p></div>"
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-your-investments/\" class=\"article-anchor\">Add your investments.</a></p></div></div>"
 		},
 		{
 			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-financial-accounts/\" class=\"article-anchor\">Add your financial accounts.</a></p></div>"
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-financial-accounts/\" class=\"article-anchor\">Add your financial accounts.</a></p></div></div>"
 		}
 	]
 }

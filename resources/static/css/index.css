@@ -1211,6 +1211,11 @@ a.button:active, a.button:focus, a.button:hover {
     margin: 2rem 0;
 }
 
+.article-image.b-none,
+.b-none {
+    border: none;
+}
+
 .article-image.half-width {    
     width: 20rem;
 }

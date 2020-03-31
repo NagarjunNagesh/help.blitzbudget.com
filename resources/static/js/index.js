@@ -327,7 +327,7 @@
 					icon: 'error',
 					title: "Unable to fetch the requested url"
 				});
-				loadPage(result);
+				loadPage(result.responseJSON);
 	        }
 		});
 	}
