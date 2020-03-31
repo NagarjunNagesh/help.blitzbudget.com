@@ -1,6 +1,6 @@
 {
 	"url" : "/error/404/",
-	"title" : "This Page Doesn't Exist",
+	"title" : "",
 	"subcategoryPresent" : false,
 	"breadcrumb" : [
 		{
@@ -9,6 +9,11 @@
 		}
 	],
 	"content": [
+		{
+			"tag": "h1",
+			"classInfo": "article-title text-center",
+			"html": "This Page Doesn't Exist." 
+		},
 		{
 			"tag": "img",
 			"classInfo": "article-image b-none",
@@ -21,7 +26,7 @@
 		{
 			"tag": "div",
 			"classInfo": "mx-5",
-			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Gettig Started St</strong><a href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" class=\"article-anchor\">Set your goals.</a></p></div></div>"
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" class=\"article-anchor\">Set your goals.</a></p></div></div>"
 		},
 		{
 			"tag": "div",

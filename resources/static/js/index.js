@@ -574,7 +574,7 @@
     		// Populate article information
     		populateArticleInfo(result);
     		// Make subcategory active
-    		makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
+    		if(isNotEmpty(result.breadcrumb[1])) makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
     	}
 
 	}
