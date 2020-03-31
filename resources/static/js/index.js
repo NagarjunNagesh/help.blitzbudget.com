@@ -322,11 +322,12 @@
 	        	loadPage(result);
 	        	return false;
 	        },
-	        error: function(userTransactionsList) {
+	        error: function(result) {
 	        	Toast.fire({
 					icon: 'error',
 					title: "Unable to fetch the requested url"
 				});
+				loadPage(result.responseJSON);
 	        }
 		});
 	}
@@ -573,7 +574,7 @@
     		// Populate article information
     		populateArticleInfo(result);
     		// Make subcategory active
-    		makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
+    		if(isNotEmpty(result.breadcrumb[1])) makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
     	}
 
 	}
