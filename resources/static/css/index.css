@@ -1373,6 +1373,24 @@ a.button:active, a.button:focus, a.button:hover {
     left: 35%;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  color: #d8d8d8;
+  font-size: 70%;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d8d8d8;
+  font-size: 70%;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: #d8d8d8;
+  font-size: 70%;
+  font-weight: 300;
+}
+
 @media (max-width: 576px) {
     .articleContainer {
         padding: 2.7rem 0.3rem;
