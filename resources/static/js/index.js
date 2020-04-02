@@ -648,6 +648,7 @@
 
 		let emailinput = document.createElement('input');
 		emailinput.id = 'emailIdAUD';
+		emailinput.placeholder = "john.doe@blitzbudget.com";
 		emailinput.setAttribute('type','email');
 		emailinput.setAttribute('autocapitalize','off');
 		emailinput.setAttribute('spellcheck','false');
@@ -669,6 +670,7 @@
 		let textArea = document.createElement('textarea');
 		textArea.id = "askUsDirectlyText";
 		textArea.classList = 'askUsDirectlyText';
+		textArea.placeholder = 'What would you like to ask us?'
 		askUsDirectlyDiv.appendChild(textArea);
 
 		// Error Text
