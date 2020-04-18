@@ -116,6 +116,29 @@ window.categoryInfo = [
 		]
 	},
 	{
+		"categoryName": "Wallets",
+		"dataUrl": "/wallets/",
+		"description": "Wanna share your wallet with your friends? Do you have bank accounts accross multiple currencies?.",
+		"subCategory": [
+			{
+				"title": "Add wallet",
+				"url": "/add-wallet/"
+			},
+			{
+				"title": "Modify wallet",
+				"url": "/modify-wallet/"
+			},
+			{
+				"title": "Delete wallet",
+				"url": "/delete-wallet/"
+			},
+			{
+				"title": "Choose wallet",
+				"url": "/choose-wallet/"
+			}
+		]
+	},
+	{
 		"categoryName": "Miscellaneous",
 		"dataUrl": "/miscellaneous/",
 		"description": "Tweak your preferences, notifications and more.",
