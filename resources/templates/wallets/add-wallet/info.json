@@ -1,0 +1,86 @@
+{
+	"url" : "/wallets/add-wallet/",
+	"title" : "Add wallet",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Wallets",
+			"crumbUrl" : "/wallets/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Wanna add a new wallet? Click on the <strong>'+'</strong> icon floating in the bottom right corner of the wallet page." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/wallet-page.png"
+		},
+		{
+			"tag": "p",
+			"html": "You'll be redirected to an add wallets page. Where you could choose the currency of your preference and click on the <i>'Save'</i> button to add a new wallet." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/add-wallet.png"
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Choosing currency" 
+		},
+		{
+			"tag": "p",
+			"html": "A dropdown will open once you click on the down arrow next to the currency, where you can see all the currencies with wallet and the ones without wallet." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/choose-currency-add-wallet.png"
+		},
+		{
+			"tag": "p",
+			"html": "You can start typing the currency of your preference and click on the key down / key up arrow to toggle between currencies without wallet section." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/choose-currency-add-wallet.gif"
+		},
+		{
+			"tag": "h4",
+			"html": "Choosing currencies with wallet" 
+		},
+		{
+			"tag": "p",
+			"html": "Multiple wallets cannot be created for the same currency." 
+		},
+		{
+			"tag": "h4",
+			"html": "Search terms" 
+		},
+		{
+			"tag": "p",
+			"html": "When no result is shown then it is advisbale to change the search terms to something simpler." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/no-result-currency-add-wallet.gif"
+		},
+		{
+			"tag": "p",
+			"html": "No result is shown in the currencies without wallet as the <strong>'Indian Rupee'</strong> already exists as a wallet option." 
+		}
+	]
+}

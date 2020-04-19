@@ -1,0 +1,40 @@
+{
+	"url" : "/wallets/delete-wallet/",
+	"title" : "Delete wallet",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Wallets",
+			"crumbUrl" : "/wallets/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Clicking on the <strong>'Delete Wallet'</strong> button to invoke a popup that informs you on the effects of the wallet deletion." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/delete-wallet.png"
+		},
+		{
+			"tag": "p",
+			"html": "Confirming the password will delete the wallet and change to the <strong>'Choose wallets'</strong> page." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/delete-wallet-popup.png"
+		},
+		{
+			"tag": "p",
+			"classInfo": "tripleNineColor",
+			"html": "P.S - <i>Clicking on the </i><strong>Enter</strong><i> button will start the delete wallet flow.</i> " 
+		}
+	]
+}
