@@ -28,6 +28,19 @@
 		{
 			"tag": "p",
 			"html": "What's <strong>your goal?</strong>"
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Related articles" 
+		},
+		{
+			"tag": "ul",
+			"classInfo": "sub-category-list",
+			"html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/getting-started/whats-next/\" >Getting Started: What's next</a></li>" 
 		}
 	]
 }
