@@ -38,6 +38,19 @@
 		{
 			"tag": "p",
 			"html": "Give it a nickname, and enter <strong>today's balance</strong>."
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Related articles" 
+		},
+		{
+			"tag": "ul",
+			"classInfo": "sub-category-list",
+			"html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/getting-started/budget-your-money/\" >Getting Started Step 2: Budget your money</a></li>" 
 		}
 	]
 }

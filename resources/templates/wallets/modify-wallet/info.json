@@ -56,6 +56,19 @@
 			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">The view is changed to the <i>'Choose wallet'</i> page.</p></div></div>"
 		},
 		{
+			"tag": "h3",
+			"html": "Editing primary wallet" 
+		},
+		{
+			"tag": "p",
+			"html": "When the primary wallet is edited <i>(identified by a star)</i>, the possibility of changing the name is removed, there by allowing the possibility of changing only the currency." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/primary-wallet.png"
+		},
+		{
 			"tag": "hr",
 			"classInfo": "text-center w-80"
 		},
