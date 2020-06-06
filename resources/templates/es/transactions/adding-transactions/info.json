@@ -1,0 +1,47 @@
+{
+	"url" : "/transactions/adding-transactions/",
+	"title" : "Adding Transactions",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Transactions",
+			"crumbUrl" : "/transactions/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Adding a transaction automatically adds a new account with type <strong>CASH</strong>." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/transactions/add-transactions.png"
+		},
+		{
+			"tag": "p",
+			"html": "A model with the option to enter the amount, category type and a note is opened, as shown below." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/transactions/add-transaction.png"
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Schedule Transaction" 
+		},
+		{
+			"tag": "p",
+			"html": "Scheduling a transaction is as simple as choosing the recurrence option to <strong>MONTHLY</strong> while adding a transaction. Don't worry you can change it back when ever you want if you do not want it to recur the next month by editing the transaction later." 
+		}
+	]
+}

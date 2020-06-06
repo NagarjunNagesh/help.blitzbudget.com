@@ -1,0 +1,22 @@
+{
+	"url" : "/miscellaneous/notification-settings/",
+	"title" : "Configuración de la notificación",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Centro de ayuda",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Miscelánea",
+			"crumbUrl" : "/miscellaneous/"
+		}
+	],
+	"content": [
+		{
+			"tag": "div",
+			"classInfo": "position-relative text-center h-eighteen-rem",
+			"html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>" 
+		}
+	]
+}

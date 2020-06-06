@@ -1,0 +1,47 @@
+{
+	"url" : "/error/404/",
+	"title" : "",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Centro de ayuda",
+			"crumbUrl" : "/"
+		}
+	],
+	"content": [
+		{
+			"tag": "h1",
+			"classInfo": "article-title text-center",
+			"html": "Esta Página No Existe." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image b-none",
+			"srcUrl": "/img/characters/beon/beon-dead.svg"
+		},
+		{
+			"tag": "p",
+			"html": "Estamos seguros de que podemos ayudarle a encontrar lo que ha estado buscando! Revise nuestros artículos sobre cómo empezar." 
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" class=\"article-anchor\">Ponga sus objetivos.</a></p></div></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/budget-your-money/\" class=\"article-anchor\">Presupuesta tu dinero.</a></p></div></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-your-investments/\" class=\"article-anchor\">Añade tus inversiones.</a></p></div></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/getting-started/add-financial-accounts/\" class=\"article-anchor\">Añada sus cuentas financieras.</a></p></div></div>"
+		}
+	]
+}
