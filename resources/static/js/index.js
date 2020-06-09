@@ -201,7 +201,7 @@
 			let subCategoryItem = subCategoryArr[j];
 			let faqItem = {
 				"title" : subCategoryItem.title,
-				"url" : categoryInfoItem.dataUrl.slice(0,-1) + subCategoryItem.url
+				"url" : '/' + getLanguage() + '/' + categoryInfoItem.dataUrl.slice(0,-1) + subCategoryItem.url
 			}
 			faq.push(faqItem);
 		}
@@ -272,7 +272,7 @@
 	function retrieveAppropriateInformation(anchorHref) {
 		// Add trailing slash at the end if not present
 		if(anchorHref.charAt(anchorHref.length - 1) !== "/") {
-			anchorHref = '/' + getLanguage() + '/' + anchorHref + '/';
+			anchorHref = anchorHref + '/';
 		}
 
   		// If home page is selected then change classList
@@ -368,7 +368,7 @@
 		categoryDiv.classList.add('category-item');
 
 		let anchor = document.createElement('a');
-		anchor.href = category.dataUrl;
+		anchor.href = '/' + getLanguage() + '/' + category.dataUrl;
 		anchor.innerText = category.categoryName;
 		categoryDiv.appendChild(anchor);
 
@@ -481,7 +481,7 @@
 	
 			let anchorArticle = document.createElement('a');
 			anchorArticle.classList.add('sub-category-link');
-			anchorArticle.href = category.dataUrl + subCategoryNavItem.url.slice(1);
+			anchorArticle.href = '/' + getLanguage() + '/' + category.dataUrl + subCategoryNavItem.url.slice(1);
 			anchorArticle.innerText = subCategoryNavItem.title;
 			li.appendChild(anchorArticle);
 			ul.appendChild(li);
@@ -503,7 +503,7 @@
 		// Bread crumb 0
 		let breadcrumbAnchor = breadcrumbSC[0];
 		let anchorZero = document.createElement('a');
-		anchorZero.href = breadcrumbAnchor.crumbUrl;
+		anchorZero.href = '/' + getLanguage() + '/' + breadcrumbAnchor.crumbUrl;
 		anchorZero.classList.add('crumbAnchor');
 		anchorZero.innerText = breadcrumbAnchor.crumbTitle;
 		breadcrumbDiv.appendChild(anchorZero);	
@@ -517,7 +517,7 @@
 			let breadcrumbAnchor = breadcrumbSC[i];
 			let anchorOther = document.createElement('a');
 			anchorOther.classList.add('crumbAnchor');
-			anchorOther.href = breadcrumbAnchor.crumbUrl;
+			anchorOther.href = '/' + getLanguage() + '/' + breadcrumbAnchor.crumbUrl;
 			anchorOther.innerText = breadcrumbAnchor.crumbTitle;
 			breadcrumbDiv.appendChild(anchorOther);
 		}
@@ -530,7 +530,7 @@
 
 		// Bread crumb last
 		let anchorLast = document.createElement('a');
-		anchorLast.href = result.url;
+		anchorLast.href = '/' + getLanguage() + '/' + result.url;
 		anchorLast.classList.add('crumbAnchor');
 		anchorLast.innerText = result.title;
 		breadcrumbDiv.appendChild(anchorLast);
