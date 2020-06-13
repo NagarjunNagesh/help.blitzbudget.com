@@ -15,7 +15,7 @@
 	"content": [
 		{
 			"tag": "p",
-			"html": "Unlike <a href=\"https://help.blitzbudget.com/miscellaneous/resetting-your-account/\" class=\"article-anchor\">resetting your account</a>, deleting your account removes your user account along with all your goals, investments, budgets and transactions. <i> Everything! </i>. It may not be possible to revert the changes." 
+			"html": "Unlike <a href=\"https://help.blitzbudget.com/en/miscellaneous/resetting-your-account/\" class=\"article-anchor\">resetting your account</a>, deleting your account removes your user account along with all your goals, investments, budgets and transactions. <i> Everything! </i>. It may not be possible to revert the changes."
 		},
 		{
 			"tag": "img",

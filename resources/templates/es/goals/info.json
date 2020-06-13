@@ -1,11 +1,11 @@
 {
-	"url" : "/goals/",
-	"title" : "Metas",
-	"subcategoryPresent" : true,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/goals/",
+    "title": "Objetivos",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		}
 	]
 }

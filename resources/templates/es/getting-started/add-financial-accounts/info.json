@@ -1,56 +1,56 @@
 {
-	"url" : "/getting-started/add-financial-accounts/",
-	"title" : "Paso 4: Añadir sus Cuentas Financieras",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/getting-started/add-financial-accounts/",
+    "title": "Paso 4: Añadir sus cuentas financieras",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Empezando",
-			"crumbUrl" : "/getting-started/"
+        {
+            "crumbTitle": "Empezando",
+            "crumbUrl": "/getting-started/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Todas esas metas, presupuestos y las inversiones que creamos necesitan que entre el dinero. Y el dinero está en tu cuenta. Es hora de añadirlos" 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Todas esas metas, presupuestos y las inversiones que creamos necesitan que entre el dinero. Y el dinero está en tu cuenta. Es hora de añadirlos"
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image half-width",
-			"srcUrl": "/img/getting-started/account-type.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/getting-started/account-type.png"
 		},
-		{
-			"tag": "p",
-			"html": "Para darle una ventaja, tiene la opción de sincronizarse con las cuentas bancarias / elegir crear una cuenta manualmente. El BlitzBudget le mantendrá al tanto de las transacciones."
+        {
+            "tag": "p",
+            "html": "Para darle una ventaja, tiene la opción de sincronizarse con las cuentas bancarias / elegir crear una cuenta manualmente. El BlitzBudget le mantendrá al tanto de las transacciones."
 		},
-		{
-			"tag": "h3",
-			"html": "Cuentas bancarias no sincronizadas"
+        {
+            "tag": "h3",
+            "html": "Cuentas bancarias no sincronizadas"
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image w-30",
-			"srcUrl": "/img/getting-started/unsync-financial-account.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/getting-started/unsync-financial-account.png"
 		},
-		{
-			"tag": "p",
-			"html": "Dale un apodo, y escribe <strong>El equilibrio de hoy</strong>."
+        {
+            "tag": "p",
+            "html": "Dale un apodo, y escribe <strong>El equilibrio de hoy</strong>."
 		},
-		{
-			"tag": "hr",
-			"classInfo": "text-center w-80"
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
 		},
-		{
-			"tag": "h3",
-			"html": "Artículos relacionados" 
+        {
+            "tag": "h3",
+            "html": "Artículos relacionados"
 		},
-		{
-			"tag": "ul",
-			"classInfo": "sub-category-list",
-			"html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/getting-started/budget-your-money/\" >Paso 2: Presupuestar su dinero</a></li>" 
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/whats-next/\" >Comenzando: ¿Qué es lo siguiente?</a></li>"
 		}
 	]
 }

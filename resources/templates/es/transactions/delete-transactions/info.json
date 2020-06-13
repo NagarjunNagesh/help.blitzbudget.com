@@ -1,54 +1,41 @@
 {
-	"url" : "/transactions/delete-transactions/",
-	"title" : "Delete Transactions",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/delete-transactions/",
+    "title": "Borrar transacciones",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "It is possible to delete a transaction, Keep in mind that it is quite destructive to your financial plan to remove a transaction which has been performed but not accounted for in the budget." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Es posible eliminar una transacción, Tenga en cuenta que es bastante destructivo para su plan financiero eliminar una transacción que se ha realizado pero no se ha contabilizado en el presupuesto."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/delete-button.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-button.png"
 		},
-		{
-			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Select the transactions that you would like to delete and click the delete button as per the image shown above.</p></div>"
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione las transacciones que desea borrar y pulse el botón de borrar según la imagen mostrada arriba.</p></div>"
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/delete-transaction.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transaction.png"
 		},
-		{
-			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Click <strong>Yes, Delete it</strong> button when the model appears to delete the selected transactions.</p></div>"
-		},
-		{
-			"tag": "h3",
-			"html": "Transaction With Zero Amount" 
-		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/remove-button.png"
-		},
-		{
-			"tag": "p",
-			"html": "Clicking the remove button will remove the particular transaction." 
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulse el botón <strong>Si, Borrelo</strong> cuando aparezca el modelo para borrar las transacciones seleccionadas.</p></div>"
 		}
 	]
 }

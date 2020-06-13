@@ -1,26 +1,26 @@
 {
-	"url" : "/wallets/choose-wallet/",
-	"title" : "Choose wallet",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/wallets/choose-wallet/",
+    "title": "Elegir cartera",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Wallets",
-			"crumbUrl" : "/wallets/"
+        {
+            "crumbTitle": "Carteras",
+            "crumbUrl": "/wallets/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Choosing a wallet is as simple as clicking on the wallet." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Elegir una cartera es tan simple como hacer clic en la cartera."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/choose-wallet.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-wallet.png"
 		}
 	]
 }

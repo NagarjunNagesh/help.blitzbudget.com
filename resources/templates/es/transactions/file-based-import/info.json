@@ -1,22 +1,22 @@
 {
-	"url" : "/transactions/file-based-import/",
-	"title" : "File Based Import",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/file-based-import/",
+    "title": "Importación basada en archivos",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">Coming Soon!</h3>" 
-		}	
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+		}
 	]
 }

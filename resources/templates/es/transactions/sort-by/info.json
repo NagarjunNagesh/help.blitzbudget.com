@@ -1,26 +1,26 @@
 {
-	"url" : "/transactions/sort-by/",
-	"title" : "Sort By",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/sort-by/",
+    "title": "Ordenar por",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Looking for a way to see the accounts sorted in <i> Descending order by creation date<i> or </i> Aggregated by accounts?</i> Click on the sort by drop down for more options." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Buscando una manera de ver las cuentas ordenadas en <i> Orden descendente por fecha de creación<i> o </i> Agregadas por cuentas?</i> Haga clic en el orden por desplegable para más opciones."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/sort-by.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sort-by.png"
 		}
 	]
 }

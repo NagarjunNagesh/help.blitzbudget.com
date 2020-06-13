@@ -1,26 +1,26 @@
 {
-	"url" : "/transactions/changing-a-budget/",
-	"title" : "Change A Budget Amount",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/changing-a-budget/",
+    "title": "Modificar un presupuesto",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Certain moments demand the transaction's budget amount to be modified. It can be achieved by directly modifying the budget amount in the category information, as shown below." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Ciertos momentos exigen que se modifique el importe del presupuesto de la transacción. Se puede lograr modificando directamente el monto del presupuesto en la información de la categoría, como se muestra abajo."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/change-budget.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-budget.png"
 		}
 	]
 }

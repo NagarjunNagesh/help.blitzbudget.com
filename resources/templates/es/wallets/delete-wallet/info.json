@@ -1,40 +1,40 @@
 {
-	"url" : "/wallets/delete-wallet/",
-	"title" : "Delete wallet",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/wallets/delete-wallet/",
+    "title": "Borrar cartera",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Wallets",
-			"crumbUrl" : "/wallets/"
+        {
+            "crumbTitle": "Carteras",
+            "crumbUrl": "/wallets/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Clicking on the <strong>'Delete Wallet'</strong> button to invoke a popup that informs you on the effects of the wallet deletion." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Haciendo clic en el botón <strong>'Borrar cartera'</strong> para invocar un popup que le informa sobre los efectos de la eliminación de la cartera."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/delete-wallet.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet.png"
 		},
-		{
-			"tag": "p",
-			"html": "Confirming the password will delete the wallet and change to the <strong>'Choose wallets'</strong> page." 
+        {
+            "tag": "p",
+            "html": "Confirmando la contraseña se borrará la cartera y se cambiará a la página <strong>'Elige billeteras'</strong>."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/delete-wallet-popup.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet-popup.png"
 		},
-		{
-			"tag": "p",
-			"classInfo": "tripleNineColor",
-			"html": "P.S - <i>Clicking on the </i><strong>Enter</strong><i> button will start the delete wallet flow.</i> " 
+        {
+            "tag": "p",
+            "classInfo": "tripleNineColor",
+            "html": "P.S - <i> Haciendo clic en el botón </i><fuerte>Entrar</fuerte><i> se iniciará el flujo de la cartera de borrado.</i> "
 		}
 	]
 }

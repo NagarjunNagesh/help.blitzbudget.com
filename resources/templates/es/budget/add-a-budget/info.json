@@ -1,48 +1,48 @@
 {
-	"url" : "/budget/add-a-budget/",
-	"title" : "Agregar un presupuesto",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/budget/add-a-budget/",
+    "title": "Agregar un presupuesto",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Presupuesto",
-			"crumbUrl" : "/budget/"
+        {
+            "crumbTitle": "Presupuesto",
+            "crumbUrl": "/budget/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/getting-started/add-budget.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/add-budget.png"
 		},
-		{
-			"tag": "p",
-			"html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un presupuesto."
+        {
+            "tag": "p",
+            "html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un presupuesto."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/getting-started/budget.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/budget.png"
 		},
-		{
-			"tag": "div",
-			"classInfo": "call-to-attention",
-			"html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
 		},
-		{
-			"tag": "h3",
-			"html": "Autocrear el presupuesto" 
+        {
+            "tag": "h3",
+            "html": "Autocrear el presupuesto"
 		},
-		{
-			"tag": "p",
-			"html": "Los presupuestos se copian automáticamente del mes anterior el último día de cada mes." 
+        {
+            "tag": "p",
+            "html": "Los presupuestos se copian automáticamente del mes anterior el último día de cada mes."
 		}
 	]
 }

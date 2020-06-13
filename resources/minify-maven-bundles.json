@@ -13,6 +13,7 @@
             "name": "help.all.js",
             "files": [
                 "/core/jquery.min.js",
+                "/core/translator.js",
                 "/data/categoryInfo.js",
                 "/plugins/bootstrap-notify.js",
                 "/plugins/animateOnScroll.js",

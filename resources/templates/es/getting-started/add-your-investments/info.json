@@ -1,35 +1,35 @@
 {
-	"url" : "/getting-started/add-your-investments/",
-	"title" : "Paso 3: Añada sus inversiones",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/getting-started/add-your-investments/",
+    "title": "Paso 3: Añadir sus inversiones",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Empezando",
-			"crumbUrl" : "/getting-started/"
+        {
+            "crumbTitle": "Empezando",
+            "crumbUrl": "/getting-started/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>" 
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
 		},
-		{
-			"tag": "hr",
-			"classInfo": "text-center w-80"
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
 		},
-		{
-			"tag": "h3",
-			"html": "Artículos relacionados" 
+        {
+            "tag": "h3",
+            "html": "Artículos relacionados"
 		},
-		{
-			"tag": "ul",
-			"classInfo": "sub-category-list",
-			"html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/getting-started/set-your-goals/\" >Paso 4: Establezca sus objetivos</a></li>" 
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/set-your-goals/\" >Paso 4: Establezca sus objetivos</a></li>"
 		}
 	]
 }

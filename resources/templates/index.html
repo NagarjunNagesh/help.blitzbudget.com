@@ -67,12 +67,12 @@
                 <ul class="navigationLinksContainer d-lg-block d-md-block d-none">
                     <li class="navigationLink">
                         <a class="headingUnstyledAnchor" href="https://learn.blitzbudget.com">
-                            <span class="headingLinkName">Learn</span>
+                            <span class="headingLinkName" data-i18n="header.learn">Learn</span>
                         </a>
                     </li>
                     <li class="navigationLink">
                         <a class="headingUnstyledAnchor" href="https://help.blitzbudget.com">
-                            <span class="headingLinkName">Support</span>
+                            <span class="headingLinkName" data-i18n="header.support">Support</span>
                         </a>
                     </li>
                 </ul>
@@ -84,30 +84,30 @@
                         </button>
                         <div class="mobileBannerMenu">
                             <nav class="mobileBannerMenuNav">
-                                <a href="https://learn.blitzbudget.com">Learn</a>
-                                <a href="https://help.blitzbudget.com">Support</a>
-                                <a href="/premium">BlitzBudget Plus</a>
-                                <a href="/blog">Blog</a>
+                                <a href="https://learn.blitzbudget.com" data-i18n="header.learn">Learn</a>
+                                <a href="https://help.blitzbudget.com" data-i18n="header.support">Support</a>
+                                <a href="/premium" data-i18n="header.plus">BlitzBudget Plus</a>
+                                <a href="/blog" data-i18n="header.blog">Blog</a>
                             </nav>
                             <nav class="mobileBannerMenuSocialNav row">
                                 <div class="col-6">
-                                    <a href="https://app.blitzbudget.com/" class="btn btn-outline-info btn-round mr-4">Get started</a>
+                                    <a href="https://app.blitzbudget.com/" class="btn btn-outline-info btn-round mr-4" data-i18n="header.getstarted">Get started</a>
                                 </div>
                                 <div class="col-6">
-                                    <a href="https://app.blitzbudget.com/" class="btn btn-info btn-round">Sign In</a>
+                                    <a href="https://app.blitzbudget.com/" class="btn btn-info btn-round" data-i18n="header.signin">Sign In</a>
                                 </div>
                             </nav>
                         </div>
                     </div>
                     <a type="anchor" class="loginUnstyledAnchor d-lg-flex d-md-flex d-none" href="https://app.blitzbudget.com/">
                         <span class="loginContent">
-                            <span class="loginText">Sign in</span>
+                            <span class="loginText" data-i18n="header.signin">Sign in</span>
                         </span>
                     </a>
                     <div class="signupButtonWrapper d-lg-flex d-md-flex d-none">
                         <a type="anchor" class="text-decoration-none btn btn-info btn-round" href="https://app.blitzbudget.com/">
                             <span class="signupContent">
-                                <span class="signUpText">Get started</span>
+                                <span class="signUpText" data-i18n="header.getstarted">Get started</span>
                             </span>
                         </a>
                     </div>
@@ -122,7 +122,7 @@
                     <div class="row text-center">
                         <div class="col-12 text-animation fadeInRight">
                             <h1 class="text-center my-5">
-                                <strong class="heading-search">How Can We Help?</strong>
+                                <strong class="heading-search" data-i18n="search.howcanwehelp">How Can We Help?</strong>
                             </h1>
                             <!-- Drop down dynamic load -->
                             <div class="input-group">
@@ -173,9 +173,9 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <h4 class="headerResult">Getting Started</h4>
-                            <p>Total control over your money in a few clicks.</p>
-                            <p id="gettingStartedCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.gettingstarted.title">Getting Started</h4>
+                            <p data-i18n="cards.gettingstarted.description">Total control over your money in a few clicks.</p>
+                            <p id="gettingStartedCount" class="article-count" data-i18n="cards.gettingstarted.count">4 articles</p>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-animation fIU">
@@ -183,9 +183,9 @@
                             <div class="mx-auto categoryTitle background-overview">
                                 <i class="material-icons">track_changes</i>
                             </div>
-                            <h4 class="headerResult">Goals</h4>
-                            <p>Planning to buy save your money for something worth saving?.</p>
-                            <p id="goalsCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.goals.title">Goals</h4>
+                            <p data-i18n="cards.goals.description">Planning to buy save your money for something worth saving?</p>
+                            <p id="goalsCount" class="article-count" data-i18n="cards.goals.count">4 articles</p>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-animation fIU">
@@ -197,9 +197,9 @@
                                     </g>
                                 </svg>
                             </div>
-                            <h4 class="headerResult">Budget</h4>
-                            <p>Plan what you spend & automate your financial plan.</p>
-                            <p id="budgetCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.budget.title">Budget</h4>
+                            <p data-i18n="cards.budget.description">Plan what you spend & automate your financial plan.</p>
+                            <p id="budgetCount" class="article-count" data-i18n="cards.budget.count">4 articles</p>
                         </a>
                     </div>
                 </div>
@@ -211,9 +211,9 @@
                                     <path class="creditCardPath" d="M 11 16 C 8.2504839 16 6 18.250484 6 21 L 6 59 C 6 61.749516 8.2504839 64 11 64 L 69 64 C 71.749516 64 74 61.749516 74 59 L 74 21 C 74 18.250484 71.749516 16 69 16 L 11 16 z M 11 18 L 69 18 C 70.668484 18 72 19.331516 72 21 L 72 26 L 8 26 L 8 21 C 8 19.331516 9.3315161 18 11 18 z M 8 30 L 72 30 L 72 59 C 72 60.668484 70.668484 62 69 62 L 11 62 C 9.3315161 62 8 60.668484 8 59 L 8 30 z M 12 35 A 1 1 0 0 0 11 36 A 1 1 0 0 0 12 37 A 1 1 0 0 0 13 36 A 1 1 0 0 0 12 35 z M 16 35 A 1 1 0 0 0 15 36 A 1 1 0 0 0 16 37 A 1 1 0 0 0 17 36 A 1 1 0 0 0 16 35 z M 20 35 A 1 1 0 0 0 19 36 A 1 1 0 0 0 20 37 A 1 1 0 0 0 21 36 A 1 1 0 0 0 20 35 z M 24 35 A 1 1 0 0 0 23 36 A 1 1 0 0 0 24 37 A 1 1 0 0 0 25 36 A 1 1 0 0 0 24 35 z M 28 35 A 1 1 0 0 0 27 36 A 1 1 0 0 0 28 37 A 1 1 0 0 0 29 36 A 1 1 0 0 0 28 35 z M 32 35 A 1 1 0 0 0 31 36 A 1 1 0 0 0 32 37 A 1 1 0 0 0 33 36 A 1 1 0 0 0 32 35 z M 36 35 A 1 1 0 0 0 35 36 A 1 1 0 0 0 36 37 A 1 1 0 0 0 37 36 A 1 1 0 0 0 36 35 z M 52 43 C 48.145666 43 45 46.145666 45 50 C 45 53.854334 48.145666 57 52 57 C 53.485878 57 54.862958 56.523344 55.996094 55.730469 A 7 7 0 0 0 60 57 A 7 7 0 0 0 67 50 A 7 7 0 0 0 60 43 A 7 7 0 0 0 55.990234 44.265625 C 54.858181 43.47519 53.483355 43 52 43 z M 52 45 C 52.915102 45 53.75982 45.253037 54.494141 45.681641 A 7 7 0 0 0 53 50 A 7 7 0 0 0 54.498047 54.314453 C 53.762696 54.74469 52.916979 55 52 55 C 49.226334 55 47 52.773666 47 50 C 47 47.226334 49.226334 45 52 45 z"></path>
                                 </svg>
                             </div>
-                            <h4 class="headerResult">Transactions</h4>
-                            <p>Make sure every spending is accounted for and tracked.</p>
-                            <p id="transactionsCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.transactions.title">Transactions</h4>
+                            <p data-i18n="cards.transactions.description">Make sure every spending is accounted for and tracked.</p>
+                            <p id="transactionsCount" class="article-count" data-i18n="cards.transactions.count">4 articles</p>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-animation fIU">
@@ -224,9 +224,9 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h4 class="headerResult">Financial Accounts</h4>
-                            <p>Credit cards and debit cards are easily tracked with financial accounts.</p>
-                            <p id="financialAccountsCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.financialaccounts.title">Financial Accounts</h4>
+                            <p data-i18n="cards.financialaccounts.description">Credit cards and debit cards are easily tracked with financial accounts.</p>
+                            <p id="financialAccountsCount" class="article-count" data-i18n="cards.financialaccounts.count">4 articles</p>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 text-animation fIU">
@@ -234,9 +234,9 @@
                             <div class="mx-auto categoryTitle">
                                 <i class="material-icons">face</i>
                             </div>
-                            <h4 class="headerResult">Miscellaneous</h4>
-                            <p>Tweak your preferences, notifications and more.</p>
-                            <p id="miscellaneousCount" class="article-count">4 articles</p>
+                            <h4 class="headerResult" data-i18n="cards.miscellaneous.title">Miscellaneous</h4>
+                            <p data-i18n="cards.miscellaneous.description">Tweak your preferences, notifications and more.</p>
+                            <p id="miscellaneousCount" class="article-count" data-i18n="cards.miscellaneous.count">4 articles</p>
                         </a>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
             <div class="categoryResult row">
                 <div class="col-3 d-none d-lg-block d-md-block">
                     <div id="category-nav" class="sticky-category">
-                        <h3 class="mt-2 mb-3">Categories</h3>
+                        <h3 class="mt-2 mb-3" data-i18n="categories.title">Categories</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-9 col-lg-9">
@@ -262,9 +262,9 @@
                         </div>
                         <div class="card-footer cardFooter">
                             <div class="text-left">
-                                <p class="d-inline-block">Still Need Help?</p><span id="askUsDirectly" class="ml-1 contactUs d-inline-block">Contact Us</span>
+                                <p class="d-inline-block" data-i18n="categories.needhelp">Still Need Help?</p><span id="askUsDirectly" class="ml-1 contactUs d-inline-block" data-i18n="categories.contactus">Contact Us</span>
                             </div>
-                            <p class="text-right"><time datetime="2020-03-14">Last updated on March 14, 2020</time></p>
+                            <p class="text-right"><time datetime="2020-03-14" data-i18n="categories.lastupdated">Last updated on March 14, 2020</time></p>
                         </div>
                     </div>
                 </div>
@@ -275,41 +275,41 @@
                 <div class="footerInternal">
                     <div class="row">
                         <nav class="navWithHeader col-12 col-md-6 col-lg-4">
-                            <header class="navWithHeader">SUPPORT</header>
+                            <header class="navWithHeader" data-i18n="footer.support">SUPPORT</header>
                             <span class="d-block">
-                                <a href="https://www.blitzbudget.com/privacy" class="footerLink">Privacy Policy</a>
+                                <a href="https://www.blitzbudget.com/privacy" class="footerLink" data-i18n="footer.privacypolicy">Privacy Policy</a>
                             </span>
                             <span class="d-block">
-                                <a href="https://www.blitzbudget.com/terms" class="footerLink">Terms of Use</a>
+                                <a href="https://www.blitzbudget.com/terms" class="footerLink" data-i18n="footer.termsofuse">Terms of Use</a>
                             </span>
                             <span class="d-block">
-                                <a href="https://help.blitzbudget.com" class="footerLink">Help Center</a>
-                            </span>
-                        </nav>
-
-                        <nav class="navWithHeader col-12 col-md-6 col-lg-4">
-                            <header class="navWithHeader">COMPANY</header>
-                            <span class="d-block">
-                                <a href="https://www.blitzbudget.com/careers" class="footerLink">Careers</a>
-                            </span>
-                            <span class="d-block">
-                                <a href="https://www.blitzbudget.com/blog" class="footerLink">Blog</a>
-                            </span>
-                            <span class="d-block">
-                                <a href="https://www.blitzbudget.com/press-kit" class="footerLink">Press Kit</a>
+                                <a href="https://help.blitzbudget.com" class="footerLink" data-i18n="footer.helpcenter">Help Center</a>
                             </span>
                         </nav>
 
                         <nav class="navWithHeader col-12 col-md-6 col-lg-4">
-                            <header class="navWithHeader">PRODUCT</header>
+                            <header class="navWithHeader" data-i18n="footer.company">COMPANY</header>
                             <span class="d-block">
-                                <a href="https://www.blitzbudget.com/blog/customer-stories" class="footerLink">Customer Stories</a>
+                                <a href="https://www.blitzbudget.com/careers" class="footerLink" data-i18n="footer.careers">Careers</a>
                             </span>
                             <span class="d-block">
-                                <a href="https://www.blitzbudget.com/premium" class="footerLink">BlitzBudget Plus</a>
+                                <a href="https://www.blitzbudget.com/blog" class="footerLink" data-i18n="footer.blog">Blog</a>
                             </span>
                             <span class="d-block">
-                                <a href="https://app.blitzbudget.com/" class="footerLink">Get Started</a>
+                                <a href="https://www.blitzbudget.com/press-kit" class="footerLink" data-i18n="footer.presskit">Press Kit</a>
+                            </span>
+                        </nav>
+
+                        <nav class="navWithHeader col-12 col-md-6 col-lg-4">
+                            <header class="navWithHeader" data-i18n="footer.product">PRODUCT</header>
+                            <span class="d-block">
+                                <a href="https://www.blitzbudget.com/blog/customer-stories" class="footerLink" data-i18n="footer.customer">Customer Stories</a>
+                            </span>
+                            <span class="d-block">
+                                <a href="https://www.blitzbudget.com/premium" class="footerLink" data-i18n="footer.plus">BlitzBudget Plus</a>
+                            </span>
+                            <span class="d-block">
+                                <a href="https://app.blitzbudget.com/" class="footerLink" data-i18n="footer.getstarted">Get Started</a>
                             </span>
                         </nav>
                     </div>

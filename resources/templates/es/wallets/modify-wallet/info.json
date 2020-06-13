@@ -1,148 +1,148 @@
 {
-	"url" : "/wallets/modify-wallet/",
-	"title" : "Modify wallet",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/wallets/modify-wallet/",
+    "title": "Modificar la cartera",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Wallets",
-			"crumbUrl" : "/wallets/"
+        {
+            "crumbTitle": "Carteras",
+            "crumbUrl": "/wallets/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Modifying a wallet is possible after clicking on the <strong>'Manage Wallets'</strong> button provided on the top right corner of the wallets page." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "La modificación de una cartera es posible después de hacer clic en el botón <strong>'Administrar billeteras'</strong> que se encuentra en la esquina superior derecha de la página de carteras."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/modify-wallets.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets.png"
 		},
-		{
-			"tag": "p",
-			"html": "The wallets will display an edit icon next to each wallet and now, we can click on the wallet to start editing them." 
+        {
+            "tag": "p",
+            "html": "Las carteras mostrarán un icono de edición junto a cada cartera y ahora, podemos hacer clic en la cartera para empezar a editarlas."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/modify-wallets-display.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets-display.png"
 		},
-		{
-			"tag": "p",
-			"html": "The modify wallet page is shown, with the possibility to edit the name of the wallet and the currency." 
+        {
+            "tag": "p",
+            "html": "Se muestra la página de modificación de la cartera, con la posibilidad de editar el nombre de la cartera y la moneda."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/modify-wallet.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallet.png"
 		},
-		{
-			"tag": "div",
-			"classInfo": "mx-5",
-			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Edit the wallet's entries.</p></div></div>"
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Editar las entradas de la billetera.</p></div></div>"
 		},
-		{
-			"tag": "div",
-			"classInfo": "mx-5",
-			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on the <strong>'Save'</strong> button to modify the wallet.</p></div></div>"
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón <strong>'Guardar'</strong> para modificar la cartera.</p></div></div>"
 		},
-		{
-			"tag": "div",
-			"classInfo": "mx-5",
-			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">The view is changed to the <i>'Choose wallet'</i> page.</p></div></div>"
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista se cambia a la <i>'Elige billetera'</i> página.</p></div></div>"
 		},
-		{
-			"tag": "h3",
-			"html": "Editing primary wallet" 
+        {
+            "tag": "h3",
+            "html": "Editando la cartera primaria"
 		},
-		{
-			"tag": "p",
-			"html": "When the primary wallet is edited <i>(identified by a star)</i>, the possibility of changing the name is removed, there by allowing the possibility of changing only the currency." 
+        {
+            "tag": "p",
+            "html": "Cuando se edita la billetera primaria <i>(identificada por una estrella)</i>, se elimina la posibilidad de cambiar el nombre, allí permitiendo la posibilidad de cambiar sólo la moneda."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/primary-wallet.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/primary-wallet.png"
 		},
-		{
-			"tag": "hr",
-			"classInfo": "text-center w-80"
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
 		},
-		{
-			"tag": "h3",
-			"html": "Choosing currency" 
+        {
+            "tag": "h3",
+            "html": "Elección de la moneda"
 		},
-		{
-			"tag": "p",
-			"html": "A dropdown will open once you click on the down arrow next to the currency, where you can see all the currencies with wallet and the ones without wallet." 
+        {
+            "tag": "p",
+            "html": "Se abrirá un menú desplegable una vez que haga clic en la flecha hacia abajo junto a la moneda, donde podrá ver todas las monedas con billetera y las que no tienen billetera."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/choose-currency-modify.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.png"
 		},
-		{
-			"tag": "p",
-			"html": "You can start typing the currency of your preference and click on the key down / key up arrow to toggle between currencies without wallet section." 
+        {
+            "tag": "p",
+            "html": "Puede empezar a escribir la moneda de su preferencia y hacer clic en la flecha de abajo / arriba para cambiar entre las monedas sin la sección de la cartera."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/choose-currency-modify.gif"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.gif"
 		},
-		{
-			"tag": "h4",
-			"html": "Choosing currencies with wallet" 
+        {
+            "tag": "h4",
+            "html": "Elección de divisas con cartera"
 		},
-		{
-			"tag": "p",
-			"html": "Multiple wallets cannot be created for the same currency." 
+        {
+            "tag": "p",
+            "html": "No se pueden crear múltiples carteras para la misma moneda."
 		},
-		{
-			"tag": "h4",
-			"html": "Search terms" 
+        {
+            "tag": "h4",
+            "html": "Términos de búsqueda"
 		},
-		{
-			"tag": "p",
-			"html": "When no result is shown then it is advisbale to change the search terms to something simpler." 
+        {
+            "tag": "p",
+            "html": "Cuando no se muestra ningún resultado, es aconsejable cambiar los términos de búsqueda a algo más simple."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/no-result-modify-wallet.gif"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-modify-wallet.gif"
 		},
-		{
-			"tag": "p",
-			"html": "No result is shown in the currencies without wallet as the <strong>'Indian Rupee'</strong> already exists as a wallet option." 
+        {
+            "tag": "p",
+            "html": "No se muestra ningún resultado en las monedas sin billetera ya que la opción de <strong>'Rupia india'</strong> ya existe como una opción de billetera."
 		},
-		{
-			"tag": "hr",
-			"classInfo": "text-center w-80"
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
 		},
-		{
-			"tag": "h3",
-			"html": "Cancel modification" 
+        {
+            "tag": "h3",
+            "html": "Cancelar la modificación"
 		},
-		{
-			"tag": "p",
-			"html": "Cancelling the modification will redirect the page to the 'Choose wallet' page." 
+        {
+            "tag": "p",
+            "html": "Cancelar la modificación redirigirá la página a la página de 'Elegir cartera'."
 		},
-		{
-			"tag": "h3",
-			"html": "Done modification" 
+        {
+            "tag": "h3",
+            "html": "Modificación hecha"
 		},
-		{
-			"tag": "p",
-			"html": "Clicking on the <strong>'Done'</strong> button would change to the 'Choose wallets' page." 
+        {
+            "tag": "p",
+            "html": "Haciendo clic en el botón <strong>'Hecho'</strong> cambiaría a la página de 'Elegir carteras'."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/wallets/done-wallet.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/done-wallet.png"
 		}
 	]
 }

@@ -1,22 +1,22 @@
 {
-	"url" : "/miscellaneous/blitzbudget-for-alexa/",
-	"title" : "BlitzBudget para Alexa",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/miscellaneous/blitzbudget-for-alexa/",
+    "title": "BlitzBudget para Alexa",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Miscelánea",
-			"crumbUrl" : "/miscellaneous/"
+        {
+            "crumbTitle": "Miscelánea",
+            "crumbUrl": "/miscellaneous/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>" 
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
 		}
 	]
 }

@@ -1,36 +1,36 @@
 {
-	"url" : "/transactions/changing-a-transactions-category/",
-	"title" : "Change A Transactions Category",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/changing-a-transactions-category/",
+    "title": "Cambio de categoría de una transacción",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
 		}
 	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "You'll want to explore your options and find a category for every transaction to fit into. Sometimes, the already added transactions would have to be modified." 
+    "content": [
+        {
+            "tag": "p",
+            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
 		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/change-transaction-category.png"
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-transaction-category.png"
 		},
-		{
-			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click the category text for the concerned transaction.</p></div>"
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
 		},
-		{
-			"tag": "div",
-			"classInfo": "item-container",
-			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Choose the category from the selection to change the category.</p></div>"
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
 		}
 	]
 }

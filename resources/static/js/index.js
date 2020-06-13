@@ -119,7 +119,7 @@
             if (isNotEmpty(a) && isEmpty(a.firstChild)) {
                 b = document.createElement("span");
                 b.classList.add("tripleNineColor");
-                b.innerText = 'No Results';
+                b.innerText = isNotEmpty(window.translationData) ? window.translationData.dynamic.noresult : 'No Results';
                 a.appendChild(b);
             }
         }
@@ -166,30 +166,38 @@
 
     // FAQ populate the questions for search
     let faq = [];
-    let categoryInformation = window.categoryInfo;
+    let categoryInformation = window.categoryInfo[getLanguage()];
+    let gettingstartedtitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.gettingstarted : 'Getting Started';
+    let budgettitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.budget : 'Budget';
+    let transactionstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.transactions : 'Transactions';
+    let goalstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.goals : 'Goals';
+    let financialaccountstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.financialaccounts : 'Financial Accounts';
+    let miscellaneoustitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.miscellaneous : 'Miscellaneous';
+    let articlesdescription = isNotEmpty(window.translationData) ? window.translationData.dynamic.articles : ' articles';
     for (let i = 0, len = categoryInformation.length; i < len; i++) {
         let categoryInfoItem = categoryInformation[i];
         let subCategoryArr = categoryInfoItem.subCategory;
 
         switch (categoryInfoItem.categoryName) {
 
-            case 'Getting Started':
-                document.getElementById('gettingStartedCount').innerText = subCategoryArr.length + ' articles';
+            case gettingstartedtitle:
+                document.getElementById('gettingStartedCount').innerText = subCategoryArr.length + articlesdescription;
                 break;
-            case 'Budget':
-                document.getElementById('budgetCount').innerText = subCategoryArr.length + ' articles';
+            case budgettitle:
+                document.getElementById('budgetCount').innerText = subCategoryArr.length + articlesdescription;
                 break;
-            case 'Transactions':
-                document.getElementById('transactionsCount').innerText = subCategoryArr.length + ' articles';
+            case transactionstitle:
+                document.getElementById('transactionsCount').innerText = subCategoryArr.length + articlesdescription;
                 break;
-            case 'Goals':
-                document.getElementById('goalsCount').innerText = isEmpty(subCategoryArr) ? 0 + ' articles' : subCategoryArr.length + ' articles';
+            case goalstitle:
+                document.getElementById('goalsCount').innerText = isEmpty(subCategoryArr) ? 0 + articlesdescription :
+                    subCategoryArr.length + articlesdescription;
                 break;
-            case 'Financial Accounts':
-                document.getElementById('financialAccountsCount').innerText = subCategoryArr.length + ' articles';
+            case financialaccountstitle:
+                document.getElementById('financialAccountsCount').innerText = subCategoryArr.length + articlesdescription;
                 break;
-            case 'Miscellaneous':
-                document.getElementById('miscellaneousCount').innerText = subCategoryArr.length + ' articles';
+            case miscellaneoustitle:
+                document.getElementById('miscellaneousCount').innerText = subCategoryArr.length + articlesdescription;
                 break;
             default:
                 break;
@@ -206,7 +214,7 @@
             let subCategoryItem = subCategoryArr[j];
             let faqItem = {
                 "title": subCategoryItem.title,
-                "url": '/' + getLanguage() + '/' + categoryInfoItem.dataUrl.slice(0, -1) + subCategoryItem.url
+                "url": '/' + getLanguage() + categoryInfoItem.dataUrl.slice(0, -1) + subCategoryItem.url
             }
             faq.push(faqItem);
         }
@@ -287,7 +295,7 @@
                 window.history.pushState("", 'BlitzBudget Help Center', anchorHref);
             }
             // Document Title for browser
-            document.title = 'BlitzBudget Help Center';
+            document.title = isNotEmpty(window.translationData) ? window.translationData.dynamic.title : 'BlitzBudget Help Center';
             loadHomePage();
 
             return false;
@@ -330,7 +338,7 @@
             error: function (result) {
                 Toast.fire({
                     icon: 'error',
-                    title: "Unable to fetch the requested url"
+                    title: isNotEmpty(window.translationData) ? window.translationData.dynamic.fetchurlerror : "Unable to fetch the requested url"
                 });
                 loadPage(result.responseJSON);
             }
@@ -354,7 +362,7 @@
 
     // Populate Category Navigation
     function populateCategoryNav() {
-        let categoryInfo = window.categoryInfo;
+        let categoryInfo = window.categoryInfo[getLanguage()];
         let categoryFragment = document.createDocumentFragment();
 
         // Category Information iteration
@@ -373,7 +381,7 @@
         categoryDiv.classList.add('category-item');
 
         let anchor = document.createElement('a');
-        anchor.href = '/' + getLanguage() + '/' + category.dataUrl;
+        anchor.href = '/' + getLanguage() + category.dataUrl;
         anchor.innerText = category.categoryName;
         categoryDiv.appendChild(anchor);
 
@@ -435,7 +443,7 @@
     // Populate Sub Category Info
     function populateSubCategoryInfo(result) {
         let title = result.title;
-        let categoryInfo = window.categoryInfo;
+        let categoryInfo = window.categoryInfo[getLanguage()];
 
         // Category Information iteration
         for (let i = 0, len = categoryInfo.length; i < len; i++) {
@@ -486,7 +494,7 @@
 
             let anchorArticle = document.createElement('a');
             anchorArticle.classList.add('sub-category-link');
-            anchorArticle.href = '/' + getLanguage() + '/' + category.dataUrl + subCategoryNavItem.url.slice(1);
+            anchorArticle.href = '/' + getLanguage() + category.dataUrl + subCategoryNavItem.url.slice(1);
             anchorArticle.innerText = subCategoryNavItem.title;
             li.appendChild(anchorArticle);
             ul.appendChild(li);
@@ -508,7 +516,7 @@
         // Bread crumb 0
         let breadcrumbAnchor = breadcrumbSC[0];
         let anchorZero = document.createElement('a');
-        anchorZero.href = '/' + getLanguage() + '/' + breadcrumbAnchor.crumbUrl;
+        anchorZero.href = breadcrumbAnchor.crumbUrl;
         anchorZero.classList.add('crumbAnchor');
         anchorZero.innerText = breadcrumbAnchor.crumbTitle;
         breadcrumbDiv.appendChild(anchorZero);
@@ -522,7 +530,7 @@
             let breadcrumbAnchor = breadcrumbSC[i];
             let anchorOther = document.createElement('a');
             anchorOther.classList.add('crumbAnchor');
-            anchorOther.href = '/' + getLanguage() + '/' + breadcrumbAnchor.crumbUrl;
+            anchorOther.href = '/' + getLanguage() + breadcrumbAnchor.crumbUrl;
             anchorOther.innerText = breadcrumbAnchor.crumbTitle;
             breadcrumbDiv.appendChild(anchorOther);
         }
@@ -535,7 +543,7 @@
 
         // Bread crumb last
         let anchorLast = document.createElement('a');
-        anchorLast.href = '/' + getLanguage() + '/' + result.url;
+        anchorLast.href = '/' + getLanguage() + result.url;
         anchorLast.classList.add('crumbAnchor');
         anchorLast.innerText = result.title;
         breadcrumbDiv.appendChild(anchorLast);
@@ -610,13 +618,13 @@
         // Show Sweet Alert
         Swal.fire({
             position: 'bottom-right',
-            title: 'Ask Us Directly',
+            title: isNotEmpty(window.translationData) ? window.translationData.dynamic.askusdirectly : 'Ask Us Directly',
             html: askUsDirectly(),
             inputAttributes: {
                 autocapitalize: 'on'
             },
             confirmButtonClass: 'btn btn-info btn-lg',
-            confirmButtonText: 'Send',
+            confirmButtonText: isNotEmpty(window.translationData) ? window.translationData.dynamic.send : 'Send',
             showCloseButton: true,
             buttonsStyling: false
         }).then(function (result) {
@@ -625,7 +633,7 @@
                 // send Email
                 let email = document.getElementById('emailIdAUD').value;
                 let message = document.getElementById('askUsDirectlyText').value;
-                let subject = "Customer Support: Requesting More Information 72 hours";
+                let subject = isNotEmpty(window.translationData) ? window.translationData.dynamic.customersupport : "Customer Support: Requesting More Information 72 hours";
                 sendEmailToSupport(email, message, subject);
             }
 
@@ -668,7 +676,7 @@
 
         let messageLabel = document.createElement('label');
         messageLabel.classList = 'labelEmail text-left ml-5';
-        messageLabel.innerText = 'Message';
+        messageLabel.innerText = isNotEmpty(window.translationData) ? window.translationData.dynamic.message : 'Message';
         askUsDirectlyDiv.appendChild(messageLabel);
 
         let textArea = document.createElement('textarea');
@@ -723,7 +731,7 @@
         let emailEnt = this.value;
 
         if (isEmpty(emailEnt) || !emailValidation.test(emailEnt)) {
-            cpErrorDispUA.innerText = 'Please enter a valid email address.';
+            cpErrorDispUA.innerText = isNotEmpty(window.translationData) ? window.translationData.dynamic.validemail : 'Please enter a valid email address.';
             sendEmailBtn.setAttribute('disabled', 'disabled');
             return;
         }
@@ -760,7 +768,7 @@
         let textAreaEnt = this.value;
 
         if (isEmpty(textAreaEnt) || textAreaEnt.length < 40) {
-            textErrorDispUA.innerText = 'Please enter a minimum of 40 characters.';
+            textErrorDispUA.innerText = isNotEmpty(window.translationData) ? window.translationData.dynamic.validpassword : 'Please enter a minimum of 40 characters.';
             sendEmailBtn.setAttribute('disabled', 'disabled');
             return;
         }
@@ -786,13 +794,13 @@
             success: function (result) {
                 Toast.fire({
                     icon: 'success',
-                    title: "Thanks for the email. We'll respond with in the next 72 hours!"
+                    title: isNotEmpty(window.translationData) ? window.translationData.dynamic.successemail : "Thanks for the email. We'll respond with in the next 72 hours!"
                 });
             },
             error: function (thrownError) {
                 Toast.fire({
                     icon: 'error',
-                    title: "Unable to send the email at the moment. Please try again!"
+                    title: isNotEmpty(window.translationData) ? window.translationData.dynamic.errorsendingemail : "Unable to send the email at the moment. Please try again!"
                 });
             }
         });
