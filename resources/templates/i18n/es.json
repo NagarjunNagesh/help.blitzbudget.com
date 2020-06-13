@@ -81,5 +81,13 @@
         "validpassword": "Por favor, introduzca un mínimo de 40 caracteres.",
         "successemail": "Gracias por el correo electrónico. ¡Responderemos con él en las próximas 72 horas!",
         "errorsendingemail": "No se puede enviar el correo electrónico en este momento. Por favor, inténtelo de nuevo!"
+    },
+    "anchor": {
+        "gettingstarted": "/es/getting-started/",
+        "goals": "/es/goals/",
+        "budget": "/es/budget/",
+        "transactions": "/es/transactions/",
+        "financialaccounts": "/es/financial-accounts/",
+        "miscellaneous": "/es/miscellaneous/"
     }
 }
