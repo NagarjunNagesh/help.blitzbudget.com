@@ -1,4 +1,6 @@
 "use strict";
+// Translate page
+translatePage(getLanguage());
 
 function translatePage(locale) {
     fetch('./i18n/' + locale + '.json')
@@ -53,7 +55,7 @@ function replaceAnchors() {
     let elements = document.querySelectorAll("[data-href-i18n]");
     for (let i = 0, len = elements.length; i < len; i++) {
         let el = elements[i];
-        let keys = el.dataset.i18n.split(".");
+        let keys = el.dataset.hrefI18n.split(".");
         let text = keys.reduce((obj, i) => obj[i], window.translationData);
         if (isNotEmpty(text)) {
             el.href = text;
