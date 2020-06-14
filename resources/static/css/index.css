@@ -50,7 +50,7 @@
 }
 
 .headingLinkName {
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -86,11 +86,11 @@
     text-decoration: none;
     overflow: hidden;
     border-color: rgb(4, 13, 20);
-    -webkit-transition: color .2s linear; 
-	-moz-transition: color .2s linear;    
-	-ms-transition: color .2s linear;
-	-o-transition: color .2s linear;
-	transition: color .2s linear;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -ms-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
 }
 
 .loginContent {
@@ -99,7 +99,7 @@
 }
 
 .loginText {
-	font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -120,7 +120,7 @@
 }
 
 .signUpText {
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -129,11 +129,11 @@
     color: #fff;
     margin: 0px;
     text-decoration: unset;
-    -webkit-transition: color .3s linear; 
-	-moz-transition: color .3s linear;    
-	-ms-transition: color .3s linear;
-	-o-transition: color .3s linear;
-	transition: color .3s linear;
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -ms-transition: color .3s linear;
+    -o-transition: color .3s linear;
+    transition: color .3s linear;
 }
 
 .navBarWrapper {
@@ -144,31 +144,159 @@
 }
 
 .btn.btn-info:hover .signUpText {
-	color: #fff;
+    color: #fff;
 }
 
-a.text-decoration-none, .text-decoration-none {
-	text-decoration: none;
+a.text-decoration-none,
+.text-decoration-none {
+    text-decoration: none;
 }
 
-.loginUnstyledAnchor:hover .loginText, 
-.headingUnstyledAnchor:hover .headingLinkName, 
+.loginUnstyledAnchor:hover .loginText,
+.headingUnstyledAnchor:hover .headingLinkName,
 .headingUnstyledAnchor:hover .headingLinkName {
-	color: #008697;
+    color: #008697;
 }
 
-.article-container h1~ol, .article-container h1~p, .article-container h1~ul, .article-container h2~ol, .article-container h2~p, .article-container h2~ul, .article-container h3~ol, .article-container h3~p, .article-container h3~ul, .article-container h4~ol, .article-container h4~p, .article-container h4~ul, .article-container h5~ol, .article-container h5~p, .article-container h5~ul, .article-container h6~ol, .article-container h6~p, .article-container h6~ul,  h1~ol,  h1~p,  h1~ul,  h2~ol,  h2~p,  h2~ul,  h3~ol,  h3~p,  h3~ul,  h4~ol,  h4~p,  h4~ul,  h5~ol,  h5~p,  h5~ul,  h6~ol,  h6~p,  h6~ul {
+.article-container h1 ~ ol,
+.article-container h1 ~ p,
+.article-container h1 ~ ul,
+.article-container h2 ~ ol,
+.article-container h2 ~ p,
+.article-container h2 ~ ul,
+.article-container h3 ~ ol,
+.article-container h3 ~ p,
+.article-container h3 ~ ul,
+.article-container h4 ~ ol,
+.article-container h4 ~ p,
+.article-container h4 ~ ul,
+.article-container h5 ~ ol,
+.article-container h5 ~ p,
+.article-container h5 ~ ul,
+.article-container h6 ~ ol,
+.article-container h6 ~ p,
+.article-container h6 ~ ul,
+h1 ~ ol,
+h1 ~ p,
+h1 ~ ul,
+h2 ~ ol,
+h2 ~ p,
+h2 ~ ul,
+h3 ~ ol,
+h3 ~ p,
+h3 ~ ul,
+h4 ~ ol,
+h4 ~ p,
+h4 ~ ul,
+h5 ~ ol,
+h5 ~ p,
+h5 ~ ul,
+h6 ~ ol,
+h6 ~ p,
+h6 ~ ul {
     margin-top: 1.125rem;
 }
 
-.article-container ol, .article-container p, .article-container ul,  ol,  p,  ul {
+.article-container ol,
+.article-container p,
+.article-container ul,
+ol,
+p,
+ul {
     margin-bottom: 1.5rem;
 }
-button, input, li, p, select, textarea {
+
+button,
+input,
+li,
+p,
+select,
+textarea {
     font-size: inherit;
     line-height: inherit;
 }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
     border: 0;
     font: inherit;
     font-size: 100%;
@@ -182,85 +310,237 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 * Generic
 *
 **/
-p, ul, .article-container p, .article-container ul,  p,  ul {
+p,
+ul,
+.article-container p,
+.article-container ul,
+p,
+ul {
     margin-bottom: 1.6875rem;
 }
-.article-container ol, .article-container p, .article-container ul,  ol,  p,  ul {
+
+.article-container ol,
+.article-container p,
+.article-container ul,
+ol,
+p,
+ul {
     margin-bottom: 1.5rem;
 }
-button, input, li, p, select, textarea {
+
+button,
+input,
+li,
+p,
+select,
+textarea {
     font-size: inherit;
     line-height: inherit;
 }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
     border: 0;
     font: inherit;
-        font-size: inherit;
-        line-height: inherit;
+    font-size: inherit;
+    line-height: inherit;
     font-size: 100%;
     margin: 0;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
     padding: 0;
     vertical-align: baseline;
 }
+
 * {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
     font-size: 1.125rem;
     line-height: 1.5;
 }
+
 body {
     color: #454545;
 }
-body, html {
+
+body,
+html {
     font-size: 16px;
     line-height: 1.5;
 }
+
 body {
     line-height: 1;
 }
-.article-container ol ~ h2, .article-container ol ~ h3, .article-container ol ~ h4, .article-container ol ~ h5, .article-container p ~ h2, .article-container p ~ h3, .article-container p ~ h4, .article-container p ~ h5, .article-container ul ~ h2, .article-container ul ~ h3, .article-container ul ~ h4, .article-container ul ~ h5,  ol ~ h2,  ol ~ h3,  ol ~ h4,  ol ~ h5,  p ~ h2,  p ~ h3,  p ~ h4,  p ~ h5,  ul ~ h2,  ul ~ h3,  ul ~ h4,  ul ~ h5 {
+
+.article-container ol ~ h2,
+.article-container ol ~ h3,
+.article-container ol ~ h4,
+.article-container ol ~ h5,
+.article-container p ~ h2,
+.article-container p ~ h3,
+.article-container p ~ h4,
+.article-container p ~ h5,
+.article-container ul ~ h2,
+.article-container ul ~ h3,
+.article-container ul ~ h4,
+.article-container ul ~ h5,
+ol ~ h2,
+ol ~ h3,
+ol ~ h4,
+ol ~ h5,
+p ~ h2,
+p ~ h3,
+p ~ h4,
+p ~ h5,
+ul ~ h2,
+ul ~ h3,
+ul ~ h4,
+ul ~ h5 {
     margin-bottom: 1.125rem;
     margin-top: 1.75rem;
 }
-h2, h3 {
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+
+h2,
+h3 {
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: #244564;
     font-weight: 600;
 }
+
 h2 {
     font-size: 2.5rem;
 }
+
 h2 {
     font-size: 1.875rem;
 }
-h2, h3, h4, h5, h6 {
+
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #244564;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 400;
     line-height: normal;
 }
-h1, h2, h3, h5 {
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+
+h1,
+h2,
+h3,
+h5 {
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-style: normal;
 }
 
-h5, h6 {
+h5,
+h6 {
     font-size: 1rem;
     font-weight: 700;
 }
 
-h4, h6 {
+h4,
+h6 {
     font-family: KlinicSlab;
     font-style: italic;
     font-weight: 700;
@@ -273,7 +553,7 @@ h4, h6 {
 }
 
 .Hero {
-	background: linear-gradient(145deg,#0c95a7,#e5fafd);
+    background: linear-gradient(145deg, #0c95a7, #e5fafd);
 }
 
 /**
@@ -284,16 +564,16 @@ h4, h6 {
 
 
 .privacySubHeading {
-	font-style: italic !important;
-	font-size: 1.625rem;	
-	color: #25384f;
+    font-style: italic !important;
+    font-size: 1.625rem;
+    color: #25384f;
 }
 
 .headingInPrivacyHero {
-	color: #25384f;
-	font-size: 4.5rem;
-	line-height: 4.875rem;
-	font-weight:700;
+    color: #25384f;
+    font-size: 4.5rem;
+    line-height: 4.875rem;
+    font-weight: 700;
 }
 
 /**
@@ -317,7 +597,7 @@ a.color-white:hover {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0px;
     flex: 1 0 0;
-} 
+}
 
 .footerInternal header {
     font-weight: 600;
@@ -326,7 +606,7 @@ a.color-white:hover {
     margin-bottom: 8px;
     color: #495257;
     letter-spacing: 1px;
-}  
+}
 
 
 .footerInternal .navWithHeader .d-block a:-webkit-any-link,
@@ -346,7 +626,7 @@ a.color-white:hover {
 
 
 
-.footerContainer, 
+.footerContainer,
 .step1Feature {
     margin: auto;
     max-width: 100%;
@@ -370,7 +650,7 @@ a.color-white:hover {
 }
 
 
-.footerInternal, 
+.footerInternal,
 .step1Image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -389,7 +669,7 @@ a.color-white:hover {
 }
 
 
-a.button, 
+a.button,
 a:-webkit-any-link.button,
 a:any-link.button {
     display: inline-block;
@@ -401,10 +681,12 @@ a:any-link.button {
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
-    transition: all .28s cubic-bezier(.4,0,.2,1);
+    transition: all .28s cubic-bezier(.4, 0, .2, 1);
 }
 
-a.button:active, a.button:focus, a.button:hover {
+a.button:active,
+a.button:focus,
+a.button:hover {
     outline: none;
 }
 
@@ -460,45 +742,45 @@ a.button:active, a.button:focus, a.button:hover {
     position: relative;
     width: 22px;
     height: 2px;
-    background: 
-    #69757a;
+    background:
+        #69757a;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
 }
 
 .mobileMenuButton:hover {
- opacity:0.8
+    opacity: 0.8
 }
 
 .mobileMenuBars {
- position:relative;
- width:22px;
- height:2px;
- background:#69757a;
- -webkit-transition:all 150ms ease-in-out;
- transition:all 150ms ease-in-out
+    position: relative;
+    width: 22px;
+    height: 2px;
+    background: #69757a;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out
 }
 
 .mobileMenuBars::before,
 .mobileMenuBars::after {
- content:"";
- position:absolute;
- left:0;
- width:22px;
- height:2px;
- background:#69757a;
- -webkit-transition:all 150ms ease-in-out;
- transition:all 150ms ease-in-out;
- -webkit-transform:none;
- transform:none
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 2px;
+    background: #69757a;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    -webkit-transform: none;
+    transform: none
 }
 
 .mobileMenuBars::before {
- top:-6px
+    top: -6px
 }
 
 .mobileMenuBars::after {
- bottom:-6px
+    bottom: -6px
 }
 
 
@@ -537,8 +819,8 @@ a.button:active, a.button:focus, a.button:hover {
     left: 0;
     background: #fff;
     opacity: 0;
-    -webkit-transition: 150ms opacity,150ms visibility;
-    transition: 150ms opacity,150ms visibility;
+    -webkit-transition: 150ms opacity, 150ms visibility;
+    transition: 150ms opacity, 150ms visibility;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -616,10 +898,10 @@ a.button:active, a.button:focus, a.button:hover {
 .logoHeader #path20,
 .logoHeader #path22,
 .logoHeader #path42 {
-    fill:#43b2c6;
-    fill-opacity:1;
-    fill-rule:nonzero;
-    stroke:none;
+    fill: #43b2c6;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke: none;
 }
 
 .logoHeader #path24,
@@ -631,10 +913,10 @@ a.button:active, a.button:focus, a.button:hover {
 .logoHeader #path36,
 .logoHeader #path38,
 .logoHeader #path40 {
-    fill:#f1419a;
-    fill-opacity:1;
-    fill-rule:nonzero;
-    stroke:none;
+    fill: #f1419a;
+    fill-opacity: 1;
+    fill-rule: nonzero;
+    stroke: none;
 }
 
 .article-container .footerInternal a:-webkit-any-link:hover,
@@ -670,20 +952,20 @@ a.button:active, a.button:focus, a.button:hover {
 **/
 
 .tripleNineColor {
-    color:#999;
+    color: #999;
 }
 
 #searchArticle {
     width: 100%;
     padding: 20px 32px 21px 59px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     border: none;
     outline: none;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     border-radius: 4px;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
     -webkit-transition: background .4s, -webkit-box-shadow .2s;
     transition: background .4s, -webkit-box-shadow .2s;
     -o-transition: background .4s, box-shadow .2s;
@@ -708,15 +990,15 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 #searchArticle:hover {
-    background: rgba(255,255,255,0.27);
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.03);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.03)
+    background: rgba(255, 255, 255, 0.27);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03)
 }
 
 #searchArticle:active,
 #searchArticle:focus {
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.14);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
     background: white;
     color: #3a3c4c
 }
@@ -816,15 +1098,15 @@ a.button:active, a.button:focus, a.button:hover {
     margin-top: -14px
 }
 
-#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:before,
-#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:after,
-#searchArticle:active+.searchIconAndResult.search-icons .search-submit:before,
-#searchArticle:active+.searchIconAndResult .search-icons .search-submit:after {
+#searchArticle:focus + .searchIconAndResult .search-icons .search-submit:before,
+#searchArticle:focus + .searchIconAndResult .search-icons .search-submit:after,
+#searchArticle:active + .searchIconAndResult.search-icons .search-submit:before,
+#searchArticle:active + .searchIconAndResult .search-icons .search-submit:after {
     border-color: #9fa0a8
 }
 
-#searchArticle:focus+.searchIconAndResult .search-icons .interface-icon path,
-#searchArticle:active+.searchIconAndResult .search-icons .interface-icon path {
+#searchArticle:focus + .searchIconAndResult .search-icons .interface-icon path,
+#searchArticle:active + .searchIconAndResult .search-icons .interface-icon path {
     fill-opacity: 1
 }
 
@@ -851,31 +1133,32 @@ a.button:active, a.button:focus, a.button:hover {
     position: relative;
     z-index: 10;
     background-size: cover;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
     background-position: 50%;
 }
 
 .search-icons {
     position: relative;
+    margin-left: 1rem;
 }
 
 #searchArticleDD {
     display: block;
     padding: 20px 32px 21px 59px;
-    background: rgb(255, 255, 255,0.9);
+    background: rgb(255, 255, 255, 0.9);
     border: 0;
     outline: 0;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     border-radius: 4px;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
-    -webkit-transition: background .4s,-webkit-box-shadow .2s;
-    transition: background .4s,-webkit-box-shadow .2s;
-    -o-transition: background .4s,box-shadow .2s;
-    transition: background .4s,box-shadow .2s;
-    transition: background .4s,box-shadow .2s,-webkit-box-shadow .2s;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+    -webkit-transition: background .4s, -webkit-box-shadow .2s;
+    transition: background .4s, -webkit-box-shadow .2s;
+    -o-transition: background .4s, box-shadow .2s;
+    transition: background .4s, box-shadow .2s;
+    transition: background .4s, box-shadow .2s, -webkit-box-shadow .2s;
     height: auto;
     max-height: 20rem;
     overflow-y: scroll;
@@ -890,8 +1173,7 @@ a.button:active, a.button:focus, a.button:hover {
     color: #000;
     text-align: left;
     cursor: pointer;
-    padding: .75rem 1.25rem .75rem .75rem
-    position: relative;
+    padding: .75rem 1.25rem .75rem .75rem position: relative;
     width: auto;
     display: flex;
     flex-flow: nowrap;
@@ -917,29 +1199,35 @@ a.button:active, a.button:focus, a.button:hover {
 
 #searchArticleDD .dropdown-item:hover,
 #searchArticleDD .dropdown-item:focus {
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14),0 7px 10px -5px rgba(156,39,176,0.4);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
     background-color: #00bcd4;
     color: #fff
 }
 
-#searchArticleDD .dropdown-menu .dropdown-item:hover, 
-#searchArticleDD .dropdown-menu .dropdown-item:focus, 
-#searchArticleDD .dropdown-menu a:hover, 
-#searchArticleDD .dropdown-menu a:focus, 
+#searchArticleDD .dropdown-menu .dropdown-item:hover,
+#searchArticleDD .dropdown-menu .dropdown-item:focus,
+#searchArticleDD .dropdown-menu a:hover,
+#searchArticleDD .dropdown-menu a:focus,
 #searchArticleDD .dropdown-menu a:active,
 #searchArticleDD .autocomplete-active {
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 10px -5px rgba(0,188,212,0.4);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
     background-color: #00bcd4;
     color: #fff;
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
 
@@ -959,7 +1247,7 @@ a.button:active, a.button:focus, a.button:hover {
     background-repeat: no-repeat;
     background-position: center top;
     color: #585858;
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 2rem;
     font-weight: 900;
     padding: 10px 0 10px 0;
@@ -1051,7 +1339,7 @@ a.button:active, a.button:focus, a.button:hover {
     animation: 0.8s ease FadeOut;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;   
+    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes FadeOut {
@@ -1084,10 +1372,10 @@ a.button:active, a.button:focus, a.button:hover {
 
 .heading-search {
     display: block;
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 4rem;
     font-weight: 900;
-    color: rgba(255,255,255);
+    color: rgba(255, 255, 255);
 }
 
 .sticky-header {
@@ -1130,7 +1418,7 @@ a.button:active, a.button:focus, a.button:hover {
 
 #article-title,
 .article-title {
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-size: 1.85rem;
     font-weight: 900;
     color: #12323d;
@@ -1169,7 +1457,7 @@ a.button:active, a.button:focus, a.button:hover {
 
 .sub-category-li .material-icons {
     color: #12323d;
-    margin-right: 0.3rem;    
+    margin-right: 0.3rem;
 }
 
 .sub-category-li .sub-category-link {
@@ -1188,7 +1476,7 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 .cardFooter,
-.contactUs {    
+.contactUs {
     font-family: 'Lato', sans-serif;
     font-style: italic;
     color: #999;
@@ -1198,8 +1486,8 @@ a.button:active, a.button:focus, a.button:hover {
 .contactUs {
     text-decoration: underline;
     cursor: pointer;
-    -webkit-transition: font-weight .3s linear; 
-    -moz-transition: font-weight .3s linear;    
+    -webkit-transition: font-weight .3s linear;
+    -moz-transition: font-weight .3s linear;
     -ms-transition: font-weight .3s linear;
     -o-transition: font-weight .3s linear;
     transition: font-weight .3s linear;
@@ -1221,11 +1509,11 @@ a.button:active, a.button:focus, a.button:hover {
     border: none;
 }
 
-.article-image.half-width {    
+.article-image.half-width {
     width: 20rem;
 }
 
-.article-image.w-30 {    
+.article-image.w-30 {
     width: 30rem;
 }
 
@@ -1373,22 +1661,24 @@ a.button:active, a.button:focus, a.button:hover {
     left: 35%;
 }
 
-::-webkit-input-placeholder { /* Edge */
-  color: #d8d8d8;
-  font-size: 70%;
-  font-weight: 300;
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #d8d8d8;
+    font-size: 70%;
+    font-weight: 300;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #d8d8d8;
-  font-size: 70%;
-  font-weight: 300;
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #d8d8d8;
+    font-size: 70%;
+    font-weight: 300;
 }
 
 ::placeholder {
-  color: #d8d8d8;
-  font-size: 70%;
-  font-weight: 300;
+    color: #d8d8d8;
+    font-size: 70%;
+    font-weight: 300;
 }
 
 @media (max-width: 576px) {
@@ -1411,11 +1701,11 @@ a.button:active, a.button:focus, a.button:hover {
     #helpSearch,
     .helpResult,
     .categoryResult {
-        padding: 0.11rem 0.11rem 0 0.17rem;   
+        padding: 0.11rem 0.11rem 0 0.17rem;
     }
 
-	.footerInternal {
-        padding-top:1rem;
+    .footerInternal {
+        padding-top: 1rem;
     }
 
 
@@ -1425,23 +1715,25 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 @media (min-width: 767px) and (max-width: 840px) {
+
     #helpSearch,
     .helpResult,
     .categoryResult {
-        padding: 6rem 2rem 0.7rem;   
+        padding: 6rem 2rem 0.7rem;
     }
 }
 
 @media (min-width: 841px) {
+
     #helpSearch,
     .helpResult,
     .categoryResult {
-        padding: 4rem 4rem 0 7rem;   
+        padding: 4rem 4rem 0 7rem;
     }
 }
 
 
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
 
     .article-image {
         width: 20rem;
@@ -1466,7 +1758,7 @@ a.button:active, a.button:focus, a.button:hover {
         padding: 8rem 5rem 2rem;
     }
 
-    .footerOther, 
+    .footerOther,
     .step1Text {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1489,22 +1781,24 @@ a.button:active, a.button:focus, a.button:hover {
         padding-top: 0;
     }
 
-    h4, h5, h6 {
-	    font-size: 1.625rem;
-	}
+    h4,
+    h5,
+    h6 {
+        font-size: 1.625rem;
+    }
 
     #searchArticleDD .dropdown-item {
-        padding-right:1.5rem;
+        padding-right: 1.5rem;
         padding-left: 1.5rem
     }
 }
 
 @media (min-width: 769px) {
 
-	p,
-	ul {
-	    margin-bottom: 1.6875rem;
-	}
+    p,
+    ul {
+        margin-bottom: 1.6875rem;
+    }
 }
 
 @media (min-width: 770px) and (max-width: 1049px) {
@@ -1526,10 +1820,11 @@ a.button:active, a.button:focus, a.button:hover {
 }
 
 @media (min-width: 992px) {
+
     #helpSearch,
     .helpResult,
     .categoryResult {
-        padding: 7rem 7rem 0 7rem;   
+        padding: 7rem 7rem 0 7rem;
     }
 
     .text-animation {
@@ -1551,7 +1846,7 @@ a.button:active, a.button:focus, a.button:hover {
         animation: 0.8s ease FadeInRight;
         -webkit-animation-fill-mode: forwards;
         -moz-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;   
+        animation-fill-mode: forwards;
     }
 
     .fadeInDown {
@@ -1560,13 +1855,12 @@ a.button:active, a.button:focus, a.button:hover {
         animation: 0.8s ease FadeInDown;
         -webkit-animation-fill-mode: forwards;
         -moz-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;   
+        animation-fill-mode: forwards;
     }
 }
 
 @media (min-width: 1200px) {
     .footerContainer {
         max-width: 1200px;
-    }    
+    }
 }
-
