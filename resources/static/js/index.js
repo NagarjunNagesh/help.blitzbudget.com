@@ -808,12 +808,12 @@
     }
 
     function getLanguage() {
-        // If locale is not empty from the user cache then
-        if (isNotEmpty(window.currentUser) && isNotEmpty(window.currentUser.locale)) {
-            return window.currentUser.locale.substr(0, 2);
-        }
+        let languagesoffered = ["en", "es"];
 
         let lang = navigator.languages ? navigator.languages[0] : navigator.language;
+
+        // If languages are not offered then default to english
+        lang = includesStr(languagesoffered, lang) ? lang : "en";
 
         return lang.substr(0, 2);
     }
