@@ -166,7 +166,7 @@
 
     // FAQ populate the questions for search
     let faq = [];
-    let categoryInformation = window.categoryInfo[getLanguage()];
+    let categoryInformation = window.categoryInfo[window.currentLanguage];
     let gettingstartedtitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.gettingstarted : 'Getting Started';
     let budgettitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.budget : 'Budget';
     let transactionstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.transactions : 'Transactions';
@@ -214,7 +214,7 @@
             let subCategoryItem = subCategoryArr[j];
             let faqItem = {
                 "title": subCategoryItem.title,
-                "url": '/' + getLanguage() + categoryInfoItem.dataUrl.slice(0, -1) + subCategoryItem.url
+                "url": '/' + window.currentLanguage + categoryInfoItem.dataUrl.slice(0, -1) + subCategoryItem.url
             }
             faq.push(faqItem);
         }
@@ -362,7 +362,7 @@
 
     // Populate Category Navigation
     function populateCategoryNav() {
-        let categoryInfo = window.categoryInfo[getLanguage()];
+        let categoryInfo = window.categoryInfo[window.currentLanguage];
         let categoryFragment = document.createDocumentFragment();
 
         // Category Information iteration
@@ -381,7 +381,7 @@
         categoryDiv.classList.add('category-item');
 
         let anchor = document.createElement('a');
-        anchor.href = '/' + getLanguage() + category.dataUrl;
+        anchor.href = '/' + window.currentLanguage + category.dataUrl;
         anchor.innerText = category.categoryName;
         categoryDiv.appendChild(anchor);
 
@@ -443,7 +443,7 @@
     // Populate Sub Category Info
     function populateSubCategoryInfo(result) {
         let title = result.title;
-        let categoryInfo = window.categoryInfo[getLanguage()];
+        let categoryInfo = window.categoryInfo[window.currentLanguage];
 
         // Category Information iteration
         for (let i = 0, len = categoryInfo.length; i < len; i++) {
@@ -494,7 +494,7 @@
 
             let anchorArticle = document.createElement('a');
             anchorArticle.classList.add('sub-category-link');
-            anchorArticle.href = '/' + getLanguage() + category.dataUrl + subCategoryNavItem.url.slice(1);
+            anchorArticle.href = '/' + window.currentLanguage + category.dataUrl + subCategoryNavItem.url.slice(1);
             anchorArticle.innerText = subCategoryNavItem.title;
             li.appendChild(anchorArticle);
             ul.appendChild(li);
@@ -530,7 +530,7 @@
             let breadcrumbAnchor = breadcrumbSC[i];
             let anchorOther = document.createElement('a');
             anchorOther.classList.add('crumbAnchor');
-            anchorOther.href = '/' + getLanguage() + breadcrumbAnchor.crumbUrl;
+            anchorOther.href = '/' + window.currentLanguage + breadcrumbAnchor.crumbUrl;
             anchorOther.innerText = breadcrumbAnchor.crumbTitle;
             breadcrumbDiv.appendChild(anchorOther);
         }
@@ -543,7 +543,7 @@
 
         // Bread crumb last
         let anchorLast = document.createElement('a');
-        anchorLast.href = '/' + getLanguage() + result.url;
+        anchorLast.href = '/' + window.currentLanguage + result.url;
         anchorLast.classList.add('crumbAnchor');
         anchorLast.innerText = result.title;
         breadcrumbDiv.appendChild(anchorLast);
@@ -805,17 +805,6 @@
             }
         });
 
-    }
-
-    function getLanguage() {
-        let languagesoffered = ["en", "es"];
-
-        let lang = navigator.languages ? navigator.languages[0] : navigator.language;
-
-        // If languages are not offered then default to english
-        lang = includesStr(languagesoffered, lang) ? lang : "en";
-
-        return lang.substr(0, 2);
     }
 
 }(jQuery));
