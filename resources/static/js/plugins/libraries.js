@@ -32,6 +32,10 @@ function includesStr(arr, val) {
     return isEmpty(arr) ? null : arr.includes(val);
 }
 
+function notIncludesStr(arr, val) {
+    return !includesStr(arr, val);
+}
+
 function isEmpty(obj) {
     // Check if objext is a number or a boolean
     if (typeof (obj) == 'number' || typeof (obj) == 'boolean') return false;

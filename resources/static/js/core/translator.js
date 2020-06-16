@@ -28,7 +28,7 @@ function translatePage(locale) {
 }
 
 function getLanguage() {
-    let languagespreferred = ["en", "es"];
+    window.languagespreferred = ["en", "es"];
 
     let lang = navigator.languages ? navigator.languages[0] : navigator.language;
     lang = lang.substr(0, 2);
