@@ -1,0 +1,22 @@
+{
+	"url" : "/financial-accounts/synchronized-bank-account/",
+	"title" : "Add Synchronized Financial Accounts",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Financial Accounts",
+			"crumbUrl" : "/financial-accounts/"
+		}
+	],
+	"content": [
+		{
+			"tag": "div",
+			"classInfo": "position-relative text-center h-eighteen-rem",
+			"html": "<h3 class=\"position-absolute coming-soon\">Coming Soon!</h3>" 
+		}
+	]
+}

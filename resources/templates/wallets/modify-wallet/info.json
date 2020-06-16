@@ -1,0 +1,148 @@
+{
+	"url" : "/wallets/modify-wallet/",
+	"title" : "Modify wallet",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Help Center",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Wallets",
+			"crumbUrl" : "/wallets/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Modifying a wallet is possible after clicking on the <strong>'Manage Wallets'</strong> button provided on the top right corner of the wallets page." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/modify-wallets.png"
+		},
+		{
+			"tag": "p",
+			"html": "The wallets will display an edit icon next to each wallet and now, we can click on the wallet to start editing them." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/modify-wallets-display.png"
+		},
+		{
+			"tag": "p",
+			"html": "The modify wallet page is shown, with the possibility to edit the name of the wallet and the currency." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/modify-wallet.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Edit the wallet's entries.</p></div></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on the <strong>'Save'</strong> button to modify the wallet.</p></div></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "mx-5",
+			"html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">The view is changed to the <i>'Choose wallet'</i> page.</p></div></div>"
+		},
+		{
+			"tag": "h3",
+			"html": "Editing primary wallet" 
+		},
+		{
+			"tag": "p",
+			"html": "When the primary wallet is edited <i>(identified by a star)</i>, the possibility of changing the name is removed, there by allowing the possibility of changing only the currency." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/primary-wallet.png"
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Choosing currency" 
+		},
+		{
+			"tag": "p",
+			"html": "A dropdown will open once you click on the down arrow next to the currency, where you can see all the currencies with wallet and the ones without wallet." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/choose-currency-modify.png"
+		},
+		{
+			"tag": "p",
+			"html": "You can start typing the currency of your preference and click on the key down / key up arrow to toggle between currencies without wallet section." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/choose-currency-modify.gif"
+		},
+		{
+			"tag": "h4",
+			"html": "Choosing currencies with wallet" 
+		},
+		{
+			"tag": "p",
+			"html": "Multiple wallets cannot be created for the same currency." 
+		},
+		{
+			"tag": "h4",
+			"html": "Search terms" 
+		},
+		{
+			"tag": "p",
+			"html": "When no result is shown then it is advisbale to change the search terms to something simpler." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/no-result-modify-wallet.gif"
+		},
+		{
+			"tag": "p",
+			"html": "No result is shown in the currencies without wallet as the <strong>'Indian Rupee'</strong> already exists as a wallet option." 
+		},
+		{
+			"tag": "hr",
+			"classInfo": "text-center w-80"
+		},
+		{
+			"tag": "h3",
+			"html": "Cancel modification" 
+		},
+		{
+			"tag": "p",
+			"html": "Cancelling the modification will redirect the page to the 'Choose wallet' page." 
+		},
+		{
+			"tag": "h3",
+			"html": "Done modification" 
+		},
+		{
+			"tag": "p",
+			"html": "Clicking on the <strong>'Done'</strong> button would change to the 'Choose wallets' page." 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image",
+			"srcUrl": "/img/wallets/done-wallet.png"
+		}
+	]
+}
