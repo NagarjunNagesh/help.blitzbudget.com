@@ -1,7 +1,7 @@
 {
     "header": {
         "learn": "Aprender",
-        "support": "Apoyo",
+        "support": "Soporte",
         "plus": "BlitzBudget Plus",
         "blog": "Blog",
         "getstarted": "Empieza",
@@ -49,7 +49,7 @@
         "lastupdated": "Actualizado por última vez el 14 de marzo de 2020"
     },
     "footer": {
-        "support": "APOYO",
+        "support": "SOPORTE",
         "privacypolicy": "Política de privacidad",
         "termsofuse": "Términos de uso",
         "helpcenter": "Centro de ayuda",
@@ -88,6 +88,8 @@
         "budget": "/es/budget/",
         "transactions": "/es/transactions/",
         "financialaccounts": "/es/financial-accounts/",
-        "miscellaneous": "/es/miscellaneous/"
+        "miscellaneous": "/es/miscellaneous/",
+        "privacy": "https://www.blitzbudget.com/es/privacy",
+        "terms": "https://www.blitzbudget.com/es/terms"
     }
 }

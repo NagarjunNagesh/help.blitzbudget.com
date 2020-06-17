@@ -88,6 +88,8 @@
         "budget": "/en/budget/",
         "transactions": "/en/transactions/",
         "financialaccounts": "/en/financial-accounts/",
-        "miscellaneous": "/en/miscellaneous/"
+        "miscellaneous": "/en/miscellaneous/",
+        "privacy": "https://www.blitzbudget.com/privacy",
+        "terms": "https://www.blitzbudget.com/terms"
     }
 }
