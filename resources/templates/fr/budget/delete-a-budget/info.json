@@ -1,0 +1,30 @@
+{
+    "url": "/budget/delete-a-budget/",
+    "title": "Supprimer un budget",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Budget",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "¿Tiene un presupuesto que ya no utiliza? Puedes borrar un presupuesto pasando el cursor sobre el presupuesto deseado y haciendo clic en el icono de borrar."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/budget/delete-a-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "Faites attention lorsque vous supprimez un budget. Vous ne pouvez pas restaurer un budget supprimé mais vous pouvez le recréer."
+		}
+	]
+}

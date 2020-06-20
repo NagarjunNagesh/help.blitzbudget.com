@@ -1,0 +1,11 @@
+{
+    "url": "/getting-started/",
+    "title": "で始まる",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		}
+	]
+}

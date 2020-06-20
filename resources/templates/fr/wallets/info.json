@@ -1,0 +1,11 @@
+{
+    "url": "/wallets/",
+    "title": "Portefeuilles",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		}
+	]
+}

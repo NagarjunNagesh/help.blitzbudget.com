@@ -1,0 +1,47 @@
+{
+    "url": "/transactions/adding-transactions/",
+    "title": "Ajout de transactions",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "L'ajout d'une transaction ajoute automatiquement un nouveau compte du type <strong>CASH</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transactions.png"
+		},
+        {
+            "tag": "p",
+            "html": "Un modèle est ouvert avec la possibilité de saisir la quantité, le type de catégorie et une note, comme indiqué ci-dessous."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transaction.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Transactions futures"
+		},
+        {
+            "tag": "p",
+            "html": "Programmer une transaction est aussi simple que de choisir l'option de récurrence pour <strong>Mensuel</strong> tout en ajoutant une transaction. Ne vous inquiétez pas, vous pouvez le modifier à nouveau quand vous le souhaitez si vous ne voulez pas qu'il soit répété le mois suivant en modifiant la transaction plus tard."
+		}
+	]
+}

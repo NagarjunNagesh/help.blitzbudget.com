@@ -1,0 +1,11 @@
+{
+    "url": "/transactions/",
+    "title": "Transacciones",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		}
+	]
+}

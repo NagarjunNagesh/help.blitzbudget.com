@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/edit-notes/",
+    "title": "Notes d'édition",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Les transactions doivent être accompagnées d'une note, qui peut être ajoutée ultérieurement en modifiant la transaction. Cliquez sur la note correspondant à la transaction souhaitée pour la modifier."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-notes.png"
+		}
+	]
+}

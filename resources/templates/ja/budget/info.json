@@ -1,0 +1,11 @@
+{
+    "url": "/budget/",
+    "title": "予算",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		}
+	]
+}

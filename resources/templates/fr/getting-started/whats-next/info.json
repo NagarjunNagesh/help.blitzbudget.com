@@ -1,0 +1,64 @@
+{
+    "url": "/getting-started/whats-next/",
+    "title": "Commencer : La suite",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "En commençant par",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Vous avez ajouté vos objectifs, votre budget et vos investissements. Toutes vos transactions sont comptabilisées, vos opérations et vos budgets sont programmés."
+		},
+        {
+            "tag": "p",
+            "html": "<i>Et maintenant ?</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "Réalisez vos objectifs"
+		},
+        {
+            "tag": "p",
+            "html": "Vos objectifs actuels sont vos aspirations. <i>C'est un rêve !</i> A moins que vous n'y parveniez en ajustant votre budget."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Sauvegardez d'abord.</strong> Avez-vous reçu votre salaire ? Pourquoi ne pas placer l'argent que vous avez promis d'épargner sur un autre compte ?</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Suivez vos transactions.</strong> Voyez la différence entre le scénario idéal et les circonstances du monde réel.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajustez votre budget.</strong> Le budget ne prétend pas être rigide, il se brise ! Elle reste souple.</p></div>"
+		},
+        {
+            "tag": "p",
+            "html": "Alors... <i> répétez jusqu'à ce que vous ayez un plan qui fonctionne pour votre objectif !</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "Investir"
+		},
+        {
+            "tag": "p",
+            "html": "Nous créons un budget de fonctionnement qui vous convient, nous suivons vos transactions, nous ajustons votre budget et nous épargnons en fonction de vos objectifs. Mais toutes les raisons de créer des objectifs ne doivent pas nécessairement être liées à des dépenses. Ceux qui ne le sont pas sont destinés à être <strong>investi !</strong>"
+		},
+        {
+            "tag": "p",
+            "html": "Éliminer le stress financier est aussi simple que d'automatiser l'épargne, de réduire les dépenses et de répéter le plan qui fonctionne ! Faire un budget est ennuyeux, épargner pour son objectif est enthousiasmant et atteindre son objectif est satisfaisant !"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/sort-by/",
+    "title": "Trier par",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Recherche d'un moyen de voir les comptes classés en <i> Ordre décroissant par date de création<i> o </i> Ajouté par les comptes ?</i> Cliquez sur la liste déroulante pour plus d'options."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sort-by.png"
+		}
+	]
+}

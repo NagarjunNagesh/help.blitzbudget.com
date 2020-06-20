@@ -1,0 +1,41 @@
+{
+    "url": "/transactions/delete-transactions/",
+    "title": "Supprimer des transactions",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Il est possible de supprimer une opération. Notez qu'il est assez destructeur pour votre plan financier de supprimer une opération qui a été effectuée mais non inscrite au budget."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-button.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Sélectionnez les transactions que vous souhaitez supprimer et appuyez sur le bouton de suppression selon l'image ci-dessus.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transaction.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Appuyez sur le bouton <strong>Oui, Supprimez-le</strong> lorsque le modèle de suppression des transactions sélectionnées apparaît.</p></div>"
+		}
+	]
+}

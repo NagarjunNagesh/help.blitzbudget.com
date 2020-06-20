@@ -1,0 +1,35 @@
+{
+    "url": "/getting-started/add-your-investments/",
+    "title": "ステップ3：投資を追加する",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "で始まる",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">彼はすぐにここに来る！</h3>"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "関連記事"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-financial-accounts/\" >ステップ4：財務口座を追加する</a></li>"
+		}
+	]
+}

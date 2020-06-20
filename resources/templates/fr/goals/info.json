@@ -1,0 +1,11 @@
+{
+    "url": "/goals/",
+    "title": "Objectifs",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		}
+	]
+}

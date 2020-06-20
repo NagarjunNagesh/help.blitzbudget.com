@@ -1,0 +1,22 @@
+{
+    "url": "/financial-accounts/synchronized-bank-account/",
+    "title": "同期化された財務アカウントの追加",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "財務会計",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">彼はすぐにここに来る！</h3>"
+		}
+	]
+}

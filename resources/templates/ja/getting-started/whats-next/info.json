@@ -1,0 +1,64 @@
+{
+    "url": "/getting-started/whats-next/",
+    "title": "始まります: 次は何をするか",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "で始まる",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "目標と予算と投資を追加しました。すべての取引は会計処理されており、取引と予算は予定されています。"
+		},
+        {
+            "tag": "p",
+            "html": "<i>今何を？</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "目標を現実のものにする"
+		},
+        {
+            "tag": "p",
+            "html": "今のあなたの目標は、あなたの願望です。<i>夢のようだ！</i> 予算を調整して実現させなければ"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>最初に保存しておきます。</strong> 給料は貰えたのか？ 貯めると約束したお金を別の口座に入れてみてはどうだろうか？</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>取引を追跡します。</strong> 理想のシナリオと現実の状況の違いをご覧ください。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>予算を調整しましょう。</strong> 予算は硬直したふりをしていない、壊れる! それは柔軟性を保ちます</p></div>"
+		},
+        {
+            "tag": "p",
+            "html": "だから... <i> あなたの目標に合った計画ができるまで繰り返します</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "投資"
+		},
+        {
+            "tag": "p",
+            "html": "あなたのために働く予算を作成し、取引を追跡し、予算を調整し、目標のために貯金します。しかし、作成された目標のすべての理由が支出のためである必要はありません。そうでないものは <strong>投資した</strong>"
+		},
+        {
+            "tag": "p",
+            "html": "金融ストレスの解消は、貯金の自動化、経費の削減、うまくいく計画の平凡な繰り返しと同じくらい簡単です! 予算はつまらない、目標のための貯金は熱中して、目標達成は満足感がある"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "/miscellaneous/blitzbudget-for-alexa/",
+    "title": "BlitzBudget pour Alexa",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Divers",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">Il sera bientôt là !</h3>"
+		}
+	]
+}
