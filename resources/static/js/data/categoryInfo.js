@@ -213,8 +213,854 @@ window.categoryInfo = {
                     "url": "/add-a-budget/"
                 },
                 {
-                    "title": "Presupuesto de compensación",
-                    "url": "/compensate/"
+                    "title": "Borrar un presupuesto",
+                    "url": "/delete-a-budget/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Transacciones",
+            "dataUrl": "/transactions/",
+            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "subCategory": [
+                {
+                    "title": "Agregar transacciones",
+                    "url": "/adding-transactions/"
+                },
+                {
+                    "title": "Importación basada en archivos",
+                    "url": "/file-based-import/"
+                },
+                {
+                    "title": "Ordenar por",
+                    "url": "/sort-by/"
+                },
+                {
+                    "title": "Cambio de categoría de una transacción",
+                    "url": "/changing-a-transactions-category/"
+                },
+                {
+                    "title": "Modificar un presupuesto",
+                    "url": "/changing-a-budget/"
+                },
+                {
+                    "title": "Editar notas",
+                    "url": "/edit-notes/"
+                },
+                {
+                    "title": "Cambiar la cuenta de una transacción",
+                    "url": "/change-the-account/"
+                },
+                {
+                    "title": "Exportar el formato de archivo seleccionado",
+                    "url": "/export-selected-file-format/"
+                },
+                {
+                    "title": "Borrar transacciones",
+                    "url": "/delete-transactions/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetivos",
+            "dataUrl": "/goals/",
+            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+        },
+        {
+            "categoryName": "Cuentas financieras",
+            "dataUrl": "/financial-accounts/",
+            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "subCategory": [
+                {
+                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "url": "/synchronized-bank-account/"
+                },
+                {
+                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "url": "/unsynchronized-bank-account/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carteras",
+            "dataUrl": "/wallets/",
+            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "subCategory": [
+                {
+                    "title": "Agregar cartera",
+                    "url": "/add-wallet/"
+                },
+                {
+                    "title": "Modificar la cartera",
+                    "url": "/modify-wallet/"
+                },
+                {
+                    "title": "Borrar cartera",
+                    "url": "/delete-wallet/"
+                },
+                {
+                    "title": "Elegir cartera",
+                    "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Miscelánea",
+            "dataUrl": "/miscellaneous/",
+            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "subCategory": [
+                {
+                    "title": "Actualización de la configuración de la notificación",
+                    "url": "/notification-settings/"
+                },
+                {
+                    "title": "Actualizar correo electrónico y contraseña",
+                    "url": "/update-email-and-password/"
+                },
+                {
+                    "title": "Borre su cuenta del BlitzBudget",
+                    "url": "/delete-your-blitzbudget-account/"
+                },
+                {
+                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "url": "/resetting-your-account/"
+                },
+                {
+                    "title": "Retroalimentación, y solicitud de características",
+                    "url": "/bugs-feedback-and-feature-request/"
+                },
+                {
+                    "title": "BlitzBudget para Alexa",
+                    "url": "/blitzbudget-for-alexa/"
+                },
+                {
+                    "title": "Atajos de teclado",
+                    "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Sincronización con el móvil",
+                    "url": "/syncing-with-mobile/"
+                }
+            ]
+        }
+    ],
+    "fr": [
+        {
+            "categoryName": "En commençant par",
+            "dataUrl": "/getting-started/",
+            "description": "Control total sobre su dinero en unos pocos clics.",
+            "subCategory": [
+                {
+                    "title": "Étape 1 : Fixez vos objectifs",
+                    "url": "/set-your-goals/"
+                },
+                {
+                    "title": "Étape 2 : Budgétisation de l'argent",
+                    "url": "/budget-your-money/"
+                },
+                {
+                    "title": "Étape 3 : Ajoutez vos investissements",
+                    "url": "/add-your-investments/"
+                },
+                {
+                    "title": "Étape 4 : Ajoutez vos comptes financiers",
+                    "url": "/add-financial-accounts/"
+                },
+                {
+                    "title": "Commencer : La suite",
+                    "url": "/whats-next/"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Budget",
+            "dataUrl": "/budget/",
+            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "subCategory": [
+                {
+                    "title": "Ajouter un budget",
+                    "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Supprimer un budget",
+                    "url": "/delete-a-budget/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Transactions",
+            "dataUrl": "/transactions/",
+            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "subCategory": [
+                {
+                    "title": "Ajout de transactions",
+                    "url": "/adding-transactions/"
+                },
+                {
+                    "title": "Importation basée sur des fichiers",
+                    "url": "/file-based-import/"
+                },
+                {
+                    "title": "Trier par",
+                    "url": "/sort-by/"
+                },
+                {
+                    "title": "Changer la catégorie d'une transaction",
+                    "url": "/changing-a-transactions-category/"
+                },
+                {
+                    "title": "Modifier un budget",
+                    "url": "/changing-a-budget/"
+                },
+                {
+                    "title": "Notes d'édition",
+                    "url": "/edit-notes/"
+                },
+                {
+                    "title": "Modifier le compte d'une transaction",
+                    "url": "/change-the-account/"
+                },
+                {
+                    "title": "Exporter le format de fichier sélectionné",
+                    "url": "/export-selected-file-format/"
+                },
+                {
+                    "title": "Supprimer des transactions",
+                    "url": "/delete-transactions/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetivos",
+            "dataUrl": "/goals/",
+            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+        },
+        {
+            "categoryName": "Cuentas financieras",
+            "dataUrl": "/financial-accounts/",
+            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "subCategory": [
+                {
+                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "url": "/synchronized-bank-account/"
+                },
+                {
+                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "url": "/unsynchronized-bank-account/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carteras",
+            "dataUrl": "/wallets/",
+            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "subCategory": [
+                {
+                    "title": "Agregar cartera",
+                    "url": "/add-wallet/"
+                },
+                {
+                    "title": "Modificar la cartera",
+                    "url": "/modify-wallet/"
+                },
+                {
+                    "title": "Borrar cartera",
+                    "url": "/delete-wallet/"
+                },
+                {
+                    "title": "Elegir cartera",
+                    "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Miscelánea",
+            "dataUrl": "/miscellaneous/",
+            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "subCategory": [
+                {
+                    "title": "Actualización de la configuración de la notificación",
+                    "url": "/notification-settings/"
+                },
+                {
+                    "title": "Actualizar correo electrónico y contraseña",
+                    "url": "/update-email-and-password/"
+                },
+                {
+                    "title": "Borre su cuenta del BlitzBudget",
+                    "url": "/delete-your-blitzbudget-account/"
+                },
+                {
+                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "url": "/resetting-your-account/"
+                },
+                {
+                    "title": "Retroalimentación, y solicitud de características",
+                    "url": "/bugs-feedback-and-feature-request/"
+                },
+                {
+                    "title": "BlitzBudget para Alexa",
+                    "url": "/blitzbudget-for-alexa/"
+                },
+                {
+                    "title": "Atajos de teclado",
+                    "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Sincronización con el móvil",
+                    "url": "/syncing-with-mobile/"
+                }
+            ]
+        }
+    ],
+    "ja": [
+        {
+            "categoryName": "Empezando",
+            "dataUrl": "/getting-started/",
+            "description": "Control total sobre su dinero en unos pocos clics.",
+            "subCategory": [
+                {
+                    "title": "Paso 1: Establezca sus objetivos",
+                    "url": "/set-your-goals/"
+                },
+                {
+                    "title": "Paso 2: Presupuestar el dinero",
+                    "url": "/budget-your-money/"
+                },
+                {
+                    "title": "Paso 3: Añadir sus inversiones",
+                    "url": "/add-your-investments/"
+                },
+                {
+                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "url": "/add-financial-accounts/"
+                },
+                {
+                    "title": "Empezando: ¿Qué sigue?",
+                    "url": "/whats-next/"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Presupuesto",
+            "dataUrl": "/budget/",
+            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "subCategory": [
+                {
+                    "title": "Agregar un presupuesto",
+                    "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Borrar un presupuesto",
+                    "url": "/delete-a-budget/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Transacciones",
+            "dataUrl": "/transactions/",
+            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "subCategory": [
+                {
+                    "title": "Agregar transacciones",
+                    "url": "/adding-transactions/"
+                },
+                {
+                    "title": "Importación basada en archivos",
+                    "url": "/file-based-import/"
+                },
+                {
+                    "title": "Ordenar por",
+                    "url": "/sort-by/"
+                },
+                {
+                    "title": "Cambio de categoría de una transacción",
+                    "url": "/changing-a-transactions-category/"
+                },
+                {
+                    "title": "Modificar un presupuesto",
+                    "url": "/changing-a-budget/"
+                },
+                {
+                    "title": "Editar notas",
+                    "url": "/edit-notes/"
+                },
+                {
+                    "title": "Cambiar la cuenta de una transacción",
+                    "url": "/change-the-account/"
+                },
+                {
+                    "title": "Exportar el formato de archivo seleccionado",
+                    "url": "/export-selected-file-format/"
+                },
+                {
+                    "title": "Borrar transacciones",
+                    "url": "/delete-transactions/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetivos",
+            "dataUrl": "/goals/",
+            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+        },
+        {
+            "categoryName": "Cuentas financieras",
+            "dataUrl": "/financial-accounts/",
+            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "subCategory": [
+                {
+                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "url": "/synchronized-bank-account/"
+                },
+                {
+                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "url": "/unsynchronized-bank-account/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carteras",
+            "dataUrl": "/wallets/",
+            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "subCategory": [
+                {
+                    "title": "Agregar cartera",
+                    "url": "/add-wallet/"
+                },
+                {
+                    "title": "Modificar la cartera",
+                    "url": "/modify-wallet/"
+                },
+                {
+                    "title": "Borrar cartera",
+                    "url": "/delete-wallet/"
+                },
+                {
+                    "title": "Elegir cartera",
+                    "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Miscelánea",
+            "dataUrl": "/miscellaneous/",
+            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "subCategory": [
+                {
+                    "title": "Actualización de la configuración de la notificación",
+                    "url": "/notification-settings/"
+                },
+                {
+                    "title": "Actualizar correo electrónico y contraseña",
+                    "url": "/update-email-and-password/"
+                },
+                {
+                    "title": "Borre su cuenta del BlitzBudget",
+                    "url": "/delete-your-blitzbudget-account/"
+                },
+                {
+                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "url": "/resetting-your-account/"
+                },
+                {
+                    "title": "Retroalimentación, y solicitud de características",
+                    "url": "/bugs-feedback-and-feature-request/"
+                },
+                {
+                    "title": "BlitzBudget para Alexa",
+                    "url": "/blitzbudget-for-alexa/"
+                },
+                {
+                    "title": "Atajos de teclado",
+                    "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Sincronización con el móvil",
+                    "url": "/syncing-with-mobile/"
+                }
+            ]
+        }
+    ],
+    "pt": [
+        {
+            "categoryName": "Empezando",
+            "dataUrl": "/getting-started/",
+            "description": "Control total sobre su dinero en unos pocos clics.",
+            "subCategory": [
+                {
+                    "title": "Paso 1: Establezca sus objetivos",
+                    "url": "/set-your-goals/"
+                },
+                {
+                    "title": "Paso 2: Presupuestar el dinero",
+                    "url": "/budget-your-money/"
+                },
+                {
+                    "title": "Paso 3: Añadir sus inversiones",
+                    "url": "/add-your-investments/"
+                },
+                {
+                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "url": "/add-financial-accounts/"
+                },
+                {
+                    "title": "Empezando: ¿Qué sigue?",
+                    "url": "/whats-next/"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Presupuesto",
+            "dataUrl": "/budget/",
+            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "subCategory": [
+                {
+                    "title": "Agregar un presupuesto",
+                    "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Borrar un presupuesto",
+                    "url": "/delete-a-budget/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Transacciones",
+            "dataUrl": "/transactions/",
+            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "subCategory": [
+                {
+                    "title": "Agregar transacciones",
+                    "url": "/adding-transactions/"
+                },
+                {
+                    "title": "Importación basada en archivos",
+                    "url": "/file-based-import/"
+                },
+                {
+                    "title": "Ordenar por",
+                    "url": "/sort-by/"
+                },
+                {
+                    "title": "Cambio de categoría de una transacción",
+                    "url": "/changing-a-transactions-category/"
+                },
+                {
+                    "title": "Modificar un presupuesto",
+                    "url": "/changing-a-budget/"
+                },
+                {
+                    "title": "Editar notas",
+                    "url": "/edit-notes/"
+                },
+                {
+                    "title": "Cambiar la cuenta de una transacción",
+                    "url": "/change-the-account/"
+                },
+                {
+                    "title": "Exportar el formato de archivo seleccionado",
+                    "url": "/export-selected-file-format/"
+                },
+                {
+                    "title": "Borrar transacciones",
+                    "url": "/delete-transactions/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetivos",
+            "dataUrl": "/goals/",
+            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+        },
+        {
+            "categoryName": "Cuentas financieras",
+            "dataUrl": "/financial-accounts/",
+            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "subCategory": [
+                {
+                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "url": "/synchronized-bank-account/"
+                },
+                {
+                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "url": "/unsynchronized-bank-account/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carteras",
+            "dataUrl": "/wallets/",
+            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "subCategory": [
+                {
+                    "title": "Agregar cartera",
+                    "url": "/add-wallet/"
+                },
+                {
+                    "title": "Modificar la cartera",
+                    "url": "/modify-wallet/"
+                },
+                {
+                    "title": "Borrar cartera",
+                    "url": "/delete-wallet/"
+                },
+                {
+                    "title": "Elegir cartera",
+                    "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Miscelánea",
+            "dataUrl": "/miscellaneous/",
+            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "subCategory": [
+                {
+                    "title": "Actualización de la configuración de la notificación",
+                    "url": "/notification-settings/"
+                },
+                {
+                    "title": "Actualizar correo electrónico y contraseña",
+                    "url": "/update-email-and-password/"
+                },
+                {
+                    "title": "Borre su cuenta del BlitzBudget",
+                    "url": "/delete-your-blitzbudget-account/"
+                },
+                {
+                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "url": "/resetting-your-account/"
+                },
+                {
+                    "title": "Retroalimentación, y solicitud de características",
+                    "url": "/bugs-feedback-and-feature-request/"
+                },
+                {
+                    "title": "BlitzBudget para Alexa",
+                    "url": "/blitzbudget-for-alexa/"
+                },
+                {
+                    "title": "Atajos de teclado",
+                    "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Sincronización con el móvil",
+                    "url": "/syncing-with-mobile/"
+                }
+            ]
+        }
+    ],
+    "ru": [
+        {
+            "categoryName": "Empezando",
+            "dataUrl": "/getting-started/",
+            "description": "Control total sobre su dinero en unos pocos clics.",
+            "subCategory": [
+                {
+                    "title": "Paso 1: Establezca sus objetivos",
+                    "url": "/set-your-goals/"
+                },
+                {
+                    "title": "Paso 2: Presupuestar el dinero",
+                    "url": "/budget-your-money/"
+                },
+                {
+                    "title": "Paso 3: Añadir sus inversiones",
+                    "url": "/add-your-investments/"
+                },
+                {
+                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "url": "/add-financial-accounts/"
+                },
+                {
+                    "title": "Empezando: ¿Qué sigue?",
+                    "url": "/whats-next/"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Presupuesto",
+            "dataUrl": "/budget/",
+            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "subCategory": [
+                {
+                    "title": "Agregar un presupuesto",
+                    "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Borrar un presupuesto",
+                    "url": "/delete-a-budget/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Transacciones",
+            "dataUrl": "/transactions/",
+            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "subCategory": [
+                {
+                    "title": "Agregar transacciones",
+                    "url": "/adding-transactions/"
+                },
+                {
+                    "title": "Importación basada en archivos",
+                    "url": "/file-based-import/"
+                },
+                {
+                    "title": "Ordenar por",
+                    "url": "/sort-by/"
+                },
+                {
+                    "title": "Cambio de categoría de una transacción",
+                    "url": "/changing-a-transactions-category/"
+                },
+                {
+                    "title": "Modificar un presupuesto",
+                    "url": "/changing-a-budget/"
+                },
+                {
+                    "title": "Editar notas",
+                    "url": "/edit-notes/"
+                },
+                {
+                    "title": "Cambiar la cuenta de una transacción",
+                    "url": "/change-the-account/"
+                },
+                {
+                    "title": "Exportar el formato de archivo seleccionado",
+                    "url": "/export-selected-file-format/"
+                },
+                {
+                    "title": "Borrar transacciones",
+                    "url": "/delete-transactions/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Objetivos",
+            "dataUrl": "/goals/",
+            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+        },
+        {
+            "categoryName": "Cuentas financieras",
+            "dataUrl": "/financial-accounts/",
+            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "subCategory": [
+                {
+                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "url": "/synchronized-bank-account/"
+                },
+                {
+                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "url": "/unsynchronized-bank-account/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Carteras",
+            "dataUrl": "/wallets/",
+            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "subCategory": [
+                {
+                    "title": "Agregar cartera",
+                    "url": "/add-wallet/"
+                },
+                {
+                    "title": "Modificar la cartera",
+                    "url": "/modify-wallet/"
+                },
+                {
+                    "title": "Borrar cartera",
+                    "url": "/delete-wallet/"
+                },
+                {
+                    "title": "Elegir cartera",
+                    "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Miscelánea",
+            "dataUrl": "/miscellaneous/",
+            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "subCategory": [
+                {
+                    "title": "Actualización de la configuración de la notificación",
+                    "url": "/notification-settings/"
+                },
+                {
+                    "title": "Actualizar correo electrónico y contraseña",
+                    "url": "/update-email-and-password/"
+                },
+                {
+                    "title": "Borre su cuenta del BlitzBudget",
+                    "url": "/delete-your-blitzbudget-account/"
+                },
+                {
+                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "url": "/resetting-your-account/"
+                },
+                {
+                    "title": "Retroalimentación, y solicitud de características",
+                    "url": "/bugs-feedback-and-feature-request/"
+                },
+                {
+                    "title": "BlitzBudget para Alexa",
+                    "url": "/blitzbudget-for-alexa/"
+                },
+                {
+                    "title": "Atajos de teclado",
+                    "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Sincronización con el móvil",
+                    "url": "/syncing-with-mobile/"
+                }
+            ]
+        }
+    ],
+    "zh": [
+        {
+            "categoryName": "Empezando",
+            "dataUrl": "/getting-started/",
+            "description": "Control total sobre su dinero en unos pocos clics.",
+            "subCategory": [
+                {
+                    "title": "Paso 1: Establezca sus objetivos",
+                    "url": "/set-your-goals/"
+                },
+                {
+                    "title": "Paso 2: Presupuestar el dinero",
+                    "url": "/budget-your-money/"
+                },
+                {
+                    "title": "Paso 3: Añadir sus inversiones",
+                    "url": "/add-your-investments/"
+                },
+                {
+                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "url": "/add-financial-accounts/"
+                },
+                {
+                    "title": "Empezando: ¿Qué sigue?",
+                    "url": "/whats-next/"
+                }
+
+            ]
+        },
+        {
+            "categoryName": "Presupuesto",
+            "dataUrl": "/budget/",
+            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "subCategory": [
+                {
+                    "title": "Agregar un presupuesto",
+                    "url": "/add-a-budget/"
                 },
                 {
                     "title": "Borrar un presupuesto",
