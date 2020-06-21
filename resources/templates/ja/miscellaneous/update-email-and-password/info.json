@@ -1,25 +1,25 @@
 {
     "url": "/miscellaneous/update-email-and-password/",
-    "title": "Actualizar correo electrónico y contraseña",
+    "title": "メールとパスワードを更新する",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "その他",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Recibió una nueva dirección de correo electrónico? ¿Ha compartido su contraseña con otros, y puede que necesite cambiarla?"
+            "html": "新しいメールアドレスを受け取りましたか？ パスワードを他の人と共有していませんか？"
 		},
         {
             "tag": "p",
-            "html": "No importa qué, puedes cambiar tu contraseña o tu correo electrónico desde la configuración de tu cuenta. Verás un enlace de cambio/cambio de contraseña en la parte inferior de tu dirección de correo electrónico o contraseña."
+            "html": "どんなことがあっても、アカウントの設定からパスワードやメールアドレスを変更することができます。メールアドレスまたはパスワードの下部にパスワードの変更/変更リンクが表示されます。"
 		},
         {
             "tag": "img",
@@ -32,12 +32,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Correo electrónico de actualización"
+            "html": "メールの更新"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de cambio en la parte inferior de la dirección de correo electrónico.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">メールアドレスの下部にある変更ボタンをクリックしてください。</p></div>"
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la nueva dirección de correo electrónico y pulse enter</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">新しいメールアドレスを入力してエンターキーを押す</p></div>"
 		},
         {
             "tag": "img",
@@ -57,7 +57,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Después de confirmar la contraseña, si la dirección de correo electrónico no existe, entonces el correo electrónico se actualiza.</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">パスワードを確認した後、メールアドレスが存在しない場合はメールを更新します。</p></div>"
 		},
         {
             "tag": "hr",
@@ -65,12 +65,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Cambiar Contraseña"
+            "html": "パスワードの変更"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de cambio de contraseña como se muestra en la imagen de abajo.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">下の画像のようにパスワード変更ボタンをクリックします。</p></div>"
 		},
         {
             "tag": "img",
@@ -80,7 +80,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba su antigua contraseña y la nueva contraseña, luego pulse enter para cambiar la contraseña.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">古いパスワードと新しいパスワードを入力し、Enterキーを押してパスワードを変更します。</p></div>"
 		},
         {
             "tag": "img",

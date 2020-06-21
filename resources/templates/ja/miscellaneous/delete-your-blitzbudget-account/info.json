@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/delete-your-blitzbudget-account/",
-    "title": "Borre su cuenta del BlitzBudget",
+    "title": "電撃予算のアカウントを削除する",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "その他",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">restaurar su cuenta</a>, al borrar su cuenta se elimina su cuenta de usuario junto con todos sus objetivos, inversiones, presupuestos y transacciones.<i> ¡Todo! </i>. Puede que no sea posible revertir los cambios."
+            "html": "とは違って <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">アカウントをリセットする</a>, アカウントを削除すると、ユーザーアカウントが削除され、すべての目標、投資、予算、取引が削除されます。<i> 何もかも！ </i>. 元に戻すことはできないかもしれません。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Borrar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">をクリックしてください <strong>電撃予算のユーザーアカウントを削除する</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">確認用のパスワードを入力してエンターキーを押します。</p></div>"
 		}
 	]
 }

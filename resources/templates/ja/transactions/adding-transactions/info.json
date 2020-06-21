@@ -1,21 +1,21 @@
 {
     "url": "/transactions/adding-transactions/",
-    "title": "Agregar transacciones",
+    "title": "トランザクションの追加",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Al añadir una transacción automáticamente se añade una nueva cuenta con el tipo <strong>CASH</strong>."
+            "html": "トランザクションを追加すると、自動的に新しいアカウントが追加されます <strong>現金</strong>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Se abre un modelo con la opción de introducir la cantidad, el tipo de categoría y una nota, como se muestra a continuación."
+            "html": "以下のように、数量、カテゴリタイプ、注釈を入力するオプションでテンプレートが開きます。"
 		},
         {
             "tag": "img",
@@ -37,11 +37,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Transacciones futuras"
+            "html": "今後の取引について"
 		},
         {
             "tag": "p",
-            "html": "Programar una transacción es tan simple como elegir la opción de recurrencia a <strong>Mensual</strong> mientras se añade una transacción. No te preocupes, puedes volver a cambiarlo cuando quieras si no quieres que se repita el mes siguiente editando la transacción más tarde."
+            "html": "トランザクションのスケジューリングは、次のような再帰オプションを選択するだけで簡単です <strong>月間</strong> トランザクションを追加しながら 心配しなくても、後から取引を編集して翌月に繰り返されたくなければ、いつでも好きな時にまた変更することができます。"
 		}
 	]
 }

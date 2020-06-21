@@ -1,21 +1,21 @@
 {
     "url": "/wallets/delete-wallet/",
-    "title": "Borrar cartera",
+    "title": "Eliminar carteira",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Portfólios",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Haciendo clic en el botón <strong>'Borrar cartera'</strong> para invocar un popup que le informa sobre los efectos de la eliminación de la cartera."
+            "html": "Ao clicar no botão <strong>'Eliminar carteira'</strong> para invocar um popup que o informe dos efeitos da remoção da bolsa."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Confirmando la contraseña se borrará la cartera y se cambiará a la página <strong>'Elige billeteras'</strong>."
+            "html": "Confirmando a senha, a carteira será apagada e mudará para a <strong>'Escolha as carteiras'</strong>."
 		},
         {
             "tag": "img",
@@ -34,7 +34,7 @@
         {
             "tag": "p",
             "classInfo": "tripleNineColor",
-            "html": "P.S - <i> Haciendo clic en el botón </i><fuerte>Entrar</fuerte><i> se iniciará el flujo de la cartera de borrado.</i> "
+            "html": "P.S - <i> Ao clicar no botão </i><strong>Entrar em</strong><i> o fluxo da carteira de eliminação será iniciado.</i> "
 		}
 	]
 }

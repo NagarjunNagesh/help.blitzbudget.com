@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/delete-your-blitzbudget-account/",
-    "title": "Borre su cuenta del BlitzBudget",
+    "title": "Elimine a sua conta BlitzBudget",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Diversos",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">restaurar su cuenta</a>, al borrar su cuenta se elimina su cuenta de usuario junto con todos sus objetivos, inversiones, presupuestos y transacciones.<i> ¡Todo! </i>. Puede que no sea posible revertir los cambios."
+            "html": "Ao contrário de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">reinicialize a sua conta</a>, eliminar a sua conta elimina a sua conta de utilizador juntamente com todos os seus objectivos, investimentos, orçamentos e transacções.<i> Tudo! </i>. Pode não ser possível inverter as alterações."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Borrar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique em <strong>Eliminar a minha conta de utilizador do Blitz Budget</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Digite a senha de confirmação e pressione enter.</p></div>"
 		}
 	]
 }

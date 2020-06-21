@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/resetting-your-account/",
-    "title": "Reajuste su cuenta del BlitzBudget",
+    "title": "電撃予算アカウントをリセット",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "その他",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Reiniciar su cuenta le permitirá comenzar de nuevo, eliminando toda la información financiera y manteniendo intactas las preferencias del usuario."
+            "html": "アカウントを再起動すると、すべての財務情報を削除し、好みをそのままにして、最初からやり直すことができます。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Reajustar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">をクリックしてください <strong>電撃予算のユーザーアカウントをリセットする</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">確認用のパスワードを入力してエンターキーを押します。</p></div>"
 		}
 	]
 }

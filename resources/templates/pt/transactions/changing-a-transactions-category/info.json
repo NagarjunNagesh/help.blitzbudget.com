@@ -1,21 +1,21 @@
 {
     "url": "/transactions/changing-a-transactions-category/",
-    "title": "Cambio de categoría de una transacción",
+    "title": "Alteração da categoria de uma operação",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+            "html": "Vai querer explorar as suas opções e encontrar uma categoria para cada transacção que se enquadre. Por vezes, as transacções já acrescentadas teriam de ser modificadas."
 		},
         {
             "tag": "img",
@@ -25,12 +25,12 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique no texto da categoria para a transacção em questão.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escolha a categoria da selecção para alterar a categoria.</p></div>"
 		}
 	]
 }

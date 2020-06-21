@@ -1,21 +1,21 @@
 {
     "url": "/transactions/delete-transactions/",
-    "title": "Borrar transacciones",
+    "title": "Eliminar transacções",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Es posible eliminar una transacción, Tenga en cuenta que es bastante destructivo para su plan financiero eliminar una transacción que se ha realizado pero no se ha contabilizado en el presupuesto."
+            "html": "É possível eliminar uma transacção. Note que é bastante destrutivo para o seu plano financeiro eliminar uma transacção que tenha sido feita mas não lançada no orçamento."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione las transacciones que desea borrar y pulse el botón de borrar según la imagen mostrada arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione as transacções que pretende apagar e prima o botão apagar de acordo com a imagem acima apresentada.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulse el botón <strong>Si, Borrelo</strong> cuando aparezca el modelo para borrar las transacciones seleccionadas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pressione o botão <strong>Sim, apague-a.</strong> quando aparece o modelo para eliminar as transacções seleccionadas.</p></div>"
 		}
 	]
 }

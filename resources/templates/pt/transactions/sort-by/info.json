@@ -4,18 +4,18 @@
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Buscando una manera de ver las cuentas ordenadas en <i> Orden descendente por fecha de creación<i> o </i> Agregadas por cuentas?</i> Haga clic en el orden por desplegable para más opciones."
+            "html": "Procurando uma forma de ver as contas ordenadas em <i> Ordem decrescente por data de criação<i> o </i> Adicionado por contas?</i> Clique na ordem descendente para mais opções."
 		},
         {
             "tag": "img",

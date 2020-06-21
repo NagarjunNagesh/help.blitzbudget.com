@@ -1,10 +1,10 @@
 {
     "url": "/wallets/",
-    "title": "Carteras",
+    "title": "ポートフォリオ",
     "subcategoryPresent": true,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		}
 	]

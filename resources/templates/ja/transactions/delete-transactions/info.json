@@ -1,21 +1,21 @@
 {
     "url": "/transactions/delete-transactions/",
-    "title": "Borrar transacciones",
+    "title": "取引の削除",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Es posible eliminar una transacción, Tenga en cuenta que es bastante destructivo para su plan financiero eliminar una transacción que se ha realizado pero no se ha contabilizado en el presupuesto."
+            "html": "取引を削除することは可能ですが、予算に計上されていない取引を削除するのは、資金計画にとってかなり破壊的なので注意しましょう。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione las transacciones que desea borrar y pulse el botón de borrar según la imagen mostrada arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">削除したい取引を選択し、上の画像のように削除ボタンを押します。</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulse el botón <strong>Si, Borrelo</strong> cuando aparezca el modelo para borrar las transacciones seleccionadas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">ボタンを押す <strong>はい、削除してください。</strong> 選択したトランザクションを削除するためのテンプレートが表示されたら</p></div>"
 		}
 	]
 }

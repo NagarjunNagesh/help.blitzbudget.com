@@ -1,21 +1,21 @@
 {
     "url": "/transactions/edit-notes/",
-    "title": "Editar notas",
+    "title": "Notas sobre a edição",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Las transacciones deben llevar asociada una nota, que puede añadirse posteriormente modificando la transacción. Haga clic en la nota de la transacción deseada para modificar la transacción."
+            "html": "As transacções devem ter uma nota associada, que pode ser acrescentada posteriormente, alterando a transacção. Clique na nota da transacção desejada para alterar a transacção."
 		},
         {
             "tag": "img",

@@ -1,21 +1,21 @@
 {
     "url": "/budget/delete-a-budget/",
-    "title": "Borrar un presupuesto",
+    "title": "Suprimir um orçamento",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Presupuesto",
+            "crumbTitle": "Orçamento",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Tiene un presupuesto que ya no utiliza? Puedes borrar un presupuesto pasando el cursor sobre el presupuesto deseado y haciendo clic en el icono de borrar."
+            "html": "Tem um orçamento que já não utiliza? Pode eliminar um orçamento movendo o cursor sobre o orçamento pretendido e clicando no ícone eliminar."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Tenga cuidado al borrar un presupuesto. No puedes restaurar un presupuesto borrado pero puedes crearlo de nuevo."
+            "html": "Tenha cuidado ao eliminar um orçamento. Não se pode restaurar um orçamento eliminado, mas pode-se criá-lo novamente."
 		}
 	]
 }

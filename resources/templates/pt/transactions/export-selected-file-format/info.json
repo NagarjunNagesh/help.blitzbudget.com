@@ -1,21 +1,21 @@
 {
     "url": "/transactions/export-selected-file-format/",
-    "title": "Exportar el formato de archivo seleccionado",
+    "title": "Exportar o formato de ficheiro seleccionado",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Prefiere exportar sus transacciones en documentos de Excel, CSV o Word? Sólo seleccione las transacciones y haga clic en el botón <strong>Descargar</strong> como se muestra en la imagen de abajo."
+            "html": "Prefere exportar as suas transacções em documentos Excel, CSV ou Word? Basta seleccionar as transacções e clicar no botão <strong>Descarregar</strong> como se mostra na imagem abaixo."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más<i>.</p>"
+            "html": "<h4>O que contém o ficheiro Excel?</h4><p>O ficheiro Excel descarregado tem <i> categoria da operação, montante da operação, nome da conta, notas de transacção, montante do orçamento, ajustamentos de recorrência, etc.<i>.</p>"
 		}
 	]
 }

@@ -1,21 +1,21 @@
 {
     "url": "/transactions/export-selected-file-format/",
-    "title": "Exportar el formato de archivo seleccionado",
+    "title": "選択したファイル形式をエクスポートする",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Prefiere exportar sus transacciones en documentos de Excel, CSV o Word? Sólo seleccione las transacciones y haga clic en el botón <strong>Descargar</strong> como se muestra en la imagen de abajo."
+            "html": "取引をExcel、CSV、またはWord文書でエクスポートするのが好きですか？取引を選択して <strong>ダウンロード</strong> 下の画像のように"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más<i>.</p>"
+            "html": "<h4>エクセルファイルには何が入っていますか？</h4><p>ダウンロードしたExcelファイルには <i> 取引区分、取引金額、口座名、取引注意事項、予算額、再発調整など<i>.</p>"
 		}
 	]
 }

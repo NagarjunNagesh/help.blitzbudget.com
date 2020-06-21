@@ -1,14 +1,14 @@
 {
     "url": "/getting-started/add-your-investments/",
-    "title": "Paso 3: Añadir sus inversiones",
+    "title": "Etapa 3: Adicione os seus investimentos",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "Começando por",
             "crumbUrl": "/getting-started/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">Ele estará aqui em breve!</h3>"
 		},
         {
             "tag": "hr",
@@ -29,7 +29,7 @@
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-financial-accounts/\" >Paso 4: Añadir sus cuentas financieras</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-financial-accounts/\" >Passo 4: Adicione as suas contas financeiras</a></li>"
 		}
 	]
 }

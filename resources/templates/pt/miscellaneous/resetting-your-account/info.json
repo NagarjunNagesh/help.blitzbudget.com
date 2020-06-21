@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/resetting-your-account/",
-    "title": "Reajuste su cuenta del BlitzBudget",
+    "title": "Redefinir a sua conta BlitzBudget",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Diversos",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Reiniciar su cuenta le permitirá comenzar de nuevo, eliminando toda la información financiera y manteniendo intactas las preferencias del usuario."
+            "html": "Reiniciar a sua conta permitir-lhe-á recomeçar, removendo toda a informação financeira e mantendo intactas as suas preferências."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Reajustar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique em <strong>Resetar a minha conta de utilizador Blitz Budget</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Digite a senha de confirmação e pressione enter.</p></div>"
 		}
 	]
 }

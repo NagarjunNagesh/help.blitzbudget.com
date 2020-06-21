@@ -1,14 +1,14 @@
 {
     "url": "/miscellaneous/bugs-feedback-and-feature-request/",
-    "title": "Retroalimentación, y solicitud de características",
+    "title": "Feedback, e pedidos de recursos",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Diversos",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">Ele estará aqui em breve!</h3>"
 		}
 	]
 }

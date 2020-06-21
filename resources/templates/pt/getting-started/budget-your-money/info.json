@@ -1,21 +1,21 @@
 {
     "url": "/getting-started/budget-your-money/",
-    "title": "Paso 2: Presupuestar el dinero",
+    "title": "Etapa 2: Orçamentar o dinheiro",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "Começando por",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>."
+            "html": "Você tem os seus objectivos mas isso é apenas um sonho, a menos que comece a fazer um orçamento e a primeira regra de orçamentação é <i>torná-lo prático</i>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un nuevo presupuesto."
+            "html": "Se já tem um orçamento para o mês anterior, fornecemos-lhe uma cópia do orçamento do mês anterior no mês em curso. <strong>É novo no BlitzBudget?</strong> Não há problema. Clique no botão adicionar no canto inferior esquerdo para adicionar automaticamente uma nova cotação."
 		},
         {
             "tag": "img",
@@ -34,7 +34,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
+            "html": "<h4>Ser orçamentado</h4><p>Certifique-se de que o <i>Ser orçamentado</i> é sempre um zero. Poderá utilizar todo o potencial da orçamentação, acrescentando o orçamento correspondente.</p>"
 		},
         {
             "tag": "hr",
@@ -42,12 +42,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "Artigos relacionados"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Paso 3: Añadir sus inversiones</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Etapa 3: Adicione os seus investimentos</a></li>"
 		}
 	]
 }

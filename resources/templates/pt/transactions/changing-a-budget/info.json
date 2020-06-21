@@ -1,21 +1,21 @@
 {
     "url": "/transactions/changing-a-budget/",
-    "title": "Modificar un presupuesto",
+    "title": "Alterar um orçamento",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Ciertos momentos exigen que se modifique el importe del presupuesto de la transacción. Se puede lograr modificando directamente el monto del presupuesto en la información de la categoría, como se muestra abajo."
+            "html": "Em certos momentos, é necessário alterar o montante orçamental da transacção. Isto pode ser conseguido alterando directamente o montante orçamental na informação da categoria, como se mostra a seguir."
 		},
         {
             "tag": "img",

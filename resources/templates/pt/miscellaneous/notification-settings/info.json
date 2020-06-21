@@ -1,14 +1,14 @@
 {
     "url": "/miscellaneous/notification-settings/",
-    "title": "Actualización de la configuración de la notificación",
+    "title": "Manutenção das definições de notificação",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Diversos",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">Ele estará aqui em breve!</h3>"
 		}
 	]
 }

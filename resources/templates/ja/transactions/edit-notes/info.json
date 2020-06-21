@@ -1,21 +1,21 @@
 {
     "url": "/transactions/edit-notes/",
-    "title": "Editar notas",
+    "title": "メモの編集",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Las transacciones deben llevar asociada una nota, que puede añadirse posteriormente modificando la transacción. Haga clic en la nota de la transacción deseada para modificar la transacción."
+            "html": "トランザクションは、それらに関連付けられたノートを持っていなければなりません。希望する取引のノートをクリックして取引を変更します。"
 		},
         {
             "tag": "img",

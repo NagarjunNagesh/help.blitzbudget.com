@@ -1,21 +1,21 @@
 {
     "url": "/wallets/add-wallet/",
-    "title": "Agregar cartera",
+    "title": "Adicionar carteira",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Portfólios",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Quieres añadir una nueva cartera? Haga clic en el icono <strong>'+'</strong> que flota en la esquina inferior derecha de la página de la billetera."
+            "html": "Quer adicionar uma nova carteira? Clique sobre o ícone <strong>'+'</strong> que flutua no canto inferior direito da página da carteira."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Serás redirigido a una página de añadir carteras. Donde podrá elegir la moneda de su preferencia y hacer clic en el botón <i>'Guardar'</i> para añadir una nueva cartera."
+            "html": "Será redireccionado para uma página para adicionar portfólios. Onde você pode escolher a moeda de sua preferência e clicar no botão <i>'Salvar'</i> para acrescentar uma nova carteira."
 		},
         {
             "tag": "img",
@@ -37,11 +37,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Elección de la moneda"
+            "html": "Escolha da moeda"
 		},
         {
             "tag": "p",
-            "html": "Se abrirá un menú desplegable una vez que haga clic en la flecha hacia abajo junto a la moneda, donde podrá ver todas las monedas con billetera y las que no tienen billetera."
+            "html": "Abre-se um menu pendente quando se clica na seta para baixo ao lado da moeda, onde se podem ver todas as moedas com uma carteira e as sem carteira."
 		},
         {
             "tag": "img",
@@ -50,7 +50,7 @@
 		},
         {
             "tag": "p",
-            "html": "Puede empezar a escribir la moneda de su preferencia y hacer clic en la flecha de abajo / arriba para cambiar entre las monedas sin la sección de la cartera."
+            "html": "Pode começar a digitar a moeda da sua escolha e clicar na seta para baixo/cima para alternar entre moedas sem a secção da carteira."
 		},
         {
             "tag": "img",
@@ -59,19 +59,19 @@
 		},
         {
             "tag": "h4",
-            "html": "Elección de divisas con cartera"
+            "html": "Escolha de moedas com carteira"
 		},
         {
             "tag": "p",
-            "html": "No se pueden crear múltiples carteras para la misma moneda."
+            "html": "Não é possível criar várias carteiras para a mesma moeda."
 		},
         {
             "tag": "h4",
-            "html": "Términos de búsqueda"
+            "html": "Termos de pesquisa"
 		},
         {
             "tag": "p",
-            "html": "Cuando no se muestra ningún resultado, es aconsejable cambiar los términos de búsqueda a algo más simple."
+            "html": "Quando não são apresentados resultados, é aconselhável alterar os termos da pesquisa para algo mais simples."
 		},
         {
             "tag": "img",
@@ -80,7 +80,7 @@
 		},
         {
             "tag": "p",
-            "html": "No se muestra ningún resultado en las monedas sin billetera ya que la opción de <strong>'Rupia india'</strong> ya existe como una opción de billetera."
+            "html": "Não são apresentados resultados para moedas sem carteira, uma vez que o <strong>'Rúpia indiana'</strong> já existe como uma opção de carteira."
 		}
 	]
 }

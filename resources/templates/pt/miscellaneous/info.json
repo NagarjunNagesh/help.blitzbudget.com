@@ -1,10 +1,10 @@
 {
     "url": "/miscellaneous/",
-    "title": "Miscelánea",
+    "title": "Diversos",
     "subcategoryPresent": true,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		}
 	]

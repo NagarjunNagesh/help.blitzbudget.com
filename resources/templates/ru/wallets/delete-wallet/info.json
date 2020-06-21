@@ -34,7 +34,7 @@
         {
             "tag": "p",
             "classInfo": "tripleNineColor",
-            "html": "P.S - <i> Haciendo clic en el botón </i><fuerte>Entrar</fuerte><i> se iniciará el flujo de la cartera de borrado.</i> "
+            "html": "P.S - <i> Haciendo clic en el botón </i><strong>Entrar</strong><i> se iniciará el flujo de la cartera de borrado.</i> "
 		}
 	]
 }

@@ -1,21 +1,21 @@
 {
     "url": "/getting-started/add-financial-accounts/",
-    "title": "Paso 4: Añadir sus cuentas financieras",
+    "title": "Passo 4: Adicione as suas contas financeiras",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "Começando por",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Todas esas metas, presupuestos y las inversiones que creamos necesitan que entre el dinero. Y el dinero está en tu cuenta. Es hora de añadirlos"
+            "html": "Todos esses objectivos, orçamentos e investimentos que criamos precisam de dinheiro para entrar. E o dinheiro está na sua conta. É tempo de os acrescentar"
 		},
         {
             "tag": "img",
@@ -24,11 +24,11 @@
 		},
         {
             "tag": "p",
-            "html": "Para darle una ventaja, tiene la opción de sincronizarse con las cuentas bancarias / elegir crear una cuenta manualmente. El BlitzBudget le mantendrá al tanto de las transacciones."
+            "html": "Para lhe dar uma vantagem, você tem a opção de sincronizar com as contas bancárias / optar por criar uma conta manualmente. O BlitzBudget irá mantê-lo actualizado sobre as transacções."
 		},
         {
             "tag": "h3",
-            "html": "Cuentas bancarias no sincronizadas"
+            "html": "Contas bancárias dessincronizadas"
 		},
         {
             "tag": "img",
@@ -37,7 +37,7 @@
 		},
         {
             "tag": "p",
-            "html": "Dale un apodo, y escribe <strong>El equilibrio de hoy</strong>."
+            "html": "Dê-lhe uma alcunha e escreva <strong>O balanço de hoje</strong>."
 		},
         {
             "tag": "hr",
@@ -45,12 +45,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "Artigos relacionados"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/whats-next/\" >Comenzando: ¿Qué es lo siguiente?</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/whats-next/\" >Início: O que se segue?</a></li>"
 		}
 	]
 }

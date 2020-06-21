@@ -1,64 +1,64 @@
 {
     "url": "/getting-started/whats-next/",
-    "title": "Empezando: Qué sigue",
+    "title": "Início: O que se segue",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "Começando por",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Has añadido tus objetivos, tu presupuesto y tus inversiones. Todas sus transacciones están siendo contabilizadas, sus transacciones y presupuestos están programados."
+            "html": "Acrescentou os seus objectivos, o seu orçamento e os seus investimentos. Todas as suas transacções estão a ser contabilizadas, as suas transacções e orçamentos estão programados."
 		},
         {
             "tag": "p",
-            "html": "<i>¿Ahora qué?</i>"
+            "html": "<i>E agora?</i>"
 		},
         {
             "tag": "h3",
-            "html": "Haz tus metas realidad"
+            "html": "Faça dos seus objectivos uma realidade"
 		},
         {
             "tag": "p",
-            "html": "Tus metas ahora mismo son tus aspiraciones. <i>¡Es un sueño!</i> A menos que lo hagas realidad ajustando tu presupuesto."
+            "html": "Os seus objectivos neste momento são as suas aspirações. <i>É um sonho!</i> A menos que o faça ajustando o seu orçamento."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ahorre primero.</strong> ¿Recibió su salario? ¿Por qué no poner el dinero que prometió ahorrar en otra cuenta?</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Guarde primeiro.</strong> Recebeu o seu salário? Porque não depositar o dinheiro que prometeu poupar noutra conta?</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Rastree sus transacciones.</strong> Vea la diferencia entre el escenario ideal y las circunstancias del mundo real.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Acompanhe as suas transacções.</strong> Veja a diferença entre o cenário ideal e as circunstâncias do mundo real.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajuste su presupuesto.</strong> El presupuesto no pretende ser rígido. ¡Se rompe! Permanece flexible</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajuste o seu orçamento.</strong> O orçamento não finge ser rígido. Ele quebra! Continua a ser flexível</p></div>"
 		},
         {
             "tag": "p",
-            "html": "Entonces... <i> repita hasta que tenga un plan que funcione para su objetivo!</i>"
+            "html": "Depois... <i> repita até ter um plano que funcione para o seu objectivo!</i>"
 		},
         {
             "tag": "h3",
-            "html": "Invertir"
+            "html": "Investir"
 		},
         {
             "tag": "p",
-            "html": "Creamos un presupuesto de trabajo que funciona para usted, rastreamos sus transacciones, ajustamos su presupuesto y ahorramos para sus objetivos. Pero no todos los motivos para las metas creadas deben ser para gastar. Los que no lo son están destinados a ser <strong>invertidos!</strong>"
+            "html": "Criamos um orçamento funcional que funciona para si, acompanhamos as suas transacções, ajustamos o seu orçamento e poupamos para os seus objectivos. Mas nem todas as razões para os objectivos criados têm de ser para gastar. As que não estão destinadas a ser <strong>investidos!</strong>"
 		},
         {
             "tag": "p",
-            "html": "Eliminar el estrés financiero es tan simple como automatizar el ahorro, reducir los gastos y repetir mundanamente el plan que funciona! Presupuestar es aburrido, ahorrar para tu objetivo es entusiasta y alcanzar tu objetivo es satisfactorio!"
+            "html": "Eliminar o stress financeiro é tão simples como automatizar a poupança, reduzindo as despesas e a repetição do plano que funciona! Orçamentar é aborrecido, poupar para o seu objectivo é entusiasmante e alcançar o seu objectivo é satisfatório!"
 		}
 	]
 }

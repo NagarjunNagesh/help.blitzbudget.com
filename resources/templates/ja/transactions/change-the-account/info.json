@@ -1,21 +1,21 @@
 {
     "url": "/transactions/change-the-account/",
-    "title": "Cambiar la cuenta de una transacción",
+    "title": "取引の口座を変更する",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Cambiar la cuenta de la transacción es tan simple como arrastrar y soltar la transacción dentro de la cuenta preferida. Revise la opción <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> para navegar a la opción de clasificación de la cuenta."
+            "html": "取引口座の変更は、取引を優先口座にドラッグ＆ドロップするだけで簡単に行えます。オプションを確認する <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> 並び替え </a> をクリックして、アカウントのソートオプションに移動します。"
 		},
         {
             "tag": "img",

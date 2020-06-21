@@ -1,21 +1,21 @@
 {
     "url": "/transactions/changing-a-transactions-category/",
-    "title": "Cambio de categoría de una transacción",
+    "title": "トランザクションのカテゴリを変更する",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "取引",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+            "html": "選択肢を探って、それぞれの取引に合ったカテゴリーを探してみてはいかがでしょうか。すでに追加されているトランザクションは、変更しなければならないこともあります。"
 		},
         {
             "tag": "img",
@@ -25,12 +25,12 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">問題の取引のカテゴリテキストをクリックしてください。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">選択範囲のカテゴリを選択して、カテゴリを変更します。</p></div>"
 		}
 	]
 }

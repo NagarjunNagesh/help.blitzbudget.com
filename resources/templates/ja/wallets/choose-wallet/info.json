@@ -1,21 +1,21 @@
 {
     "url": "/wallets/choose-wallet/",
-    "title": "Elegir cartera",
+    "title": "ポートフォリオを選ぶ",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "ポートフォリオ",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Elegir una cartera es tan simple como hacer clic en la cartera."
+            "html": "財布を選ぶのはクリックするだけの簡単なことです。"
 		},
         {
             "tag": "img",

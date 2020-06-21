@@ -1,21 +1,21 @@
 {
     "url": "/wallets/modify-wallet/",
-    "title": "Modificar la cartera",
+    "title": "Modificar a carteira",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Portfólios",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "La modificación de una cartera es posible después de hacer clic en el botón <strong>'Administrar billeteras'</strong> que se encuentra en la esquina superior derecha de la página de carteras."
+            "html": "A modificação de uma carteira é possível após clicar no botão <strong>'Gerir as suas carteiras'</strong> localizado no canto superior direito da página da carteira."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Las carteras mostrarán un icono de edición junto a cada cartera y ahora, podemos hacer clic en la cartera para empezar a editarlas."
+            "html": "Os portfólios irão mostrar um ícone de edição junto a cada portfólio e agora, podemos clicar no portfólio para começar a editá-lo."
 		},
         {
             "tag": "img",
@@ -33,7 +33,7 @@
 		},
         {
             "tag": "p",
-            "html": "Se muestra la página de modificación de la cartera, con la posibilidad de editar el nombre de la cartera y la moneda."
+            "html": "É apresentada a página da carteira de alterações, com a possibilidade de editar a denominação da carteira e a moeda."
 		},
         {
             "tag": "img",
@@ -43,25 +43,25 @@
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Editar las entradas de la billetera.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Edite as entradas da carteira.</p></div></div>"
 		},
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón <strong>'Guardar'</strong> para modificar la cartera.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pressione o botão <strong>'Guardar'</strong> para alterar a carteira.</p></div></div>"
 		},
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista se cambia a la <i>'Elige billetera'</i> página.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">O ponto de vista muda para a <i>'Escolha a carteira'</i> página.</p></div></div>"
 		},
         {
             "tag": "h3",
-            "html": "Editando la cartera primaria"
+            "html": "Edição da carteira primária"
 		},
         {
             "tag": "p",
-            "html": "Cuando se edita la billetera primaria <i>(identificada por una estrella)</i>, se elimina la posibilidad de cambiar el nombre, allí permitiendo la posibilidad de cambiar sólo la moneda."
+            "html": "Ao editar a carteira primária <i>(identificado por uma estrela)</i>, a possibilidade de alterar o nome é eliminada, permitindo apenas a possibilidade de alterar a moeda."
 		},
         {
             "tag": "img",
@@ -74,11 +74,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Elección de la moneda"
+            "html": "Escolha da moeda"
 		},
         {
             "tag": "p",
-            "html": "Se abrirá un menú desplegable una vez que haga clic en la flecha hacia abajo junto a la moneda, donde podrá ver todas las monedas con billetera y las que no tienen billetera."
+            "html": "Abre-se um menu pendente quando se clica na seta para baixo ao lado da moeda, onde se podem ver todas as moedas com uma carteira e as sem carteira."
 		},
         {
             "tag": "img",
@@ -87,7 +87,7 @@
 		},
         {
             "tag": "p",
-            "html": "Puede empezar a escribir la moneda de su preferencia y hacer clic en la flecha de abajo / arriba para cambiar entre las monedas sin la sección de la cartera."
+            "html": "Pode começar a digitar a moeda da sua escolha e clicar na seta para baixo/cima para alternar entre moedas sem a secção da carteira."
 		},
         {
             "tag": "img",
@@ -96,19 +96,19 @@
 		},
         {
             "tag": "h4",
-            "html": "Elección de divisas con cartera"
+            "html": "Escolha de moedas com carteira"
 		},
         {
             "tag": "p",
-            "html": "No se pueden crear múltiples carteras para la misma moneda."
+            "html": "Não é possível criar várias carteiras para a mesma moeda."
 		},
         {
             "tag": "h4",
-            "html": "Términos de búsqueda"
+            "html": "Termos de pesquisa"
 		},
         {
             "tag": "p",
-            "html": "Cuando no se muestra ningún resultado, es aconsejable cambiar los términos de búsqueda a algo más simple."
+            "html": "Quando não são apresentados resultados, é aconselhável alterar os termos da pesquisa para algo mais simples."
 		},
         {
             "tag": "img",
@@ -117,7 +117,7 @@
 		},
         {
             "tag": "p",
-            "html": "No se muestra ningún resultado en las monedas sin billetera ya que la opción de <strong>'Rupia india'</strong> ya existe como una opción de billetera."
+            "html": "Não são apresentados resultados para moedas sem carteira, uma vez que o <strong>'Rúpia indiana'</strong> já existe como uma opção de carteira."
 		},
         {
             "tag": "hr",
@@ -125,19 +125,19 @@
 		},
         {
             "tag": "h3",
-            "html": "Cancelar la modificación"
+            "html": "Cancelar a alteração"
 		},
         {
             "tag": "p",
-            "html": "Cancelar la modificación redirigirá la página a la página de 'Elegir cartera'."
+            "html": "O cancelamento da alteração irá redireccionar a página para a página 'Escolher Portfólio'."
 		},
         {
             "tag": "h3",
-            "html": "Modificación hecha"
+            "html": "Modificação efectuada"
 		},
         {
             "tag": "p",
-            "html": "Haciendo clic en el botón <strong>'Hecho'</strong> cambiaría a la página de 'Elegir carteras'."
+            "html": "Ao clicar no botão <strong>'Concluído'</strong> Mudaria para a página 'Escolher Portfólios'."
 		},
         {
             "tag": "img",

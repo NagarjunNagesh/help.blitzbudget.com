@@ -1,14 +1,14 @@
 {
     "url": "/miscellaneous/bugs-feedback-and-feature-request/",
-    "title": "Retroalimentación, y solicitud de características",
+    "title": "フィードバック、機能のご要望",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "その他",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">彼はすぐにここに来る！</h3>"
 		}
 	]
 }

@@ -1,21 +1,21 @@
 {
     "url": "/transactions/change-the-account/",
-    "title": "Cambiar la cuenta de una transacción",
+    "title": "Alterar a conta de uma operação",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de Ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Transacções",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Cambiar la cuenta de la transacción es tan simple como arrastrar y soltar la transacción dentro de la cuenta preferida. Revise la opción <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> para navegar a la opción de clasificación de la cuenta."
+            "html": "Alterar a conta de transacção é tão simples como arrastar e largar a transacção para a conta preferida. Marque a opção <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> Ordenar por </a> para navegar para a opção de classificação de contas."
 		},
         {
             "tag": "img",
