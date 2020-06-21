@@ -1,21 +1,21 @@
 {
     "url": "/budget/delete-a-budget/",
-    "title": "Borrar un presupuesto",
+    "title": "удалить бюджет",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Presupuesto",
+            "crumbTitle": "Бюджет",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Tiene un presupuesto que ya no utiliza? Puedes borrar un presupuesto pasando el cursor sobre el presupuesto deseado y haciendo clic en el icono de borrar."
+            "html": "у вас есть бюджет, который вы больше не используете? Вы можете удалить бюджет, наведя курсор на нужный бюджет и щелкнув значок Удалить."
 		},
         {
             "tag": "img",

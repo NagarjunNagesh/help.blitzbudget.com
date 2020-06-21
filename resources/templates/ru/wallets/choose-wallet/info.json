@@ -1,21 +1,21 @@
 {
     "url": "/wallets/choose-wallet/",
-    "title": "Elegir cartera",
+    "title": "выбрать портфель",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Кошельки",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Elegir una cartera es tan simple como hacer clic en la cartera."
+            "html": "выбор кошелька так же прост, как нажатие на кошелек."
 		},
         {
             "tag": "img",

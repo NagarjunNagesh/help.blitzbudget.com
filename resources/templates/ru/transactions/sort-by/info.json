@@ -1,21 +1,21 @@
 {
     "url": "/transactions/sort-by/",
-    "title": "Ordenar por",
+    "title": "Сортировать по",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Транзакций",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Buscando una manera de ver las cuentas ordenadas en <i> Orden descendente por fecha de creación<i> o </i> Agregadas por cuentas?</i> Haga clic en el orden por desplegable para más opciones."
+            "html": "ищете способ просмотра учетных записей, отсортированных в <i> порядок убывания по дате создания<i> или </i>, добавленных учетными записями?</i> нажмите на порядок по раскрывающемуся меню для дополнительных опций."
 		},
         {
             "tag": "img",

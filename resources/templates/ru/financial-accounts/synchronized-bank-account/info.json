@@ -1,22 +1,22 @@
 {
-	"url" : "/financial-accounts/synchronized-bank-account/",
-	"title" : "Agregar Cuentas Financieras Sincronizadas",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/financial-accounts/synchronized-bank-account/",
+    "title": "добавить синхронизированные финансовые счета",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Cuentas financieras",
-			"crumbUrl" : "/financial-accounts/"
+        {
+            "crumbTitle": "финансовые счета",
+            "crumbUrl": "/financial-accounts/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">скоро придет!</h3>"
 		}
 	]
 }

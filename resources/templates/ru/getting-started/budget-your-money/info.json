@@ -1,21 +1,21 @@
 {
     "url": "/getting-started/budget-your-money/",
-    "title": "Paso 2: Presupuestar el dinero",
+    "title": "Шаг 2: бюджетирование денег",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "начало работы",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>."
+            "html": "у вас есть свои цели, но это просто мечта, если вы не начнете составлять бюджет, и первое правило бюджета <i>сделать его практичным</i>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un nuevo presupuesto."
+            "html": "если у вас уже есть бюджет за предыдущий месяц, мы предоставляем Вам копию бюджета за предыдущий месяц в текущем месяце. <strong>новое в BlitzBudget?</strong> это не проблема, Нажмите кнопку Добавить в левом нижнем углу, чтобы автоматически добавить новый бюджет."
 		},
         {
             "tag": "img",
@@ -34,7 +34,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
+            "html": "<h4>быть бюджетным</h4><p>убедитесь, что <i>быть бюджетным</i>  всегда 0. Вы могли бы использовать весь потенциал бюджетирования, добавив соответствующий бюджет.</p>"
 		},
         {
             "tag": "hr",
@@ -42,12 +42,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "Статьи по теме"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Paso 3: Añadir sus inversiones</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Шаг 3: Добавьте свои инвестиции</a></li>"
 		}
 	]
 }

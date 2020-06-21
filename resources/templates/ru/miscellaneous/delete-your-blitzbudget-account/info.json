@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/delete-your-blitzbudget-account/",
-    "title": "Borre su cuenta del BlitzBudget",
+    "title": "удалите свою учетную запись BlitzBudget",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Разное",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">restaurar su cuenta</a>, al borrar su cuenta se elimina su cuenta de usuario junto con todos sus objetivos, inversiones, presupuestos y transacciones.<i> ¡Todo! </i>. Puede que no sea posible revertir los cambios."
+            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">восстановление вашей учетной записи</a>, удаление вашей учетной записи удаляет вашу учетную запись пользователя вместе со всеми вашими целями, инвестициями, бюджетами и транзакциями.<i> ¡Все! </i>. Возможно, невозможно отменить изменения."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Borrar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите <strong>удалить мою учетную запись Пользователя Blitz Budget</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Введите пароль подтверждения и нажмите войти.</p></div>"
 		}
 	]
 }

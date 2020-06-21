@@ -1,10 +1,10 @@
 {
     "url": "/budget/",
-    "title": "Presupuesto",
+    "title": "бюджет",
     "subcategoryPresent": true,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		}
 	]

@@ -1,25 +1,25 @@
 {
     "url": "/miscellaneous/update-email-and-password/",
-    "title": "Actualizar correo electrónico y contraseña",
+    "title": "обновить адрес электронной почты и пароль",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "Разное",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Recibió una nueva dirección de correo electrónico? ¿Ha compartido su contraseña con otros, y puede que necesite cambiarla?"
+            "html": "вы получили новый адрес электронной почты? Вы поделились своим паролем с другими, и вам может потребоваться изменить его?"
 		},
         {
             "tag": "p",
-            "html": "No importa qué, puedes cambiar tu contraseña o tu correo electrónico desde la configuración de tu cuenta. Verás un enlace de cambio/cambio de contraseña en la parte inferior de tu dirección de correo electrónico o contraseña."
+            "html": "несмотря ни на что, вы можете изменить свой пароль или адрес электронной почты в настройках своей учетной записи. Вы увидите ссылку изменения / изменения пароля в нижней части вашего адреса электронной почты или пароля."
 		},
         {
             "tag": "img",
@@ -32,12 +32,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Correo electrónico de actualización"
+            "html": "обновление электронной почты"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de cambio en la parte inferior de la dirección de correo electrónico.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на кнопку изменить в нижней части адрес электронной почты.</p></div>"
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la nueva dirección de correo electrónico y pulse enter</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Введите новый адрес электронной почты и нажмите ввод.</p></div>"
 		},
         {
             "tag": "img",
@@ -57,7 +57,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Después de confirmar la contraseña, si la dirección de correo electrónico no existe, entonces el correo electrónico se actualiza.</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">После подтверждения пароля, если адрес электронной почты не существует, то электронной почты обновляется.</p></div>"
 		},
         {
             "tag": "hr",
@@ -65,12 +65,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Cambiar Contraseña"
+            "html": "Изменить Пароль"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de cambio de contraseña como se muestra en la imagen de abajo.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на кнопку смена пароля, как показано на рисунке ниже.</p></div>"
 		},
         {
             "tag": "img",
@@ -80,7 +80,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba su antigua contraseña y la nueva contraseña, luego pulse enter para cambiar la contraseña.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Введите старый пароль и новый пароль, затем нажмите enter, чтобы изменить пароль.</p></div>"
 		},
         {
             "tag": "img",

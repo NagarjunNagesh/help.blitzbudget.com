@@ -1,21 +1,21 @@
 {
     "url": "/transactions/delete-transactions/",
-    "title": "Borrar transacciones",
+    "title": "удалить транзакции",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Транзакций",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Es posible eliminar una transacción, Tenga en cuenta que es bastante destructivo para su plan financiero eliminar una transacción que se ha realizado pero no se ha contabilizado en el presupuesto."
+            "html": "можно удалить транзакцию, имейте в виду, что для вашего финансового плана довольно разрушительно удалить транзакцию, которая была сделана, но не была учтена в бюджете."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione las transacciones que desea borrar y pulse el botón de borrar según la imagen mostrada arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Выберите транзакции, которые вы хотите удалить, и нажмите кнопку удаления в соответствии с изображением, показанным выше.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulse el botón <strong>Si, Borrelo</strong> cuando aparezca el modelo para borrar las transacciones seleccionadas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите кнопку <strong>если, удалите ее</strong> при появлении модели, чтобы удалить выбранные транзакции.</p></div>"
 		}
 	]
 }

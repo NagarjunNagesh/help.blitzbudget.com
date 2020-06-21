@@ -1,21 +1,21 @@
 {
     "url": "/transactions/export-selected-file-format/",
-    "title": "Exportar el formato de archivo seleccionado",
+    "title": "экспорт выбранного формата файла",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Транзакций",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Prefiere exportar sus transacciones en documentos de Excel, CSV o Word? Sólo seleccione las transacciones y haga clic en el botón <strong>Descargar</strong> como se muestra en la imagen de abajo."
+            "html": "вы предпочитаете экспортировать свои транзакции в документы Excel, CSV или Word? Просто выберите транзакции и нажмите кнопку <strong>скачать</strong>, как показано на рисунке ниже."
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más<i>.</p>"
+            "html": "<h4>что содержит файл Excel?</h4><p>загруженный файл Excel имеет < i>категорию транзакций, сумму транзакций, имя учетной записи, примечания к транзакциям, сумму бюджета, настройки повторения и многое другое</i>.</p>"
 		}
 	]
 }

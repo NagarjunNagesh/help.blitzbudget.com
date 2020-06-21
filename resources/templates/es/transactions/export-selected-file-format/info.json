@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más<i>.</p>"
+            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más</i>.</p>"
 		}
 	]
 }

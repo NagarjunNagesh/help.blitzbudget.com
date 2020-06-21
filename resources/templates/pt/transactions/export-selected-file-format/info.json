@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>O que contém o ficheiro Excel?</h4><p>O ficheiro Excel descarregado tem <i> categoria da operação, montante da operação, nome da conta, notas de transacção, montante do orçamento, ajustamentos de recorrência, etc.<i>.</p>"
+            "html": "<h4>O que contém o ficheiro Excel?</h4><p>O ficheiro Excel descarregado tem <i> categoria da operação, montante da operação, nome da conta, notas de transacção, montante do orçamento, ajustamentos de recorrência, etc</i>.</p>"
 		}
 	]
 }

@@ -1,64 +1,64 @@
 {
     "url": "/getting-started/whats-next/",
-    "title": "Empezando: Qué sigue",
+    "title": "начало работы: что дальше",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "начало работы",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Has añadido tus objetivos, tu presupuesto y tus inversiones. Todas sus transacciones están siendo contabilizadas, sus transacciones y presupuestos están programados."
+            "html": "вы добавили свои цели, свой бюджет и свои инвестиции. Все ваши транзакции учитываются, ваши транзакции и бюджеты запланированы."
 		},
         {
             "tag": "p",
-            "html": "<i>¿Ahora qué?</i>"
+            "html": "<i>что теперь?</i>"
 		},
         {
             "tag": "h3",
-            "html": "Haz tus metas realidad"
+            "html": "сделайте свои цели реальностью"
 		},
         {
             "tag": "p",
-            "html": "Tus metas ahora mismo son tus aspiraciones. <i>¡Es un sueño!</i> A menos que lo hagas realidad ajustando tu presupuesto."
+            "html": "ваши цели прямо сейчас-ваши устремления. <i> это сон!</i> Если вы не сделаете это, скорректировав свой бюджет."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ahorre primero.</strong> ¿Recibió su salario? ¿Por qué no poner el dinero que prometió ahorrar en otra cuenta?</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Экономия сначала.</strong> получал ли он зарплату? Почему бы не положить деньги, которые вы обещали сэкономить, на другой счет?</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Rastree sus transacciones.</strong> Vea la diferencia entre el escenario ideal y las circunstancias del mundo real.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>отслеживайте свои транзакции.</strong>  посмотрите разницу между идеальным сценарием и реальными обстоятельствами.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajuste su presupuesto.</strong> El presupuesto no pretende ser rígido. ¡Se rompe! Permanece flexible</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Корректировка бюджета.</strong> бюджет не предназначен для того, чтобы быть жестким. Он ломается! Остается гибким</p></div>"
 		},
         {
             "tag": "p",
-            "html": "Entonces... <i> repita hasta que tenga un plan que funcione para su objetivo!</i>"
+            "html": "Итак... <i> повторяйте, пока у вас не будет плана, который работает для вашей цели!</i>"
 		},
         {
             "tag": "h3",
-            "html": "Invertir"
+            "html": "инвертировать"
 		},
         {
             "tag": "p",
-            "html": "Creamos un presupuesto de trabajo que funciona para usted, rastreamos sus transacciones, ajustamos su presupuesto y ahorramos para sus objetivos. Pero no todos los motivos para las metas creadas deben ser para gastar. Los que no lo son están destinados a ser <strong>invertidos!</strong>"
+            "html": "мы создаем рабочий бюджет, который работает для вас, отслеживаем ваши транзакции, корректируем ваш бюджет и экономим для ваших целей. Но не все причины для созданных целей должны быть потрачены. Те, кто этого не делает, должны быть <strong>перевернуты!</strong>"
 		},
         {
             "tag": "p",
-            "html": "Eliminar el estrés financiero es tan simple como automatizar el ahorro, reducir los gastos y repetir mundanamente el plan que funciona! Presupuestar es aburrido, ahorrar para tu objetivo es entusiasta y alcanzar tu objetivo es satisfactorio!"
+            "html": "устранение финансового стресса так же просто, как автоматизация сбережений, сокращение расходов и мирское повторение плана, который работает! Бюджетирование скучно, экономия для вашей цели с энтузиазмом, и достижение вашей цели удовлетворительно!"
 		}
 	]
 }

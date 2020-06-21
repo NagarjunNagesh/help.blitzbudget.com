@@ -1,21 +1,21 @@
 {
     "url": "/wallets/add-wallet/",
-    "title": "Agregar cartera",
+    "title": "добавить портфель",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Кошельки",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Quieres añadir una nueva cartera? Haga clic en el icono <strong>'+'</strong> que flota en la esquina inferior derecha de la página de la billetera."
+            "html": "хотите добавить новый портфель? Нажмите на значок <strong>'+'</strong>  который плавает в правом нижнем углу страницы кошелька."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Serás redirigido a una página de añadir carteras. Donde podrá elegir la moneda de su preferencia y hacer clic en el botón <i>'Guardar'</i> para añadir una nueva cartera."
+            "html": "вы будете перенаправлены на страницу добавления кошельков. Где вы можете выбрать валюту по вашему выбору и нажмите кнопку <i>'сохранить'</i> чтобы добавить новый кошелек."
 		},
         {
             "tag": "img",
@@ -37,11 +37,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Elección de la moneda"
+            "html": "Выбор валюты"
 		},
         {
             "tag": "p",
-            "html": "Se abrirá un menú desplegable una vez que haga clic en la flecha hacia abajo junto a la moneda, donde podrá ver todas las monedas con billetera y las que no tienen billetera."
+            "html": "выпадающее меню откроется, как только вы нажмете стрелку вниз рядом с монетой, где вы сможете увидеть все монеты с кошельком и монеты без кошелька."
 		},
         {
             "tag": "img",
@@ -50,7 +50,7 @@
 		},
         {
             "tag": "p",
-            "html": "Puede empezar a escribir la moneda de su preferencia y hacer clic en la flecha de abajo / arriba para cambiar entre las monedas sin la sección de la cartera."
+            "html": "вы можете начать вводить валюту по вашему выбору и нажать стрелку вниз / вверх, чтобы переключаться между монетами без раздела кошелька."
 		},
         {
             "tag": "img",
@@ -59,19 +59,19 @@
 		},
         {
             "tag": "h4",
-            "html": "Elección de divisas con cartera"
+            "html": "выбор валюты с кошельком"
 		},
         {
             "tag": "p",
-            "html": "No se pueden crear múltiples carteras para la misma moneda."
+            "html": "вы не можете создать несколько кошельков для одной и той же валюты."
 		},
         {
             "tag": "h4",
-            "html": "Términos de búsqueda"
+            "html": "Условия поиска"
 		},
         {
             "tag": "p",
-            "html": "Cuando no se muestra ningún resultado, es aconsejable cambiar los términos de búsqueda a algo más simple."
+            "html": "когда результат не отображается, разумно изменить условия поиска на что-то более простое."
 		},
         {
             "tag": "img",
@@ -80,7 +80,7 @@
 		},
         {
             "tag": "p",
-            "html": "No se muestra ningún resultado en las monedas sin billetera ya que la opción de <strong>'Rupia india'</strong> ya existe como una opción de billetera."
+            "html": "результат не отображается на монетах без кошелька, поскольку опция <strong> 'индийская рупия' </strong> уже существует как опция кошелька."
 		}
 	]
 }

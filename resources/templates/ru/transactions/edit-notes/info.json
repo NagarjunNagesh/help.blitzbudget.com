@@ -1,21 +1,21 @@
 {
     "url": "/transactions/edit-notes/",
-    "title": "Editar notas",
+    "title": "Редактировать заметки",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Транзакций",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Las transacciones deben llevar asociada una nota, que puede añadirse posteriormente modificando la transacción. Haga clic en la nota de la transacción deseada para modificar la transacción."
+            "html": "транзакции должны быть связаны с примечанием, которое может быть добавлено позже путем изменения транзакции. Нажмите на нужную транзакционную заметку, чтобы изменить транзакцию."
 		},
         {
             "tag": "img",

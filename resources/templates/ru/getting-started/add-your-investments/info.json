@@ -1,14 +1,14 @@
 {
     "url": "/getting-started/add-your-investments/",
-    "title": "Paso 3: Añadir sus inversiones",
+    "title": "Шаг 3: Добавить свои инвестиции",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "начало работы",
             "crumbUrl": "/getting-started/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">скоро придет!</h3>"
 		},
         {
             "tag": "hr",
@@ -24,12 +24,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "Статьи по теме"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-financial-accounts/\" >Paso 4: Añadir sus cuentas financieras</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-financial-accounts/\" >Шаг 4: Добавьте свои финансовые счета</a></li>"
 		}
 	]
 }

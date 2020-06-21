@@ -1,33 +1,33 @@
 {
     "url": "/getting-started/set-your-goals/",
-    "title": "Paso 1: Establezca sus objetivos",
+    "title": "Шаг 1: Установите свои цели",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "начало работы",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Lo más importante de la planificación financiera es empezar. El fin - la paz financiera, pagar todas tus cuentas por defecto, viene después. Así que vamos a <strong>empezar</strong>."
+            "html": "самое главное в финансовом планировании-это начать. Конец-финансовый мир, оплатить все ваши счета по умолчанию, приходит позже. Итак, давайте начнем <strong>начать</strong>."
 		},
         {
             "tag": "h2",
-            "html": "¿Por qué tomar el control de sus finanzas?"
+            "html": "¿пр ну Томар Эль контроле-де-Сус картинки?"
 		},
         {
             "tag": "p",
-            "html": "No decidiste planificar tus finanzas porque te encantan las matemáticas. Bueno, está eso (Blitzbudget se encarga de eso mayormente), pero la planificación financiera comienza con el mapeo de tus metas. Pueden ser tan simples como, prepararse para pagar sus cuentas o puede ser profundo, como un plan para comprar una casa con la que soñaba! Aquí está cómo"
+            "html": "вы не решили планировать свои финансы, потому что любите математику. Ну, есть это (Blitzbudget заботится об этом в основном), но финансовое планирование начинается с сопоставления ваших целей. Они могут быть такими же простыми, как, подготовиться к оплате счетов или это может быть глубоко, как план покупки дома, о котором вы мечтали! Вот как"
 		},
         {
             "tag": "p",
-            "html": "¿Qué es <strong> tu objetivo?</strong>"
+            "html": "что такое <strong>  ваша цель?</strong>"
 		},
         {
             "tag": "hr",
@@ -35,12 +35,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "Статьи по теме"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/budget-your-money/\" >Paso 2: Presupuestar su dinero</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/budget-your-money/\" >Шаг 2: бюджет ваших денег</a></li>"
 		}
 	]
 }

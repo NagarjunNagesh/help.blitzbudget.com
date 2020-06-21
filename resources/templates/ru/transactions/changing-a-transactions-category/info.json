@@ -1,21 +1,21 @@
 {
     "url": "/transactions/changing-a-transactions-category/",
-    "title": "Cambio de categoría de una transacción",
+    "title": "изменение категории транзакции",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "Транзакций",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+            "html": "вы захотите изучить свои варианты и найти категорию для каждой транзакции, в которую вы вписываетесь. Иногда уже добавленные транзакции должны быть изменены."
 		},
         {
             "tag": "img",
@@ -25,12 +25,12 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на текст, из категории для данной транзакции.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Выберите категорию из выбора, чтобы изменить категории.</p></div>"
 		}
 	]
 }

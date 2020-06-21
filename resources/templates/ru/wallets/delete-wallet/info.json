@@ -1,21 +1,21 @@
 {
     "url": "/wallets/delete-wallet/",
-    "title": "Borrar cartera",
+    "title": "удалить кошелек",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "справочный центр",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "Кошельки",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Haciendo clic en el botón <strong>'Borrar cartera'</strong> para invocar un popup que le informa sobre los efectos de la eliminación de la cartera."
+            "html": "нажав кнопку <strong>'удалить кошелек'</strong> чтобы вызвать всплывающее окно, информирующее вас о последствиях удаления кошелька."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Confirmando la contraseña se borrará la cartera y se cambiará a la página <strong>'Elige billeteras'</strong>."
+            "html": "подтверждение пароля удалит кошелек и переключится на страницу <strong>'выберите кошельки'</strong>."
 		},
         {
             "tag": "img",
@@ -34,7 +34,7 @@
         {
             "tag": "p",
             "classInfo": "tripleNineColor",
-            "html": "P.S - <i> Haciendo clic en el botón </i><strong>Entrar</strong><i> se iniciará el flujo de la cartera de borrado.</i> "
+            "html": "P.S - <i> нажав на кнопку </i><strong>введите</strong><i> начнет поток стирания кошелька.</i> "
 		}
 	]
 }
