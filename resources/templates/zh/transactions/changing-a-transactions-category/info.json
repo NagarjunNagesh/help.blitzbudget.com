@@ -1,10 +1,10 @@
 {
     "url": "/transactions/changing-a-transactions-category/",
-    "title": "Cambio de categoría de una transacción",
+    "title": "改变交易的类别",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+            "html": "你要探索你的选择，为每笔交易找到一个适合的类别。有时，已经添加的交易必须修改."
 		},
         {
             "tag": "img",
@@ -25,12 +25,12 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击相关交易的类别文字。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">选择选择的类别来改变类别。</p></div>"
 		}
 	]
 }

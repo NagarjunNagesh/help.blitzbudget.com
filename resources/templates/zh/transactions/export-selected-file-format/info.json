@@ -1,21 +1,21 @@
 {
     "url": "/transactions/export-selected-file-format/",
-    "title": "Exportar el formato de archivo seleccionado",
+    "title": "导出选定的文件格式",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿Prefiere exportar sus transacciones en documentos de Excel, CSV o Word? Sólo seleccione las transacciones y haga clic en el botón <strong>Descargar</strong> como se muestra en la imagen de abajo."
+            "html": "你喜欢用Excel、CSV或Word文档导出你的交易吗？只要选择交易并点击 <strong>下载中心</strong> 如下图所示。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>¿Qué contiene el archivo de Excel?</h4><p>El archivo de Excel descargado tiene <i> categoría de transacción, importe de la transacción, nombre de la cuenta, notas de la transacción, importe del presupuesto, ajustes de recurrencia y más<i>.</p>"
+            "html": "<h4>Excel文件包含哪些内容？</h4><p>下载的Excel文件有 <i> 交易类别、交易金额、账户名称、交易备注、预算金额、经常性调整等。<i>.</p>"
 		}
 	]
 }

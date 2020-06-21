@@ -1,52 +1,52 @@
 {
     "url": "/getting-started/whats-next/",
-    "title": "Empezando: Qué sigue",
+    "title": "开始：下一步是什么",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "开始",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Has añadido tus objetivos, tu presupuesto y tus inversiones. Todas sus transacciones están siendo contabilizadas, sus transacciones y presupuestos están programados."
+            "html": "你已经添加了你的目标，你的预算和你的投资。 您的所有交易都被记账，您的交易和预算被安排。"
 		},
         {
             "tag": "p",
-            "html": "<i>¿Ahora qué?</i>"
+            "html": "<i>现在怎么办</i>"
 		},
         {
             "tag": "h3",
-            "html": "Haz tus metas realidad"
+            "html": "让你的目标成真"
 		},
         {
             "tag": "p",
-            "html": "Tus metas ahora mismo son tus aspiraciones. <i>¡Es un sueño!</i> A menos que lo hagas realidad ajustando tu presupuesto."
+            "html": "你现在的目标是你的愿望。<i>这是一个梦想！</i> 除非你通过调整预算使它成为现实。"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ahorre primero.</strong> ¿Recibió su salario? ¿Por qué no poner el dinero que prometió ahorrar en otra cuenta?</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>先保存。</strong> 他拿到工资了?？ 为什么不把你答应保存到另一个帐户的钱？</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Rastree sus transacciones.</strong> Vea la diferencia entre el escenario ideal y las circunstancias del mundo real.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>跟踪您的交易。</strong> 看到理想的情况和现实世界的情况之间的区别。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajuste su presupuesto.</strong> El presupuesto no pretende ser rígido. ¡Se rompe! Permanece flexible</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>调整您的预算。</strong> 预算不打算是僵化的。 它断了！ 保持灵活</p></div>"
 		},
         {
             "tag": "p",
-            "html": "Entonces... <i> repita hasta que tenga un plan que funcione para su objetivo!</i>"
+            "html": "然后... <i> 重复，直到你有一个计划，为你的目标工作！</i>"
 		},
         {
             "tag": "h3",
@@ -54,11 +54,11 @@
 		},
         {
             "tag": "p",
-            "html": "Creamos un presupuesto de trabajo que funciona para usted, rastreamos sus transacciones, ajustamos su presupuesto y ahorramos para sus objetivos. Pero no todos los motivos para las metas creadas deben ser para gastar. Los que no lo son están destinados a ser <strong>invertidos!</strong>"
+            "html": "我们创建一个适合您的工作预算，跟踪您的交易，调整预算并为您的目标保存。 但不是所有的原因创建的目标应该是花费。 那些谁不是注定要 <strong>倒转！</strong>"
 		},
         {
             "tag": "p",
-            "html": "Eliminar el estrés financiero es tan simple como automatizar el ahorro, reducir los gastos y repetir mundanamente el plan que funciona! Presupuestar es aburrido, ahorrar para tu objetivo es entusiasta y alcanzar tu objetivo es satisfactorio!"
+            "html": "消除财务压力是自动化储蓄，减少开支和世俗重复的工作计划一样简单！ 预算编制是无聊的，节省你的目标是热情和实现你的目标是令人满意！"
 		}
 	]
 }

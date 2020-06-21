@@ -1,10 +1,10 @@
 {
     "url": "/financial-accounts/",
-    "title": "Cuentas financieras",
+    "title": "财务账户",
     "subcategoryPresent": true,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		}
 	]

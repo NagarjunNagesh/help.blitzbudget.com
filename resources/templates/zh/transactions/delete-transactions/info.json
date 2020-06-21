@@ -1,21 +1,21 @@
 {
     "url": "/transactions/delete-transactions/",
-    "title": "Borrar transacciones",
+    "title": "删除交易",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Es posible eliminar una transacción, Tenga en cuenta que es bastante destructivo para su plan financiero eliminar una transacción que se ha realizado pero no se ha contabilizado en el presupuesto."
+            "html": "可以删除某项交易，请注意，删除一项已经进行但未列入预算的交易，对你的财务计划是相当不利的。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione las transacciones que desea borrar y pulse el botón de borrar según la imagen mostrada arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">选择要删除的交易，按上图所示的删除按钮。</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulse el botón <strong>Si, Borrelo</strong> cuando aparezca el modelo para borrar las transacciones seleccionadas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">按下按钮 <strong>是的，删除它。</strong> 当出现用于删除所选交易的模板时。</p></div>"
 		}
 	]
 }

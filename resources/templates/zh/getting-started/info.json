@@ -1,10 +1,10 @@
 {
     "url": "/getting-started/",
-    "title": "Empezando",
+    "title": "从",
     "subcategoryPresent": true,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		}
 	]

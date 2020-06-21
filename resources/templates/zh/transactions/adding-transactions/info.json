@@ -1,21 +1,21 @@
 {
     "url": "/transactions/adding-transactions/",
-    "title": "Agregar transacciones",
+    "title": "增加交易",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Al añadir una transacción automáticamente se añade una nueva cuenta con el tipo <strong>CASH</strong>."
+            "html": "添加交易会自动添加一个新的账户，类型为 <strong>现金</strong>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Se abre un modelo con la opción de introducir la cantidad, el tipo de categoría y una nota, como se muestra a continuación."
+            "html": "打开模板，可以选择输入数量、类别类型和备注，如下图所示。"
 		},
         {
             "tag": "img",
@@ -37,11 +37,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Transacciones futuras"
+            "html": "今后的交易"
 		},
         {
             "tag": "p",
-            "html": "Programar una transacción es tan simple como elegir la opción de recurrencia a <strong>Mensual</strong> mientras se añade una transacción. No te preocupes, puedes volver a cambiarlo cuando quieras si no quieres que se repita el mes siguiente editando la transacción más tarde."
+            "html": "安排一个交易很简单，只要选择递归选项就可以了 <strong>每月</strong> 在添加交易时。别担心，如果你不想下个月再重复，可以随时再改，以后编辑交易就可以了."
 		}
 	]
 }

@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/resetting-your-account/",
-    "title": "Reajuste su cuenta del BlitzBudget",
+    "title": "重置您的BlitzBudget账户",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "杂项",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Reiniciar su cuenta le permitirá comenzar de nuevo, eliminando toda la información financiera y manteniendo intactas las preferencias del usuario."
+            "html": "重新启动您的账户将允许您重新开始，删除所有的财务信息，并保持您的首选项不变。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Reajustar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击 <strong>重置我的闪电预算用户账户</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">输入确认密码并按回车键.</p></div>"
 		}
 	]
 }

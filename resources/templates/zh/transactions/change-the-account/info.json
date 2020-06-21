@@ -1,21 +1,21 @@
 {
     "url": "/transactions/change-the-account/",
-    "title": "Cambiar la cuenta de una transacción",
+    "title": "更改交易账户",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Cambiar la cuenta de la transacción es tan simple como arrastrar y soltar la transacción dentro de la cuenta preferida. Revise la opción <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> para navegar a la opción de clasificación de la cuenta."
+            "html": "更改交易账户很简单，只需将交易拖拽到首选账户即可。勾选选项 <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> 排序方式 </a> 浏览到账户排序选项."
 		},
         {
             "tag": "img",

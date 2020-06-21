@@ -1,21 +1,21 @@
 {
     "url": "/wallets/choose-wallet/",
-    "title": "Elegir cartera",
+    "title": "选择一个投资组合",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "投资组合",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Elegir una cartera es tan simple como hacer clic en la cartera."
+            "html": "选择钱包就像点击钱包一样简单。"
 		},
         {
             "tag": "img",

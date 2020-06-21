@@ -1,21 +1,21 @@
 {
     "url": "/transactions/edit-notes/",
-    "title": "Editar notas",
+    "title": "编辑说明",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Las transacciones deben llevar asociada una nota, que puede añadirse posteriormente modificando la transacción. Haga clic en la nota de la transacción deseada para modificar la transacción."
+            "html": "交易必须有一个与之相关的注解，以后可以通过更改交易来添加。点击所需交易的票据以更改交易。"
 		},
         {
             "tag": "img",

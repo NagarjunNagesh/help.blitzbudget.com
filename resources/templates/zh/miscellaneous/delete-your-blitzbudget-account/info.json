@@ -1,21 +1,21 @@
 {
     "url": "/miscellaneous/delete-your-blitzbudget-account/",
-    "title": "Borre su cuenta del BlitzBudget",
+    "title": "删除您的BlitzBudget账户",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "杂项",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">restaurar su cuenta</a>, al borrar su cuenta se elimina su cuenta de usuario junto con todos sus objetivos, inversiones, presupuestos y transacciones.<i> ¡Todo! </i>. Puede que no sea posible revertir los cambios."
+            "html": "不像 <a href=\"https://help.blitzbudget.com/es/miscellaneous/resetting-your-account/\" class=\"article-anchor\">重置账户</a>, 删除您的账户会将您的用户账户连同您的所有目标、投资、预算和交易一起删除。<i> 一切！ </i>. 可能无法逆转这些变化。"
 		},
         {
             "tag": "img",
@@ -25,7 +25,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en <strong>Borrar mi cuenta de usuario de Blitz Budget</strong>.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击 <strong>删除我的闪电预算用户账户</strong>.</p></div>"
 		},
         {
             "tag": "img",
@@ -35,7 +35,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Escriba la contraseña de confirmación y pulse enter.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">输入确认密码并按回车键.</p></div>"
 		}
 	]
 }

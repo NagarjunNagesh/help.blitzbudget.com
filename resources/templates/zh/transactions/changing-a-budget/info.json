@@ -1,21 +1,21 @@
 {
     "url": "/transactions/changing-a-budget/",
-    "title": "Modificar un presupuesto",
+    "title": "改变预算",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Transacciones",
+            "crumbTitle": "交易",
             "crumbUrl": "/transactions/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Ciertos momentos exigen que se modifique el importe del presupuesto de la transacción. Se puede lograr modificando directamente el monto del presupuesto en la información de la categoría, como se muestra abajo."
+            "html": "某些时候需要改变交易的预算金额。可以通过直接改变类别信息中的预算金额来实现，如下图所示。"
 		},
         {
             "tag": "img",

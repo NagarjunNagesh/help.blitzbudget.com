@@ -1,14 +1,14 @@
 {
     "url": "/miscellaneous/blitzbudget-for-alexa/",
-    "title": "BlitzBudget para Alexa",
+    "title": "闪电战预算对Alexa",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "杂项",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">他很快就来了</h3>"
 		}
 	]
 }

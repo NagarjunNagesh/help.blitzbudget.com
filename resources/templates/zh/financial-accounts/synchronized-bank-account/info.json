@@ -1,22 +1,22 @@
 {
-	"url" : "/financial-accounts/synchronized-bank-account/",
-	"title" : "Agregar Cuentas Financieras Sincronizadas",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Centro de ayuda",
-			"crumbUrl" : "/"
+    "url": "/financial-accounts/synchronized-bank-account/",
+    "title": "添加同步财务账户",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Cuentas financieras",
-			"crumbUrl" : "/financial-accounts/"
+        {
+            "crumbTitle": "财务账户",
+            "crumbUrl": "/financial-accounts/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">它很快就会到来！</h3>"
 		}
 	]
 }

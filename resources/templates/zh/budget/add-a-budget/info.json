@@ -1,21 +1,21 @@
 {
     "url": "/budget/add-a-budget/",
-    "title": "Agregar un presupuesto",
+    "title": "添加引用",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Presupuesto",
+            "crumbTitle": "预算",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>."
+            "html": "你有你的目标，但这只是一个梦想，除非你开始制定预算和预算的第一条规则是 <i>使其实用</i>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un presupuesto."
+            "html": "如果您已经有上个月的预算，我们会为您提供上个月当月的预算副本。<strong>新的BlitzBudget？</strong> 没问题，点击左下角的添加按钮自动添加报价。"
 		},
         {
             "tag": "img",
@@ -34,15 +34,15 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
+            "html": "<h4>预算编制</h4><p>请确保 <i>预算编制</i> 永远是0. 它可以通过增加相应的预算来充分发挥预算编制的潜力。</p>"
 		},
         {
             "tag": "h3",
-            "html": "Autocrear el presupuesto"
+            "html": "自我创建预算"
 		},
         {
             "tag": "p",
-            "html": "Los presupuestos se copian automáticamente del mes anterior el último día de cada mes."
+            "html": "预算会在每个月的最后一天自动从上一个月复制。"
 		}
 	]
 }

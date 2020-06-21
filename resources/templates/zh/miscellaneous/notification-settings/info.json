@@ -1,14 +1,14 @@
 {
     "url": "/miscellaneous/notification-settings/",
-    "title": "Actualización de la configuración de la notificación",
+    "title": "维护通知设置",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Miscelánea",
+            "crumbTitle": "杂项",
             "crumbUrl": "/miscellaneous/"
 		}
 	],
@@ -16,7 +16,7 @@
         {
             "tag": "div",
             "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
+            "html": "<h3 class=\"position-absolute coming-soon\">他很快就会来了！</h3>"
 		}
 	]
 }

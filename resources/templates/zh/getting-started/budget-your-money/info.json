@@ -1,21 +1,21 @@
 {
     "url": "/getting-started/budget-your-money/",
-    "title": "Paso 2: Presupuestar el dinero",
+    "title": "第二步：资金预算",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Empezando",
+            "crumbTitle": "从",
             "crumbUrl": "/getting-started/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Tienes tus objetivos pero eso es sólo un sueño a menos que empieces a hacer un presupuesto y la primera regla del presupuesto es <i>hacerlo práctico</i>."
+            "html": "你有你的目标，但这只是一个梦想，除非你开始制定预算和预算的第一条规则是 <i>使其实用</i>."
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Si ya tiene un presupuesto para el mes anterior, le facilitamos la copia del presupuesto del mes anterior en el mes actual. <strong>Nuevo en el BlitzBudget?</strong> No es un problema, Haga clic en el botón de añadir en la parte inferior izquierda para añadir automáticamente un nuevo presupuesto."
+            "html": "如果您已经有上个月的预算，我们会为您提供上个月当月的预算副本。<strong>新到的BlitzBudget？</strong> 没问题，点击左下方的添加按钮，自动添加新的报价。"
 		},
         {
             "tag": "img",
@@ -34,7 +34,7 @@
         {
             "tag": "div",
             "classInfo": "call-to-attention",
-            "html": "<h4>Ser Presupuestado</h4><p>Asegúrese de que el <i>Ser Presupuestado</i> sea siempre un 0. Podría utilizar todo el potencial de la presupuestación añadiendo el presupuesto correspondiente.</p>"
+            "html": "<h4>要有预算</h4><p>确保 <i>要有预算</i> 始终是一个零。你可以通过增加相应的预算来充分发挥预算编制的潜力。</p>"
 		},
         {
             "tag": "hr",
@@ -42,12 +42,12 @@
 		},
         {
             "tag": "h3",
-            "html": "Artículos relacionados"
+            "html": "相关文章"
 		},
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Paso 3: Añadir sus inversiones</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >第三步：添加您的投资</a></li>"
 		}
 	]
 }

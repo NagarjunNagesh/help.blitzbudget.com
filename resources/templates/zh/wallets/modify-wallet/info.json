@@ -1,21 +1,21 @@
 {
     "url": "/wallets/modify-wallet/",
-    "title": "Modificar la cartera",
+    "title": "修改投资组合",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Carteras",
+            "crumbTitle": "投资组合",
             "crumbUrl": "/wallets/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "La modificación de una cartera es posible después de hacer clic en el botón <strong>'Administrar billeteras'</strong> que se encuentra en la esquina superior derecha de la página de carteras."
+            "html": "点击后，可以修改投资组合 <strong>'管理您的钱包'</strong> 位于钱包页面的右上角。"
 		},
         {
             "tag": "img",
@@ -24,7 +24,7 @@
 		},
         {
             "tag": "p",
-            "html": "Las carteras mostrarán un icono de edición junto a cada cartera y ahora, podemos hacer clic en la cartera para empezar a editarlas."
+            "html": "作品集会在每个作品集旁边显示一个编辑图标，现在，我们可以点击作品集开始编辑它。"
 		},
         {
             "tag": "img",
@@ -33,7 +33,7 @@
 		},
         {
             "tag": "p",
-            "html": "Se muestra la página de modificación de la cartera, con la posibilidad de editar el nombre de la cartera y la moneda."
+            "html": "显示更改投资组合页面，可以编辑投资组合名称和货币。"
 		},
         {
             "tag": "img",
@@ -43,25 +43,25 @@
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Editar las entradas de la billetera.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">编辑钱包条目。</p></div></div>"
 		},
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón <strong>'Guardar'</strong> para modificar la cartera.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">按下按钮 <strong>'保存'</strong> 以修改投资组合。</p></div></div>"
 		},
         {
             "tag": "div",
             "classInfo": "mx-5",
-            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista se cambia a la <i>'Elige billetera'</i> página.</p></div></div>"
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">视图变更为 <i>'选择钱包'</i> 网页.</p></div></div>"
 		},
         {
             "tag": "h3",
-            "html": "Editando la cartera primaria"
+            "html": "编辑主外壳"
 		},
         {
             "tag": "p",
-            "html": "Cuando se edita la billetera primaria <i>(identificada por una estrella)</i>, se elimina la posibilidad de cambiar el nombre, allí permitiendo la posibilidad de cambiar sólo la moneda."
+            "html": "编辑主钱包时 <i>（由明星识别)</i>, 它消除了更改名称的可能性，允许只更改货币的可能性。"
 		},
         {
             "tag": "img",
@@ -74,11 +74,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Elección de la moneda"
+            "html": "货币选择"
 		},
         {
             "tag": "p",
-            "html": "Se abrirá un menú desplegable una vez que haga clic en la flecha hacia abajo junto a la moneda, donde podrá ver todas las monedas con billetera y las que no tienen billetera."
+            "html": "点击硬币旁边的向下箭头，将打开一个下拉菜单，在这里您可以看到所有带钱包的硬币和没有钱包的硬币。"
 		},
         {
             "tag": "img",
@@ -87,7 +87,7 @@
 		},
         {
             "tag": "p",
-            "html": "Puede empezar a escribir la moneda de su preferencia y hacer clic en la flecha de abajo / arriba para cambiar entre las monedas sin la sección de la cartera."
+            "html": "您可以开始输入您喜欢的货币，然后单击向下/向上箭头在没有钱包部分的货币之间切换。"
 		},
         {
             "tag": "img",
@@ -96,19 +96,19 @@
 		},
         {
             "tag": "h4",
-            "html": "Elección de divisas con cartera"
+            "html": "与投资组合的货币选择"
 		},
         {
             "tag": "p",
-            "html": "No se pueden crear múltiples carteras para la misma moneda."
+            "html": "不能为同一种货币创建多个投资组合。"
 		},
         {
             "tag": "h4",
-            "html": "Términos de búsqueda"
+            "html": "搜索词"
 		},
         {
             "tag": "p",
-            "html": "Cuando no se muestra ningún resultado, es aconsejable cambiar los términos de búsqueda a algo más simple."
+            "html": "当没有显示结果时，建议将搜索词更改为更简单的搜索词。"
 		},
         {
             "tag": "img",
@@ -117,7 +117,7 @@
 		},
         {
             "tag": "p",
-            "html": "No se muestra ningún resultado en las monedas sin billetera ya que la opción de <strong>'Rupia india'</strong> ya existe como una opción de billetera."
+            "html": "没有结果显示没有钱包的硬币作为选项 <strong>'印度卢比'</strong> 它已经作为钱包选项存在."
 		},
         {
             "tag": "hr",
@@ -125,19 +125,19 @@
 		},
         {
             "tag": "h3",
-            "html": "Cancelar la modificación"
+            "html": "取消更改"
 		},
         {
             "tag": "p",
-            "html": "Cancelar la modificación redirigirá la página a la página de 'Elegir cartera'."
+            "html": "取消更改将将页面重定向到 '选择投资组合'."
 		},
         {
             "tag": "h3",
-            "html": "Modificación hecha"
+            "html": "修改作出"
 		},
         {
             "tag": "p",
-            "html": "Haciendo clic en el botón <strong>'Hecho'</strong> cambiaría a la página de 'Elegir carteras'."
+            "html": "点击按钮 <strong>'事实'</strong> 将改为 '选择投资组合'."
 		},
         {
             "tag": "img",
