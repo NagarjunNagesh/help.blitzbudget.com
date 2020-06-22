@@ -47,7 +47,7 @@
         {
             "tag": "ul",
             "classInfo": "sub-category-list",
-            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/es/getting-started/add-your-investments/\" >Шаг 3: Добавьте свои инвестиции</a></li>"
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/ru/getting-started/add-your-investments/\" >Шаг 3: Добавьте свои инвестиции</a></li>"
 		}
 	]
 }

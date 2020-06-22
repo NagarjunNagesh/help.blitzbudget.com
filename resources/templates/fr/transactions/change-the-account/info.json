@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Pour modifier le compte de transaction, il suffit de glisser et déposer la transaction sur le compte préféré. Cochez l'option <a href=\"https://help.blitzbudget.com/es/transactions/sort-by/\" class=\"article-anchor\"> Trier par </a> pour accéder à l'option de tri des comptes."
+            "html": "Pour modifier le compte de transaction, il suffit de glisser et déposer la transaction sur le compte préféré. Cochez l'option <a href=\"https://help.blitzbudget.com/fr/transactions/sort-by/\" class=\"article-anchor\"> Trier par </a> pour accéder à l'option de tri des comptes."
 		},
         {
             "tag": "img",
