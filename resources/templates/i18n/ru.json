@@ -1,0 +1,95 @@
+{
+    "header": {
+        "learn": "Aprender",
+        "support": "Soporte",
+        "plus": "BlitzBudget Plus",
+        "blog": "Blog",
+        "getstarted": "Начинай",
+        "signin": "Регистрировать"
+    },
+    "search": {
+        "howcanwehelp": "Чем мы можем помочь?"
+    },
+    "cards": {
+        "gettingstarted": {
+            "title": "Начинающий",
+            "description": "Полный контроль над своими деньгами в несколько кликов.",
+            "count": "4 статьи"
+        },
+        "goals": {
+            "title": "Цели",
+            "description": "Планируя купить, сэкономьте свои деньги на что-то, что стоит сэкономить?",
+            "count": "4 статьи"
+        },
+        "budget": {
+            "title": "Бюджет",
+            "description": "Планируйте, что вы тратите, и автоматизируйте свой финансовый план.",
+            "count": "4 статьи"
+        },
+        "transactions": {
+            "title": "Сделки",
+            "description": "Убедитесь, что каждый расход учитывается и отслеживается.",
+            "count": "4 статьи"
+        },
+        "financialaccounts": {
+            "title": "Финансовые счета",
+            "description": "Кредитные и дебетовые карты легко отслеживать с помощью финансовых счетов.",
+            "count": "4 статьи"
+        },
+        "miscellaneous": {
+            "title": "Разное",
+            "description": "Настройте свои предпочтения, уведомления и многое другое.",
+            "count": "4 статьи"
+        }
+    },
+    "categories": {
+        "title": "Категории",
+        "needhelp": "Тебе все еще нужна помощь?",
+        "contactus": "Контакты",
+        "lastupdated": "Последнее обновлено 14 марта 2020 г."
+    },
+    "footer": {
+        "support": "ПОДДЕРЖКА",
+        "privacypolicy": "Политика конфиденциальности",
+        "termsofuse": "Условия использования",
+        "helpcenter": "Справочный центр",
+        "company": "КОМПАНИЯ",
+        "careers": "Гонки",
+        "blog": "Блог",
+        "presskit": "Пресс-комплект",
+        "product": "ПРОДУКТ",
+        "customer": "Истории клиентов",
+        "plus": "Блицбаджет Плюс",
+        "getstarted": "Начинай"
+    },
+    "dynamic": {
+        "noresult": "Бесплодно",
+        "gettingstarted": "Начинающий",
+        "budget": "Бюджет",
+        "transactions": "Сделки",
+        "goals": "Объективные",
+        "financialaccounts": "Финансовые счета",
+        "miscellaneous": "Разное",
+        "articles": " статьи",
+        "title": "Справочный центр BlitzBudget",
+        "fetchurlerror": "Не удается получить запрошенный url",
+        "askusdirectly": "Спросите нас напрямую",
+        "send": "Отправить",
+        "customersupport": "Поддержка клиентов: запросить дополнительную информацию в течение 72 часов",
+        "message": "Сообщение",
+        "validemail": "Пожалуйста, введите действительный адрес электронной почты.",
+        "validpassword": "Пожалуйста, введите минимум 40 символов.",
+        "successemail": "Спасибо за электронную почту. Мы ответим с ним в течение следующих 72 часов!",
+        "errorsendingemail": "Вы не можете отправить электронное письмо в это время. Пожалуйста, попробуйте еще раз!"
+    },
+    "anchor": {
+        "gettingstarted": "/ru/getting-started/",
+        "goals": "/ru/goals/",
+        "budget": "/ru/budget/",
+        "transactions": "/ru/transactions/",
+        "financialaccounts": "/ru/financial-accounts/",
+        "miscellaneous": "/ru/miscellaneous/",
+        "privacy": "https://www.blitzbudget.com/ru/privacy",
+        "terms": "https://www.blitzbudget.com/ru/terms"
+    }
+}

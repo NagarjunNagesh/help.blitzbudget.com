@@ -1,0 +1,95 @@
+{
+    "header": {
+        "learn": "Apprendre",
+        "support": "Soutien",
+        "plus": "BlitzBudget Plus",
+        "blog": "Blog",
+        "getstarted": "Démarre",
+        "signin": "Register"
+    },
+    "search": {
+        "howcanwehelp": "Comment pouvons-nous aider ?"
+    },
+    "cards": {
+        "gettingstarted": {
+            "title": "Démarrage",
+            "description": "Contrôle total sur votre argent en quelques clics.",
+            "count": "4 artículos"
+        },
+        "goals": {
+            "title": "Objectifs",
+            "description": "Vous prévoyez d'acheter, d'économiser votre argent pour quelque chose qui en vaut la peine ?",
+            "count": "4 articles"
+        },
+        "budget": {
+            "title": "Budget",
+            "description": "Planifiez vos dépenses et automatisez votre plan financier.",
+            "count": "4 articles"
+        },
+        "transactions": {
+            "title": "Transactions",
+            "description": "S'assurer que chaque dépense est comptabilisée et suivie.",
+            "count": "4 articles"
+        },
+        "financialaccounts": {
+            "title": "Comptes financiers",
+            "description": "Les cartes de crédit et de débit sont faciles à suivre grâce aux comptes financiers.",
+            "count": "4 articles"
+        },
+        "miscellaneous": {
+            "title": "Divers",
+            "description": "Ajustez vos préférences, vos notifications et plus encore.",
+            "count": "4 articles"
+        }
+    },
+    "categories": {
+        "title": "Catégories",
+        "needhelp": "Avez-vous encore besoin d'aide ?",
+        "contactus": "Contacts",
+        "lastupdated": "Dernière mise à jour le 14 mars 2020"
+    },
+    "footer": {
+        "support": "SOUTIEN",
+        "privacypolicy": "Politique de confidentialité",
+        "termsofuse": "Conditions d'utilisation",
+        "helpcenter": "Centre d'aide",
+        "company": "SOCIÉTÉ",
+        "careers": "Carrières",
+        "blog": "Blog",
+        "presskit": "Dossier de presse",
+        "product": "PRODUIT",
+        "customer": "Histoires de clients",
+        "plus": "BlitzBudget Plus",
+        "getstarted": "Démarrer"
+    },
+    "dynamic": {
+        "noresult": "Pas de résultats",
+        "gettingstarted": "Démarrage",
+        "budget": "Budget",
+        "transactions": "Transactions",
+        "goals": "Objectifs",
+        "financialaccounts": "Comptes financiers",
+        "miscellaneous": "Divers",
+        "articles": " articles",
+        "title": "Centre d'aide au BlitzBudget",
+        "fetchurlerror": "Impossible d'obtenir l'url demandée",
+        "askusdirectly": "Demandez-nous directement",
+        "send": "Envoyer",
+        "customersupport": "Service à la clientèle :  Demandez plus d'informations dans les 72 heures",
+        "message": "Message",
+        "validemail": "Veuillez entrer une adresse électronique valide.",
+        "validpassword": "Veuillez entrer un minimum de 40 caractères.",
+        "successemail": "Merci pour le courriel, nous y répondrons dans les 72 heures !",
+        "errorsendingemail": "Impossible d'envoyer un e-mail pour le moment. Essayez encore une fois, s'il vous plaît !"
+    },
+    "anchor": {
+        "gettingstarted": "/fr/getting-started/",
+        "goals": "/fr/goals/",
+        "budget": "/fr/budget/",
+        "transactions": "/fr/transactions/",
+        "financialaccounts": "/fr/financial-accounts/",
+        "miscellaneous": "/fr/miscellaneous/",
+        "privacy": "https://www.blitzbudget.com/fr/privacy",
+        "terms": "https://www.blitzbudget.com/fr/terms"
+    }
+}
