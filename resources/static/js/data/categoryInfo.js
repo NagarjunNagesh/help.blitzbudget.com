@@ -348,7 +348,7 @@ window.categoryInfo = {
         {
             "categoryName": "En commençant par",
             "dataUrl": "/getting-started/",
-            "description": "Control total sobre su dinero en unos pocos clics.",
+            "description": "Un contrôle total sur votre argent en quelques clics.",
             "subCategory": [
                 {
                     "title": "Étape 1 : Fixez vos objectifs",
@@ -376,7 +376,7 @@ window.categoryInfo = {
         {
             "categoryName": "Budget",
             "dataUrl": "/budget/",
-            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "description": "Planifiez vos dépenses et automatisez votre plan financier.",
             "subCategory": [
                 {
                     "title": "Ajouter un budget",
@@ -391,7 +391,7 @@ window.categoryInfo = {
         {
             "categoryName": "Transactions",
             "dataUrl": "/transactions/",
-            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "description": "Planifiez vos dépenses et automatisez votre plan financier.",
             "subCategory": [
                 {
                     "title": "Ajout de transactions",
@@ -434,12 +434,12 @@ window.categoryInfo = {
         {
             "categoryName": "Objectifs",
             "dataUrl": "/goals/",
-            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+            "description": "Vous envisagez d'acheter, d'économiser votre argent pour quelque chose qui en vaut la peine ?"
         },
         {
             "categoryName": "Comptes financiers",
             "dataUrl": "/financial-accounts/",
-            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "description": "Les cartes de crédit et de débit sont faciles à suivre grâce aux comptes financiers.",
             "subCategory": [
                 {
                     "title": "Ajout de comptes financiers synchronisés",
@@ -454,7 +454,7 @@ window.categoryInfo = {
         {
             "categoryName": "Portefeuilles",
             "dataUrl": "/wallets/",
-            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "description": "Vous voulez partager votre portefeuille avec vos amis ? Vous avez des comptes bancaires dans différentes devises ?",
             "subCategory": [
                 {
                     "title": "Ajouter un portfolio",
@@ -477,7 +477,7 @@ window.categoryInfo = {
         {
             "categoryName": "Divers",
             "dataUrl": "/miscellaneous/",
-            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "description": "Ajustez vos préférences, vos notifications et bien plus encore.",
             "subCategory": [
                 {
                     "title": "Maintenir les paramètres de notification",
@@ -518,7 +518,7 @@ window.categoryInfo = {
         {
             "categoryName": "で始まる",
             "dataUrl": "/getting-started/",
-            "description": "Control total sobre su dinero en unos pocos clics.",
+            "description": "数回のクリックであなたのお金を完全にコントロールする.",
             "subCategory": [
                 {
                     "title": "ステップ1：目標を設定する",
@@ -546,7 +546,7 @@ window.categoryInfo = {
         {
             "categoryName": "予算",
             "dataUrl": "/budget/",
-            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "description": "使うものを計画し、資金計画を自動化しましょう。",
             "subCategory": [
                 {
                     "title": "予算の追加",
@@ -561,7 +561,7 @@ window.categoryInfo = {
         {
             "categoryName": "取引",
             "dataUrl": "/transactions/",
-            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "description": "すべての費用が説明され、追跡されていることを確認してください。",
             "subCategory": [
                 {
                     "title": "トランザクションの追加",
@@ -604,12 +604,12 @@ window.categoryInfo = {
         {
             "categoryName": "目的",
             "dataUrl": "/goals/",
-            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+            "description": "買うことを計画して、価値のある何かのためにお金を貯めていますか？"
         },
         {
             "categoryName": "財務会計",
             "dataUrl": "/financial-accounts/",
-            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "description": "クレジットカードやデビットカードは、金融機関の口座があれば簡単に追跡できます。",
             "subCategory": [
                 {
                     "title": "同期化された財務アカウントの追加",
@@ -624,7 +624,7 @@ window.categoryInfo = {
         {
             "categoryName": "ポートフォリオ",
             "dataUrl": "/wallets/",
-            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "description": "お財布を友達と共有したいと思っていませんか？ 様々な通貨の銀行口座を持っていませんか？",
             "subCategory": [
                 {
                     "title": "ポートフォリオの追加",
@@ -647,7 +647,7 @@ window.categoryInfo = {
         {
             "categoryName": "その他",
             "dataUrl": "/miscellaneous/",
-            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "description": "設定や通知などを調整しましょう。",
             "subCategory": [
                 {
                     "title": "通知設定を維持する",
@@ -688,7 +688,7 @@ window.categoryInfo = {
         {
             "categoryName": "Começando por",
             "dataUrl": "/getting-started/",
-            "description": "Control total sobre su dinero en unos pocos clics.",
+            "description": "Controlo total sobre o seu dinheiro em poucos cliques.",
             "subCategory": [
                 {
                     "title": "Passo 1: Estabeleça os seus objectivos",
@@ -716,7 +716,7 @@ window.categoryInfo = {
         {
             "categoryName": "Orçamento",
             "dataUrl": "/budget/",
-            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "description": "Planeie o que gasta e automatize o seu plano financeiro.",
             "subCategory": [
                 {
                     "title": "Acréscimo de um orçamento",
@@ -731,7 +731,7 @@ window.categoryInfo = {
         {
             "categoryName": "Transacções",
             "dataUrl": "/transactions/",
-            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "description": "Certifique-se de que cada despesa é contabilizada e rastreada.",
             "subCategory": [
                 {
                     "title": "Adição de transacções",
@@ -774,7 +774,7 @@ window.categoryInfo = {
         {
             "categoryName": "Objectivos",
             "dataUrl": "/goals/",
-            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+            "description": "Está a planear comprar, guardar o seu dinheiro para algo que vale a pena poupar?"
         },
         {
             "categoryName": "Contas financeiras",
@@ -794,7 +794,7 @@ window.categoryInfo = {
         {
             "categoryName": "Portfólios",
             "dataUrl": "/wallets/",
-            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "description": "Quer partilhar a sua carteira com os seus amigos? Tem contas bancárias em várias moedas?",
             "subCategory": [
                 {
                     "title": "Adicionar carteira",
@@ -817,7 +817,7 @@ window.categoryInfo = {
         {
             "categoryName": "Diversos",
             "dataUrl": "/miscellaneous/",
-            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "description": "Ajustar as suas preferências, notificações e muito mais.",
             "subCategory": [
                 {
                     "title": "Manutenção das definições de notificação",
@@ -858,7 +858,7 @@ window.categoryInfo = {
         {
             "categoryName": "начало",
             "dataUrl": "/getting-started/",
-            "description": "Control total sobre su dinero en unos pocos clics.",
+            "description": "Полный контроль над своими деньгами в несколько кликов..",
             "subCategory": [
                 {
                     "title": "Шаг 1: Установите свои цели",
@@ -886,7 +886,7 @@ window.categoryInfo = {
         {
             "categoryName": "бюджет",
             "dataUrl": "/budget/",
-            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "description": "Полный контроль над вашими деньгами в несколько кликов",
             "subCategory": [
                 {
                     "title": "Добавить бюджет",
@@ -901,7 +901,7 @@ window.categoryInfo = {
         {
             "categoryName": "транзакции",
             "dataUrl": "/transactions/",
-            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "description": "Убедитесь, что все расходы учтены и отслежены..",
             "subCategory": [
                 {
                     "title": "добавить транзакции",
@@ -944,12 +944,12 @@ window.categoryInfo = {
         {
             "categoryName": "Цели",
             "dataUrl": "/goals/",
-            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+            "description": "Планируешь купить, накопить денег на что-нибудь стоящее?"
         },
         {
             "categoryName": "финансовые счета",
             "dataUrl": "/financial-accounts/",
-            "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
+            "description": "Кредитные и дебетовые карты легко отследить с помощью финансовых счетов.",
             "subCategory": [
                 {
                     "title": "добавить синхронизированные финансовые счета",
@@ -964,7 +964,7 @@ window.categoryInfo = {
         {
             "categoryName": "Кошельки",
             "dataUrl": "/wallets/",
-            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "description": "Хотите поделиться своим кошельком с друзьями? У вас есть банковские счета в разных валютах?",
             "subCategory": [
                 {
                     "title": "добавить портфель",
@@ -987,7 +987,7 @@ window.categoryInfo = {
         {
             "categoryName": "разное",
             "dataUrl": "/miscellaneous/",
-            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "description": "Настройте свои предпочтения, уведомления и многое другое.",
             "subCategory": [
                 {
                     "title": "обновление настроек уведомлений",
@@ -1028,7 +1028,7 @@ window.categoryInfo = {
         {
             "categoryName": "从",
             "dataUrl": "/getting-started/",
-            "description": "Control total sobre su dinero en unos pocos clics.",
+            "description": "只需点击几下，就能完全控制你的资金。",
             "subCategory": [
                 {
                     "title": "步骤1：设定目标",
@@ -1056,7 +1056,7 @@ window.categoryInfo = {
         {
             "categoryName": "预算",
             "dataUrl": "/budget/",
-            "description": "Planifica lo que gastas y automatiza tu plan financiero.",
+            "description": "规划好自己的消费，自动制定理财计划。",
             "subCategory": [
                 {
                     "title": "添加引用",
@@ -1071,7 +1071,7 @@ window.categoryInfo = {
         {
             "categoryName": "交易",
             "dataUrl": "/transactions/",
-            "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
+            "description": "确保每笔支出都有账可查，有迹可循。",
             "subCategory": [
                 {
                     "title": "增加交易",
@@ -1114,7 +1114,7 @@ window.categoryInfo = {
         {
             "categoryName": "目标",
             "dataUrl": "/goals/",
-            "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
+            "description": "打算买买买，把钱省下来买点值得省的东西？"
         },
         {
             "categoryName": "财务账户",
@@ -1134,7 +1134,7 @@ window.categoryInfo = {
         {
             "categoryName": "投资组合",
             "dataUrl": "/wallets/",
-            "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
+            "description": "你想和朋友分享你的钱包吗？ 你有各种货币的银行账户吗？",
             "subCategory": [
                 {
                     "title": "添加投资组合",
@@ -1157,7 +1157,7 @@ window.categoryInfo = {
         {
             "categoryName": "杂项",
             "dataUrl": "/miscellaneous/",
-            "description": "Ajustar sus preferencias, notificaciones y más.",
+            "description": "调整您的偏好、通知等。",
             "subCategory": [
                 {
                     "title": "维护通知设置",
