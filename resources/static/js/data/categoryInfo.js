@@ -432,63 +432,63 @@ window.categoryInfo = {
             ]
         },
         {
-            "categoryName": "Objetivos",
+            "categoryName": "Objectifs",
             "dataUrl": "/goals/",
             "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
         },
         {
-            "categoryName": "Cuentas financieras",
+            "categoryName": "Comptes financiers",
             "dataUrl": "/financial-accounts/",
             "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
             "subCategory": [
                 {
-                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "title": "Ajout de comptes financiers synchronisés",
                     "url": "/synchronized-bank-account/"
                 },
                 {
-                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "title": "Ajout de comptes financiers non synchronisés",
                     "url": "/unsynchronized-bank-account/"
                 }
             ]
         },
         {
-            "categoryName": "Carteras",
+            "categoryName": "Portefeuilles",
             "dataUrl": "/wallets/",
             "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
             "subCategory": [
                 {
-                    "title": "Agregar cartera",
+                    "title": "Ajouter un portfolio",
                     "url": "/add-wallet/"
                 },
                 {
-                    "title": "Modificar la cartera",
+                    "title": "Modifier le portefeuille",
                     "url": "/modify-wallet/"
                 },
                 {
-                    "title": "Borrar cartera",
+                    "title": "Supprimer le portefeuille",
                     "url": "/delete-wallet/"
                 },
                 {
-                    "title": "Elegir cartera",
+                    "title": "Choisissez un portefeuille",
                     "url": "/choose-wallet/"
                 }
             ]
         },
         {
-            "categoryName": "Miscelánea",
+            "categoryName": "Divers",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar sus preferencias, notificaciones y más.",
             "subCategory": [
                 {
-                    "title": "Actualización de la configuración de la notificación",
+                    "title": "Maintenir les paramètres de notification",
                     "url": "/notification-settings/"
                 },
                 {
-                    "title": "Actualizar correo electrónico y contraseña",
+                    "title": "Mise à jour de l'adresse électronique et du mot de passe",
                     "url": "/update-email-and-password/"
                 },
                 {
-                    "title": "Borre su cuenta del BlitzBudget",
+                    "title": "Supprimez votre compte BlitzBudget",
                     "url": "/delete-your-blitzbudget-account/"
                 },
                 {
@@ -496,19 +496,19 @@ window.categoryInfo = {
                     "url": "/resetting-your-account/"
                 },
                 {
-                    "title": "Retroalimentación, y solicitud de características",
+                    "title": "Réactions et demandes d'articles",
                     "url": "/bugs-feedback-and-feature-request/"
                 },
                 {
-                    "title": "BlitzBudget para Alexa",
+                    "title": "BlitzBudget pour Alexa",
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
-                    "title": "Atajos de teclado",
+                    "title": "Raccourcis clavier",
                     "url": "/keyboard-shortcuts/"
                 },
                 {
-                    "title": "Sincronización con el móvil",
+                    "title": "Synchronisation avec le téléphone portable",
                     "url": "/syncing-with-mobile/"
                 }
             ]
@@ -516,169 +516,169 @@ window.categoryInfo = {
     ],
     "ja": [
         {
-            "categoryName": "Empezando",
+            "categoryName": "で始まる",
             "dataUrl": "/getting-started/",
             "description": "Control total sobre su dinero en unos pocos clics.",
             "subCategory": [
                 {
-                    "title": "Paso 1: Establezca sus objetivos",
+                    "title": "ステップ1：目標を設定する",
                     "url": "/set-your-goals/"
                 },
                 {
-                    "title": "Paso 2: Presupuestar el dinero",
+                    "title": "ステップ2：お金の予算を決める",
                     "url": "/budget-your-money/"
                 },
                 {
-                    "title": "Paso 3: Añadir sus inversiones",
+                    "title": "ステップ3：投資を追加する",
                     "url": "/add-your-investments/"
                 },
                 {
-                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "title": "ステップ4：財務口座を追加する",
                     "url": "/add-financial-accounts/"
                 },
                 {
-                    "title": "Empezando: ¿Qué sigue?",
+                    "title": "始まります: 次は何をするか",
                     "url": "/whats-next/"
                 }
 
             ]
         },
         {
-            "categoryName": "Presupuesto",
+            "categoryName": "予算",
             "dataUrl": "/budget/",
             "description": "Planifica lo que gastas y automatiza tu plan financiero.",
             "subCategory": [
                 {
-                    "title": "Agregar un presupuesto",
+                    "title": "予算の追加",
                     "url": "/add-a-budget/"
                 },
                 {
-                    "title": "Borrar un presupuesto",
+                    "title": "予算を削除する",
                     "url": "/delete-a-budget/"
                 }
             ]
         },
         {
-            "categoryName": "Transacciones",
+            "categoryName": "取引",
             "dataUrl": "/transactions/",
             "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
             "subCategory": [
                 {
-                    "title": "Agregar transacciones",
+                    "title": "トランザクションの追加",
                     "url": "/adding-transactions/"
                 },
                 {
-                    "title": "Importación basada en archivos",
+                    "title": "ファイルベースのインポート",
                     "url": "/file-based-import/"
                 },
                 {
-                    "title": "Ordenar por",
+                    "title": "並び替え",
                     "url": "/sort-by/"
                 },
                 {
-                    "title": "Cambio de categoría de una transacción",
+                    "title": "トランザクションのカテゴリを変更する",
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modificar un presupuesto",
+                    "title": "予算の変更",
                     "url": "/changing-a-budget/"
                 },
                 {
-                    "title": "Editar notas",
+                    "title": "メモの編集",
                     "url": "/edit-notes/"
                 },
                 {
-                    "title": "Cambiar la cuenta de una transacción",
+                    "title": "取引の口座を変更する",
                     "url": "/change-the-account/"
                 },
                 {
-                    "title": "Exportar el formato de archivo seleccionado",
+                    "title": "選択したファイル形式をエクスポートする",
                     "url": "/export-selected-file-format/"
                 },
                 {
-                    "title": "Borrar transacciones",
+                    "title": "取引の削除",
                     "url": "/delete-transactions/"
                 }
             ]
         },
         {
-            "categoryName": "Objetivos",
+            "categoryName": "目的",
             "dataUrl": "/goals/",
             "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
         },
         {
-            "categoryName": "Cuentas financieras",
+            "categoryName": "財務会計",
             "dataUrl": "/financial-accounts/",
             "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
             "subCategory": [
                 {
-                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "title": "同期化された財務アカウントの追加",
                     "url": "/synchronized-bank-account/"
                 },
                 {
-                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "title": "非同期金融口座の追加",
                     "url": "/unsynchronized-bank-account/"
                 }
             ]
         },
         {
-            "categoryName": "Carteras",
+            "categoryName": "ポートフォリオ",
             "dataUrl": "/wallets/",
             "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
             "subCategory": [
                 {
-                    "title": "Agregar cartera",
+                    "title": "ポートフォリオの追加",
                     "url": "/add-wallet/"
                 },
                 {
-                    "title": "Modificar la cartera",
+                    "title": "ポートフォリオを変更する",
                     "url": "/modify-wallet/"
                 },
                 {
-                    "title": "Borrar cartera",
+                    "title": "ポートフォリオの削除",
                     "url": "/delete-wallet/"
                 },
                 {
-                    "title": "Elegir cartera",
+                    "title": "ポートフォリオを選ぶ",
                     "url": "/choose-wallet/"
                 }
             ]
         },
         {
-            "categoryName": "Miscelánea",
+            "categoryName": "その他",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar sus preferencias, notificaciones y más.",
             "subCategory": [
                 {
-                    "title": "Actualización de la configuración de la notificación",
+                    "title": "通知設定を維持する",
                     "url": "/notification-settings/"
                 },
                 {
-                    "title": "Actualizar correo electrónico y contraseña",
+                    "title": "メールとパスワードを更新する",
                     "url": "/update-email-and-password/"
                 },
                 {
-                    "title": "Borre su cuenta del BlitzBudget",
+                    "title": "電撃予算のアカウントを削除する",
                     "url": "/delete-your-blitzbudget-account/"
                 },
                 {
-                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "title": "電撃予算アカウントをリセット",
                     "url": "/resetting-your-account/"
                 },
                 {
-                    "title": "Retroalimentación, y solicitud de características",
+                    "title": "フィードバック、機能のご要望",
                     "url": "/bugs-feedback-and-feature-request/"
                 },
                 {
-                    "title": "BlitzBudget para Alexa",
+                    "title": "電撃予算とアレクサ",
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
-                    "title": "Atajos de teclado",
+                    "title": "キーボードショートカット",
                     "url": "/keyboard-shortcuts/"
                 },
                 {
-                    "title": "Sincronización con el móvil",
+                    "title": "携帯電話との同期",
                     "url": "/syncing-with-mobile/"
                 }
             ]
@@ -686,59 +686,59 @@ window.categoryInfo = {
     ],
     "pt": [
         {
-            "categoryName": "Empezando",
+            "categoryName": "Começando por",
             "dataUrl": "/getting-started/",
             "description": "Control total sobre su dinero en unos pocos clics.",
             "subCategory": [
                 {
-                    "title": "Paso 1: Establezca sus objetivos",
+                    "title": "Passo 1: Estabeleça os seus objectivos",
                     "url": "/set-your-goals/"
                 },
                 {
-                    "title": "Paso 2: Presupuestar el dinero",
+                    "title": "Etapa 2: Orçamentar o dinheiro",
                     "url": "/budget-your-money/"
                 },
                 {
-                    "title": "Paso 3: Añadir sus inversiones",
+                    "title": "Etapa 3: Adicione os seus investimentos",
                     "url": "/add-your-investments/"
                 },
                 {
-                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "title": "Passo 4: Adicione as suas contas financeiras",
                     "url": "/add-financial-accounts/"
                 },
                 {
-                    "title": "Empezando: ¿Qué sigue?",
+                    "title": "Início: O que se segue?",
                     "url": "/whats-next/"
                 }
 
             ]
         },
         {
-            "categoryName": "Presupuesto",
+            "categoryName": "Orçamento",
             "dataUrl": "/budget/",
             "description": "Planifica lo que gastas y automatiza tu plan financiero.",
             "subCategory": [
                 {
-                    "title": "Agregar un presupuesto",
+                    "title": "Acréscimo de um orçamento",
                     "url": "/add-a-budget/"
                 },
                 {
-                    "title": "Borrar un presupuesto",
+                    "title": "Suprimir um orçamento",
                     "url": "/delete-a-budget/"
                 }
             ]
         },
         {
-            "categoryName": "Transacciones",
+            "categoryName": "Transacções",
             "dataUrl": "/transactions/",
             "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
             "subCategory": [
                 {
-                    "title": "Agregar transacciones",
+                    "title": "Adição de transacções",
                     "url": "/adding-transactions/"
                 },
                 {
-                    "title": "Importación basada en archivos",
+                    "title": "Importação baseada em ficheiros",
                     "url": "/file-based-import/"
                 },
                 {
@@ -746,97 +746,97 @@ window.categoryInfo = {
                     "url": "/sort-by/"
                 },
                 {
-                    "title": "Cambio de categoría de una transacción",
+                    "title": "Alteração da categoria de uma operação",
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modificar un presupuesto",
+                    "title": "Alterar um orçamento",
                     "url": "/changing-a-budget/"
                 },
                 {
-                    "title": "Editar notas",
+                    "title": "Notas sobre a edição",
                     "url": "/edit-notes/"
                 },
                 {
-                    "title": "Cambiar la cuenta de una transacción",
+                    "title": "Alterar a conta de uma operação",
                     "url": "/change-the-account/"
                 },
                 {
-                    "title": "Exportar el formato de archivo seleccionado",
+                    "title": "Exportar o formato de ficheiro seleccionado",
                     "url": "/export-selected-file-format/"
                 },
                 {
-                    "title": "Borrar transacciones",
+                    "title": "Eliminar transacções",
                     "url": "/delete-transactions/"
                 }
             ]
         },
         {
-            "categoryName": "Objetivos",
+            "categoryName": "Objectivos",
             "dataUrl": "/goals/",
             "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
         },
         {
-            "categoryName": "Cuentas financieras",
+            "categoryName": "Contas financeiras",
             "dataUrl": "/financial-accounts/",
             "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
             "subCategory": [
                 {
-                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "title": "Acréscimo das Contas Financeiras Sincronizadas",
                     "url": "/synchronized-bank-account/"
                 },
                 {
-                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "title": "Acréscimo de Contas Financeiras Não-Sincronizadas",
                     "url": "/unsynchronized-bank-account/"
                 }
             ]
         },
         {
-            "categoryName": "Carteras",
+            "categoryName": "Portfólios",
             "dataUrl": "/wallets/",
             "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
             "subCategory": [
                 {
-                    "title": "Agregar cartera",
+                    "title": "Adicionar carteira",
                     "url": "/add-wallet/"
                 },
                 {
-                    "title": "Modificar la cartera",
+                    "title": "Modificar a carteira",
                     "url": "/modify-wallet/"
                 },
                 {
-                    "title": "Borrar cartera",
+                    "title": "Eliminar carteira",
                     "url": "/delete-wallet/"
                 },
                 {
-                    "title": "Elegir cartera",
+                    "title": "Escolha uma carteira",
                     "url": "/choose-wallet/"
                 }
             ]
         },
         {
-            "categoryName": "Miscelánea",
+            "categoryName": "Diversos",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar sus preferencias, notificaciones y más.",
             "subCategory": [
                 {
-                    "title": "Actualización de la configuración de la notificación",
+                    "title": "Manutenção das definições de notificação",
                     "url": "/notification-settings/"
                 },
                 {
-                    "title": "Actualizar correo electrónico y contraseña",
+                    "title": "Actualizar e-mail e palavra-passe",
                     "url": "/update-email-and-password/"
                 },
                 {
-                    "title": "Borre su cuenta del BlitzBudget",
+                    "title": "Elimine a sua conta BlitzBudget",
                     "url": "/delete-your-blitzbudget-account/"
                 },
                 {
-                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "title": "Redefinir a sua conta BlitzBudget",
                     "url": "/resetting-your-account/"
                 },
                 {
-                    "title": "Retroalimentación, y solicitud de características",
+                    "title": "Feedback, e pedidos de recursos",
                     "url": "/bugs-feedback-and-feature-request/"
                 },
                 {
@@ -844,11 +844,11 @@ window.categoryInfo = {
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
-                    "title": "Atajos de teclado",
+                    "title": "Atalhos do teclado",
                     "url": "/keyboard-shortcuts/"
                 },
                 {
-                    "title": "Sincronización con el móvil",
+                    "title": "Sincronização com o telefone móvel",
                     "url": "/syncing-with-mobile/"
                 }
             ]
@@ -856,169 +856,169 @@ window.categoryInfo = {
     ],
     "ru": [
         {
-            "categoryName": "Empezando",
+            "categoryName": "начало",
             "dataUrl": "/getting-started/",
             "description": "Control total sobre su dinero en unos pocos clics.",
             "subCategory": [
                 {
-                    "title": "Paso 1: Establezca sus objetivos",
+                    "title": "Шаг 1: Установите свои цели",
                     "url": "/set-your-goals/"
                 },
                 {
-                    "title": "Paso 2: Presupuestar el dinero",
+                    "title": "Шаг 2: бюджетирование денег",
                     "url": "/budget-your-money/"
                 },
                 {
-                    "title": "Paso 3: Añadir sus inversiones",
+                    "title": "Шаг 3: Добавить свои инвестиции",
                     "url": "/add-your-investments/"
                 },
                 {
-                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "title": "Шаг 4: Добавить свои финансовые счета",
                     "url": "/add-financial-accounts/"
                 },
                 {
-                    "title": "Empezando: ¿Qué sigue?",
+                    "title": "начало работы: что дальше?",
                     "url": "/whats-next/"
                 }
 
             ]
         },
         {
-            "categoryName": "Presupuesto",
+            "categoryName": "бюджет",
             "dataUrl": "/budget/",
             "description": "Planifica lo que gastas y automatiza tu plan financiero.",
             "subCategory": [
                 {
-                    "title": "Agregar un presupuesto",
+                    "title": "Добавить бюджет",
                     "url": "/add-a-budget/"
                 },
                 {
-                    "title": "Borrar un presupuesto",
+                    "title": "удалить бюджет",
                     "url": "/delete-a-budget/"
                 }
             ]
         },
         {
-            "categoryName": "Transacciones",
+            "categoryName": "транзакции",
             "dataUrl": "/transactions/",
             "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
             "subCategory": [
                 {
-                    "title": "Agregar transacciones",
+                    "title": "добавить транзакции",
                     "url": "/adding-transactions/"
                 },
                 {
-                    "title": "Importación basada en archivos",
+                    "title": "Импорт на основе файлов",
                     "url": "/file-based-import/"
                 },
                 {
-                    "title": "Ordenar por",
+                    "title": "Сортировать по",
                     "url": "/sort-by/"
                 },
                 {
-                    "title": "Cambio de categoría de una transacción",
+                    "title": "изменение категории транзакции",
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modificar un presupuesto",
+                    "title": "Изменить бюджет",
                     "url": "/changing-a-budget/"
                 },
                 {
-                    "title": "Editar notas",
+                    "title": "Редактировать заметки",
                     "url": "/edit-notes/"
                 },
                 {
-                    "title": "Cambiar la cuenta de una transacción",
+                    "title": "Изменить учетную запись транзакции",
                     "url": "/change-the-account/"
                 },
                 {
-                    "title": "Exportar el formato de archivo seleccionado",
+                    "title": "экспорт выбранного формата файла",
                     "url": "/export-selected-file-format/"
                 },
                 {
-                    "title": "Borrar transacciones",
+                    "title": "удалить транзакции",
                     "url": "/delete-transactions/"
                 }
             ]
         },
         {
-            "categoryName": "Objetivos",
+            "categoryName": "Цели",
             "dataUrl": "/goals/",
             "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
         },
         {
-            "categoryName": "Cuentas financieras",
+            "categoryName": "финансовые счета",
             "dataUrl": "/financial-accounts/",
             "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
             "subCategory": [
                 {
-                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "title": "добавить синхронизированные финансовые счета",
                     "url": "/synchronized-bank-account/"
                 },
                 {
-                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "title": "добавление несинхронизированных финансовых счетов",
                     "url": "/unsynchronized-bank-account/"
                 }
             ]
         },
         {
-            "categoryName": "Carteras",
+            "categoryName": "Кошельки",
             "dataUrl": "/wallets/",
             "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
             "subCategory": [
                 {
-                    "title": "Agregar cartera",
+                    "title": "добавить портфель",
                     "url": "/add-wallet/"
                 },
                 {
-                    "title": "Modificar la cartera",
+                    "title": "изменить портфель",
                     "url": "/modify-wallet/"
                 },
                 {
-                    "title": "Borrar cartera",
+                    "title": "удалить кошелек",
                     "url": "/delete-wallet/"
                 },
                 {
-                    "title": "Elegir cartera",
+                    "title": "выбрать портфель",
                     "url": "/choose-wallet/"
                 }
             ]
         },
         {
-            "categoryName": "Miscelánea",
+            "categoryName": "разное",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar sus preferencias, notificaciones y más.",
             "subCategory": [
                 {
-                    "title": "Actualización de la configuración de la notificación",
+                    "title": "обновление настроек уведомлений",
                     "url": "/notification-settings/"
                 },
                 {
-                    "title": "Actualizar correo electrónico y contraseña",
+                    "title": "обновить адрес электронной почты и пароль",
                     "url": "/update-email-and-password/"
                 },
                 {
-                    "title": "Borre su cuenta del BlitzBudget",
+                    "title": "удалите свою учетную запись BlitzBudget",
                     "url": "/delete-your-blitzbudget-account/"
                 },
                 {
-                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "title": "перезагрузите учетную запись BlitzBudget",
                     "url": "/resetting-your-account/"
                 },
                 {
-                    "title": "Retroalimentación, y solicitud de características",
+                    "title": "обратная связь, и запрос функций",
                     "url": "/bugs-feedback-and-feature-request/"
                 },
                 {
-                    "title": "BlitzBudget para Alexa",
+                    "title": "BlitzBudget для Alexa",
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
-                    "title": "Atajos de teclado",
+                    "title": "сочетания клавиш",
                     "url": "/keyboard-shortcuts/"
                 },
                 {
-                    "title": "Sincronización con el móvil",
+                    "title": "синхронизация с мобильным телефоном",
                     "url": "/syncing-with-mobile/"
                 }
             ]
@@ -1026,169 +1026,169 @@ window.categoryInfo = {
     ],
     "zh": [
         {
-            "categoryName": "Empezando",
+            "categoryName": "从",
             "dataUrl": "/getting-started/",
             "description": "Control total sobre su dinero en unos pocos clics.",
             "subCategory": [
                 {
-                    "title": "Paso 1: Establezca sus objetivos",
+                    "title": "步骤1：设定目标",
                     "url": "/set-your-goals/"
                 },
                 {
-                    "title": "Paso 2: Presupuestar el dinero",
+                    "title": "第二步：资金预算",
                     "url": "/budget-your-money/"
                 },
                 {
-                    "title": "Paso 3: Añadir sus inversiones",
+                    "title": "第三步：添加您的投资",
                     "url": "/add-your-investments/"
                 },
                 {
-                    "title": "Paso 4: Añadir sus cuentas financieras",
+                    "title": "第四步：添加您的金融账户",
                     "url": "/add-financial-accounts/"
                 },
                 {
-                    "title": "Empezando: ¿Qué sigue?",
+                    "title": "开始：下一步是什么?",
                     "url": "/whats-next/"
                 }
 
             ]
         },
         {
-            "categoryName": "Presupuesto",
+            "categoryName": "预算",
             "dataUrl": "/budget/",
             "description": "Planifica lo que gastas y automatiza tu plan financiero.",
             "subCategory": [
                 {
-                    "title": "Agregar un presupuesto",
+                    "title": "添加引用",
                     "url": "/add-a-budget/"
                 },
                 {
-                    "title": "Borrar un presupuesto",
+                    "title": "删除引号",
                     "url": "/delete-a-budget/"
                 }
             ]
         },
         {
-            "categoryName": "Transacciones",
+            "categoryName": "交易",
             "dataUrl": "/transactions/",
             "description": "Asegúrate de que cada gasto sea contabilizado y rastreado.",
             "subCategory": [
                 {
-                    "title": "Agregar transacciones",
+                    "title": "增加交易",
                     "url": "/adding-transactions/"
                 },
                 {
-                    "title": "Importación basada en archivos",
+                    "title": "基于文件的导入",
                     "url": "/file-based-import/"
                 },
                 {
-                    "title": "Ordenar por",
+                    "title": "排序方式",
                     "url": "/sort-by/"
                 },
                 {
-                    "title": "Cambio de categoría de una transacción",
+                    "title": "改变交易的类别",
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modificar un presupuesto",
+                    "title": "改变预算",
                     "url": "/changing-a-budget/"
                 },
                 {
-                    "title": "Editar notas",
+                    "title": "编辑说明",
                     "url": "/edit-notes/"
                 },
                 {
-                    "title": "Cambiar la cuenta de una transacción",
+                    "title": "更改交易账户",
                     "url": "/change-the-account/"
                 },
                 {
-                    "title": "Exportar el formato de archivo seleccionado",
+                    "title": "导出选定的文件格式",
                     "url": "/export-selected-file-format/"
                 },
                 {
-                    "title": "Borrar transacciones",
+                    "title": "删除交易",
                     "url": "/delete-transactions/"
                 }
             ]
         },
         {
-            "categoryName": "Objetivos",
+            "categoryName": "目标",
             "dataUrl": "/goals/",
             "description": "¿Planeando comprar, ahorra tu dinero para algo que valga la pena ahorrar?"
         },
         {
-            "categoryName": "Cuentas financieras",
+            "categoryName": "财务账户",
             "dataUrl": "/financial-accounts/",
             "description": "Las tarjetas de crédito y de débito son fáciles de rastrear con las cuentas financieras.",
             "subCategory": [
                 {
-                    "title": "Agregar Cuentas Financieras Sincronizadas",
+                    "title": "添加同步财务账户",
                     "url": "/synchronized-bank-account/"
                 },
                 {
-                    "title": "Agregar Cuentas Financieras No Sincronizadas",
+                    "title": "添加不同步的财务科目",
                     "url": "/unsynchronized-bank-account/"
                 }
             ]
         },
         {
-            "categoryName": "Carteras",
+            "categoryName": "投资组合",
             "dataUrl": "/wallets/",
             "description": "¿Quieres compartir tu cartera con tus amigos? ¿Tienes cuentas bancarias en varias monedas?",
             "subCategory": [
                 {
-                    "title": "Agregar cartera",
+                    "title": "添加投资组合",
                     "url": "/add-wallet/"
                 },
                 {
-                    "title": "Modificar la cartera",
+                    "title": "修改投资组合",
                     "url": "/modify-wallet/"
                 },
                 {
-                    "title": "Borrar cartera",
+                    "title": "删除投资组合",
                     "url": "/delete-wallet/"
                 },
                 {
-                    "title": "Elegir cartera",
+                    "title": "选择一个投资组合",
                     "url": "/choose-wallet/"
                 }
             ]
         },
         {
-            "categoryName": "Miscelánea",
+            "categoryName": "杂项",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar sus preferencias, notificaciones y más.",
             "subCategory": [
                 {
-                    "title": "Actualización de la configuración de la notificación",
+                    "title": "维护通知设置",
                     "url": "/notification-settings/"
                 },
                 {
-                    "title": "Actualizar correo electrónico y contraseña",
+                    "title": "更新电子邮件和密码",
                     "url": "/update-email-and-password/"
                 },
                 {
-                    "title": "Borre su cuenta del BlitzBudget",
+                    "title": "删除您的BlitzBudget账户",
                     "url": "/delete-your-blitzbudget-account/"
                 },
                 {
-                    "title": "Reajuste su cuenta del BlitzBudget",
+                    "title": "重置您的BlitzBudget账户",
                     "url": "/resetting-your-account/"
                 },
                 {
-                    "title": "Retroalimentación, y solicitud de características",
+                    "title": "反馈和功能要求",
                     "url": "/bugs-feedback-and-feature-request/"
                 },
                 {
-                    "title": "BlitzBudget para Alexa",
+                    "title": "闪电战预算对Alexa",
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
-                    "title": "Atajos de teclado",
+                    "title": "键盘快捷键",
                     "url": "/keyboard-shortcuts/"
                 },
                 {
-                    "title": "Sincronización con el móvil",
+                    "title": "与移动电话同步",
                     "url": "/syncing-with-mobile/"
                 }
             ]
