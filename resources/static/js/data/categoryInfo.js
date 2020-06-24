@@ -164,6 +164,18 @@ window.categoryInfo = {
                     "url": "/blitzbudget-for-alexa/"
                 },
                 {
+                    "title": "Change Country",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "Change Currency",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "Change Language",
+                    "url": "/change-language/"
+                },
+                {
                     "title": "Keyboard Shortcuts",
                     "url": "/keyboard-shortcuts/"
                 },
@@ -338,6 +350,18 @@ window.categoryInfo = {
                     "url": "/keyboard-shortcuts/"
                 },
                 {
+                    "title": "Cambiar de país",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "Cambio de moneda",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "Cambiar de idioma",
+                    "url": "/change-language/"
+                },
+                {
                     "title": "Sincronización con el móvil",
                     "url": "/syncing-with-mobile/"
                 }
@@ -506,6 +530,18 @@ window.categoryInfo = {
                 {
                     "title": "Raccourcis clavier",
                     "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Changer de pays",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "Changer de monnaie",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "Changer de langue",
+                    "url": "/change-language/"
                 },
                 {
                     "title": "Synchronisation avec le téléphone portable",
@@ -678,6 +714,18 @@ window.categoryInfo = {
                     "url": "/keyboard-shortcuts/"
                 },
                 {
+                    "title": "国を変更する",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "通貨の変更",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "言語の変更",
+                    "url": "/change-language/"
+                },
+                {
                     "title": "携帯電話との同期",
                     "url": "/syncing-with-mobile/"
                 }
@@ -846,6 +894,18 @@ window.categoryInfo = {
                 {
                     "title": "Atalhos do teclado",
                     "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "Alterar País",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "Mudança de moeda",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "Alterar Idioma",
+                    "url": "/change-language/"
                 },
                 {
                     "title": "Sincronização com o telefone móvel",
@@ -1018,6 +1078,18 @@ window.categoryInfo = {
                     "url": "/keyboard-shortcuts/"
                 },
                 {
+                    "title": "Изменить страну",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "Изменить валюту",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "Изменить язык",
+                    "url": "/change-language/"
+                },
+                {
                     "title": "синхронизация с мобильным телефоном",
                     "url": "/syncing-with-mobile/"
                 }
@@ -1186,6 +1258,18 @@ window.categoryInfo = {
                 {
                     "title": "键盘快捷键",
                     "url": "/keyboard-shortcuts/"
+                },
+                {
+                    "title": "更改国家",
+                    "url": "/change-country/"
+                },
+                {
+                    "title": "更改货币",
+                    "url": "/change-currency/"
+                },
+                {
+                    "title": "更改语言",
+                    "url": "/change-language/"
                 },
                 {
                     "title": "与移动电话同步",

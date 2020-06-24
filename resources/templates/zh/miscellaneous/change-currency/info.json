@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-currency/",
+    "title": "更改货币",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "杂项",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "默认情况下，我们选择您所在国家的货币。我们理解您可能需要在一段时间内改变它。我们已经在设置页面为您准备好了选项。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-currency.png"
+		}
+	]
+}
