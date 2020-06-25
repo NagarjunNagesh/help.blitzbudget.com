@@ -14,9 +14,121 @@
 	],
     "content": [
         {
+            "tag": "p",
+            "html": "Sabemos que te encanta tener las manos sobre el teclado."
+		},
+        {
+            "tag": "h3",
+            "html": "Atajos globales"
+		},
+        {
             "tag": "div",
-            "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">¡Vendrá pronto!</h3>"
-		}
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Acción</strong></div><div class=\"col-lg-5 py-2\"><strong>Atajo</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Añadir un artículo</i></div><div class=\"col-lg-5 py-2\">a</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Guardar los cambios</i></div><div class=\"col-lg-5 py-2\">Enter</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Cancelar los cambios / Cerrar el modo</i></div><div class=\"col-lg-5 py-2\">Esc</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Navega por un menú desplegable</i></div><div class=\"col-lg-5 py-2\">Flecha arriba / flecha abajo</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Cambiar la pantalla completa</i></div><div class=\"col-lg-5 py-2\">z</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Atajos de navegación"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Acción</strong></div><div class=\"col-lg-5 py-2\"><strong>Atajo</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de resumen</i></div><div class=\"col-lg-5 py-2\">1</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de transacciones</i></div><div class=\"col-lg-5 py-2\">2</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de presupuestos</i></div><div class=\"col-lg-5 py-2\">3</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de objetivos</i></div><div class=\"col-lg-5 py-2\">4</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de ajustes</i></div><div class=\"col-lg-5 py-2\">5</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de perfil</i></div><div class=\"col-lg-5 py-2\">6</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de cuentas bancarias</i></div><div class=\"col-lg-5 py-2\">7</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Página de carteras</i></div><div class=\"col-lg-5 py-2\">8</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Abrir el centro de ayuda</i></div><div class=\"col-lg-5 py-2\">/ o ?</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Atajos para elegir la fecha"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Acción</strong></div><div class=\"col-lg-5 py-2\"><strong>Atajo</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Mueve la fecha un mes hacia atrás</i></div><div class=\"col-lg-5 py-2\">Flecha izquierda</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Adelanta la fecha un mes</i></div><div class=\"col-lg-5 py-2\">Flecha derecha</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Seleccione hoy</i></div><div class=\"col-lg-5 py-2\">t</div>"
+        }
+
 	]
 }

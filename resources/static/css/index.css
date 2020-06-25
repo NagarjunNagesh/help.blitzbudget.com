@@ -1682,7 +1682,7 @@ a.button:hover {
 }
 
 .ksbordertop.row {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.84);
+    border-top: 1px solid rgba(128, 128, 128, 0.22);
 }
 
 @media (max-width: 576px) {
