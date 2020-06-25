@@ -19,7 +19,6 @@
 		},
         {
             "tag": "h3",
-            "idInfo": "global",
             "html": "Global Shortcuts"
 		},
         {
@@ -29,32 +28,31 @@
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Add an item</div><div class=\"col-lg-5 py-2\">a</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Save changes</div><div class=\"col-lg-5 py-2\">Enter</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Cancel changes / Close modal</div><div class=\"col-lg-5 py-2\">Esc</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate a dropdown menu</div><div class=\"col-lg-5 py-2\">Up arrow / Down arrow</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Toggle fullscreen</div><div class=\"col-lg-5 py-2\">z</div>"
         },
         {
             "tag": "h3",
-            "idInfo": "navigation",
             "html": "Navigation Shortcuts"
 		},
         {
@@ -64,52 +62,51 @@
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Overview page</div><div class=\"col-lg-5 py-2\">1</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Transactions page</div><div class=\"col-lg-5 py-2\">2</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Budgets page</div><div class=\"col-lg-5 py-2\">3</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Goals page</div><div class=\"col-lg-5 py-2\">4</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Settings page</div><div class=\"col-lg-5 py-2\">5</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Profile page</div><div class=\"col-lg-5 py-2\">6</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Bank Accounts page</div><div class=\"col-lg-5 py-2\">7</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Navigate to Wallets page</div><div class=\"col-lg-5 py-2\">8</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Open Help center</div><div class=\"col-lg-5 py-2\">/ or ?</div>"
         },
         {
             "tag": "h3",
-            "idInfo": "datepicker",
             "html": "Date Picker Shortcuts"
 		},
         {
@@ -119,17 +116,17 @@
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Move the date one month backward</div><div class=\"col-lg-5 py-2\">Left Arrow</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Move the date one month forward</div><div class=\"col-lg-5 py-2\">Right Arrow</div>"
         },
         {
             "tag": "div",
-            "classInfo": "row",
+            "classInfo": "row ksbordertop",
             "html": "<div class=\"col-lg-7 py-2\">Select today</div><div class=\"col-lg-5 py-2\">t</div>"
         }
 

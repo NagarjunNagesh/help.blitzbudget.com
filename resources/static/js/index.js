@@ -443,11 +443,6 @@
                 tag.src = contentItem.srcUrl;
             }
 
-            // Add ID
-            if (isNotEmpty(contentItem.idInfo)) {
-                tag.id = contentItem.idInfo;
-            }
-
             articleDiv.appendChild(tag);
         }
         return articleDiv;

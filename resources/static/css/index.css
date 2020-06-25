@@ -1681,9 +1681,7 @@ a.button:hover {
     font-weight: 300;
 }
 
-#global .row,
-#navigation .row,
-#datepicker .row {
+.ksbordertop.row {
     border-bottom: 1px solid rgba(128, 128, 128, 0.84);
 }
 
