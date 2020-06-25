@@ -18,14 +18,6 @@
             "html": "We know, you love to keep your hand's on the keyboard!"
 		},
         {
-            "tag": "h2",
-            "html": "In This Article"
-		},
-        {
-            "tag": "ul",
-            "html": "<li><a href=\"#global\" class=\"article-anchor\">Global Shortcuts</a></li><li><a href=\"#navigation\" class=\"article-anchor\">Navigation Shortcuts</a></li><li><a href=\"#datepicker\" class=\"article-anchor\">Date Picker Shortcuts</a></li>"
-		},
-        {
             "tag": "h3",
             "idInfo": "global",
             "html": "Global Shortcuts"
@@ -33,32 +25,32 @@
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\"><strong>Action</strong></div><div class=\"col-lg-6\"><strong>Shortcut</strong></div>"
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Add an item</div><div class=\"col-lg-6\">a</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Add an item</div><div class=\"col-lg-5 py-2\">a</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Save changes</div><div class=\"col-lg-6\">Enter</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Save changes</div><div class=\"col-lg-5 py-2\">Enter</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Cancel changes / Close modal</div><div class=\"col-lg-6\">Esc</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Cancel changes / Close modal</div><div class=\"col-lg-5 py-2\">Esc</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate a dropdown menu</div><div class=\"col-lg-6\">Up arrow / Down arrow</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate a dropdown menu</div><div class=\"col-lg-5 py-2\">Up arrow / Down arrow</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Toggle fullscreen</div><div class=\"col-lg-6\">z</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Toggle fullscreen</div><div class=\"col-lg-5 py-2\">z</div>"
         },
         {
             "tag": "h3",
@@ -68,52 +60,52 @@
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\"><strong>Action</strong></div><div class=\"col-lg-6\"><strong>Shortcut</strong></div>"
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Overview page</div><div class=\"col-lg-6\">1</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Overview page</div><div class=\"col-lg-5 py-2\">1</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Transactions page</div><div class=\"col-lg-6\">2</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Transactions page</div><div class=\"col-lg-5 py-2\">2</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Budgets page</div><div class=\"col-lg-6\">3</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Budgets page</div><div class=\"col-lg-5 py-2\">3</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Goals page</div><div class=\"col-lg-6\">4</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Goals page</div><div class=\"col-lg-5 py-2\">4</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Settings page</div><div class=\"col-lg-6\">5</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Settings page</div><div class=\"col-lg-5 py-2\">5</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Profile page</div><div class=\"col-lg-6\">6</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Profile page</div><div class=\"col-lg-5 py-2\">6</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Bank Accounts page</div><div class=\"col-lg-6\">7</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Bank Accounts page</div><div class=\"col-lg-5 py-2\">7</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Navigate to Wallets page</div><div class=\"col-lg-6\">8</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Navigate to Wallets page</div><div class=\"col-lg-5 py-2\">8</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Open Help center</div><div class=\"col-lg-6\">/ or ?</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Open Help center</div><div class=\"col-lg-5 py-2\">/ or ?</div>"
         },
         {
             "tag": "h3",
@@ -123,22 +115,22 @@
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\"><strong>Action</strong></div><div class=\"col-lg-6\"><strong>Shortcut</strong></div>"
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Move the date one month backward</div><div class=\"col-lg-6\">Left Arrow</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Move the date one month backward</div><div class=\"col-lg-5 py-2\">Left Arrow</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Move the date one month forward</div><div class=\"col-lg-6\">Right Arrow</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Move the date one month forward</div><div class=\"col-lg-5 py-2\">Right Arrow</div>"
         },
         {
             "tag": "div",
             "classInfo": "row",
-            "html": "<div class=\"col-lg-6\">Select today</div><div class=\"col-lg-6\">t</div>"
+            "html": "<div class=\"col-lg-7 py-2\">Select today</div><div class=\"col-lg-5 py-2\">t</div>"
         }
 
 	]

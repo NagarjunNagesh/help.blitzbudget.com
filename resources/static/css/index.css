@@ -1681,6 +1681,12 @@ a.button:hover {
     font-weight: 300;
 }
 
+#global .row,
+#navigation .row,
+#datepicker .row {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.84);
+}
+
 @media (max-width: 576px) {
     .articleContainer {
         padding: 2.7rem 0.3rem;
