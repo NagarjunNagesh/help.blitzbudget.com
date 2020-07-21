@@ -320,6 +320,7 @@ window.categoryInfo = {
                 }
             ]
         },
+
         {
             "categoryName": "Carteras",
             "dataUrl": "/wallets/",
@@ -340,6 +341,33 @@ window.categoryInfo = {
                 {
                     "title": "Elegir cartera",
                     "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Descripción general",
+            "dataUrl": "/overview/",
+            "description": "¿Quiere tener una visión general de sus finanzas?",
+            "subCategory": [
+                {
+                    "title": "Visión general de los bienes",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "Resumen de la deuda",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "Resumen de gastos",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "Visión general de los ingresos",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "Visión general de Networth",
+                    "url": "/networth-overview/"
                 }
             ]
         },
@@ -526,6 +554,33 @@ window.categoryInfo = {
             ]
         },
         {
+            "categoryName": "Vue d'ensemble",
+            "dataUrl": "/overview/",
+            "description": "Vous voulez avoir un aperçu de vos finances ?",
+            "subCategory": [
+                {
+                    "title": "Aperçu du patrimoine",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "Aperçu de la dette",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "Aperçu des dépenses",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "Aperçu des revenus",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "Aperçu de Networth",
+                    "url": "/networth-overview/"
+                }
+            ]
+        },
+        {
             "categoryName": "Divers",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustez vos préférences, vos notifications et bien plus encore.",
@@ -704,6 +759,33 @@ window.categoryInfo = {
                 {
                     "title": "ポートフォリオを選ぶ",
                     "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "概要",
+            "dataUrl": "/overview/",
+            "description": "あなたの財政についての概要を持っていますか？",
+            "subCategory": [
+                {
+                    "title": "資産の概要",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "債務の概要",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "経費の概要",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "収入の概要",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "ネットワースの概要",
+                    "url": "/networth-overview/"
                 }
             ]
         },
@@ -890,6 +972,33 @@ window.categoryInfo = {
             ]
         },
         {
+            "categoryName": "Resumo",
+            "dataUrl": "/overview/",
+            "description": "Queres ter uma visão geral sobre as tuas finanças?",
+            "subCategory": [
+                {
+                    "title": "Resumo dos bens",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "Visão geral da dívida",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "Visão geral das despesas",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "Resumo dos rendimentos",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "Visão geral da Networth",
+                    "url": "/networth-overview/"
+                }
+            ]
+        },
+        {
             "categoryName": "Diversos",
             "dataUrl": "/miscellaneous/",
             "description": "Ajustar as suas preferências, notificações e muito mais.",
@@ -1072,6 +1181,33 @@ window.categoryInfo = {
             ]
         },
         {
+            "categoryName": "Обзор",
+            "dataUrl": "/overview/",
+            "description": "Хочешь получить обзор о своих финансах?",
+            "subCategory": [
+                {
+                    "title": "Обзор активов",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "Обзор задолженности",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "Обзор расходов",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "Обзор доходов",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "Обзор чистых активов",
+                    "url": "/networth-overview/"
+                }
+            ]
+        },
+        {
             "categoryName": "разное",
             "dataUrl": "/miscellaneous/",
             "description": "Настройте свои предпочтения, уведомления и многое другое.",
@@ -1250,6 +1386,33 @@ window.categoryInfo = {
                 {
                     "title": "选择一个投资组合",
                     "url": "/choose-wallet/"
+                }
+            ]
+        },
+        {
+            "categoryName": "概述",
+            "dataUrl": "/overview/",
+            "description": "想了解一下你的财务状况吗？",
+            "subCategory": [
+                {
+                    "title": "资产概述",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "债务概览",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "费用概览",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "收入概览",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "净值概览",
+                    "url": "/networth-overview/"
                 }
             ]
         },
