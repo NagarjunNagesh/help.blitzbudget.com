@@ -1,21 +1,21 @@
 {
     "url": "/overview/asset-overview/",
-    "title": "Asset Overview",
+    "title": "Visión general de los bienes",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Help Center",
+            "crumbTitle": "Centro de ayuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Overview",
+            "crumbTitle": "Visión general",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Isn't an overview of your asset, an interesting oversight?"
+            "html": "¿No es una visión general de su activo, un descuido interesante?"
 		},
         {
             "tag": "img",
@@ -25,16 +25,16 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on the<strong> assets </strong> button as shown in the above image.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón de<strong> activos </strong> como se muestra en la imagen de arriba.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">The default view is segregated by bank accounts under assets category.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de activos.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Hover over chart"
+            "html": "Pase el cursor sobre el gráfico"
 		},
         {
             "tag": "img",
@@ -43,7 +43,7 @@
 		},
         {
             "tag": "p",
-            "html": "Hovering over the line chart will display the account balance for the relevant account hovered."
+            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
 		}
 	]
 }
