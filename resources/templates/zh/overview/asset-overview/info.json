@@ -1,21 +1,21 @@
 {
     "url": "/overview/asset-overview/",
-    "title": "Visión general de los bienes",
+    "title": "资产概览",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概述",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿No es una visión general de su activo, un descuido interesante?"
+            "html": "这不就是对你的资产的一个概述，一个有趣的疏忽吗？"
 		},
         {
             "tag": "img",
@@ -25,16 +25,16 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón de<strong> activos </strong> como se muestra en la imagen de arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">按<strong> 资产 </strong> 如上图所示。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de activos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">默认的视图是按资产类别中的银行账户进行隔离。</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Pase el cursor sobre el gráfico"
+            "html": "将光标移到图形上"
 		},
         {
             "tag": "img",
@@ -43,7 +43,7 @@
 		},
         {
             "tag": "p",
-            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+            "html": "将光标移到折线图上，将显示被忽略的账户的账户余额。"
 		}
 	]
 }

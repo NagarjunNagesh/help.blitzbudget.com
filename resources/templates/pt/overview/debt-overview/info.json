@@ -1,21 +1,21 @@
 {
     "url": "/overview/debt-overview/",
-    "title": "Resumen de la deuda",
+    "title": "Resumo da dívida",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "Resumo",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Una supervisión de todas sus deudas se puede obtener a través de la página de resumen."
+            "html": "Uma visão geral de todas as suas dívidas pode ser obtida através da página de resumo."
 		},
         {
             "tag": "img",
@@ -25,16 +25,16 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de la <strong> deuda </strong> como se muestra en la imagen de arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique no botão sobre o <strong> dívida </strong> como se mostra na figura acima.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de deuda.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">A vista por defeito é segregada por contas bancárias na categoria da dívida.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Pase el cursor sobre el gráfico"
+            "html": "Passar o cursor sobre o gráfico"
 		},
         {
             "tag": "img",
@@ -43,7 +43,7 @@
 		},
         {
             "tag": "p",
-            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+            "html": "Passar o cursor sobre o gráfico de linhas mostrará o saldo da conta que foi negligenciado."
 		}
 	]
 }

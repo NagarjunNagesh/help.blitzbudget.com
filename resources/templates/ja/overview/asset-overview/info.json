@@ -1,21 +1,21 @@
 {
     "url": "/overview/asset-overview/",
-    "title": "Visión general de los bienes",
+    "title": "資産の概要",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概要",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "¿No es una visión general de su activo, un descuido interesante?"
+            "html": "これはあなたの資産の概要、興味深い見落としではないですか？"
 		},
         {
             "tag": "img",
@@ -25,16 +25,16 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón de<strong> activos </strong> como se muestra en la imagen de arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">を押してください<strong> 資産 </strong> 上の写真のように</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de activos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">デフォルトビューは、資産区分の銀行口座別に分けて表示しています。</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Pase el cursor sobre el gráfico"
+            "html": "グラフィックの上にカーソルを置く"
 		},
         {
             "tag": "img",
@@ -43,7 +43,7 @@
 		},
         {
             "tag": "p",
-            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+            "html": "折れ線グラフにカーソルを合わせると、見落としていた口座の残高が表示されます。"
 		}
 	]
 }

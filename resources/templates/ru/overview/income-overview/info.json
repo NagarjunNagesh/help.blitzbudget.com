@@ -1,44 +1,44 @@
 {
     "url": "/overview/income-overview/",
-    "title": "Visión general de los ingresos",
+    "title": "обзор доходов",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Центр помощи",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "Обзор",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "El resumen de ingresos tiene algunos de los detalles disponibles."
+            "html": "в сводке доходов есть некоторые доступные детали."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Резюме на один год.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de ingresos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">сводка доходов.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Cuenta.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Счет.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Resumen de un año"
+            "html": "резюме за год"
 		},
         {
             "tag": "p",
-            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+            "html": "сводка за год предназначена для предоставления обзора до 12 месяцев с интерактивным графиком."
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
 		},
         {
             "tag": "p",
-            "html": "La visión general ofrece la opción de pasar el cursor por encima del punto para averiguar los ingresos de ese mes."
+            "html": "обзор предлагает возможность наведения курсора на точку, чтобы узнать доход за этот месяц."
 		},
         {
             "tag": "img",
@@ -56,11 +56,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Resumen de ingresos"
+            "html": "сводка доходов"
 		},
         {
             "tag": "p",
-            "html": "La visión general de los ingresos está diseñada para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "обзор доходов предназначен для предоставления диаграммы пончиков с категоризацией за выбранный месяц."
 		},
         {
             "tag": "img",
@@ -69,7 +69,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar los ingresos de esa categoría para el mes seleccionado."
+            "html": "сводка предлагает возможность наведения курсора на любой раздел, чтобы узнать доход этой категории за выбранный месяц."
 		},
         {
             "tag": "img",
@@ -78,11 +78,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Visión general de la cuenta"
+            "html": "обзор учетной записи"
 		},
         {
             "tag": "p",
-            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+            "html": "обзор учетной записи предназначен для предоставления категоризированной таблицы пончиков за выбранный месяц с учетными записями."
 		},
         {
             "tag": "img",
@@ -91,7 +91,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar los ingresos de esa cuenta para el mes."
+            "html": "сводка предлагает возможность навести курсор на любой раздел, чтобы узнать доход от этой учетной записи за месяц."
 		},
         {
             "tag": "img",

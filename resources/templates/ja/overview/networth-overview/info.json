@@ -1,21 +1,21 @@
 {
     "url": "/overview/networth-overview/",
-    "title": "patrimonio neto Visión general",
+    "title": "純資産の概要",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概要",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Su patrimonio total puede ser visualizado con la página de resumen."
+            "html": "あなたの総資産はサマリーページで確認できます。"
 		},
         {
             "tag": "img",
@@ -25,23 +25,23 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón<strong> patrimonio neto </strong> como se muestra en la imagen de arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">上の画像のように <strong> 純資産 </strong> というボタンを押してください。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de activos y deudas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">デフォルト表示は、資産と負債のカテゴリで銀行口座ごとに分離されています。</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Pase el cursor sobre el gráfico"
+            "html": "グラフィックの上にカーソルを置く"
         }, {
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/hover-bar-chart.png"
         }, {
             "tag": "p",
-            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+            "html": "折れ線グラフにカーソルを合わせると、見落としていた口座の残高が表示されます。"
         }
 	]
 }

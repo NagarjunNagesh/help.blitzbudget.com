@@ -1,44 +1,44 @@
 {
     "url": "/overview/expense-overview/",
-    "title": "Resumen de gastos",
+    "title": "支出摘要",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概述",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "El resumen de gastos tiene algunos de los detalles disponibles."
+            "html": "费用汇总表有一些细节."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">一年概览.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de gastos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">支出摘要.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de la cuenta.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">账户摘要.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Resumen de un año"
+            "html": "一年概览"
 		},
         {
             "tag": "p",
-            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+            "html": "一年期总结旨在通过互动式图表提供长达12个月的概况。"
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen proporciona la opción de pasar el cursor sobre el punto para averiguar la cantidad de gastos de ese mes."
+            "html": "摘要提供了悬停在点上的选项，以了解该月的支出金额。"
 		},
         {
             "tag": "img",
@@ -56,11 +56,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Resumen de gastos"
+            "html": "支出摘要"
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "花费汇总是为了提供所选月份的分类团表。"
 		},
         {
             "tag": "img",
@@ -69,7 +69,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "花费汇总是为了提供所选月份的分类团表。"
 		},
         {
             "tag": "img",
@@ -78,11 +78,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Visión general de la cuenta"
+            "html": "账户概览"
 		},
         {
             "tag": "p",
-            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+            "html": "账户概览旨在提供所选月份的分类甜甜圈表与账户。"
 		},
         {
             "tag": "img",
@@ -91,7 +91,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar el gasto de esa cuenta para el mes."
+            "html": "该摘要提供了一个选项，可以将鼠标悬停在任何部分，以了解该账户当月的支出情况。"
 		},
         {
             "tag": "img",

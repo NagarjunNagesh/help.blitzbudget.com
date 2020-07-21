@@ -1,44 +1,44 @@
 {
     "url": "/overview/income-overview/",
-    "title": "Visión general de los ingresos",
+    "title": "Resumo dos rendimentos",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centro de ajuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "Resumo",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "El resumen de ingresos tiene algunos de los detalles disponibles."
+            "html": "O resumo dos rendimentos tem alguns dos detalhes disponíveis."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumo de um ano.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de ingresos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Sumário do rendimento.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Cuenta.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Conta.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Resumen de un año"
+            "html": "Resumo de um ano"
 		},
         {
             "tag": "p",
-            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+            "html": "O resumo de um ano foi concebido para fornecer uma visão geral de até 12 meses com um gráfico interactivo."
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
 		},
         {
             "tag": "p",
-            "html": "La visión general ofrece la opción de pasar el cursor por encima del punto para averiguar los ingresos de ese mes."
+            "html": "A vista geral oferece a opção de pairar sobre o ponto para descobrir os rendimentos desse mês."
 		},
         {
             "tag": "img",
@@ -56,11 +56,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Resumen de ingresos"
+            "html": "Resumo dos rendimentos"
 		},
         {
             "tag": "p",
-            "html": "La visión general de los ingresos está diseñada para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "A síntese dos rendimentos foi concebida para fornecer uma tabela categorizada dos donuts para o mês seleccionado."
 		},
         {
             "tag": "img",
@@ -69,7 +69,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar los ingresos de esa categoría para el mes seleccionado."
+            "html": "O resumo oferece a opção de pairar sobre qualquer secção para descobrir os rendimentos para essa categoria para o mês seleccionado."
 		},
         {
             "tag": "img",
@@ -78,11 +78,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Visión general de la cuenta"
+            "html": "Visão Geral da Conta"
 		},
         {
             "tag": "p",
-            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+            "html": "A visão geral da conta foi concebida para fornecer uma tabela de donuts categorizados para o mês seleccionado com as contas."
 		},
         {
             "tag": "img",
@@ -91,7 +91,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar los ingresos de esa cuenta para el mes."
+            "html": "O resumo oferece a opção de pairar sobre qualquer secção para descobrir o rendimento dessa conta para o mês."
 		},
         {
             "tag": "img",

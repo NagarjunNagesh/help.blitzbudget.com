@@ -1,21 +1,21 @@
 {
     "url": "/overview/networth-overview/",
-    "title": "patrimonio neto Visión general",
+    "title": "净资产概述",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概述",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Su patrimonio total puede ser visualizado con la página de resumen."
+            "html": "您的总财富可以通过摘要页查看。"
 		},
         {
             "tag": "img",
@@ -25,23 +25,23 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Pulsa el botón<strong> patrimonio neto </strong> como se muestra en la imagen de arriba.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">按下按钮<strong> 净值 </strong> 如上图所示.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de activos y deudas.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">默认视图是按资产和负债类的银行账户进行分类。</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Pase el cursor sobre el gráfico"
+            "html": "将光标移到图形上"
         }, {
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/hover-bar-chart.png"
         }, {
             "tag": "p",
-            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+            "html": "将光标移到折线图上，将显示被忽略的账户的账户余额。"
         }
 	]
 }

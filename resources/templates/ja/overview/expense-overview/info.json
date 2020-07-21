@@ -1,44 +1,44 @@
 {
     "url": "/overview/expense-overview/",
-    "title": "Resumen de gastos",
+    "title": "経費の概要",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "概要",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "El resumen de gastos tiene algunos de los detalles disponibles."
+            "html": "経費の概要には、一部詳細が記載されています。"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">1年のまとめ。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de gastos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">支出の概要。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de la cuenta.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">アカウントの概要。</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Resumen de un año"
+            "html": "一年の総括"
 		},
         {
             "tag": "p",
-            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+            "html": "1年間のサマリーは、12ヶ月までの概要をインタラクティブなグラフィックで紹介しています。"
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen proporciona la opción de pasar el cursor sobre el punto para averiguar la cantidad de gastos de ese mes."
+            "html": "サマリーでは、ポイントにカーソルを合わせることで、その月の支出額を調べることができます。"
 		},
         {
             "tag": "img",
@@ -56,11 +56,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Resumen de gastos"
+            "html": "支出の概要"
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "支出の概要は、選択した月の分類されたドーナツの表を提供するために設計されています。"
 		},
         {
             "tag": "img",
@@ -69,7 +69,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "支出の概要は、選択した月の分類されたドーナツの表を提供するために設計されています。"
 		},
         {
             "tag": "img",
@@ -78,11 +78,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Visión general de la cuenta"
+            "html": "アカウント概要"
 		},
         {
             "tag": "p",
-            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+            "html": "口座の概要は、選択した月の口座を使って分類されたドーナツの表を提供するように設計されています。"
 		},
         {
             "tag": "img",
@@ -91,7 +91,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar el gasto de esa cuenta para el mes."
+            "html": "サマリーでは、任意のセクションにカーソルを置くことで、その月のアカウントの支出を確認することができます。"
 		},
         {
             "tag": "img",
