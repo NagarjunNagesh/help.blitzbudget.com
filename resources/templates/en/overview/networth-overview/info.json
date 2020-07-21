@@ -26,7 +26,7 @@
             "tag": "div",
             "classInfo": "item-container",
             "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Click on the<strong> networth </strong> button as shown in the above image.</p></div>"
-		}
+		},
         {
             "tag": "div",
             "classInfo": "item-container",
