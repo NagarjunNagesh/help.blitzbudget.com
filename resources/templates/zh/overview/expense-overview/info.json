@@ -1,0 +1,102 @@
+{
+    "url": "/overview/expense-overview/",
+    "title": "Expense Overview",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Overview",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "The expense overview has some of the detailed insights available."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">One year overview.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Expense overview.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Account overview.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "One year overview"
+		},
+        {
+            "tag": "p",
+            "html": "One year overview is designed to provide an over all view for upto a span of 12 months with an interactive chart."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "The overview provides the option to hover over the point to find out the expense amount for that month."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Expense overview"
+		},
+        {
+            "tag": "p",
+            "html": "Expense overview is designed to provide a categorised donut chart for the month selected."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "The overview provides the option to hover over any section to find out the expense from that category for the month selected."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Account overview"
+		},
+        {
+            "tag": "p",
+            "html": "Account overview is designed to provide a categorised donut chart for the month selected with accounts."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "The overview provides the option to hover over any section to find out the expense from that account for the month."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		}
+	]
+}
