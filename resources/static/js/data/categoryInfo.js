@@ -135,6 +135,33 @@ window.categoryInfo = {
             ]
         },
         {
+            "categoryName": "Overview",
+            "dataUrl": "/overview/",
+            "description": "Wanna have an overview about your finances?",
+            "subCategory": [
+                {
+                    "title": "Asset overview",
+                    "url": "/asset-overview/"
+                },
+                {
+                    "title": "Debt overview",
+                    "url": "/debt-overview/"
+                },
+                {
+                    "title": "Expense overview",
+                    "url": "/expense-overview/"
+                },
+                {
+                    "title": "Income overview",
+                    "url": "/income-overview/"
+                },
+                {
+                    "title": "Networth overview",
+                    "url": "/networth-overview/"
+                }
+            ]
+        },
+        {
             "categoryName": "Miscellaneous",
             "dataUrl": "/miscellaneous/",
             "description": "Tweak your preferences, notifications and more.",
