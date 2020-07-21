@@ -1,22 +1,74 @@
 {
-	"url" : "/miscellaneous/bugs-feedback-and-feature-request/",
-	"title" : "Bugs, Feedback, And Feature Request",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/miscellaneous/bugs-feedback-and-feature-request/",
+    "title": "Bugs, Feedback, And Feature Request",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Miscellaneous",
-			"crumbUrl" : "/miscellaneous/"
+        {
+            "crumbTitle": "Miscellaneous",
+            "crumbUrl": "/miscellaneous/"
 		}
 	],
-	"content": [
-		{
-			"tag": "div",
-			"classInfo": "position-relative text-center h-eighteen-rem",
-			"html": "<h3 class=\"position-absolute coming-soon\">Coming Soon!</h3>" 
+    "content": [
+        {
+            "tag": "p",
+            "html": "The feature request module enables you to let us know about a feature that you would love to have."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Feature Request"
+		},
+        {
+            "tag": "p",
+            "html": "The home page consists of a list of features that the users like you have requested."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Submit an idea"
+		},
+        {
+            "tag": "p",
+            "html": "The home page consists of a list of features that the users like you have requested. Hitting the send button after typing your idea would send it to us for review."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Minimum 40 characters"
+		},
+        {
+            "tag": "p",
+            "html": "A minimum of 40 characters are required inorder to enable the sending of the email."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "After sending a successful suggestion, You will see a message as shown in the below image. Rest assured, we will start analysing them."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
 		}
 	]
 }
