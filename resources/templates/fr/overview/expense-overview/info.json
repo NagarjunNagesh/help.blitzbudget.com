@@ -1,44 +1,44 @@
 {
     "url": "/overview/expense-overview/",
-    "title": "Resumen de gastos",
+    "title": "Récapitulatif des dépenses",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Centro de ayuda",
+            "crumbTitle": "Centre d'aide",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Visión general",
+            "crumbTitle": "Vue d'ensemble",
             "crumbUrl": "/overview/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "El resumen de gastos tiene algunos de los detalles disponibles."
+            "html": "Le récapitulatif des dépenses contient certains des détails disponibles."
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Résumé d'une année.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de gastos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Résumé des dépenses.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de la cuenta.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Résumé du compte.</p></div>"
 		},
         {
             "tag": "h3",
-            "html": "Resumen de un año"
+            "html": "Résumé d'une année"
 		},
         {
             "tag": "p",
-            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+            "html": "Le résumé d'un an est conçu pour fournir une vue d'ensemble sur 12 mois maximum avec un graphique interactif."
 		},
         {
             "tag": "img",
@@ -47,7 +47,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen proporciona la opción de pasar el cursor sobre el punto para averiguar la cantidad de gastos de ese mes."
+            "html": "Le résumé offre la possibilité de survoler le point pour connaître le montant des dépenses pour ce mois."
 		},
         {
             "tag": "img",
@@ -56,11 +56,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Resumen de gastos"
+            "html": "Récapitulatif des dépenses"
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "Le récapitulatif des dépenses est conçu pour fournir un tableau des beignets par catégorie pour le mois sélectionné."
 		},
         {
             "tag": "img",
@@ -69,7 +69,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+            "html": "Le récapitulatif des dépenses est conçu pour fournir un tableau des beignets par catégorie pour le mois sélectionné."
 		},
         {
             "tag": "img",
@@ -78,11 +78,11 @@
 		},
         {
             "tag": "h3",
-            "html": "Visión general de la cuenta"
+            "html": "Aperçu du compte"
 		},
         {
             "tag": "p",
-            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+            "html": "L'aperçu des comptes est conçu pour fournir un tableau de beignets catégorisés pour le mois sélectionné avec les comptes."
 		},
         {
             "tag": "img",
@@ -91,7 +91,7 @@
 		},
         {
             "tag": "p",
-            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar el gasto de esa cuenta para el mes."
+            "html": "Le résumé offre la possibilité de survoler n'importe quelle section pour connaître les dépenses de ce compte pour le mois."
 		},
         {
             "tag": "img",
