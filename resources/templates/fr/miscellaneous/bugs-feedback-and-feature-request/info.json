@@ -14,9 +14,61 @@
 	],
     "content": [
         {
-            "tag": "div",
-            "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">Il sera bientôt là !</h3>"
+            "tag": "p",
+            "html": "Le module de demande de fonctionnalité vous permet de nous faire part d'une fonctionnalité que vous aimeriez avoir."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Demande d'article"
+		},
+        {
+            "tag": "p",
+            "html": "La page d'accueil consiste en une liste de fonctionnalités que les utilisateurs comme vous ont demandées."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Soumettre une idée"
+		},
+        {
+            "tag": "p",
+            "html": "La page d'accueil consiste en une liste de fonctionnalités que les utilisateurs comme vous ont demandées. En cliquant sur le bouton Envoyer après avoir saisi votre idée, vous nous l'enverrez pour examen."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Minimum 40 caractères"
+		},
+        {
+            "tag": "p",
+            "html": "Un minimum de 40 caractères est requis pour permettre l'envoi du courrier électronique."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "Après avoir envoyé une suggestion réussie, vous verrez un message comme indiqué dans l'image ci-dessous. Rassurez-vous, nous allons commencer à les analyser."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
 		}
 	]
 }

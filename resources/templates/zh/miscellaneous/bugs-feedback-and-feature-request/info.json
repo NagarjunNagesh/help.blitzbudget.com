@@ -14,9 +14,61 @@
 	],
     "content": [
         {
-            "tag": "div",
-            "classInfo": "position-relative text-center h-eighteen-rem",
-            "html": "<h3 class=\"position-absolute coming-soon\">他很快就会来了！</h3>"
+            "tag": "p",
+            "html": "功能请求模块可以让你让我们知道你想要的功能。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "特征要求"
+		},
+        {
+            "tag": "p",
+            "html": "主页包含了像你这样的用户所要求的功能列表。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "提交一个想法"
+		},
+        {
+            "tag": "p",
+            "html": "主页包含了像您这样的用户所要求的功能列表。输入你的想法后点击发送按钮，就会把它发送给我们审核。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "最少40个字符"
+		},
+        {
+            "tag": "p",
+            "html": "至少需要40个字符才能发送电子邮件。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "在发送成功的建议后，您将看到一个信息，如下图所示。请放心，我们会开始分析它们。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
 		}
 	]
 }
