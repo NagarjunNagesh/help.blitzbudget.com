@@ -43,6 +43,10 @@ window.categoryInfo = {
                     "url": "/add-a-budget/"
                 },
                 {
+                    "title": "Edit a Budget",
+                    "url": "/edit-a-budget/"
+                },
+                {
                     "title": "Delete a Budget",
                     "url": "/delete-a-budget/"
                 }
@@ -252,6 +256,10 @@ window.categoryInfo = {
                     "url": "/add-a-budget/"
                 },
                 {
+                    "title": "Editar un presupuesto",
+                    "url": "/edit-a-budget/"
+                },
+                {
                     "title": "Borrar un presupuesto",
                     "url": "/delete-a-budget/"
                 }
@@ -320,7 +328,6 @@ window.categoryInfo = {
                 }
             ]
         },
-
         {
             "categoryName": "Carteras",
             "dataUrl": "/wallets/",
@@ -460,6 +467,10 @@ window.categoryInfo = {
                 {
                     "title": "Ajouter un budget",
                     "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Modifier un budget",
+                    "url": "/edit-a-budget/"
                 },
                 {
                     "title": "Supprimer un budget",
@@ -671,6 +682,10 @@ window.categoryInfo = {
                     "url": "/add-a-budget/"
                 },
                 {
+                    "title": "予算を編集する",
+                    "url": "/edit-a-budget/"
+                },
+                {
                     "title": "予算を削除する",
                     "url": "/delete-a-budget/"
                 }
@@ -878,6 +893,10 @@ window.categoryInfo = {
                 {
                     "title": "Acréscimo de um orçamento",
                     "url": "/add-a-budget/"
+                },
+                {
+                    "title": "Editar um orçamento",
+                    "url": "/edit-a-budget/"
                 },
                 {
                     "title": "Suprimir um orçamento",
@@ -1089,6 +1108,10 @@ window.categoryInfo = {
                     "url": "/add-a-budget/"
                 },
                 {
+                    "title": "Редактировать бюджет",
+                    "url": "/edit-a-budget/"
+                },
+                {
                     "title": "удалить бюджет",
                     "url": "/delete-a-budget/"
                 }
@@ -1296,6 +1319,10 @@ window.categoryInfo = {
                 {
                     "title": "添加引用",
                     "url": "/add-a-budget/"
+                },
+                {
+                    "title": "编辑预算",
+                    "url": "/edit-a-budget/"
                 },
                 {
                     "title": "删除引号",
