@@ -345,7 +345,7 @@ window.categoryInfo = {
             ]
         },
         {
-            "categoryName": "Descripción general",
+            "categoryName": "Visión general",
             "dataUrl": "/overview/",
             "description": "¿Quiere tener una visión general de sus finanzas?",
             "subCategory": [
@@ -366,7 +366,7 @@ window.categoryInfo = {
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "Visión general de Networth",
+                    "title": "Patrimonio neto visión general",
                     "url": "/networth-overview/"
                 }
             ]
@@ -559,15 +559,15 @@ window.categoryInfo = {
             "description": "Vous voulez avoir un aperçu de vos finances ?",
             "subCategory": [
                 {
-                    "title": "Aperçu du patrimoine",
+                    "title": "Aperçu des avoirs",
                     "url": "/asset-overview/"
                 },
                 {
-                    "title": "Aperçu de la dette",
+                    "title": "Résumé de la dette",
                     "url": "/debt-overview/"
                 },
                 {
-                    "title": "Aperçu des dépenses",
+                    "title": "Récapitulatif des dépenses",
                     "url": "/expense-overview/"
                 },
                 {
@@ -575,7 +575,7 @@ window.categoryInfo = {
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "Aperçu de Networth",
+                    "title": "Aperçu de la valeur nette",
                     "url": "/networth-overview/"
                 }
             ]
@@ -784,7 +784,7 @@ window.categoryInfo = {
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "ネットワースの概要",
+                    "title": "純資産の概要",
                     "url": "/networth-overview/"
                 }
             ]
@@ -981,11 +981,11 @@ window.categoryInfo = {
                     "url": "/asset-overview/"
                 },
                 {
-                    "title": "Visão geral da dívida",
+                    "title": "Resumo da dívida",
                     "url": "/debt-overview/"
                 },
                 {
-                    "title": "Visão geral das despesas",
+                    "title": "Resumo das despesas",
                     "url": "/expense-overview/"
                 },
                 {
@@ -993,7 +993,7 @@ window.categoryInfo = {
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "Visão geral da Networth",
+                    "title": "Património líquido Visão geral",
                     "url": "/networth-overview/"
                 }
             ]
@@ -1190,19 +1190,19 @@ window.categoryInfo = {
                     "url": "/asset-overview/"
                 },
                 {
-                    "title": "Обзор задолженности",
+                    "title": "сводка долгов",
                     "url": "/debt-overview/"
                 },
                 {
-                    "title": "Обзор расходов",
+                    "title": "Сводка расходов",
                     "url": "/expense-overview/"
                 },
                 {
-                    "title": "Обзор доходов",
+                    "title": "обзор доходов",
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "Обзор чистых активов",
+                    "title": "чистая стоимость обзор",
                     "url": "/networth-overview/"
                 }
             ]
@@ -1395,15 +1395,15 @@ window.categoryInfo = {
             "description": "想了解一下你的财务状况吗？",
             "subCategory": [
                 {
-                    "title": "资产概述",
+                    "title": "资产概览",
                     "url": "/asset-overview/"
                 },
                 {
-                    "title": "债务概览",
+                    "title": "债务摘要",
                     "url": "/debt-overview/"
                 },
                 {
-                    "title": "费用概览",
+                    "title": "支出摘要",
                     "url": "/expense-overview/"
                 },
                 {
@@ -1411,7 +1411,7 @@ window.categoryInfo = {
                     "url": "/income-overview/"
                 },
                 {
-                    "title": "净值概览",
+                    "title": "净资产概述",
                     "url": "/networth-overview/"
                 }
             ]
