@@ -1,0 +1,26 @@
+{
+    "url": "/budget/edit-a-budget/",
+    "title": "Редактировать бюджет",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Бюджет",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Хотите изменить введенную в бюджет сумму. Это так же просто, как нажать на сумму, изменить значение и нажать клавишу Введите."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/budget/edit-a-budget.png"
+		}
+	]
+}

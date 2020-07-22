@@ -1,21 +1,21 @@
 {
     "url": "/budget/edit-a-budget/",
-    "title": "Edit a Budget",
+    "title": "Editar un presupuesto",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Help Center",
+            "crumbTitle": "Centro de ayuda",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Budget",
+            "crumbTitle": "Presupuesto",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Wanna change the amount entered to the budget.It is as easy as clicking on the amount and changing the value and hitting Enter."
+            "html": "Quiere cambiar la cantidad ingresada al presupuesto. Es tan fácil como hacer clic en la cantidad y cambiar el valor y presionar Enter."
 		},
         {
             "tag": "img",

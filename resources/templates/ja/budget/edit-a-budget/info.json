@@ -1,21 +1,21 @@
 {
     "url": "/budget/edit-a-budget/",
-    "title": "Edit a Budget",
+    "title": "予算を編集する",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Help Center",
+            "crumbTitle": "ヘルプセンター",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Budget",
+            "crumbTitle": "予算",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Wanna change the amount entered to the budget.It is as easy as clicking on the amount and changing the value and hitting Enter."
+            "html": "予算に入力された金額を変更したい場合は、金額をクリックして値を変更し、Enterキーを押すだけで簡単に変更できます。"
 		},
         {
             "tag": "img",

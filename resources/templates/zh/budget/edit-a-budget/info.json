@@ -1,21 +1,21 @@
 {
     "url": "/budget/edit-a-budget/",
-    "title": "Edit a Budget",
+    "title": "编辑预算",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
-            "crumbTitle": "Help Center",
+            "crumbTitle": "帮助中心",
             "crumbUrl": "/"
 		},
         {
-            "crumbTitle": "Budget",
+            "crumbTitle": "预算",
             "crumbUrl": "/budget/"
 		}
 	],
     "content": [
         {
             "tag": "p",
-            "html": "Wanna change the amount entered to the budget.It is as easy as clicking on the amount and changing the value and hitting Enter."
+            "html": "想改变输入到预算中的金额.这很简单，只要点击金额，改变数值，然后点击回车即可。"
 		},
         {
             "tag": "img",
