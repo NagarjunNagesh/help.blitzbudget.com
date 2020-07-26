@@ -97,6 +97,41 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Tags overview"
+		},
+        {
+            "tag": "p",
+            "html": "Tags overview is designed to provide a categorised donut chart for the month selected with tags."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-tag.png"
+		},
+        {
+            "tag": "p",
+            "html": "The overview provides the option to hover over any section to find out the income from that tag for the month."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-tag-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Check Transactions Constituting The Chart"
+		},
+        {
+            "tag": "p",
+            "html": "Clicking on any section of the chart allows you to see all the transactions for that section."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }
