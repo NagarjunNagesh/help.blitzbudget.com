@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Las transacciones de cheques que constituyen el gráfico"
+		},
+        {
+            "tag": "p",
+            "html": "Al hacer clic en cualquier sección de la tabla se pueden ver todas las transacciones de esa sección."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }

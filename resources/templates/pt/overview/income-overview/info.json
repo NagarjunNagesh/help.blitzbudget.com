@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Check Transactions Constituting The Chart"
+		},
+        {
+            "tag": "p",
+            "html": "Clicking on any section of the chart allows you to see all the transactions for that section."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }

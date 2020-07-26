@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "检查构成图表的交易"
+		},
+        {
+            "tag": "p",
+            "html": "点击图表的任何部分，可以看到该部分的所有交易。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }

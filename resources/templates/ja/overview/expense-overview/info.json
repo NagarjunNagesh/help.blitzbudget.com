@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "チャートを構成するチェック取引"
+		},
+        {
+            "tag": "p",
+            "html": "チャートの任意のセクションをクリックすると、そのセクションのすべての取引を見ることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }

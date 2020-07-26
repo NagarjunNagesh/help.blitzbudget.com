@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Verificar Transacções que Constituem a Carta"
+		},
+        {
+            "tag": "p",
+            "html": "Clicando em qualquer secção do gráfico permite-lhe ver todas as transacções para essa secção."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }

@@ -97,6 +97,19 @@
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Opérations de chèques constituant le tableau"
+		},
+        {
+            "tag": "p",
+            "html": "En cliquant sur une section du tableau, vous pouvez voir toutes les transactions de cette section."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
 		}
 	]
 }
