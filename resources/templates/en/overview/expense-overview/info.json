@@ -30,7 +30,12 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Account overview.</p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Account overview.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Tags overview.</p></div>"
 		},
         {
             "tag": "h3",
