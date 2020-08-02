@@ -387,6 +387,18 @@ window.categoryInfo = {
                 {
                     "title": "Patrimonio neto visión general",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "Comprobar las transacciones en un gráfico",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "Resumen detallado",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "Exporte sus datos generales",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
@@ -600,6 +612,18 @@ window.categoryInfo = {
                 {
                     "title": "Aperçu de la valeur nette",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "Vérifier les transactions dans un graphique",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "Aperçu détaillé",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "Exportez vos données de synthèse",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
@@ -813,6 +837,18 @@ window.categoryInfo = {
                 {
                     "title": "純資産の概要",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "チャート内のトランザクションを確認する",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "詳細な概要",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "概要データのエクスポート",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
@@ -1026,6 +1062,18 @@ window.categoryInfo = {
                 {
                     "title": "Património líquido Visão geral",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "Verificar Transacções num Gráfico",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "Visão geral detalhada",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "Exportar os seus dados gerais",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
@@ -1239,6 +1287,18 @@ window.categoryInfo = {
                 {
                     "title": "чистая стоимость обзор",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "Проверка операций на графике",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "Подробный обзор",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "Экспорт ваших обзорных данных",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
@@ -1452,6 +1512,18 @@ window.categoryInfo = {
                 {
                     "title": "净资产概述",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "在图表中检查交易",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "详细概述",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "导出您的概览数据",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
