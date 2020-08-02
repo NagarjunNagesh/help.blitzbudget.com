@@ -162,6 +162,18 @@ window.categoryInfo = {
                 {
                     "title": "Networth overview",
                     "url": "/networth-overview/"
+                },
+                {
+                    "title": "Check transactions in a chart",
+                    "url": "/check-transactions-in-a-chart/"
+                },
+                {
+                    "title": "Detailed overview",
+                    "url": "/detailed-overview/"
+                },
+                {
+                    "title": "Export your overview data",
+                    "url": "/export-your-overview-data/"
                 }
             ]
         },
