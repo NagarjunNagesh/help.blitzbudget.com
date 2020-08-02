@@ -1,0 +1,46 @@
+{
+    "url": "/overview/detailed-overview/",
+    "title": "Visão geral detalhada",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Visão geral",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Uma visão geral detalhada do gráfico está disponível para a sua compreensão na secção de visão geral. Permite-lhe"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/detailed-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Encontrar todos os montantes relacionados com a visão geral escolhida e o seu total.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">O maior montante na vista geral indicada.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">O menor montante na visão geral dada.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">A média de todos os montantes na visão geral dada.</p></div>"
+		}
+	]
+}

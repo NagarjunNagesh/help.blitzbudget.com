@@ -1,0 +1,26 @@
+{
+    "url": "/overview/export-your-overview-data/",
+    "title": "Exportez vos données de synthèse",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Vue d'ensemble",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "L'exportation de vos données de synthèse peut être réalisée en cliquant sur le lien comme indiqué dans l'image ci-dessous."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/download-overview-data.gif"
+		}
+	]
+}

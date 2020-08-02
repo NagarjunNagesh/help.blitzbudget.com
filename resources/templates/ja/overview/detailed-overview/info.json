@@ -1,0 +1,46 @@
+{
+    "url": "/overview/detailed-overview/",
+    "title": "詳細な概要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概要",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "チャートの詳細な概要は、概要セクションであなたの洞察のために利用できます。これにより、以下のことが可能になります。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/detailed-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">選択した概要に関連するすべての金額とその合計を検索します。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">指定された概要の中で最大の金額。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">指定された概要の最小の金額。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">指定された概要のすべての金額の平均。</p></div>"
+		}
+	]
+}

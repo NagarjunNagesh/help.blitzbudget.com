@@ -1,0 +1,46 @@
+{
+    "url": "/overview/detailed-overview/",
+    "title": "详细概述",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概述",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "在概览部分，您可以看到图表的详细概述。它使您能够"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/detailed-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">查找与所选概览相关的所有金额及其总额。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">指定概览中的最大金额。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">指定概览中最小的金额。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">指定概览中所有金额的平均值。</p></div>"
+		}
+	]
+}
