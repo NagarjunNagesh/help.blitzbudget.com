@@ -1,0 +1,26 @@
+{
+    "url": "/overview/check-transactions-in-a-chart/",
+    "title": "Check Transactions In a Chart",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Overview",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Check your transactions in a chart by clicking the relevant slice in the chart. Currently the option to see all the transactions are available only for donut charts."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/check-transactions-in-a-chart.gif"
+		}
+	]
+}

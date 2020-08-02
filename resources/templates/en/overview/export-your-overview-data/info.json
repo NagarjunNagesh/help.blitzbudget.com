@@ -1,0 +1,26 @@
+{
+    "url": "/overview/export-your-overview-data/",
+    "title": "Export Your Overview Data",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Overview",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Exporting your overview data can be achieved by clicking on the link as shown in the image below."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/download-overview-data.gif"
+		}
+	]
+}
