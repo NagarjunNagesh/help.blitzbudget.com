@@ -74,8 +74,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Changing a Budget",
-                    "url": "/changing-a-budget/"
+                    "title": "Viewing Category Details",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "Edit Notes",
@@ -299,8 +299,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modificar un presupuesto",
-                    "url": "/changing-a-budget/"
+                    "title": "Ver detalles de la categoría",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "Editar notas",
@@ -524,8 +524,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Modifier un budget",
-                    "url": "/changing-a-budget/"
+                    "title": "Voir les détails de la catégorie",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "Notes d'édition",
@@ -749,8 +749,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "予算の変更",
-                    "url": "/changing-a-budget/"
+                    "title": "カテゴリーの詳細を見る",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "メモの編集",
@@ -974,8 +974,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Alterar um orçamento",
-                    "url": "/changing-a-budget/"
+                    "title": "Ver detalhes da categoria",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "Notas sobre a edição",
@@ -1199,8 +1199,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "Изменить бюджет",
-                    "url": "/changing-a-budget/"
+                    "title": "Просмотр сведений о категории",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "Редактировать заметки",
@@ -1424,8 +1424,8 @@ window.categoryInfo = {
                     "url": "/changing-a-transactions-category/"
                 },
                 {
-                    "title": "改变预算",
-                    "url": "/changing-a-budget/"
+                    "title": "查看类别详情",
+                    "url": "/viewing-category-details/"
                 },
                 {
                     "title": "编辑说明",

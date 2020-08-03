@@ -1,6 +1,6 @@
 {
-    "url": "/transactions/changing-a-budget/",
-    "title": "改变预算",
+    "url": "/transactions/viewing-category-details/",
+    "title": "查看类别详情",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -15,12 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "某些时候需要改变交易的预算金额。可以通过直接改变类别信息中的预算金额来实现，如下图所示。"
+            "html": "查看您的类别详细信息很简单，只需点击类别标题即可。它允许您查看分配给该类别的预算和该类别中可用的交易总数。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-budget.png"
+            "srcUrl": "/img/transactions/viewing-category-details.png"
 		}
 	]
 }

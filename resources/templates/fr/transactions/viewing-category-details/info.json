@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/viewing-category-details/",
+    "title": "Voir les détails de la catégorie",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Pour voir les détails de votre catégorie, il suffit de cliquer sur l'en-tête de la catégorie. Il vous permet de visualiser le budget alloué à la catégorie et le nombre total de transactions disponibles dans la catégorie."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/viewing-category-details.png"
+		}
+	]
+}
