@@ -1,5 +1,5 @@
 {
-    "url": "/transactions/sort-by/sorted-by-account",
+    "url": "/transactions/sorted-by-account",
     "title": "Сортировать по счетам",
     "subcategoryPresent": false,
     "breadcrumb": [

@@ -1,5 +1,5 @@
 {
-    "url": "/transactions/sort-by/sorted-by-category",
+    "url": "/transactions/sorted-by-category",
     "title": "カテゴリ別に並べ替え",
     "subcategoryPresent": false,
     "breadcrumb": [

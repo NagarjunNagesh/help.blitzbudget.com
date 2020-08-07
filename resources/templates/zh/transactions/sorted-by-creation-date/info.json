@@ -1,5 +1,5 @@
 {
-    "url": "/transactions/sort-by/sorted-by-creation-date",
+    "url": "/transactions/sorted-by-creation-date",
     "title": "按创建日期排序",
     "subcategoryPresent": false,
     "breadcrumb": [

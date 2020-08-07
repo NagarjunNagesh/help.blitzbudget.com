@@ -1,5 +1,5 @@
 {
-    "url": "/transactions/sort-by/sorted-by-scheduled-transactions",
+    "url": "/transactions/sorted-by-scheduled-transactions",
     "title": "Сортировать по запланированным операциям",
     "subcategoryPresent": false,
     "breadcrumb": [

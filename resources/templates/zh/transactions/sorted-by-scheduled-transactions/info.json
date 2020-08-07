@@ -1,5 +1,5 @@
 {
-    "url": "/transactions/sort-by/sorted-by-scheduled-transactions",
+    "url": "/transactions/sorted-by-scheduled-transactions",
     "title": "按计划交易排序",
     "subcategoryPresent": false,
     "breadcrumb": [
