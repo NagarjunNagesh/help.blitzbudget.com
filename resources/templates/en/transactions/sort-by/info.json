@@ -1,26 +1,15 @@
 {
-	"url" : "/transactions/sort-by/",
-	"title" : "Sort By",
-	"subcategoryPresent" : false,
-	"breadcrumb" : [
-		{
-			"crumbTitle" : "Help Center",
-			"crumbUrl" : "/"
+    "url": "/transactions/sort-by/",
+    "title": "Sort By",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
 		},
-		{
-			"crumbTitle" : "Transactions",
-			"crumbUrl" : "/transactions/"
-		}
-	],
-	"content": [
-		{
-			"tag": "p",
-			"html": "Looking for a way to see the accounts sorted in <i> Descending order by creation date<i> or </i> Aggregated by accounts?</i> Click on the sort by drop down for more options." 
-		},
-		{
-			"tag": "img",
-			"classInfo": "article-image",
-			"srcUrl": "/img/transactions/sort-by.png"
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
 		}
 	]
 }
