@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Looking for a way to see the accounts sorted in <i> Descending order by creation date<i> or </i> Aggregated by accounts?</i> Click on the sort by drop down for more options."
+            "html": "Looking for a way to see the transactions aggregated by scheduled transactions?"
 		},
         {
             "tag": "img",
