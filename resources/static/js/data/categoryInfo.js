@@ -70,6 +70,26 @@ window.categoryInfo = {
                     "url": "/sort-by/"
                 },
                 {
+                    "title": "Sorted By Account",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "Sorted By Category",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "Sorted By Creation Date",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "Sorted By Scheduled Transactions",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "Sorted By Tags",
+                    "url": "/sorted-by-tags/"
+                },
+                {
                     "title": "Changing a Transaction's Category",
                     "url": "/changing-a-transactions-category/"
                 },
@@ -293,6 +313,26 @@ window.categoryInfo = {
                 {
                     "title": "Ordenar por",
                     "url": "/sort-by/"
+                },
+                {
+                    "title": "Clasificado por cuenta",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "Clasificado por categoría",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "Ordenados por la fecha de creación",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "Clasificado por transacciones programadas",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "Ordenado por etiquetas",
+                    "url": "/sorted-by-tags/"
                 },
                 {
                     "title": "Cambio de categoría de una transacción",
@@ -520,6 +560,26 @@ window.categoryInfo = {
                     "url": "/sort-by/"
                 },
                 {
+                    "title": "Trié par compte",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "Classement par catégorie",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "Trié par date de création",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "Trié par transactions programmées",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "Trié par tags",
+                    "url": "/sorted-by-tags/"
+                },
+                {
                     "title": "Changer la catégorie d'une transaction",
                     "url": "/changing-a-transactions-category/"
                 },
@@ -743,6 +803,26 @@ window.categoryInfo = {
                 {
                     "title": "並び替え",
                     "url": "/sort-by/"
+                },
+                {
+                    "title": "アカウントでソート",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "カテゴリ別に並べ替え",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "作成日順",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "予定取引の並び替え",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "タグでソート",
+                    "url": "/sorted-by-tags/"
                 },
                 {
                     "title": "トランザクションのカテゴリを変更する",
@@ -970,6 +1050,26 @@ window.categoryInfo = {
                     "url": "/sort-by/"
                 },
                 {
+                    "title": "Ordenados por conta",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "Ordenados por categoria",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "Ordenado por data de criação",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "Ordenados por Transacções Programadas",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "Ordenado por Etiquetas",
+                    "url": "/sorted-by-tags/"
+                },
+                {
                     "title": "Alteração da categoria de uma operação",
                     "url": "/changing-a-transactions-category/"
                 },
@@ -1195,6 +1295,26 @@ window.categoryInfo = {
                     "url": "/sort-by/"
                 },
                 {
+                    "title": "Отсортировано по учётной записи",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "Сортировать по категориям",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "Сортировано по дате создания",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "Сортировать по запланированным операциям",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "Сортировано по меткам",
+                    "url": "/sorted-by-tags/"
+                },
+                {
                     "title": "изменение категории транзакции",
                     "url": "/changing-a-transactions-category/"
                 },
@@ -1418,6 +1538,26 @@ window.categoryInfo = {
                 {
                     "title": "排序方式",
                     "url": "/sort-by/"
+                },
+                {
+                    "title": "按账户排序",
+                    "url": "/sorted-by-account/"
+                },
+                {
+                    "title": "按类别排序",
+                    "url": "/sorted-by-category/"
+                },
+                {
+                    "title": "按创建日期排序",
+                    "url": "/sorted-by-creation-date/"
+                },
+                {
+                    "title": "按计划交易排序",
+                    "url": "/sorted-by-scheduled-transwactions/"
+                },
+                {
+                    "title": "按标签排序",
+                    "url": "/sorted-by-tags/"
                 },
                 {
                     "title": "改变交易的类别",
