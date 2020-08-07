@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "Vous voudrez explorer vos options et trouver une catégorie pour chaque transaction qui vous convient. Parfois, les transactions déjà ajoutées devraient être modifiées."
+            "html": "Vous voudrez explorer vos options et trouver une catégorie pour chaque transaction. Parfois, les transactions déjà ajoutées devront être modifiées."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-transaction-category.png"
+            "srcUrl": "/img/transactions/change-categor.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur le texte de la catégorie pour la transaction en question.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez et faites glisser les transactions.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Choisissez la catégorie de la sélection pour changer de catégorie.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Déposez les transactions sous la catégorie concernée.</p></div>"
 		}
 	]
 }

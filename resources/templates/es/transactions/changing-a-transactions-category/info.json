@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "Querrá explorar sus opciones y encontrar una categoría para cada transacción en la que encaje. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+            "html": "Querrás explorar tus opciones y encontrar una categoría para cada transacción en la que encajar. A veces, las transacciones ya añadidas tendrían que ser modificadas."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-transaction-category.png"
+            "srcUrl": "/img/transactions/change-category.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el texto de la categoría para la transacción en cuestión.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic y arrastre las transacciones.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Elija la categoría de la selección para cambiar la categorías.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Suelte las transacciones debajo de la categoría correspondiente.</p></div>"
 		}
 	]
 }

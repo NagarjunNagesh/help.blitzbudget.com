@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "你要探索你的选择，为每笔交易找到一个适合的类别。有时，已经添加的交易必须修改."
+            "html": "你要探索你的选项，为每一笔交易找到一个适合的类别。有时候，已经添加的交易必须要修改。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-transaction-category.png"
+            "srcUrl": "/img/transactions/change-category.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击相关交易的类别文字。</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击并拖动交易。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">选择选择的类别来改变类别。</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">将交易放到相关类别下面。</p></div>"
 		}
 	]
 }

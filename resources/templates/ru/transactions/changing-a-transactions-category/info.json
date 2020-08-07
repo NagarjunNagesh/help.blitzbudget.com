@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "вы захотите изучить свои варианты и найти категорию для каждой транзакции, в которую вы вписываетесь. Иногда уже добавленные транзакции должны быть изменены."
+            "html": "Вы захотите изучить свои варианты и найти категорию для каждой сделки, в которую можно вписаться. Иногда, уже добавленные транзакции должны быть изменены."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-transaction-category.png"
+            "srcUrl": "/img/transactions/change-category.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на текст, из категории для данной транзакции.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите и перетащите операции.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Выберите категорию из выбора, чтобы изменить категории.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Опустите операции ниже соответствующей категории.</p></div>"
 		}
 	]
 }

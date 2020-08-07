@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "選択肢を探って、それぞれの取引に合ったカテゴリーを探してみてはいかがでしょうか。すでに追加されているトランザクションは、変更しなければならないこともあります。"
+            "html": "あなたは、あなたのオプションを探索し、すべてのトランザクションが収まるようにカテゴリを見つけたいと思うでしょう。時には、すでに追加されたトランザクションを修正しなければならないこともあります。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-transaction-category.png"
+            "srcUrl": "/img/transactions/change-category.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">問題の取引のカテゴリテキストをクリックしてください。</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">取引をクリックしてドラッグします。</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">選択範囲のカテゴリを選択して、カテゴリを変更します。</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">関連するカテゴリの下に取引をドロップします。</p></div>"
 		}
 	]
 }
