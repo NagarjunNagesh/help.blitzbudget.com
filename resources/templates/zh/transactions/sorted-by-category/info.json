@@ -1,0 +1,51 @@
+{
+    "url": "/transactions/sort-by/sorted-by-category",
+    "title": "按类别排序",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "想看交易按类别排序的方法？"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sorted-by-category.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">类别标题。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">帐户标题。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">交易描述。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">交易创建日期。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">交易金额。</p></div>"
+		}
+	]
+}

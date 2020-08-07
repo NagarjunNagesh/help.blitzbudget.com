@@ -1,0 +1,47 @@
+{
+    "url": "/transactions/sort-by/sorted-by-creation-date",
+    "title": "Ordenar por data de criação",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacções",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Procura uma forma de ver as transacções agregadas por data de criação?"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sorted-by-creation-date.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cabeçalho da data de criação.</p></div>"
+        }, {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Descrição da transacção.</p></div>"
+        }, {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Categoria da transacção.</p></div>"
+        }, {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Data de criação da transacção.</p></div>"
+        }, {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Montante da transacção.</p></div>"
+        }
+	]
+}

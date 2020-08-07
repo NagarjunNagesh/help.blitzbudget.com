@@ -1,0 +1,56 @@
+{
+    "url": "/transactions/sort-by/sorted-by-tags",
+    "title": "Trier par tags",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Vous cherchez un moyen de voir les transactions regroupées par tags ?"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sorted-by-tags.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Titre de la balise.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Image de dépense ou de revenu.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Catégorie de transaction.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Date de création de la transaction.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Description de la transaction.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">Montant de la transaction.</p></div>"
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
-    "url": "/transactions/sort-by/sorted-by-tags",
-    "title": "Ordenar por etiquetas",
+    "url": "/transactions/sort-by/sorted-by-scheduled-transactions",
+    "title": "Ordenar por transacciones programadas",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -15,22 +15,22 @@
     "content": [
         {
             "tag": "p",
-            "html": "¿Buscando una manera de ver las transacciones agregadas por las etiquetas?"
+            "html": "¿Busca una forma de ver las transacciones agregadas por las transacciones programadas?"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/sorted-by-tags.png"
+            "srcUrl": "/img/transactions/sorted-by-future-transactions.png"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Título de la etiqueta.</p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Título recurrente.</p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Imagen de gastos o ingresos.</p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Descripción de la transacción.</p></div>"
 		},
         {
             "tag": "div",
@@ -45,12 +45,7 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Descripción de la transacción.</p></div>"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">Importe de la transacción.</p></div>"
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Importe de la transacción.</p></div>"
 		}
 	]
 }
