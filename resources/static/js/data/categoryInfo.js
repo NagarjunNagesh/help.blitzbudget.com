@@ -83,7 +83,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "Sorted By Scheduled Transactions",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "Sorted By Tags",
@@ -328,7 +328,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "Clasificado por transacciones programadas",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "Ordenado por etiquetas",
@@ -573,7 +573,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "Trié par transactions programmées",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "Trié par tags",
@@ -818,7 +818,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "予定取引の並び替え",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "タグでソート",
@@ -1063,7 +1063,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "Ordenados por Transacções Programadas",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "Ordenado por Etiquetas",
@@ -1308,7 +1308,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "Сортировать по запланированным операциям",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "Сортировано по меткам",
@@ -1553,7 +1553,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "按计划交易排序",
-                    "url": "/sorted-by-scheduled-transwactions/"
+                    "url": "/sorted-by-scheduled-transactions/"
                 },
                 {
                     "title": "按标签排序",
