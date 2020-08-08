@@ -25,27 +25,27 @@
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sort-by-tags/\" class=\"article-anchor\">Etiquetas.</a></p></div>"
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-tags/\" class=\"article-anchor\">Etiquetas.</a></p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sort-by-account/\" class=\"article-anchor\">Cuenta.</a></p></div>"
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-account/\" class=\"article-anchor\">Cuenta.</a></p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sort-by-category/\" class=\"article-anchor\">Categoría.</a></p></div>"
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-category/\" class=\"article-anchor\">Categoría.</a></p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sort-by-creation-date/\" class=\"article-anchor\">Fecha de creación.</a></p></div>"
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-creation-date/\" class=\"article-anchor\">Fecha de creación.</a></p></div>"
 		},
         {
             "tag": "div",
             "classInfo": "item-container",
-            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sort-by-scheduled-transactions/\" class=\"article-anchor\">Transacciones futuras.</a></p></div>"
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">Transacciones futuras.</a></p></div>"
 		}
 	]
 }
