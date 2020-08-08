@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "アカウントごとに集計された取引を見る方法をお探しですか？"
+            "html": "アカウントごとに集計された取引を見る方法をお探しですか？を確認してください <a href=\"https://help.blitzbudget.com/ja/transactions/sort-by/\" class=\"article-anchor\"> 並び替え </a> オプションを選択すると、アカウントのソートオプションに移動します。"
 		},
         {
             "tag": "img",

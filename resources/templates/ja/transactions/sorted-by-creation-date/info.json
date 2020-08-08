@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "作成日ごとに集計されたトランザクションを見る方法をお探しですか？"
+            "html": "作成日ごとに集計されたトランザクションを見る方法をお探しですか？を確認してください <a href=\"https://help.blitzbudget.com/ja/transactions/sort-by/\" class=\"article-anchor\"> 並び替え </a> オプションを使用して、作成日集計オプションに移動します。"
 		},
         {
             "tag": "img",

@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Procura uma forma de ver as transacções agregadas por data de criação?"
+            "html": "Procura uma forma de ver as transacções agregadas por data de criação? Verifique o <a href=\"https://help.blitzbudget.com/pt/transactions/sort-by/\" class=\"article-anchor\"> Ordenar por </a> opção de navegar até à data de criação opção de agregação."
 		},
         {
             "tag": "img",

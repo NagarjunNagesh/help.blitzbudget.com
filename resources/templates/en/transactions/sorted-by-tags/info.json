@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Looking for a way to see the transactions aggregated by tags?"
+            "html": "Looking for a way to see the transactions aggregated by tags? Check the <a href=\"https://help.blitzbudget.com/en/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> option to navigate to the tags aggregating option."
 		},
         {
             "tag": "img",

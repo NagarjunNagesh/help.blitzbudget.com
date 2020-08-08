@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Procura uma forma de ver as transacções agregadas por transacções programadas?"
+            "html": "Procura uma forma de ver as transacções agregadas por transacções programadas? Check the <a href=\"https://help.blitzbudget.com/pt/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> option to navigate to the scheduled transactions aggregating option."
 		},
         {
             "tag": "img",

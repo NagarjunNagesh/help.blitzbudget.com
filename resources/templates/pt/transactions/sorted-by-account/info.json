@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Procura uma forma de ver as transacções agregadas por contas?"
+            "html": "Procura uma forma de ver as transacções agregadas por contas? Verifique o <a href=\"https://help.blitzbudget.com/pt/transactions/sort-by/\" class=\"article-anchor\"> Ordenar por </a> opção para navegar para a opção de agregação de contas."
 		},
         {
             "tag": "img",

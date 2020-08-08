@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "想看交易按类别排序的方法？"
+            "html": "想看交易按类别排序的方法？检查 <a href=\"https://help.blitzbudget.com/zh/transactions/sort-by/\" class=\"article-anchor\"> 排序方式 </a> 选项来导航到类别汇总选项。"
 		},
         {
             "tag": "img",

@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "想看按计划交易汇总的交易？"
+            "html": "想看按计划交易汇总的交易？检查 <a href=\"https://help.blitzbudget.com/zh/transactions/sort-by/\" class=\"article-anchor\"> 排序方式 </a> 选项，以导航到计划交易汇总选项。"
 		},
         {
             "tag": "img",

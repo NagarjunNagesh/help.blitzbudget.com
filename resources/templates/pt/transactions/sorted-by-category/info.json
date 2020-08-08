@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "Procura uma forma de ver as transacções classificadas por categoria?"
+            "html": "Procura uma forma de ver as transacções classificadas por categoria? Verifique o <a href=\"https://help.blitzbudget.com/pt/transactions/sort-by/\" class=\"article-anchor\"> Ordenar por </a> opção de navegar para a opção de agregação de categorias."
 		},
         {
             "tag": "img",
