@@ -15,12 +15,37 @@
     "content": [
         {
             "tag": "p",
-            "html": "ищете способ просмотра учетных записей, отсортированных в <i> порядок убывания по дате создания<i> или </i>, добавленных учетными записями?</i> нажмите на порядок по раскрывающемуся меню для дополнительных опций."
+            "html": "Ищу способ просмотра сортировки транзакций различными способами. Щелкните по сортировке выпадающим списком для получения дополнительных опций."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/transactions/sort-by.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-tags/\" class=\"article-anchor\">Теги.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-account/\" class=\"article-anchor\">Счет.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-category/\" class=\"article-anchor\">Категория.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-creation-date/\" class=\"article-anchor\">Дата создания.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-scheduled-transactions/\" class=\"article-anchor\">Будущие операции.</a></p></div>"
 		}
 	]
 }

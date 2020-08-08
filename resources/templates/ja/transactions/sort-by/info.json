@@ -15,12 +15,37 @@
     "content": [
         {
             "tag": "p",
-            "html": "でソートされたアカウントを見る方法を探しています <i> 作成日の昇順<i> 或いは </i> アカウントで追加？</i> より多くのオプションを選択するには、ドロップダウンの順序をクリックしてください。"
+            "html": "さまざまな方法でソートされたトランザクションを表示する方法を探しています。ドロップダウンの「ソート」をクリックすると、より多くのオプションが表示されます。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/transactions/sort-by.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-tags/\" class=\"article-anchor\">タグ.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-account/\" class=\"article-anchor\">アカウント。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-category/\" class=\"article-anchor\">カテゴリ。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-creation-date/\" class=\"article-anchor\">作成日。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-scheduled-transactions/\" class=\"article-anchor\">今後の取引。</a></p></div>"
 		}
 	]
 }

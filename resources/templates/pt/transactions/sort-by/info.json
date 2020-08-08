@@ -15,12 +15,37 @@
     "content": [
         {
             "tag": "p",
-            "html": "Procurando uma forma de ver as contas ordenadas em <i> Ordem decrescente por data de criação<i> o </i> Adicionado por contas?</i> Clique na ordem descendente para mais opções."
+            "html": "Procurando uma forma de ver as transacções ordenadas de várias maneiras diferentes. Clique na ordenação por drop down para mais opções."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
             "srcUrl": "/img/transactions/sort-by.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-tags/\" class=\"article-anchor\">Etiquetas.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-account/\" class=\"article-anchor\">Conta.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-category/\" class=\"article-anchor\">Categoria.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-creation-date/\" class=\"article-anchor\">Data de criação.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/en/transactions/sort-by-scheduled-transactions/\" class=\"article-anchor\">Transacções futuras.</a></p></div>"
 		}
 	]
 }
