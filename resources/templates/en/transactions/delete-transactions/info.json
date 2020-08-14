@@ -20,22 +20,7 @@
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-button.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Select the transactions that you would like to delete and click the delete button as per the image shown above.</p></div>"
-		},
-        {
-            "tag": "img",
-            "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-transaction.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Click <strong>Yes, Delete it</strong> button when the model appears to delete the selected transactions.</p></div>"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }
