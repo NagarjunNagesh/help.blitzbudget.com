@@ -15,27 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "取引を削除することは可能ですが、予算に計上されていない取引を削除するのは、資金計画にとってかなり破壊的なので注意しましょう。"
+            "html": "それは、トランザクションを削除することが可能ですが、それは実行されたが、予算に計上されていないトランザクションを削除することは、あなたの財務計画にとって非常に破壊的であることに留意してください。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-button.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">削除したい取引を選択し、上の画像のように削除ボタンを押します。</p></div>"
-		},
-        {
-            "tag": "img",
-            "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-transaction.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">ボタンを押す <strong>はい、削除してください。</strong> 選択したトランザクションを削除するためのテンプレートが表示されたら</p></div>"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }

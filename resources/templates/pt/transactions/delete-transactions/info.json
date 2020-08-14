@@ -15,27 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "É possível eliminar uma transacção. Note que é bastante destrutivo para o seu plano financeiro eliminar uma transacção que tenha sido feita mas não lançada no orçamento."
+            "html": "É possível eliminar uma transacção, Tenha em mente que é bastante destrutivo para o seu plano financeiro remover uma transacção que tenha sido executada mas não contabilizada no orçamento."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-button.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Seleccione as transacções que pretende apagar e prima o botão apagar de acordo com a imagem acima apresentada.</p></div>"
-		},
-        {
-            "tag": "img",
-            "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-transaction.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pressione o botão <strong>Sim, apague-a.</strong> quando aparece o modelo para eliminar as transacções seleccionadas.</p></div>"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }

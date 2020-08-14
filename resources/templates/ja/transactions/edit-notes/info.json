@@ -15,12 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "トランザクションは、それらに関連付けられたノートを持っていなければなりません。希望する取引のノートをクリックして取引を変更します。"
+            "html": "トランザクションはそれに関連付けられたノートを持っている必要があります、それは後でトランザクションを修正することによって追加することができます。説明を変更するには、目的のトランザクションをクリックしてください。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-notes.png"
+            "srcUrl": "/img/transactions/edit-description.gif"
 		}
 	]
 }

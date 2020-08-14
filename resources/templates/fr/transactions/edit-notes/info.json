@@ -15,12 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "Les transactions doivent être accompagnées d'une note, qui peut être ajoutée ultérieurement en modifiant la transaction. Cliquez sur la note correspondant à la transaction souhaitée pour la modifier."
+            "html": "Les opérations doivent être accompagnées d'une note, qui peut être ajoutée ultérieurement en modifiant l'opération. Cliquez sur l'opération souhaitée pour en modifier la description."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-notes.png"
+            "srcUrl": "/img/transactions/edit-description.gif"
 		}
 	]
 }

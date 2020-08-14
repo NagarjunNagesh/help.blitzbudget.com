@@ -15,12 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "交易必须有一个与之相关的注解，以后可以通过更改交易来添加。点击所需交易的票据以更改交易。"
+            "html": "交易必须有一个与之相关的说明，可以在以后通过修改交易来添加。点击所需的交易来更改说明。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-notes.png"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }

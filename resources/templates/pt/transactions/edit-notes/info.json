@@ -15,12 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "As transacções devem ter uma nota associada, que pode ser acrescentada posteriormente, alterando a transacção. Clique na nota da transacção desejada para alterar a transacção."
+            "html": "As transacções devem ter uma nota associada a ela, podendo ser acrescentada posteriormente, modificando a transacção. Clique sobre a transacção desejada para alterar a descrição."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/change-notes.png"
+            "srcUrl": "/img/transactions/edit-description.gif"
 		}
 	]
 }

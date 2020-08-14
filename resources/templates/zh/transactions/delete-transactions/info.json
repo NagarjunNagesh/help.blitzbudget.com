@@ -15,27 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "可以删除某项交易，请注意，删除一项已经进行但未列入预算的交易，对你的财务计划是相当不利的。"
+            "html": "可以删除一项交易，但要记住，删除一项已经执行但未记入预算的交易对你的财务计划是相当有害的。"
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-button.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">选择要删除的交易，按上图所示的删除按钮。</p></div>"
-		},
-        {
-            "tag": "img",
-            "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-transaction.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">按下按钮 <strong>是的，删除它。</strong> 当出现用于删除所选交易的模板时。</p></div>"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }

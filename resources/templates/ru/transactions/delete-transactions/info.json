@@ -15,27 +15,12 @@
     "content": [
         {
             "tag": "p",
-            "html": "можно удалить транзакцию, имейте в виду, что для вашего финансового плана довольно разрушительно удалить транзакцию, которая была сделана, но не была учтена в бюджете."
+            "html": "Можно удалить транзакцию, Имейте в виду, что для вашего финансового плана весьма разрушительно удалять транзакцию, которая была выполнена, но не учтена в бюджете."
 		},
         {
             "tag": "img",
             "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-button.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Выберите транзакции, которые вы хотите удалить, и нажмите кнопку удаления в соответствии с изображением, показанным выше.</p></div>"
-		},
-        {
-            "tag": "img",
-            "classInfo": "article-image",
-            "srcUrl": "/img/transactions/delete-transaction.png"
-		},
-        {
-            "tag": "div",
-            "classInfo": "item-container",
-            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите кнопку <strong>если, удалите ее</strong> при появлении модели, чтобы удалить выбранные транзакции.</p></div>"
+            "srcUrl": "/img/transactions/delete-transactions.gif"
 		}
 	]
 }
