@@ -1,0 +1,36 @@
+{
+    "url": "/transactions/how-to-delete-a-financial-account/",
+    "title": "Comment supprimer un compte financier",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "La suppression d'un compte financier, supprime également toutes les transactions associées ainsi que le compte financier. Elle pourrait être réalisée de la manière suivante."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-a-financial-account.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Toutes vos transactions jamais associées au compte seront supprimées.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Le compte financier en question sera également supprimé.</p></div>"
+		}
+	]
+}

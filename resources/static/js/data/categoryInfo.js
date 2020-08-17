@@ -112,6 +112,14 @@ window.categoryInfo = {
                 {
                     "title": "Delete Transactions",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "How To Delete a Financial Account",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "How To Select A Financial Account",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -357,6 +365,14 @@ window.categoryInfo = {
                 {
                     "title": "Borrar transacciones",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "Cómo eliminar una cuenta financiera",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "Cómo seleccionar una cuenta financiera",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -602,6 +618,14 @@ window.categoryInfo = {
                 {
                     "title": "Supprimer des transactions",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "Comment supprimer un compte financier",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "Comment sélectionner un compte financier",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -847,6 +871,14 @@ window.categoryInfo = {
                 {
                     "title": "取引の削除",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "金融口座を削除する方法",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "金融口座の選び方",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -1092,6 +1124,14 @@ window.categoryInfo = {
                 {
                     "title": "Eliminar transacções",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "Como eliminar uma conta financeira",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "Como Seleccionar Uma Conta Financeira",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -1337,6 +1377,14 @@ window.categoryInfo = {
                 {
                     "title": "удалить транзакции",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "Как удалить финансовый счет",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "Как выбрать финансовый счет",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },
@@ -1582,6 +1630,14 @@ window.categoryInfo = {
                 {
                     "title": "删除交易",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "如何删除金融账户",
+                    "url": "/how-to-delete-a-financial-account/"
+                },
+                {
+                    "title": "如何选择金融账户",
+                    "url": "/how-to-select-a-financial-account/"
                 }
             ]
         },

@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/how-to-select-a-financial-account/",
+    "title": "Cómo seleccionar una cuenta financiera",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "La selección de la cuenta para añadir la transacción es posible seleccionando la cuenta en la modalidad de cuentas en la esquina superior derecha."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/select-an-account.gif"
+		}
+	]
+}

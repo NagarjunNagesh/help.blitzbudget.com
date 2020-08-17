@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/how-to-select-a-financial-account/",
+    "title": "How To Select A Financial Account",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Selecting the account to add the transaction is possible by selecting the account in the accounts modal in the top right corner."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/select-an-account.gif"
+		}
+	]
+}
