@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "Pour programmer une transaction, il suffit de choisir entre ces options de récurrence <strong>SEMAINE</strong>, <strong>BI-MENSUEL</strong>, <strong>MENSUEL</strong>. Ne vous inquiétez pas <a href=\"https://help.blitzbudget.com/fr/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">vous pouvez le modifier à tout moment si vous ne voulez pas qu'il se reproduise le mois suivant en modifiant la transaction plus tard.</a>."
+            "html": "Pour programmer une transaction, il suffit de choisir entre ces options de récurrence <strong>SEMAINE</strong>, <strong>BI-MENSUEL</strong>, <strong>MENSUEL</strong>. Ne vous inquiétez pas <a href=\"https://help.blitzbudget.com/fr/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">vous pouvez le modifier</a> à tout moment si vous ne voulez pas qu'il se reproduise le mois suivant en modifiant la transaction plus tard.."
 		}
 	]
 }

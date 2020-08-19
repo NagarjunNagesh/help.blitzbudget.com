@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "Scheduling a transaction is as simple as choosing between these recurrence option's <strong>WEEKLY</strong>, <strong>BI-MONTHLY</strong>, <strong>MONTHLY</strong> while adding a transaction. Don't worry, <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">you can change it when ever you want if you do not want it to recur the next month by editing the transaction later</a>."
+            "html": "Scheduling a transaction is as simple as choosing between these recurrence option's <strong>WEEKLY</strong>, <strong>BI-MONTHLY</strong>, <strong>MONTHLY</strong> while adding a transaction. Don't worry, <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">you can change it when ever you want</a> if you do not want it to recur the next month by editing the transaction later."
 		}
 	]
 }
