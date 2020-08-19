@@ -36,12 +36,46 @@
             "classInfo": "text-center w-80"
 		},
         {
+            "tag": "p",
+            "html": "Ниже приведены все возможные поля, которые разрешены для транзакции. Как видно на рисунке выше, поле счета не обязательно присутствует в поле, предусмотренном для добавления транзакции. <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Выберите счет для добавления транзакции </a>."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">аккаунт <i class=\"small tripleNineColor\">(обязательный сайт)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Категория <i class=\"small tripleNineColor\">(обязательный сайт)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Сумма <i class=\"small tripleNineColor\">(обязательный сайт)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Описание</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Теги</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">Плановые операции</p></div>"
+		},
+        {
             "tag": "h3",
-            "html": "будущие транзакции"
+            "html": "График операций"
 		},
         {
             "tag": "p",
-            "html": "планирование транзакции так же просто, как выбор опции повторения <strong>ежемесячно</strong> при добавлении транзакции. Не волнуйтесь, вы можете изменить его снова, когда захотите, если не хотите, чтобы он повторялся в следующем месяце, отредактировав транзакцию позже."
+            "html": "Планирование транзакции так же просто, как и выбор между этими опциями рецидива. <strong>НЕДЕЛЯ</strong>, <strong>ДВА-МЕСЯЦА</strong>, <strong>МЕСЯЦ</strong>. Не волнуйся, <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">вы можете изменить его обратно, когда захотите, если не хотите, чтобы он повторялся в следующем месяце, отредактировав транзакцию позже.</a>"
 		}
 	]
 }

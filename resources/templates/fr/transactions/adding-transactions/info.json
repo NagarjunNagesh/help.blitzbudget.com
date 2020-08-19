@@ -36,12 +36,46 @@
             "classInfo": "text-center w-80"
 		},
         {
+            "tag": "p",
+            "html": "Vous trouverez ci-dessous tous les champs possibles qui sont autorisés pour une transaction. Comme on peut le voir dans l'image ci-dessus, le champ Compte n'est pas nécessairement présent dans le champ prévu pour ajouter la transaction. <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Sélectionnez un compte pour ajouter une transaction </a>."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Compte <i class=\"small tripleNineColor\">(requis)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Catégorie <i class=\"small tripleNineColor\">(requis)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Montant <i class=\"small tripleNineColor\">(requis)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Description</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Tags</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">Transactions prévues</p></div>"
+		},
+        {
             "tag": "h3",
-            "html": "Transactions futures"
+            "html": "Transaction de l'horaire"
 		},
         {
             "tag": "p",
-            "html": "Programmer une transaction est aussi simple que de choisir l'option de récurrence pour <strong>Mensuel</strong> tout en ajoutant une transaction. Ne vous inquiétez pas, vous pouvez le modifier à nouveau quand vous le souhaitez si vous ne voulez pas qu'il soit répété le mois suivant en modifiant la transaction plus tard."
+            "html": "Pour programmer une transaction, il suffit de choisir entre ces options de récurrence <strong>SEMAINE</strong>, <strong>BI-MENSUEL</strong>, <strong>MENSUEL</strong>. Ne vous inquiétez pas <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">vous pouvez le modifier à tout moment si vous ne voulez pas qu'il se reproduise le mois suivant en modifiant la transaction plus tard.</a>."
 		}
 	]
 }
