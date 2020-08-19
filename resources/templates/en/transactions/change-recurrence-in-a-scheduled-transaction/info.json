@@ -13,5 +13,14 @@
 		}
 	],
     "content": [
-        ]
+        {
+            "tag": "p",
+            "html": "Changing the recurrence in a scheduled transaction can be performed by <a href=\"https://help.blitzbudget.com/en/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">changing the sort to scheduled transactions</a> and then simply dragging and dropping the recurring transaction to the relevant recurrence."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-recurrence.gif"
+		}
+    ]
 }

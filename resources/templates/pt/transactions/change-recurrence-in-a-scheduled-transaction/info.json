@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-recurrence-in-a-scheduled-transaction/",
+    "title": "Mudança de recorrência numa transacção agendada",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacções",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "A alteração da recorrência numa transacção programada pode ser realizada por <a href=\"https://help.blitzbudget.com/en/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">alterar o tipo para transacções programadas</a> e depois simplesmente arrastar e largar a transacção recorrente para a repetição relevante."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-recurrence.gif"
+		}
+    ]
+}

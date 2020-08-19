@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-recurrence-in-a-scheduled-transaction/",
+    "title": "スケジュールされたトランザクションでの再起性の変更",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "スケジュールされたトランザクションの再帰を変更するには、次のようにします <a href=\"https://help.blitzbudget.com/en/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">ソートをスケジュールされたトランザクションに変更</a> を使用して、定期的なトランザクションを関連する再帰にドラッグ＆ドロップするだけです。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-recurrence.gif"
+		}
+    ]
+}
