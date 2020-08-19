@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "La modificación de la recurrencia en una transacción programada puede realizarse mediante <a href=\"https://help.blitzbudget.com/en/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">cambiar el tipo a las transacciones programadas</a> y luego simplemente arrastrando y soltando la transacción recurrente a la recurrencia pertinente."
+            "html": "La modificación de la recurrencia en una transacción programada puede realizarse mediante <a href=\"https://help.blitzbudget.com/es/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">cambiar el tipo a las transacciones programadas</a> y luego simplemente arrastrando y soltando la transacción recurrente a la recurrencia pertinente."
 		},
         {
             "tag": "img",

@@ -15,7 +15,7 @@
     "content": [
         {
             "tag": "p",
-            "html": "改变预定事务中的递归可以通过以下方式执行 <a href=\"https://help.blitzbudget.com/en/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">将排序改为计划交易</a> 然后简单地将循环事务拖放到相关的循环中."
+            "html": "改变预定事务中的递归可以通过以下方式执行 <a href=\"https://help.blitzbudget.com/zh/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">将排序改为计划交易</a> 然后简单地将循环事务拖放到相关的循环中."
 		},
         {
             "tag": "img",
