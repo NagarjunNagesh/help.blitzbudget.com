@@ -37,7 +37,7 @@
 		},
         {
             "tag": "p",
-            "html": "Abaixo são apresentados todos os campos possíveis que são permitidos para uma transacção. Como se vê na imagem acima, o campo da conta não está necessariamente presente no campo fornecido para adicionar a transacção. <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Seleccione uma conta para adicionar uma transacção </a>."
+            "html": "Abaixo são apresentados todos os campos possíveis que são permitidos para uma transacção. Como se vê na imagem acima, o campo da conta não está necessariamente presente no campo fornecido para adicionar a transacção. <a href=\"https://help.blitzbudget.com/pt/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Seleccione uma conta para adicionar uma transacção </a>."
 		},
         {
             "tag": "div",
@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "Agendar uma transacção é tão simples como escolher entre estas opções de recorrência <strong>SEMANALMENTE</strong>, <strong>BI MÊS</strong>, <strong>MENSALMENTE</strong>. Não se preocupe, <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">pode alterá-lo quando quiser, se não quiser que se repita no mês seguinte, editando a transacção mais tarde.</a>."
+            "html": "Agendar uma transacção é tão simples como escolher entre estas opções de recorrência <strong>SEMANALMENTE</strong>, <strong>BI MÊS</strong>, <strong>MENSALMENTE</strong>. Não se preocupe, <a href=\"https://help.blitzbudget.com/pt/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">pode alterá-lo quando quiser, se não quiser que se repita no mês seguinte, editando a transacção mais tarde.</a>."
 		}
 	]
 }

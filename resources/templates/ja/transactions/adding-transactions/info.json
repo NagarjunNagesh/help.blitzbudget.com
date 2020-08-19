@@ -37,7 +37,7 @@
 		},
         {
             "tag": "p",
-            "html": "以下に、トランザクションに許可されているすべての可能なフィールドを示します。上の画像に見られるように、アカウントフィールドは必ずしもトランザクションを追加するために提供されたフィールドに存在しているとは限りません。 <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> トランザクションを追加するためのアカウントを選択します。 </a>."
+            "html": "以下に、トランザクションに許可されているすべての可能なフィールドを示します。上の画像に見られるように、アカウントフィールドは必ずしもトランザクションを追加するために提供されたフィールドに存在しているとは限りません。 <a href=\"https://help.blitzbudget.com/ja/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> トランザクションを追加するためのアカウントを選択します。 </a>."
 		},
         {
             "tag": "div",
@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "トランザクションのスケジューリングは、これらの再帰オプションの間で選択するのと同じくらい簡単です <strong>ウィークリー</strong>, <strong>月に２回</strong>, <strong>月間</strong>. 心配するな <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">あなたはそれが後でトランザクションを編集することによって、次の月にそれが再発したくない場合は、いつでもあなたが望むときにそれを戻すことができます。</a>."
+            "html": "トランザクションのスケジューリングは、これらの再帰オプションの間で選択するのと同じくらい簡単です <strong>ウィークリー</strong>, <strong>月に２回</strong>, <strong>月間</strong>. 心配するな <a href=\"https://help.blitzbudget.com/ja/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">あなたはそれが後でトランザクションを編集することによって、次の月にそれが再発したくない場合は、いつでもあなたが望むときにそれを戻すことができます。</a>."
 		}
 	]
 }

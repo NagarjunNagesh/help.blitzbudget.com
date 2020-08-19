@@ -37,7 +37,7 @@
 		},
         {
             "tag": "p",
-            "html": "Vous trouverez ci-dessous tous les champs possibles qui sont autorisés pour une transaction. Comme on peut le voir dans l'image ci-dessus, le champ Compte n'est pas nécessairement présent dans le champ prévu pour ajouter la transaction. <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Sélectionnez un compte pour ajouter une transaction </a>."
+            "html": "Vous trouverez ci-dessous tous les champs possibles qui sont autorisés pour une transaction. Comme on peut le voir dans l'image ci-dessus, le champ Compte n'est pas nécessairement présent dans le champ prévu pour ajouter la transaction. <a href=\"https://help.blitzbudget.com/fr/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Sélectionnez un compte pour ajouter une transaction </a>."
 		},
         {
             "tag": "div",
@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "Pour programmer une transaction, il suffit de choisir entre ces options de récurrence <strong>SEMAINE</strong>, <strong>BI-MENSUEL</strong>, <strong>MENSUEL</strong>. Ne vous inquiétez pas <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">vous pouvez le modifier à tout moment si vous ne voulez pas qu'il se reproduise le mois suivant en modifiant la transaction plus tard.</a>."
+            "html": "Pour programmer une transaction, il suffit de choisir entre ces options de récurrence <strong>SEMAINE</strong>, <strong>BI-MENSUEL</strong>, <strong>MENSUEL</strong>. Ne vous inquiétez pas <a href=\"https://help.blitzbudget.com/fr/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">vous pouvez le modifier à tout moment si vous ne voulez pas qu'il se reproduise le mois suivant en modifiant la transaction plus tard.</a>."
 		}
 	]
 }

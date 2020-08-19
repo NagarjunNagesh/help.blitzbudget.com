@@ -37,7 +37,7 @@
 		},
         {
             "tag": "p",
-            "html": "下面给出了所有允许交易的可能字段。如上图所示，账户字段不一定存在于提供的添加交易的字段中。 <a href=\"https://help.blitzbudget.com/en/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> 选择一个账户来添加交易 </a>."
+            "html": "下面给出了所有允许交易的可能字段。如上图所示，账户字段不一定存在于提供的添加交易的字段中。 <a href=\"https://help.blitzbudget.com/zh/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> 选择一个账户来添加交易 </a>."
 		},
         {
             "tag": "div",
@@ -75,7 +75,7 @@
 		},
         {
             "tag": "p",
-            "html": "安排一个交易很简单，只要在这些递归选项中进行选择即可 <strong>每周</strong>, <strong>每月两次</strong>, <strong>月度</strong> . 别担心 <a href=\"https://help.blitzbudget.com/en/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">如果你不想让它在下个月重复出现，你可以在任何时候通过编辑交易来改变它。</a>"
+            "html": "安排一个交易很简单，只要在这些递归选项中进行选择即可 <strong>每周</strong>, <strong>每月两次</strong>, <strong>月度</strong> . 别担心 <a href=\"https://help.blitzbudget.com/zh/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">如果你不想让它在下个月重复出现，你可以在任何时候通过编辑交易来改变它。</a>"
 		}
 	]
 }
