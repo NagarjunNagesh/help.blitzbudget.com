@@ -120,6 +120,10 @@ window.categoryInfo = {
                 {
                     "title": "How To Select A Financial Account",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "Change Recurrence in a Scheduled Transaction",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -373,6 +377,10 @@ window.categoryInfo = {
                 {
                     "title": "Cómo seleccionar una cuenta financiera",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "Cambiar la recurrencia en una transacción programada",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -626,6 +634,10 @@ window.categoryInfo = {
                 {
                     "title": "Comment sélectionner un compte financier",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "Récurrence des changements dans une transaction prévue",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -879,6 +891,10 @@ window.categoryInfo = {
                 {
                     "title": "金融口座の選び方",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "スケジュールされたトランザクションでの再起性の変更",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -1132,6 +1148,10 @@ window.categoryInfo = {
                 {
                     "title": "Como Seleccionar Uma Conta Financeira",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "Mudança de recorrência numa transacção agendada",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -1385,6 +1405,10 @@ window.categoryInfo = {
                 {
                     "title": "Как выбрать финансовый счет",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "Периодичность изменений в запланированной операции",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
@@ -1638,6 +1662,10 @@ window.categoryInfo = {
                 {
                     "title": "如何选择金融账户",
                     "url": "/how-to-select-a-financial-account/"
+                },
+                {
+                    "title": "计划交易中的变更重现",
+                    "url": "/change-recurrence-in-a-scheduled-transaction/"
                 }
             ]
         },
