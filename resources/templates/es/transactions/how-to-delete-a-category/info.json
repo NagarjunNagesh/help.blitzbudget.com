@@ -1,0 +1,41 @@
+{
+    "url": "/transactions/how-to-delete-a-category/",
+    "title": "Cómo eliminar una categoría",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Al suprimir una categoría, también se eliminan todas las transacciones asociadas para la fecha seleccionada junto con el presupuesto asociado a ella."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-category.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Todas sus transacciones asociadas a la categoría para el mes seleccionado serán eliminadas.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">El presupuesto asociado a la categoría también será eliminado.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La categoría en cuestión también será eliminada.</p></div>"
+		}
+	]
+}

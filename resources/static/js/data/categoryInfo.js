@@ -114,6 +114,10 @@ window.categoryInfo = {
                     "url": "/delete-transactions/"
                 },
                 {
+                    "title": "How To Delete a Category",
+                    "url": "/how-to-delete-a-category/"
+                },
+                {
                     "title": "How To Delete a Financial Account",
                     "url": "/how-to-delete-a-financial-account/"
                 },
@@ -369,6 +373,10 @@ window.categoryInfo = {
                 {
                     "title": "Borrar transacciones",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "Cómo eliminar una categoría",
+                    "url": "/how-to-delete-a-category/"
                 },
                 {
                     "title": "Cómo eliminar una cuenta financiera",
@@ -628,6 +636,10 @@ window.categoryInfo = {
                     "url": "/delete-transactions/"
                 },
                 {
+                    "title": "Comment supprimer une catégorie",
+                    "url": "/how-to-delete-a-category/"
+                },
+                {
                     "title": "Comment supprimer un compte financier",
                     "url": "/how-to-delete-a-financial-account/"
                 },
@@ -883,6 +895,10 @@ window.categoryInfo = {
                 {
                     "title": "取引の削除",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "カテゴリを削除する方法",
+                    "url": "/how-to-delete-a-category/"
                 },
                 {
                     "title": "金融口座を削除する方法",
@@ -1142,6 +1158,10 @@ window.categoryInfo = {
                     "url": "/delete-transactions/"
                 },
                 {
+                    "title": "Como eliminar uma categoria",
+                    "url": "/how-to-delete-a-category/"
+                },
+                {
                     "title": "Como eliminar uma conta financeira",
                     "url": "/how-to-delete-a-financial-account/"
                 },
@@ -1399,6 +1419,10 @@ window.categoryInfo = {
                     "url": "/delete-transactions/"
                 },
                 {
+                    "title": "Как удалить категорию",
+                    "url": "/how-to-delete-a-category/"
+                },
+                {
                     "title": "Как удалить финансовый счет",
                     "url": "/how-to-delete-a-financial-account/"
                 },
@@ -1654,6 +1678,10 @@ window.categoryInfo = {
                 {
                     "title": "删除交易",
                     "url": "/delete-transactions/"
+                },
+                {
+                    "title": "如何删除一个类别",
+                    "url": "/how-to-delete-a-category/"
                 },
                 {
                     "title": "如何删除金融账户",
