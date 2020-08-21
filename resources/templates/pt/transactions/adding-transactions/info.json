@@ -57,6 +57,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Data <i class=\"small tripleNineColor\">(necessário)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Descrição</p></div>"
 		},
         {
