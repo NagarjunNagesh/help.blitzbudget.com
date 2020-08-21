@@ -30,6 +30,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Все ваши повторяющиеся операции, связанные с финансовыми счетами, будут удалены.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Соответствующий финансовый аккаунт также будет удален.</p></div>"
 		}
 	]

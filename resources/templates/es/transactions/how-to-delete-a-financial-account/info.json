@@ -30,6 +30,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Todas sus transacciones recurrentes asociadas con las cuentas financieras serán eliminadas.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La cuenta financiera en cuestión también será eliminada.</p></div>"
 		}
 	]

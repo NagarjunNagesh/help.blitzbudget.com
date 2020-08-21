@@ -30,6 +30,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">您与金融账户相关的所有经常性交易将被删除。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">有关的金融账户也将被删除。</p></div>"
 		}
 	]

@@ -30,6 +30,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Toutes vos opérations récurrentes associées aux comptes financiers seront supprimées.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Le compte financier en question sera également supprimé.</p></div>"
 		}
 	]

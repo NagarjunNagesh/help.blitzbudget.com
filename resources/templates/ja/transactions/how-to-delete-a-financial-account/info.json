@@ -30,6 +30,11 @@
         {
             "tag": "div",
             "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">金融口座に関連した定期的な取引はすべて削除されます。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
             "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">問題の金融口座も削除されます。</p></div>"
 		}
 	]
