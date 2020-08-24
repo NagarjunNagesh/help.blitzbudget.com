@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/viewing-transaction-details/",
+    "title": "Просмотр сведений об операциях",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Сделки",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Просмотр информации о вашей транзакции так же прост, как и щелчок по транзакции."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/transaction-modal.gif"
+		}
+	]
+}
