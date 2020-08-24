@@ -98,6 +98,10 @@ window.categoryInfo = {
                     "url": "/viewing-category-details/"
                 },
                 {
+                    "title": "Viewing Transaction Details",
+                    "url": "/viewing-transaction-details/"
+                },
+                {
                     "title": "Edit Notes",
                     "url": "/edit-notes/"
                 },
@@ -357,6 +361,10 @@ window.categoryInfo = {
                 {
                     "title": "Ver detalles de la categoría",
                     "url": "/viewing-category-details/"
+                },
+                {
+                    "title": "Ver detalles de la transacción",
+                    "url": "/viewing-transaction-details/"
                 },
                 {
                     "title": "Editar notas",
@@ -620,6 +628,10 @@ window.categoryInfo = {
                     "url": "/viewing-category-details/"
                 },
                 {
+                    "title": "Visualisation des détails de la transaction",
+                    "url": "/viewing-transaction-details/"
+                },
+                {
                     "title": "Notes d'édition",
                     "url": "/edit-notes/"
                 },
@@ -879,6 +891,10 @@ window.categoryInfo = {
                 {
                     "title": "カテゴリーの詳細を見る",
                     "url": "/viewing-category-details/"
+                },
+                {
+                    "title": "取引の詳細を見る",
+                    "url": "/viewing-transaction-details/"
                 },
                 {
                     "title": "メモの編集",
@@ -1142,6 +1158,10 @@ window.categoryInfo = {
                     "url": "/viewing-category-details/"
                 },
                 {
+                    "title": "Ver detalhes da transacção",
+                    "url": "/viewing-transaction-details/"
+                },
+                {
                     "title": "Notas sobre a edição",
                     "url": "/edit-notes/"
                 },
@@ -1403,6 +1423,10 @@ window.categoryInfo = {
                     "url": "/viewing-category-details/"
                 },
                 {
+                    "title": "Просмотр сведений об операциях",
+                    "url": "/viewing-transaction-details/"
+                },
+                {
                     "title": "Редактировать заметки",
                     "url": "/edit-notes/"
                 },
@@ -1662,6 +1686,10 @@ window.categoryInfo = {
                 {
                     "title": "查看类别详情",
                     "url": "/viewing-category-details/"
+                },
+                {
+                    "title": "查看交易详情",
+                    "url": "/viewing-transaction-details/"
                 },
                 {
                     "title": "编辑说明",
