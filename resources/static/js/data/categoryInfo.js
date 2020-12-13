@@ -244,7 +244,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "BlitzBudget For Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "Change Country",
@@ -509,7 +509,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "BlitzBudget para Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "Atajos de teclado",
@@ -774,7 +774,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "BlitzBudget pour Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "Raccourcis clavier",
@@ -1039,7 +1039,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "電撃予算とアレクサ",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "キーボードショートカット",
@@ -1304,7 +1304,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "BlitzBudget para Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "Atalhos do teclado",
@@ -1569,7 +1569,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "BlitzBudget для Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "сочетания клавиш",
@@ -1834,7 +1834,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "闪电战预算对Alexa",
-                    "url": "/blitzbudget-for-alexa/"
+                    "url": "https://www.blitzbudget.com/alexa"
                 },
                 {
                     "title": "键盘快捷键",

@@ -502,7 +502,21 @@
 
             let anchorArticle = document.createElement('a');
             anchorArticle.classList.add('sub-category-link');
-            anchorArticle.href = '/' + window.currentLanguage + category.dataUrl + subCategoryNavItem.url.slice(1);
+            // If the category url contains the below url then
+            // Add the url directly without adding the language
+            anchorHref = subCategoryNavItem.url;
+            if (anchorHref.indexOf("http://app.blitzbudget.com") == 0 ||
+                anchorHref.indexOf("https://app.blitzbudget.com") == 0 ||
+                anchorHref.indexOf("http://www.blitzbudget.com") == 0 ||
+                anchorHref.indexOf("https://www.blitzbudget.com") == 0 ||
+                anchorHref.indexOf("http://blitzbudget.com") == 0 ||
+                anchorHref.indexOf("https://blitzbudget.com") == 0) {
+                anchorArticle.href = anchorHref;
+                // Open in a new tab
+                anchorArticle.target = "_blank";
+            } else {
+                anchorArticle.href = '/' + window.currentLanguage + category.dataUrl + anchorHref.slice(1);
+            }
             anchorArticle.innerText = subCategoryNavItem.title;
             li.appendChild(anchorArticle);
             ul.appendChild(li);
