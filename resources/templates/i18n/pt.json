@@ -13,33 +13,27 @@
     "cards": {
         "gettingstarted": {
             "title": "Começando por",
-            "description": "Controlo total sobre o seu dinheiro em poucos cliques.",
-            "count": "4 itens"
+            "description": "Controlo total sobre o seu dinheiro em poucos cliques."
         },
         "goals": {
             "title": "Objectivos",
-            "description": "Está a planear comprar, guardar o seu dinheiro para algo que vale a pena poupar?",
-            "count": "4 itens"
+            "description": "Está a planear comprar, guardar o seu dinheiro para algo que vale a pena poupar?"
         },
         "budget": {
             "title": "Orçamento",
-            "description": "Planeie o que gasta e automatize o seu plano financeiro.",
-            "count": "4 itens"
+            "description": "Planeie o que gasta e automatize o seu plano financeiro."
         },
         "transactions": {
             "title": "Transacções",
-            "description": "Assegurar que cada despesa é contabilizada e rastreada.",
-            "count": "4 itens"
+            "description": "Assegurar que cada despesa é contabilizada e rastreada."
         },
         "financialaccounts": {
             "title": "Contas financeiras",
-            "description": "Os cartões de crédito e de débito são fáceis de seguir com as contas financeiras.",
-            "count": "4 itens"
+            "description": "Os cartões de crédito e de débito são fáceis de seguir com as contas financeiras."
         },
         "miscellaneous": {
             "title": "Diversos",
-            "description": "Ajustar as suas preferências, notificações e muito mais.",
-            "count": "4 itens"
+            "description": "Ajustar as suas preferências, notificações e muito mais."
         }
     },
     "categories": {

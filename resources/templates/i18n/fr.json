@@ -13,33 +13,27 @@
     "cards": {
         "gettingstarted": {
             "title": "Démarrage",
-            "description": "Contrôle total sur votre argent en quelques clics.",
-            "count": "4 artículos"
+            "description": "Contrôle total sur votre argent en quelques clics."
         },
         "goals": {
             "title": "Objectifs",
-            "description": "Vous prévoyez d'acheter, d'économiser votre argent pour quelque chose qui en vaut la peine ?",
-            "count": "4 articles"
+            "description": "Vous prévoyez d'acheter, d'économiser votre argent pour quelque chose qui en vaut la peine ?"
         },
         "budget": {
             "title": "Budget",
-            "description": "Planifiez vos dépenses et automatisez votre plan financier.",
-            "count": "4 articles"
+            "description": "Planifiez vos dépenses et automatisez votre plan financier."
         },
         "transactions": {
             "title": "Transactions",
-            "description": "S'assurer que chaque dépense est comptabilisée et suivie.",
-            "count": "4 articles"
+            "description": "S'assurer que chaque dépense est comptabilisée et suivie."
         },
         "financialaccounts": {
             "title": "Comptes financiers",
-            "description": "Les cartes de crédit et de débit sont faciles à suivre grâce aux comptes financiers.",
-            "count": "4 articles"
+            "description": "Les cartes de crédit et de débit sont faciles à suivre grâce aux comptes financiers."
         },
         "miscellaneous": {
             "title": "Divers",
-            "description": "Ajustez vos préférences, vos notifications et plus encore.",
-            "count": "4 articles"
+            "description": "Ajustez vos préférences, vos notifications et plus encore."
         }
     },
     "categories": {

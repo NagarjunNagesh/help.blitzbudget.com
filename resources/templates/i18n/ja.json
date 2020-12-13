@@ -13,33 +13,27 @@
     "cards": {
         "gettingstarted": {
             "title": "で始まる",
-            "description": "数回のクリックであなたのお金を完全にコントロールする.",
-            "count": "4品目"
+            "description": "数回のクリックであなたのお金を完全にコントロールする."
         },
         "goals": {
             "title": "目的",
-            "description": "買うことを計画して、価値のある何かのためにお金を貯めていますか？",
-            "count": "4品目"
+            "description": "買うことを計画して、価値のある何かのためにお金を貯めていますか？"
         },
         "budget": {
             "title": "予算",
-            "description": "使うものを計画し、資金計画を自動化しましょう。",
-            "count": "4品目"
+            "description": "使うものを計画し、資金計画を自動化しましょう。"
         },
         "transactions": {
             "title": "取引",
-            "description": "すべての費用が説明され、追跡されていることを確認してください。",
-            "count": "4品目"
+            "description": "すべての費用が説明され、追跡されていることを確認してください。"
         },
         "financialaccounts": {
             "title": "財務会計",
-            "description": "クレジットカードやデビットカードは、金融機関の口座があれば簡単に追跡できます。",
-            "count": "4品目"
+            "description": "クレジットカードやデビットカードは、金融機関の口座があれば簡単に追跡できます。"
         },
         "miscellaneous": {
             "title": "その他",
-            "description": "設定や通知などを調整しましょう。",
-            "count": "4品目"
+            "description": "設定や通知などを調整しましょう。"
         }
     },
     "categories": {

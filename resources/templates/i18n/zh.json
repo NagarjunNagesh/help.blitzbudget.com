@@ -13,33 +13,27 @@
     "cards": {
         "gettingstarted": {
             "title": "开始",
-            "description": "完全控制你的钱在点击几下.",
-            "count": "4 商品"
+            "description": "完全控制你的钱在点击几下."
         },
         "goals": {
             "title": "目标",
-            "description": "计划购买，节省你的钱的东西值得节省？",
-            "count": "4 商品"
+            "description": "计划购买，节省你的钱的东西值得节省？"
         },
         "budget": {
             "title": "预算",
-            "description": "计划你花什么和自动化您的财务计划。",
-            "count": "4 商品"
+            "description": "计划你花什么和自动化您的财务计划。"
         },
         "transactions": {
             "title": "交易",
-            "description": "确保每笔费用都被记录和跟踪。",
-            "count": "4 商品"
+            "description": "确保每笔费用都被记录和跟踪。"
         },
         "financialaccounts": {
             "title": "财务账户",
-            "description": "信用卡和借记卡很容易跟踪与金融账户。",
-            "count": "4 商品"
+            "description": "信用卡和借记卡很容易跟踪与金融账户。"
         },
         "miscellaneous": {
             "title": "杂项",
-            "description": "调整您的喜好，通知等。",
-            "count": "4 商品"
+            "description": "调整您的喜好，通知等。"
         }
     },
     "categories": {

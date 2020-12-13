@@ -13,33 +13,27 @@
     "cards": {
         "gettingstarted": {
             "title": "Getting Started",
-            "description": "Total control over your money in a few clicks.",
-            "count": "4 articles"
+            "description": "Total control over your money in a few clicks."
         },
         "goals": {
             "title": "Goals",
-            "description": "Planning to buy save your money for something worth saving?",
-            "count": "4 articles"
+            "description": "Planning to buy save your money for something worth saving?"
         },
         "budget": {
             "title": "Budget",
-            "description": "Plan what you spend & automate your financial plan.",
-            "count": "4 articles"
+            "description": "Plan what you spend & automate your financial plan."
         },
         "transactions": {
             "title": "Transactions",
-            "description": "Make sure every spending is accounted for and tracked.",
-            "count": "4 articles"
+            "description": "Make sure every spending is accounted for and tracked."
         },
         "financialaccounts": {
             "title": "Financial Accounts",
-            "description": "Credit cards and debit cards are easily tracked with financial accounts.",
-            "count": "4 articles"
+            "description": "Credit cards and debit cards are easily tracked with financial accounts."
         },
         "miscellaneous": {
             "title": "Miscellaneous",
-            "description": "Tweak your preferences, notifications and more.",
-            "count": "4 articles"
+            "description": "Tweak your preferences, notifications and more."
         }
     },
     "categories": {
