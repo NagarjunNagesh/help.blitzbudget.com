@@ -1173,7 +1173,8 @@ a.button:hover {
     color: #000;
     text-align: left;
     cursor: pointer;
-    padding: .75rem 1.25rem .75rem .75rem position: relative;
+    padding: .75rem 1.25rem .75rem .75rem;
+    position: relative;
     width: auto;
     display: flex;
     flex-flow: nowrap;
@@ -1365,8 +1366,8 @@ a.button:hover {
 
     to {
         -webkit-transform: translate3d(0, -10%, 0);
-        transform: translate3d(0, -10%%, 0);
-        opacity: 0
+        transform: translate3d(0, -10%, 0);
+        opacity: 0;
     }
 }
 
