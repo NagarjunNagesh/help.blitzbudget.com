@@ -1,0 +1,11 @@
+{
+    "url": "/transactions/",
+    "title": "транзакции",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		}
+	]
+}

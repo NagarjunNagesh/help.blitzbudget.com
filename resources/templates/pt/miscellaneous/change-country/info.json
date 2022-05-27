@@ -1,0 +1,41 @@
+{
+    "url": "/miscellaneous/change-country/",
+    "title": "Alterar País",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Diversos",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Mudar o país é tão simples como 1,2,3."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-country.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Navegue para <strong>Página de configurações.</strong>.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique no menu suspenso ao lado para escolher o país.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Digite o seu país na pesquisa fornecida e Escolha o seu país.</p></div>"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+    "url": "/overview/networth-overview/",
+    "title": "чистая стоимость обзор",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Центр помощи",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Обзор",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "ваше общее наследие может быть отображено с помощью сводной страницы."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/networth-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на кнопку<strong> капитал </strong> , как показано на картинке выше.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">vista по умолчанию выделяется банковских счетов в категории активов и долгов.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "наведите курсор на диаграмму"
+        }, {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+        }, {
+            "tag": "p",
+            "html": "при наведении курсора на линейную диаграмму будет отображаться баланс счета, соответствующий учетной записи, которая была пропущена."
+        }
+	]
+}

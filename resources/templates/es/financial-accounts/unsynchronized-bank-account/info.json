@@ -1,0 +1,68 @@
+{
+	"url" : "/financial-accounts/unsynchronized-bank-account/",
+	"title" : "Agregar Cuentas Financieras No Sincronizadas",
+	"subcategoryPresent" : false,
+	"breadcrumb" : [
+		{
+			"crumbTitle" : "Centro de ayuda",
+			"crumbUrl" : "/"
+		},
+		{
+			"crumbTitle" : "Cuentas financieras",
+			"crumbUrl" : "/financial-accounts/"
+		}
+	],
+	"content": [
+		{
+			"tag": "p",
+			"html": "Añadir una cuenta es tan simple como 1,2,3. ¡Eso es!" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/account-type.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Elija su tipo de cuenta.</strong> Elija la opción de cuenta no sincronizada del desplegable.</p></div>"
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image w-30",
+			"srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Entra los detalles de la cuenta.</strong> Entra el tipo de cuenta, el nombre y el balance de la cuenta.</p></div>"
+		},
+		{
+			"tag": "div",
+			"classInfo": "item-container",
+			"html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón <strong>Crear cuenta</strong>.</p></div>"
+		},
+		{
+			"tag": "h3",
+			"html": "¿Confundido por el tipo de cuenta?" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/know-more.png"
+		},
+		{
+			"tag": "p",
+			"html": "Hay algunas cuentas como el efectivo, que tiene que encajar en la falta de sincronización, mientras que las otras dependen de ti para decidir. ¡Veamos la diferencia entre las dos!" 
+		},
+		{
+			"tag": "img",
+			"classInfo": "article-image half-width",
+			"srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+		{
+			"tag": "p",
+			"html": "Piense en la cuenta bancaria no sincronizada como una cuenta manual en la que hay que introducir manualmente todas las transacciones y en las cuentas sincrónicas como una cuenta automática en la que la actualización de las transacciones es automática." 
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "/transactions/file-based-import/",
+    "title": "ファイルベースのインポート",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">彼はすぐにここに来る！</h3>"
+		}
+	]
+}

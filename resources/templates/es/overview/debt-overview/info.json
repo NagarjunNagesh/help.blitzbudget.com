@@ -1,0 +1,49 @@
+{
+    "url": "/overview/debt-overview/",
+    "title": "Resumen de la deuda",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Visión general",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Una supervisión de todas sus deudas se puede obtener a través de la página de resumen."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/debt-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic en el botón de la <strong> deuda </strong> como se muestra en la imagen de arriba.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vista por defecto está segregada por cuentas bancarias en la categoría de deuda.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Pase el cursor sobre el gráfico"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "Al pasar el cursor sobre el gráfico de líneas se mostrará el saldo de la cuenta correspondiente a la cuenta que se ha pasado por alto."
+		}
+	]
+}

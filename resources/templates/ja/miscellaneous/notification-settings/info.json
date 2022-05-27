@@ -1,0 +1,22 @@
+{
+    "url": "/miscellaneous/notification-settings/",
+    "title": "通知設定を維持する",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "その他",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">彼はすぐにここに来る！</h3>"
+		}
+	]
+}

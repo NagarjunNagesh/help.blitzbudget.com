@@ -1,0 +1,30 @@
+{
+    "url": "/budget/delete-a-budget/",
+    "title": "删除引号",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "预算",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "你有一个预算，你不再使用？ 您可以通过将鼠标悬停在所需的预算上并单击删除图标来删除预算。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/budget/delete-a-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "删除引号时要小心。 您无法恢复已删除的预算，但可以重新创建它。"
+		}
+	]
+}

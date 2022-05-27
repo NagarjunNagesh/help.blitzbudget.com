@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-language/",
+    "title": "Cambiar de idioma",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Miscelánea",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Nos esforzamos por proporcionar la mejor experiencia posible en su idioma. Debería estar disponible para usted en la página de configuración."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-language.png"
+		}
+	]
+}

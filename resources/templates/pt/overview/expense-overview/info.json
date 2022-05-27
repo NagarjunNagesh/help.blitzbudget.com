@@ -1,0 +1,115 @@
+{
+    "url": "/overview/expense-overview/",
+    "title": "Resumo das despesas",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Resumo",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "O resumo das despesas tem alguns dos detalhes disponíveis."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumo de um ano.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Síntese das despesas.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumo da conta.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Resumo de um ano"
+		},
+        {
+            "tag": "p",
+            "html": "O resumo de um ano foi concebido para fornecer uma visão geral de até 12 meses com um gráfico interactivo."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "O resumo fornece a opção de pairar sobre o ponto para descobrir o montante de despesas para esse mês."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Resumo das despesas"
+		},
+        {
+            "tag": "p",
+            "html": "O resumo das despesas foi concebido para fornecer uma tabela categorizada dos donuts para o mês seleccionado."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "O resumo das despesas foi concebido para fornecer uma tabela categorizada dos donuts para o mês seleccionado."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Visão Geral da Conta"
+		},
+        {
+            "tag": "p",
+            "html": "A visão geral da conta foi concebida para fornecer uma tabela de donuts categorizados para o mês seleccionado com as contas."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "O resumo oferece a opção de pairar sobre qualquer secção para descobrir as despesas dessa conta durante o mês."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Check Transactions Constituting The Chart"
+		},
+        {
+            "tag": "p",
+            "html": "Clicking on any section of the chart allows you to see all the transactions for that section."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

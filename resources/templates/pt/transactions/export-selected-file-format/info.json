@@ -1,0 +1,31 @@
+{
+    "url": "/transactions/export-selected-file-format/",
+    "title": "Exportar o formato de ficheiro seleccionado",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacções",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Prefere exportar as suas transacções em documentos Excel, CSV ou Word? Basta seleccionar as transacções e clicar no botão <strong>Descarregar</strong> como se mostra na imagem abaixo."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/download-report.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>O que contém o ficheiro Excel?</h4><p>O ficheiro Excel descarregado tem <i> categoria da operação, montante da operação, nome da conta, notas de transacção, montante do orçamento, ajustamentos de recorrência, etc</i>.</p>"
+		}
+	]
+}

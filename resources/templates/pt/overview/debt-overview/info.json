@@ -1,0 +1,49 @@
+{
+    "url": "/overview/debt-overview/",
+    "title": "Resumo da dívida",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Resumo",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Uma visão geral de todas as suas dívidas pode ser obtida através da página de resumo."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/debt-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique no botão sobre o <strong> dívida </strong> como se mostra na figura acima.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">A vista por defeito é segregada por contas bancárias na categoria da dívida.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Passar o cursor sobre o gráfico"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "Passar o cursor sobre o gráfico de linhas mostrará o saldo da conta que foi negligenciado."
+		}
+	]
+}

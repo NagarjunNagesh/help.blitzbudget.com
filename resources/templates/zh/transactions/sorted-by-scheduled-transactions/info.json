@@ -1,0 +1,51 @@
+{
+    "url": "/transactions/sorted-by-scheduled-transactions",
+    "title": "按计划交易排序",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "想看按计划交易汇总的交易？检查 <a href=\"https://help.blitzbudget.com/zh/transactions/sort-by/\" class=\"article-anchor\"> 排序方式 </a> 选项，以导航到计划交易汇总选项。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sorted-by-future-transactions.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">递归标题。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">事务描述。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">事务类别。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">交易创建日期。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">交易金额。</p></div>"
+		}
+	]
+}

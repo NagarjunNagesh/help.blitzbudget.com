@@ -1,0 +1,86 @@
+{
+    "url": "/transactions/adding-transactions/",
+    "title": "Adição de transacções",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacções",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "A adição de uma operação acrescenta automaticamente uma nova conta com o tipo <strong>DINHEIRO</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transactions.png"
+		},
+        {
+            "tag": "p",
+            "html": "É aberto um modelo com a opção de introduzir a quantidade, o tipo de categoria e uma nota, como se mostra a seguir."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transaction.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "p",
+            "html": "Abaixo são apresentados todos os campos possíveis que são permitidos para uma transacção. Como se vê na imagem acima, o campo da conta não está necessariamente presente no campo fornecido para adicionar a transacção. <a href=\"https://help.blitzbudget.com/pt/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> Seleccione uma conta para adicionar uma transacção </a>."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Conta <i class=\"small tripleNineColor\">(necessário)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Categoria <i class=\"small tripleNineColor\">(necessário)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Montante <i class=\"small tripleNineColor\">(necessário)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Data <i class=\"small tripleNineColor\">(necessário)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">Descrição</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">Etiquetas</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">Transacções programadas</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Programar a transacção"
+		},
+        {
+            "tag": "p",
+            "html": "Agendar uma transacção é tão simples como escolher entre estas opções de recorrência <strong>SEMANALMENTE</strong>, <strong>BI MÊS</strong>, <strong>MENSALMENTE</strong>. Não se preocupe, <a href=\"https://help.blitzbudget.com/pt/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">pode alterá-lo quando quiser,</a> se não quiser que se repita no mês seguinte, editando a transacção mais tarde."
+		}
+	]
+}

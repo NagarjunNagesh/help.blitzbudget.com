@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/edit-notes/",
+    "title": "Редактировать заметки",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Транзакция должна иметь примечание, связанное с ней, оно может быть добавлено позже путем модификации транзакции. Щелкните на нужную операцию, чтобы изменить описание."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/edit-description.gif"
+		}
+	]
+}

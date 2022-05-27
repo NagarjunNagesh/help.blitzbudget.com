@@ -1,0 +1,134 @@
+{
+    "url": "/miscellaneous/keyboard-shortcuts/",
+    "title": "キーボードショートカット",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "その他",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "キーボードの上に手を置いておくのが好きな人は知っています。"
+		},
+        {
+            "tag": "h3",
+            "html": "グローバルショートカット"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>アクション</strong></div><div class=\"col-lg-5 py-2\"><strong>ショートカット</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>アイテムの追加</i></div><div class=\"col-lg-5 py-2\">a</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>変更を保存</i></div><div class=\"col-lg-5 py-2\">入る</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>変更のキャンセル / 閉じるモード</i></div><div class=\"col-lg-5 py-2\">Esc</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>ドロップダウンメニューをナビゲート</i></div><div class=\"col-lg-5 py-2\">上矢印/下矢印</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>フルスクリーンを切り替える</i></div><div class=\"col-lg-5 py-2\">z</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "ナビゲーションのショートカット"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>アクション</strong></div><div class=\"col-lg-5 py-2\"><strong>ショートカット</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>概要ページ</i></div><div class=\"col-lg-5 py-2\">1</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>トランザクションページ</i></div><div class=\"col-lg-5 py-2\">2</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>予算のページ</i></div><div class=\"col-lg-5 py-2\">3</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>目標のページ</i></div><div class=\"col-lg-5 py-2\">4</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>設定ページ</i></div><div class=\"col-lg-5 py-2\">5</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>プロフィールページ</i></div><div class=\"col-lg-5 py-2\">6</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>銀行口座のページ</i></div><div class=\"col-lg-5 py-2\">7</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>財布のページ</i></div><div class=\"col-lg-5 py-2\">8</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>ヘルプセンターを開く</i></div><div class=\"col-lg-5 py-2\">/ 或いは ?</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "日付ピッカーのショートカット"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>アクション</strong></div><div class=\"col-lg-5 py-2\"><strong>ショートカット</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>日付を1ヶ月後ろに移動</i></div><div class=\"col-lg-5 py-2\">左矢印</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>日付を1ヶ月前倒し</i></div><div class=\"col-lg-5 py-2\">右矢印</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>今日の選択</i></div><div class=\"col-lg-5 py-2\">t</div>"
+        }
+
+	]
+}

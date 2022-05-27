@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/delete-transactions/",
+    "title": "Supprimer des transactions",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Il est possible de supprimer une opération. N'oubliez pas qu'il est assez destructeur pour votre plan financier de supprimer une opération qui a été effectuée mais qui n'a pas été comptabilisée dans le budget."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transactions.gif"
+		}
+	]
+}

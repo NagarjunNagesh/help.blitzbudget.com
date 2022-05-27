@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/viewing-category-details/",
+    "title": "Viewing Category Details",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Viewing your category details is as simple as clicking the category header. It allows you to view the budget allocated for the category and the total number of transactions available in the category."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/viewing-category-details.png"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "/miscellaneous/",
+    "title": "その他",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		}
+	]
+}

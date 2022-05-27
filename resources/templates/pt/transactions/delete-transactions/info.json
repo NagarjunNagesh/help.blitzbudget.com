@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/delete-transactions/",
+    "title": "Eliminar transacções",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacções",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "É possível eliminar uma transacção, Tenha em mente que é bastante destrutivo para o seu plano financeiro remover uma transacção que tenha sido executada mas não contabilizada no orçamento."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transactions.gif"
+		}
+	]
+}

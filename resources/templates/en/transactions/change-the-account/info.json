@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-the-account/",
+    "title": "Change The Account",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Changing the account of the transaction is as simple as dragging and dropping the transaction inside the preferred account.Check the <a href=\"https://help.blitzbudget.com/en/transactions/sort-by/\" class=\"article-anchor\"> Sort By </a> option to navigate to the Account sorting option."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-account.png"
+		}
+	]
+}

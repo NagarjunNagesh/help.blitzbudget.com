@@ -1,0 +1,86 @@
+{
+    "url": "/wallets/add-wallet/",
+    "title": "ポートフォリオの追加",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "ポートフォリオ",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "新しいポートフォリオを追加しますか？アイコンをクリック <strong>'+'</strong> お財布ページの右下に浮かんでいる"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/wallet-page.png"
+		},
+        {
+            "tag": "p",
+            "html": "ポートフォリオを追加するページに移動します。お好みの通貨を選択して <i>'保存'</i> をクリックして、新しいポートフォリオを追加します。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/add-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "通貨の選択"
+		},
+        {
+            "tag": "p",
+            "html": "コインの横にある下向き矢印をクリックすると、ドロップダウンメニューが開き、お財布のあるコインとないコインをすべて見ることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "お好みの通貨の入力を開始し、下矢印/上矢印をクリックすると、ウォレットセクションがなくても通貨を切り替えることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "ポートフォリオに合わせた通貨の選択"
+		},
+        {
+            "tag": "p",
+            "html": "同一通貨で複数のポートフォリオを作成することはできません。"
+		},
+        {
+            "tag": "h4",
+            "html": "検索条件"
+		},
+        {
+            "tag": "p",
+            "html": "結果が表示されない場合は、検索条件をもっとシンプルなものに変更することをお勧めします。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-currency-add-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "としてウォレットがない通貨については結果が表示されていません <strong>'インドルピー'</strong> はウォレットオプションとして既に存在しています。"
+		}
+	]
+}

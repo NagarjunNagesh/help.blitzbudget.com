@@ -1,0 +1,30 @@
+{
+    "url": "/budget/delete-a-budget/",
+    "title": "Suprimir um orçamento",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Orçamento",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Tem um orçamento que já não utiliza? Pode eliminar um orçamento movendo o cursor sobre o orçamento pretendido e clicando no ícone eliminar."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/budget/delete-a-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "Tenha cuidado ao eliminar um orçamento. Não se pode restaurar um orçamento eliminado, mas pode-se criá-lo novamente."
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+    "url": "/wallets/add-wallet/",
+    "title": "добавить портфель",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Кошельки",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "хотите добавить новый портфель? Нажмите на значок <strong>'+'</strong>  который плавает в правом нижнем углу страницы кошелька."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/wallet-page.png"
+		},
+        {
+            "tag": "p",
+            "html": "вы будете перенаправлены на страницу добавления кошельков. Где вы можете выбрать валюту по вашему выбору и нажмите кнопку <i>'сохранить'</i> чтобы добавить новый кошелек."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/add-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Выбор валюты"
+		},
+        {
+            "tag": "p",
+            "html": "выпадающее меню откроется, как только вы нажмете стрелку вниз рядом с монетой, где вы сможете увидеть все монеты с кошельком и монеты без кошелька."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "вы можете начать вводить валюту по вашему выбору и нажать стрелку вниз / вверх, чтобы переключаться между монетами без раздела кошелька."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "выбор валюты с кошельком"
+		},
+        {
+            "tag": "p",
+            "html": "вы не можете создать несколько кошельков для одной и той же валюты."
+		},
+        {
+            "tag": "h4",
+            "html": "Условия поиска"
+		},
+        {
+            "tag": "p",
+            "html": "когда результат не отображается, разумно изменить условия поиска на что-то более простое."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-currency-add-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "результат не отображается на монетах без кошелька, поскольку опция <strong> 'индийская рупия' </strong> уже существует как опция кошелька."
+		}
+	]
+}

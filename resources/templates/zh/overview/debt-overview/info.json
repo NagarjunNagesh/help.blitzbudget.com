@@ -1,0 +1,49 @@
+{
+    "url": "/overview/debt-overview/",
+    "title": "债务摘要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概述",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "通过摘要页可以了解您所有的债务概况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/debt-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击上面的按钮  <strong> 债务 </strong> 如上图所示。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">默认视图按债务类别中的银行账户进行隔离。</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "将光标移到图形上"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "将光标移到折线图上，将显示被忽略的账户的账户余额。"
+		}
+	]
+}

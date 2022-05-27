@@ -1,0 +1,56 @@
+{
+    "url": "/getting-started/add-financial-accounts/",
+    "title": "Шаг 4: Добавить свои финансовые счета",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "начало работы",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "все эти цели, бюджеты и инвестиции, которые мы создаем, нуждаются в деньгах. И деньги на твоем счету. Пришло время добавить их"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/getting-started/account-type.png"
+		},
+        {
+            "tag": "p",
+            "html": "чтобы дать вам преимущество , у вас есть возможность синхронизировать с банковскими счетами / выбрать создание учетной записи вручную. BlitzBudget будет держать вас в курсе сделок."
+		},
+        {
+            "tag": "h3",
+            "html": "несинхронизированные банковские счета"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/getting-started/unsync-financial-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "дайте ему прозвище и введите <strong>сегодняшний баланс</strong>."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Статьи по теме"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/ru/getting-started/whats-next/\" >начало работы: что дальше?</a></li>"
+		}
+	]
+}

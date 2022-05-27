@@ -1,0 +1,36 @@
+{
+    "url": "/transactions/changing-a-transactions-category/",
+    "title": "Cambio de categoría de una transacción",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Querrás explorar tus opciones y encontrar una categoría para cada transacción en la que encajar. A veces, las transacciones ya añadidas tendrían que ser modificadas."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-category.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Haga clic y arrastre las transacciones.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Suelte las transacciones debajo de la categoría correspondiente.</p></div>"
+		}
+	]
+}

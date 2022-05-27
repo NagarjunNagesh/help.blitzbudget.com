@@ -1,0 +1,134 @@
+{
+    "url": "/miscellaneous/keyboard-shortcuts/",
+    "title": "сочетания клавиш",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Разное",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Мы знаем, ты любишь держать руку на клавиатуре!"
+		},
+        {
+            "tag": "h3",
+            "html": "Глобальные сокращения"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Действие</strong></div><div class=\"col-lg-5 py-2\"><strong>Сокращение</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Добавить элемент</i></div><div class=\"col-lg-5 py-2\">a</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Сохранить изменения</i></div><div class=\"col-lg-5 py-2\">Введите</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Отмена изменений / Закрыть модаль</i></div><div class=\"col-lg-5 py-2\">Esc</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Навигация выпадающего меню</i></div><div class=\"col-lg-5 py-2\">Стрелка вверх / вниз</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>полноэкранный режим</i></div><div class=\"col-lg-5 py-2\">z</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Навигационные сокращения"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Действие</strong></div><div class=\"col-lg-5 py-2\"><strong>Сокращение</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница обзора</i></div><div class=\"col-lg-5 py-2\">1</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница транзакций</i></div><div class=\"col-lg-5 py-2\">2</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница Бюджеты</i></div><div class=\"col-lg-5 py-2\">3</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница Цели</i></div><div class=\"col-lg-5 py-2\">4</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница настроек</i></div><div class=\"col-lg-5 py-2\">5</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница профиля</i></div><div class=\"col-lg-5 py-2\">6</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница Банковские счета</i></div><div class=\"col-lg-5 py-2\">7</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Страница кошельков</i></div><div class=\"col-lg-5 py-2\">8</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Открытый справочный центр</i></div><div class=\"col-lg-5 py-2\">/ или ?</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Ярлыки для выбора даты"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Действие</strong></div><div class=\"col-lg-5 py-2\"><strong>Сокращение</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Перенести дату на месяц назад</i></div><div class=\"col-lg-5 py-2\">левая стрелка</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Перенести дату на месяц вперед</i></div><div class=\"col-lg-5 py-2\">правая стрелка</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Выберите сегодня</i></div><div class=\"col-lg-5 py-2\">t</div>"
+        }
+
+	]
+}

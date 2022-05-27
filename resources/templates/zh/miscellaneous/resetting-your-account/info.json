@@ -1,0 +1,41 @@
+{
+    "url": "/miscellaneous/resetting-your-account/",
+    "title": "重置您的BlitzBudget账户",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "杂项",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "重新启动您的账户将允许您重新开始，删除所有的财务信息，并保持您的首选项不变。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/reset-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">点击 <strong>重置我的闪电预算用户账户</strong>.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/reset-account-model.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">输入确认密码并按回车键.</p></div>"
+		}
+	]
+}

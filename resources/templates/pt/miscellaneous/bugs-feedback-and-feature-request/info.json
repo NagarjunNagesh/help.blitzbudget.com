@@ -1,0 +1,74 @@
+{
+    "url": "/miscellaneous/bugs-feedback-and-feature-request/",
+    "title": "Feedback, e pedidos de recursos",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Diversos",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "O módulo de pedido de funcionalidade permite-lhe informar-nos sobre uma funcionalidade que gostaria de ter."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Pedido de recurso"
+		},
+        {
+            "tag": "p",
+            "html": "A página inicial consiste numa lista de características que os utilizadores como você solicitaram."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Submeter uma ideia"
+		},
+        {
+            "tag": "p",
+            "html": "A página inicial consiste numa lista de características que os utilizadores como você solicitaram. Se carregar no botão enviar após ter digitado a sua ideia, enviá-la-á para nós para revisão."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "Mínimo 40 caracteres"
+		},
+        {
+            "tag": "p",
+            "html": "É necessário um mínimo de 40 caracteres para permitir o envio do e-mail."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "Após o envio de uma sugestão bem sucedida, verá uma mensagem como mostra a imagem abaixo. Fique descansado, vamos começar a analisá-las."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
+		}
+	]
+}

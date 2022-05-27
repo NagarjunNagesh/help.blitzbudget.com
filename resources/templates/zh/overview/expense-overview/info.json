@@ -1,0 +1,115 @@
+{
+    "url": "/overview/expense-overview/",
+    "title": "支出摘要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概述",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "费用汇总表有一些细节."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">一年概览.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">支出摘要.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">账户摘要.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "一年概览"
+		},
+        {
+            "tag": "p",
+            "html": "一年期总结旨在通过互动式图表提供长达12个月的概况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "摘要提供了悬停在点上的选项，以了解该月的支出金额。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "支出摘要"
+		},
+        {
+            "tag": "p",
+            "html": "花费汇总是为了提供所选月份的分类团表。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "花费汇总是为了提供所选月份的分类团表。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "账户概览"
+		},
+        {
+            "tag": "p",
+            "html": "账户概览旨在提供所选月份的分类甜甜圈表与账户。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "该摘要提供了一个选项，可以将鼠标悬停在任何部分，以了解该账户当月的支出情况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "检查构成图表的交易"
+		},
+        {
+            "tag": "p",
+            "html": "点击图表的任何部分，可以看到该部分的所有交易。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

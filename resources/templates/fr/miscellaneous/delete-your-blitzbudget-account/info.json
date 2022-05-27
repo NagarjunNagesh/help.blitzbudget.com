@@ -1,0 +1,41 @@
+{
+    "url": "/miscellaneous/delete-your-blitzbudget-account/",
+    "title": "Supprimez votre compte BlitzBudget",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Divers",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Contrairement à <a href=\"https://help.blitzbudget.com/fr/miscellaneous/resetting-your-account/\" class=\"article-anchor\">réinitialiser votre compte</a>, La suppression de votre compte supprime votre compte d'utilisateur ainsi que tous vos objectifs, investissements, budgets et transactions.<i> Tout ! </i>. Il se peut qu'il ne soit pas possible d'inverser les changements."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/delete-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur <strong>Supprimer mon compte utilisateur Blitz Budget</strong>.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/delete-account-model.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Entrez le mot de passe de confirmation et appuyez sur la touche Entrée.</p></div>"
+		}
+	]
+}

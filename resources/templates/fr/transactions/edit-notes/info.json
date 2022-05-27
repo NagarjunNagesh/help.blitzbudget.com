@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/edit-notes/",
+    "title": "Notes d'édition",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Les opérations doivent être accompagnées d'une note, qui peut être ajoutée ultérieurement en modifiant l'opération. Cliquez sur l'opération souhaitée pour en modifier la description."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/edit-description.gif"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+    "url": "/getting-started/budget-your-money/",
+    "title": "Getting Started Step 2: Budget Your Money",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Getting Started",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "You have your goals but that is just a dream unless you start budgeting and the first rule of budgeting is <i>make it practical</i>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/add-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "If you already have a budget for the previous month, We make it easy for you to copy your previous month's budget into the current month. <strong>New to BlitzBudget?</strong> Not an issue, Click the add button in the bottom left to automatically add a new budget."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/budget.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>To Be Budgeted</h4><p>Ensure that the <i>To Be Budgeted</i> is always a 0. You could use the full potential of budgeting by adding the relevant budget.</p>"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Related articles"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/en/getting-started/add-your-investments/\" >Getting Started Step 3: Add your investments</a></li>"
+		}
+	]
+}

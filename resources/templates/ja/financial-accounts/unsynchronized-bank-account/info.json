@@ -1,0 +1,68 @@
+{
+    "url": "/financial-accounts/unsynchronized-bank-account/",
+    "title": "非同期金融口座の追加",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "財務会計",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "カウントの足し算は1,2,3と簡単、それだけだ!"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-type.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>アカウントの種類を選択します。</strong> ドロップダウンメニューから非同期アカウントオプションを選択します。</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>アカウントの詳細を入力します。</strong> 口座の種類、名前、残高を入力します。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">ボタンをクリックしてください。<strong>アカウントの作成</strong>.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "アカウントの種類で混乱していますか？"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/know-more.png"
+		},
+        {
+            "tag": "p",
+            "html": "現金のように同期がいないと収まらない口座もあれば、自分次第で決まる口座もあります。 両者の違いを見てみましょう!"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+        {
+            "tag": "p",
+            "html": "非同期の銀行口座はすべての取引を手動で入力しなければならない手動口座、同期の口座は取引の更新が自動で行われる自動口座と考えてください。"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "/transactions/changing-a-transactions-category/",
+    "title": "トランザクションのカテゴリを変更する",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "あなたは、あなたのオプションを探索し、すべてのトランザクションが収まるようにカテゴリを見つけたいと思うでしょう。時には、すでに追加されたトランザクションを修正しなければならないこともあります。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-category.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">取引をクリックしてドラッグします。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">関連するカテゴリの下に取引をドロップします。</p></div>"
+		}
+	]
+}

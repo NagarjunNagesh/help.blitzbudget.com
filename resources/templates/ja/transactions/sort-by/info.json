@@ -1,0 +1,51 @@
+{
+    "url": "/transactions/sort-by/",
+    "title": "並び替え",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "さまざまな方法でソートされたトランザクションを表示する方法を探しています。ドロップダウンの「ソート」をクリックすると、より多くのオプションが表示されます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/sort-by.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/ja/transactions/sorted-by-tags/\" class=\"article-anchor\">タグ.</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/ja/transactions/sorted-by-account/\" class=\"article-anchor\">アカウント。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/ja/transactions/sorted-by-category/\" class=\"article-anchor\">カテゴリ。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/ja/transactions/sorted-by-creation-date/\" class=\"article-anchor\">作成日。</a></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\"><a href=\"https://help.blitzbudget.com/ja/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">今後の取引。</a></p></div>"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-currency/",
+    "title": "Изменить валюту",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Разное",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "По умолчанию мы выбираем валюту вашей страны. Мы понимаем, что вам, возможно, придется время от времени менять ее. У нас есть готовая для вас опция на странице настроек."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-currency.png"
+		}
+	]
+}

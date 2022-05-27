@@ -1,0 +1,86 @@
+{
+    "url": "/wallets/add-wallet/",
+    "title": "添加投资组合",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "投资组合",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "你想添加一个新的投资组合吗？点击图标 <strong>'+'</strong> 漂浮在钱包页面右下角的。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/wallet-page.png"
+		},
+        {
+            "tag": "p",
+            "html": "您将被重定向到一个页面来添加投资组合。在这里，您可以选择您喜欢的货币，然后点击 <i>'保存'</i> 添加一个新的投资组合."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/add-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "货币的选择"
+		},
+        {
+            "tag": "p",
+            "html": "点击硬币旁边的向下箭头后，会打开一个下拉菜单，在这里你可以看到所有有钱包的硬币和没有钱包的硬币。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "你可以开始输入你所选择的货币，并点击向下/向上箭头在没有钱包部分的货币之间切换。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-add-wallet.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "选择有投资组合的货币"
+		},
+        {
+            "tag": "p",
+            "html": "您不能为同一货币创建多个投资组合。"
+		},
+        {
+            "tag": "h4",
+            "html": "搜索词"
+		},
+        {
+            "tag": "p",
+            "html": "当没有显示结果时，建议将搜索条件改为更简单的条件。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-currency-add-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "由于没有钱包的货币没有显示结果，因为 <strong>'印度卢比'</strong> 已经作为一个钱包选项存在."
+		}
+	]
+}

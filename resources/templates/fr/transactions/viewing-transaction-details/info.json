@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/viewing-transaction-details/",
+    "title": "Visualisation des détails de la transaction",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transactions",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Pour consulter les détails de votre transaction, il vous suffit de cliquer sur la transaction.ss"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/transaction-modal.gif"
+		}
+	]
+}

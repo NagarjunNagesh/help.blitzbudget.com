@@ -1,0 +1,49 @@
+{
+    "url": "/overview/debt-overview/",
+    "title": "債務の概要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概要",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "あなたのすべての借金の概要は、要約ページから得ることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/debt-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">のボタンをクリックしてください。 <strong> 借金 </strong> 上の写真のように</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">デフォルトビューは、負債カテゴリの銀行口座別に分けられています。</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "グラフィックの上にカーソルを置く"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "折れ線グラフにカーソルを合わせると、見落としていた口座の残高が表示されます。"
+		}
+	]
+}

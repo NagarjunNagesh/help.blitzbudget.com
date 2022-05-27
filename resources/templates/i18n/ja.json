@@ -1,0 +1,89 @@
+{
+    "header": {
+        "learn": "学ぶ",
+        "support": "サポート",
+        "plus": "BlitzBudget Plus",
+        "blog": "Blog",
+        "getstarted": "スタート",
+        "signin": "登録"
+    },
+    "search": {
+        "howcanwehelp": "どうすればいいの？"
+    },
+    "cards": {
+        "gettingstarted": {
+            "title": "で始まる",
+            "description": "数回のクリックであなたのお金を完全にコントロールする."
+        },
+        "goals": {
+            "title": "目的",
+            "description": "買うことを計画して、価値のある何かのためにお金を貯めていますか？"
+        },
+        "budget": {
+            "title": "予算",
+            "description": "使うものを計画し、資金計画を自動化しましょう。"
+        },
+        "transactions": {
+            "title": "取引",
+            "description": "すべての費用が説明され、追跡されていることを確認してください。"
+        },
+        "financialaccounts": {
+            "title": "財務会計",
+            "description": "クレジットカードやデビットカードは、金融機関の口座があれば簡単に追跡できます。"
+        },
+        "miscellaneous": {
+            "title": "その他",
+            "description": "設定や通知などを調整しましょう。"
+        }
+    },
+    "categories": {
+        "title": "カテゴリー",
+        "needhelp": "まだ助けが必要ですか？",
+        "contactus": "連絡先",
+        "lastupdated": "最終更新日：2020年3月14日"
+    },
+    "footer": {
+        "support": "サポート",
+        "privacypolicy": "個人情報保護方針",
+        "termsofuse": "ご利用条件",
+        "helpcenter": "ヘルプセンター",
+        "company": "カンパニー",
+        "careers": "採用情報",
+        "blog": "ブログ",
+        "presskit": "プレスキット",
+        "product": "製品",
+        "customer": "お客様の声",
+        "plus": "電撃予算プラス",
+        "getstarted": "スタート"
+    },
+    "dynamic": {
+        "noresult": "結果はありません",
+        "gettingstarted": "で始まる",
+        "budget": "予算",
+        "transactions": "取引",
+        "goals": "目的",
+        "financialaccounts": "財務会計",
+        "miscellaneous": "その他",
+        "articles": " 品物",
+        "title": "電撃予算ヘルプセンター",
+        "fetchurlerror": "要求されたURLを取得できません",
+        "askusdirectly": "直接お問い合わせください",
+        "send": "送信先",
+        "customersupport": "お客様へのサービスです。72時間以内に詳細情報を要求する",
+        "message": "メッセージ",
+        "validemail": "メッセージ。",
+        "validpassword": "40文字以上で入力してください。",
+        "successemail": "メールありがとうございます！72時間以内に返信します!",
+        "errorsendingemail": "現在、メールは送信できません。もう一度試してみてください!"
+    },
+    "anchor": {
+        "gettingstarted": "/ja/getting-started/",
+        "goals": "/ja/goals/",
+        "budget": "/ja/budget/",
+        "transactions": "/ja/transactions/",
+        "financialaccounts": "/ja/financial-accounts/",
+        "miscellaneous": "/ja/miscellaneous/",
+        "privacy": "https://www.blitzbudget.com/ja/privacy",
+        "terms": "https://www.blitzbudget.com/ja/terms"
+    }
+}

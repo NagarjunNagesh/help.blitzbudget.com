@@ -1,0 +1,11 @@
+{
+    "url": "/goals/",
+    "title": "Цели",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		}
+	]
+}

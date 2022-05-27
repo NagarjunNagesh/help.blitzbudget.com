@@ -1,0 +1,26 @@
+{
+    "url": "/overview/check-transactions-in-a-chart/",
+    "title": "チャート内のトランザクションを確認する",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンタ",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概要",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "チャート内の該当するスライスをクリックして、チャート内の取引を確認します。現在、すべての取引を見るためのオプションはドーナツチャートでのみ利用可能です。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/check-transactions-in-a-chart.gif"
+		}
+	]
+}

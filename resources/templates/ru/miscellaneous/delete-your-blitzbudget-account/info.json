@@ -1,0 +1,41 @@
+{
+    "url": "/miscellaneous/delete-your-blitzbudget-account/",
+    "title": "удалите свою учетную запись BlitzBudget",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Разное",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "A diferencia de <a href=\"https://help.blitzbudget.com/ru/miscellaneous/resetting-your-account/\" class=\"article-anchor\">восстановление вашей учетной записи</a>, удаление вашей учетной записи удаляет вашу учетную запись пользователя вместе со всеми вашими целями, инвестициями, бюджетами и транзакциями.<i> ¡Все! </i>. Возможно, невозможно отменить изменения."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/delete-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите <strong>удалить мою учетную запись Пользователя Blitz Budget</strong>.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/delete-account-model.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Введите пароль подтверждения и нажмите войти.</p></div>"
+		}
+	]
+}

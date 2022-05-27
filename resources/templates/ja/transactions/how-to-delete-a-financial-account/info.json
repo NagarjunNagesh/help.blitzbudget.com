@@ -1,0 +1,41 @@
+{
+    "url": "/transactions/how-to-delete-a-financial-account/",
+    "title": "金融口座を削除する方法",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "財務アカウントを削除すると、財務アカウントと一緒に関連するすべてのトランザクションも削除されます。それは次のように達成することができます."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-a-financial-account.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">そのアカウントに関連したすべての取引が削除されます。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">金融口座に関連した定期的な取引はすべて削除されます。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">問題の金融口座も削除されます。</p></div>"
+		}
+	]
+}

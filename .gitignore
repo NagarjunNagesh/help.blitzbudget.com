@@ -1,1 +1,5 @@
 /target/
+/css/
+/js/
+.brackets.json
+.vscode/settings.json

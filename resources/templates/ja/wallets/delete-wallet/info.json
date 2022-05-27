@@ -1,0 +1,40 @@
+{
+    "url": "/wallets/delete-wallet/",
+    "title": "ポートフォリオの削除",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "ポートフォリオ",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "をクリックすることで <strong>'ポートフォリオの削除'</strong> をクリックすると、財布の取り外しの効果を知らせるポップアップが起動します。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "パスワードを確認すると、ウォレットが削除されて <strong>'財布を選ぶ'</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet-popup.png"
+		},
+        {
+            "tag": "p",
+            "classInfo": "tripleNineColor",
+            "html": "留意事項- <i> をクリックすることで </i><strong>入る</strong><i> 削除ポートフォリオのフローが開始されます。</i> "
+		}
+	]
+}

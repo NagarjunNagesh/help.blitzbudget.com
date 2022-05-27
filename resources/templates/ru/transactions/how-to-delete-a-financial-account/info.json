@@ -1,0 +1,41 @@
+{
+    "url": "/transactions/how-to-delete-a-financial-account/",
+    "title": "Как удалить финансовый счет",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Удаление финансовой учетной записи, а также удаление всех связанных с ней операций вместе с финансовой учетной записью. Этого можно добиться следующим образом."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-a-financial-account.gif"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Все ваши транзакции, когда-либо связанные с учетной записью, будут удалены.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Все ваши повторяющиеся операции, связанные с финансовыми счетами, будут удалены.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Соответствующий финансовый аккаунт также будет удален.</p></div>"
+		}
+	]
+}

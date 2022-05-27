@@ -1,0 +1,41 @@
+{
+    "url": "/miscellaneous/resetting-your-account/",
+    "title": "Reajuste su cuenta del BlitzBudget",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Miscelánea",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Le redémarrage de votre compte vous permettra de recommencer à zéro, en supprimant toutes les informations financières et en gardant vos préférences intactes."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/reset-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur <strong>Réinitialiser mon compte utilisateur Blitz Budget</strong>.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/reset-account-model.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Entrez le mot de passe de confirmation et appuyez sur la touche Entrée.</p></div>"
+		}
+	]
+}

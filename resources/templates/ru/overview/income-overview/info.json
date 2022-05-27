@@ -1,0 +1,115 @@
+{
+    "url": "/overview/income-overview/",
+    "title": "обзор доходов",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Центр помощи",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Обзор",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "в сводке доходов есть некоторые доступные детали."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Резюме на один год.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">сводка доходов.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Счет.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "резюме за год"
+		},
+        {
+            "tag": "p",
+            "html": "сводка за год предназначена для предоставления обзора до 12 месяцев с интерактивным графиком."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "обзор предлагает возможность наведения курсора на точку, чтобы узнать доход за этот месяц."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "сводка доходов"
+		},
+        {
+            "tag": "p",
+            "html": "обзор доходов предназначен для предоставления диаграммы пончиков с категоризацией за выбранный месяц."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "сводка предлагает возможность наведения курсора на любой раздел, чтобы узнать доход этой категории за выбранный месяц."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "обзор учетной записи"
+		},
+        {
+            "tag": "p",
+            "html": "обзор учетной записи предназначен для предоставления категоризированной таблицы пончиков за выбранный месяц с учетными записями."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "сводка предлагает возможность навести курсор на любой раздел, чтобы узнать доход от этой учетной записи за месяц."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Verificar Transacções que Constituem a Carta"
+		},
+        {
+            "tag": "p",
+            "html": "Clicando em qualquer secção do gráfico permite-lhe ver todas as transacções para essa secção."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

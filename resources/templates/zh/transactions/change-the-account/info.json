@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-the-account/",
+    "title": "更改交易账户",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "更改交易账户很简单，只需将交易拖拽到首选账户即可。勾选选项 <a href=\"https://help.blitzbudget.com/zh/transactions/sort-by/\" class=\"article-anchor\"> 排序方式 </a> 浏览到账户排序选项."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-account.png"
+		}
+	]
+}

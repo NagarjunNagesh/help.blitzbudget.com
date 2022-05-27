@@ -1,0 +1,48 @@
+{
+    "url": "/budget/add-a-budget/",
+    "title": "Acréscimo de um orçamento",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Orçamento",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Você tem os seus objectivos mas isso é apenas um sonho, a menos que comece a fazer um orçamento e a primeira regra de orçamentação é <i>torná-lo prático</i>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/add-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "Se já tem um orçamento para o mês anterior, fornecemos-lhe uma cópia do orçamento do mês anterior no mês em curso. <strong>É novo no BlitzBudget?</strong> Não há problema. Clique no botão de adicionar no canto inferior esquerdo para adicionar automaticamente uma cotação."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/budget.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>Ser orçamentado</h4><p>Certifique-se de que o <i>Ser orçamentado</i> é sempre um 0. Poderá utilizar todo o potencial da orçamentação, acrescentando o orçamento correspondente.</p>"
+		},
+        {
+            "tag": "h3",
+            "html": "Auto-orçamento"
+		},
+        {
+            "tag": "p",
+            "html": "Os orçamentos são automaticamente copiados do mês anterior, no último dia de cada mês."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "/getting-started/",
+    "title": "начало",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		}
+	]
+}

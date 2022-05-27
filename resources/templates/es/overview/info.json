@@ -1,0 +1,11 @@
+{
+    "url": "/overview/",
+    "title": "Visión general",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		}
+	]
+}

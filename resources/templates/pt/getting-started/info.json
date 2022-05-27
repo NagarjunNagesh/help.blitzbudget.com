@@ -1,0 +1,11 @@
+{
+    "url": "/getting-started/",
+    "title": "Começando por",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		}
+	]
+}

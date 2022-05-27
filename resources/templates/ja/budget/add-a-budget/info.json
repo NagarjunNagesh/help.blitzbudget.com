@@ -1,0 +1,48 @@
+{
+    "url": "/budget/add-a-budget/",
+    "title": "予算の追加",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "予算",
+            "crumbUrl": "/budget/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "目標はあってもそれは夢でしかなく、予算を作り始めない限り、予算編成の第一法則は <i>実用的にする</i>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/add-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "すでに前月の予算がある場合は、前月の予算のコピーを当月にお渡ししています。<strong>電撃予算に新規参入？</strong> 問題ありません。 左下の追加ボタンをクリックすると、自動的に見積もりが追加されます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/budget.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>予算がある</h4><p>を確認してください <i>予算がある</i> は常に 0. 対応する予算を追加することで、予算編成の可能性をフルに活用できるのではないでしょうか。</p>"
+		},
+        {
+            "tag": "h3",
+            "html": "自己負担"
+		},
+        {
+            "tag": "p",
+            "html": "予算は前月から毎月末日に自動的にコピーされます。"
+		}
+	]
+}

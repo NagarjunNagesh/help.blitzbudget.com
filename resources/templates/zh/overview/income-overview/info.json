@@ -1,0 +1,115 @@
+{
+    "url": "/overview/income-overview/",
+    "title": "收入概览",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概述",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "收入汇总有部分细节可查。"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">一年的总结。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">收入汇总。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">帐户.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "一年概览"
+		},
+        {
+            "tag": "p",
+            "html": "一年期总结旨在通过互动式图表提供长达12个月的概况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "概览提供了一个选项，可以将鼠标悬停在该点上，了解该月的收入情况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "收入摘要"
+		},
+        {
+            "tag": "p",
+            "html": "收入概览旨在提供所选月份的分类团购图。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "该概览提供了一个选项，可以将鼠标悬停在任何部分，以了解该类别在选定月份的收入情况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "账户概览"
+		},
+        {
+            "tag": "p",
+            "html": "账户概览旨在提供所选月份的分类甜甜圈表与账户。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "该摘要提供了一个选项，可以将鼠标悬停在任何部分，以了解该账户当月的收入情况。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "检查构成图表的交易"
+		},
+        {
+            "tag": "p",
+            "html": "点击图表的任何部分，可以看到该部分的所有交易。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

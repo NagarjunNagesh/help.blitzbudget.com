@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/delete-transactions/",
+    "title": "удалить транзакции",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Можно удалить транзакцию, Имейте в виду, что для вашего финансового плана весьма разрушительно удалять транзакцию, которая была выполнена, но не учтена в бюджете."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transactions.gif"
+		}
+	]
+}

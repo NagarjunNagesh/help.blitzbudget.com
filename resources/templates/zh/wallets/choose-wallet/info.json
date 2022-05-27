@@ -1,0 +1,26 @@
+{
+    "url": "/wallets/choose-wallet/",
+    "title": "选择一个投资组合",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "投资组合",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "选择钱包就像点击钱包一样简单。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-wallet.png"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+    "url": "/financial-accounts/unsynchronized-bank-account/",
+    "title": "添加不同步的财务科目",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "财务账户",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "添加帐户就像1,2,3一样简单。 就是这样！"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-type.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>选择您的帐户类型。</strong> 从下拉菜单中选择不同步账户选项。</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>输入帐户详细信息。</strong> 输入账户类型、名称和账户余额。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">点击 <strong>创建帐户</strong>按钮.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "对账户类型感到困惑？"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/know-more.png"
+		},
+        {
+            "tag": "p",
+            "html": "有一些账户像现金，你必须适应缺乏同步，而其他人则取决于你来决定。 让我们来看看两者之间的区别！"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+        {
+            "tag": "p",
+            "html": "将不同步的银行账户视为手动账户，您必须手动输入所有交易，同步账户视为自动交易更新的自动账户。"
+		}
+	]
+}

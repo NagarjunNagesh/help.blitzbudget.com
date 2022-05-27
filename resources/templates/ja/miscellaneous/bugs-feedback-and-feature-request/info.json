@@ -1,0 +1,74 @@
+{
+    "url": "/miscellaneous/bugs-feedback-and-feature-request/",
+    "title": "フィードバック、機能のご要望",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "その他",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "機能リクエストモジュールは、あなたが欲しいと思う機能を私たちに知らせることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "機能リクエスト"
+		},
+        {
+            "tag": "p",
+            "html": "のようになっています。ホームページは、あなたのようなユーザーが要求した機能のリストで構成されています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "アイデアを提出する"
+		},
+        {
+            "tag": "p",
+            "html": "ホームページは、あなたのようなユーザーがリクエストした機能のリストで構成されています。あなたのアイデアを入力した後に送信ボタンを押すと、レビューのために私たちに送信されます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "最低40文字"
+		},
+        {
+            "tag": "p",
+            "html": "メール送信を有効にするには40文字以上の文字数が必要です。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "提案を成功させて送信すると、下の画像のようなメッセージが表示されます。安心してください、分析を開始します"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
+		}
+	]
+}

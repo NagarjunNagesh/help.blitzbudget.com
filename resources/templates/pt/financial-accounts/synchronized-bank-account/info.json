@@ -1,0 +1,22 @@
+{
+    "url": "/financial-accounts/synchronized-bank-account/",
+    "title": "Acréscimo das Contas Financeiras Sincronizadas",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Contas financeiras",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">Ele estará aqui em breve!</h3>"
+		}
+	]
+}

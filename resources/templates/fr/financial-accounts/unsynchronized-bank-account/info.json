@@ -1,0 +1,68 @@
+{
+    "url": "/financial-accounts/unsynchronized-bank-account/",
+    "title": "Ajout de comptes financiers non synchronisés",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Comptes financiers",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Ajouter un compte est aussi simple que 1,2,3. C'est tout !"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-type.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Choisissez votre type de compte.</strong> Choisissez l'option compte non synchronisé dans le menu déroulant.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Saisissez les détails du compte.</strong> Indiquez le type de compte, le nom et le solde du compte.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur le bouton <strong>Créer un compte</strong>.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Confus par le type de compte ?"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/know-more.png"
+		},
+        {
+            "tag": "p",
+            "html": "Il y a certains comptes comme l'argent liquide, qui doit s'adapter au manque de synchronisation, tandis que les autres dépendent de vous pour décider. Voyons la différence entre les deux !"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+        {
+            "tag": "p",
+            "html": "Considérez le compte bancaire non synchronisé comme un compte manuel dans lequel toutes les transactions doivent être saisies manuellement, et les comptes synchronisés comme un compte automatique dans lequel la mise à jour des transactions est automatique."
+		}
+	]
+}

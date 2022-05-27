@@ -1,0 +1,56 @@
+{
+    "url": "/getting-started/add-financial-accounts/",
+    "title": "第四步：添加您的金融账户",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "从",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "我们创造的这些目标、预算和投资都需要钱来实现。而钱就在你的账户里。是时候增加他们了"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/getting-started/account-type.png"
+		},
+        {
+            "tag": "p",
+            "html": "为了给您带来优势，您可以选择与银行账户同步/选择手动创建账户。BlitzBudget会让您及时了解交易情况。"
+		},
+        {
+            "tag": "h3",
+            "html": "不同步的银行账户"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/getting-started/unsync-financial-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "给他起个外号，写上 <strong>今天的余额</strong>."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "相关文章"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/zh/getting-started/whats-next/\" >开始：下一步是什么？</a></li>"
+		}
+	]
+}

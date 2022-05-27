@@ -1,0 +1,22 @@
+{
+    "url": "/transactions/file-based-import/",
+    "title": "Импорт на основе файлов",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">скоро придет!</h3>"
+		}
+	]
+}

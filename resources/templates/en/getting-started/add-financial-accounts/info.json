@@ -1,0 +1,56 @@
+{
+    "url": "/getting-started/add-financial-accounts/",
+    "title": "Getting Started Step 4: Add Your Financial Accounts",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Getting Started",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "All those goals, budgets and the investments we created needs money coming in. And the money is in your account. Time to add 'em."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/getting-started/account-type.png"
+		},
+        {
+            "tag": "p",
+            "html": "To give you a head start, you have the option to synchronize with bank accounts / choose to create an account manually. BlitzBudget will keep you on track of the transactions."
+		},
+        {
+            "tag": "h3",
+            "html": "Unsynchronized Bank Accounts"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/getting-started/unsync-financial-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "Give it a nickname, and enter <strong>today's balance</strong>."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Related articles"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/en/getting-started/whats-next/\" >Getting Started: What's next</a></li>"
+		}
+	]
+}

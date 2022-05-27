@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/how-to-select-a-financial-account/",
+    "title": "金融口座の選び方",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "取引",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "取引を追加するアカウントを選択するには、右上隅にあるアカウントモードでアカウントを選択することで可能です."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/select-an-account.gif"
+		}
+	]
+}

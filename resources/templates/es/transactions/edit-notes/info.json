@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/edit-notes/",
+    "title": "Editar notas",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Transacciones",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Las transacciones deben tener una nota asociada a ella, se podría añadir más tarde modificando la transacción. Haga clic en la transacción deseada para cambiar la descripción."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/edit-description.gif"
+		}
+	]
+}

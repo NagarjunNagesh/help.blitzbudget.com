@@ -1,0 +1,22 @@
+{
+    "url": "/miscellaneous/notification-settings/",
+    "title": "обновление настроек уведомлений",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Разное",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "div",
+            "classInfo": "position-relative text-center h-eighteen-rem",
+            "html": "<h3 class=\"position-absolute coming-soon\">скоро придет!</h3>"
+		}
+	]
+}

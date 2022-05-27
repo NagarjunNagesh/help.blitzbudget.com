@@ -1,0 +1,148 @@
+{
+    "url": "/wallets/modify-wallet/",
+    "title": "修改投资组合",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "投资组合",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "点击后，可以修改投资组合 <strong>'管理您的钱包'</strong> 位于钱包页面的右上角。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets.png"
+		},
+        {
+            "tag": "p",
+            "html": "作品集会在每个作品集旁边显示一个编辑图标，现在，我们可以点击作品集开始编辑它。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets-display.png"
+		},
+        {
+            "tag": "p",
+            "html": "显示更改投资组合页面，可以编辑投资组合名称和货币。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallet.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">编辑钱包条目。</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">按下按钮 <strong>'保存'</strong> 以修改投资组合。</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">视图变更为 <i>'选择钱包'</i> 网页.</p></div></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "编辑主外壳"
+		},
+        {
+            "tag": "p",
+            "html": "编辑主钱包时 <i>（由明星识别)</i>, 它消除了更改名称的可能性，允许只更改货币的可能性。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/primary-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "货币选择"
+		},
+        {
+            "tag": "p",
+            "html": "点击硬币旁边的向下箭头，将打开一个下拉菜单，在这里您可以看到所有带钱包的硬币和没有钱包的硬币。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.png"
+		},
+        {
+            "tag": "p",
+            "html": "您可以开始输入您喜欢的货币，然后单击向下/向上箭头在没有钱包部分的货币之间切换。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "与投资组合的货币选择"
+		},
+        {
+            "tag": "p",
+            "html": "不能为同一种货币创建多个投资组合。"
+		},
+        {
+            "tag": "h4",
+            "html": "搜索词"
+		},
+        {
+            "tag": "p",
+            "html": "当没有显示结果时，建议将搜索词更改为更简单的搜索词。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-modify-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "没有结果显示没有钱包的硬币作为选项 <strong>'印度卢比'</strong> 它已经作为钱包选项存在."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "取消更改"
+		},
+        {
+            "tag": "p",
+            "html": "取消更改将将页面重定向到 '选择投资组合'."
+		},
+        {
+            "tag": "h3",
+            "html": "修改作出"
+		},
+        {
+            "tag": "p",
+            "html": "点击按钮 <strong>'事实'</strong> 将改为 '选择投资组合'."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/done-wallet.png"
+		}
+	]
+}

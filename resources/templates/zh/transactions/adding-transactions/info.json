@@ -1,0 +1,86 @@
+{
+    "url": "/transactions/adding-transactions/",
+    "title": "增加交易",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "添加交易会自动添加一个新的账户，类型为 <strong>现金</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transactions.png"
+		},
+        {
+            "tag": "p",
+            "html": "打开模板，可以选择输入数量、类别类型和备注，如下图所示。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/add-transaction.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "p",
+            "html": "下面给出了所有允许交易的可能字段。如上图所示，账户字段不一定存在于提供的添加交易的字段中。 <a href=\"https://help.blitzbudget.com/zh/transactions/how-to-select-a-financial-account/\" class=\"article-anchor\"> 选择一个账户来添加交易 </a>."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">帐户 <i class=\"small tripleNineColor\">(所需)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">种类 <i class=\"small tripleNineColor\">(所需)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">数额 <i class=\"small tripleNineColor\">(所需)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">日期 <i class=\"small tripleNineColor\">(所需)</i></p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">4</div><div class=\"copy-container\"><p class=\"description mb-3\">说明</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">5</div><div class=\"copy-container\"><p class=\"description mb-3\">标签</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">6</div><div class=\"copy-container\"><p class=\"description mb-3\">计划中的交易</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "附表交易"
+		},
+        {
+            "tag": "p",
+            "html": "安排一个交易很简单，只要在这些递归选项中进行选择即可 <strong>每周</strong>, <strong>每月两次</strong>, <strong>月度</strong> . 别担心 <a href=\"https://help.blitzbudget.com/zh/transactions/change-recurrence-in-a-scheduled-transaction/\" class=\"article-anchor\">如果你不想让它在下个月重复出现，你可以在任何时候通过编辑交易来改变它。</a>"
+		}
+	]
+}

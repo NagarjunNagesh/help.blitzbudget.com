@@ -1,0 +1,11 @@
+{
+    "url": "/miscellaneous/",
+    "title": "разное",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		}
+	]
+}

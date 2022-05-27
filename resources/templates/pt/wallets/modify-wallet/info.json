@@ -1,0 +1,148 @@
+{
+    "url": "/wallets/modify-wallet/",
+    "title": "Modificar a carteira",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Portfólios",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "A modificação de uma carteira é possível após clicar no botão <strong>'Gerir as suas carteiras'</strong> localizado no canto superior direito da página da carteira."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets.png"
+		},
+        {
+            "tag": "p",
+            "html": "Os portfólios irão mostrar um ícone de edição junto a cada portfólio e agora, podemos clicar no portfólio para começar a editá-lo."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets-display.png"
+		},
+        {
+            "tag": "p",
+            "html": "É apresentada a página da carteira de alterações, com a possibilidade de editar a denominação da carteira e a moeda."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallet.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Edite as entradas da carteira.</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Pressione o botão <strong>'Guardar'</strong> para alterar a carteira.</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">O ponto de vista muda para a <i>'Escolha a carteira'</i> página.</p></div></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Edição da carteira primária"
+		},
+        {
+            "tag": "p",
+            "html": "Ao editar a carteira primária <i>(identificado por uma estrela)</i>, a possibilidade de alterar o nome é eliminada, permitindo apenas a possibilidade de alterar a moeda."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/primary-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Escolha da moeda"
+		},
+        {
+            "tag": "p",
+            "html": "Abre-se um menu pendente quando se clica na seta para baixo ao lado da moeda, onde se podem ver todas as moedas com uma carteira e as sem carteira."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.png"
+		},
+        {
+            "tag": "p",
+            "html": "Pode começar a digitar a moeda da sua escolha e clicar na seta para baixo/cima para alternar entre moedas sem a secção da carteira."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "Escolha de moedas com carteira"
+		},
+        {
+            "tag": "p",
+            "html": "Não é possível criar várias carteiras para a mesma moeda."
+		},
+        {
+            "tag": "h4",
+            "html": "Termos de pesquisa"
+		},
+        {
+            "tag": "p",
+            "html": "Quando não são apresentados resultados, é aconselhável alterar os termos da pesquisa para algo mais simples."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-modify-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "Não são apresentados resultados para moedas sem carteira, uma vez que o <strong>'Rúpia indiana'</strong> já existe como uma opção de carteira."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Cancelar a alteração"
+		},
+        {
+            "tag": "p",
+            "html": "O cancelamento da alteração irá redireccionar a página para a página 'Escolher Portfólio'."
+		},
+        {
+            "tag": "h3",
+            "html": "Modificação efectuada"
+		},
+        {
+            "tag": "p",
+            "html": "Ao clicar no botão <strong>'Concluído'</strong> Mudaria para a página 'Escolher Portfólios'."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/done-wallet.png"
+		}
+	]
+}

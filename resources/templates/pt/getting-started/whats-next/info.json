@@ -1,0 +1,64 @@
+{
+    "url": "/getting-started/whats-next/",
+    "title": "Início: O que se segue",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Começando por",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Acrescentou os seus objectivos, o seu orçamento e os seus investimentos. Todas as suas transacções estão a ser contabilizadas, as suas transacções e orçamentos estão programados."
+		},
+        {
+            "tag": "p",
+            "html": "<i>E agora?</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "Faça dos seus objectivos uma realidade"
+		},
+        {
+            "tag": "p",
+            "html": "Os seus objectivos neste momento são as suas aspirações. <i>É um sonho!</i> A menos que o faça ajustando o seu orçamento."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Guarde primeiro.</strong> Recebeu o seu salário? Porque não depositar o dinheiro que prometeu poupar noutra conta?</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Acompanhe as suas transacções.</strong> Veja a diferença entre o cenário ideal e as circunstâncias do mundo real.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Ajuste o seu orçamento.</strong> O orçamento não finge ser rígido. Ele quebra! Continua a ser flexível</p></div>"
+		},
+        {
+            "tag": "p",
+            "html": "Depois... <i> repita até ter um plano que funcione para o seu objectivo!</i>"
+		},
+        {
+            "tag": "h3",
+            "html": "Investir"
+		},
+        {
+            "tag": "p",
+            "html": "Criamos um orçamento funcional que funciona para si, acompanhamos as suas transacções, ajustamos o seu orçamento e poupamos para os seus objectivos. Mas nem todas as razões para os objectivos criados têm de ser para gastar. As que não estão destinadas a ser <strong>investidos!</strong>"
+		},
+        {
+            "tag": "p",
+            "html": "Eliminar o stress financeiro é tão simples como automatizar a poupança, reduzindo as despesas e a repetição do plano que funciona! Orçamentar é aborrecido, poupar para o seu objectivo é entusiasmante e alcançar o seu objectivo é satisfatório!"
+		}
+	]
+}

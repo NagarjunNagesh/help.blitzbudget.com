@@ -1,0 +1,74 @@
+{
+    "url": "/miscellaneous/bugs-feedback-and-feature-request/",
+    "title": "обратная связь, и запрос функций",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Разное",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "модуль запроса функций позволяет вам сообщить нам о функции, которую вы хотели бы иметь."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/send-a-feature-request.png"
+		},
+        {
+            "tag": "h3",
+            "html": "запрос функции"
+		},
+        {
+            "tag": "p",
+            "html": "Домашняя страница состоит из списка функций, которые пользователи, как и Вы, запросили."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/feature-request.png"
+		},
+        {
+            "tag": "h5",
+            "html": "отправить идею"
+		},
+        {
+            "tag": "p",
+            "html": "Домашняя страница состоит из списка функций, которые запросили пользователи, подобные вам. Нажав на кнопку Отправить после ввода вашей идеи, вы отправите ее нам на рассмотрение."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/submit-a-new-idea.png"
+		},
+        {
+            "tag": "h5",
+            "html": "минимум 40 символов"
+		},
+        {
+            "tag": "p",
+            "html": "для того, чтобы разрешить отправку электронного письма, требуется не менее 40 символов."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/minimum-forty-characters.png"
+		},
+        {
+            "tag": "p",
+            "html": "после отправки успешного предложения вы увидите сообщение, как показано на рисунке ниже. Будьте уверены, мы начнем их анализировать."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/successfully-sent-email.png"
+		}
+	]
+}

@@ -1,0 +1,115 @@
+{
+    "url": "/overview/income-overview/",
+    "title": "収入の概要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概要",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "収入の概要には、一部詳細が記載されています。"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">1年のまとめ。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">収入のまとめ。</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">数えてみてください。</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "一年の総括"
+		},
+        {
+            "tag": "p",
+            "html": "1年間のサマリーは、12ヶ月までの概要をインタラクティブなチャートで紹介するように設計されています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "概要は、その月の収入を見つけるためにドットの上にカーソルを置くオプションを提供しています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "収入の概要"
+		},
+        {
+            "tag": "p",
+            "html": "収入の概要は、選択した月の分類されたドーナツチャートを提供するように設計されています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "要約は、選択した月のそのカテゴリの収入を見つけるために任意のセクションにカーソルを置くオプションを提供しています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "アカウント概要"
+		},
+        {
+            "tag": "p",
+            "html": "口座の概要は、選択した月の口座を使って分類されたドーナツの表を提供するように設計されています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "概要では、任意のセクションにカーソルを置くと、その月のアカウントの収入を見つけるためのオプションを提供しています。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/income-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "チャートを構成するチェック取引"
+		},
+        {
+            "tag": "p",
+            "html": "チャートの任意のセクションをクリックすると、そのセクションのすべての取引を見ることができます。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

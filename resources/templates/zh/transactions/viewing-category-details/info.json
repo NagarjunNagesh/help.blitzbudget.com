@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/viewing-category-details/",
+    "title": "查看类别详情",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "查看您的类别详细信息很简单，只需点击类别标题即可。它允许您查看分配给该类别的预算和该类别中可用的交易总数。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/viewing-category-details.png"
+		}
+	]
+}

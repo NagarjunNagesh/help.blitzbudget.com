@@ -1,0 +1,53 @@
+{
+    "url": "/getting-started/budget-your-money/",
+    "title": "Шаг 2: бюджетирование денег",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "начало работы",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "у вас есть свои цели, но это просто мечта, если вы не начнете составлять бюджет, и первое правило бюджета <i>сделать его практичным</i>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/add-budget.png"
+		},
+        {
+            "tag": "p",
+            "html": "если у вас уже есть бюджет за предыдущий месяц, мы предоставляем Вам копию бюджета за предыдущий месяц в текущем месяце. <strong>новое в BlitzBudget?</strong> это не проблема, Нажмите кнопку Добавить в левом нижнем углу, чтобы автоматически добавить новый бюджет."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/getting-started/budget.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "call-to-attention",
+            "html": "<h4>быть бюджетным</h4><p>убедитесь, что <i>быть бюджетным</i>  всегда 0. Вы могли бы использовать весь потенциал бюджетирования, добавив соответствующий бюджет.</p>"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Статьи по теме"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/ru/getting-started/add-your-investments/\" >Шаг 3: Добавьте свои инвестиции</a></li>"
+		}
+	]
+}

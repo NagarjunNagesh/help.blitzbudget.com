@@ -1,0 +1,91 @@
+{
+    "url": "/miscellaneous/update-email-and-password/",
+    "title": "Mise à jour de l'adresse électronique et du mot de passe",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Divers",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Avez-vous reçu une nouvelle adresse électronique ? Avez-vous partagé votre mot de passe avec d'autres personnes, et pourriez-vous avoir besoin de le changer ?"
+		},
+        {
+            "tag": "p",
+            "html": "Quoi qu'il en soit, vous pouvez modifier votre mot de passe ou votre adresse électronique à partir des paramètres de votre compte. Vous verrez un lien de modification/changement de mot de passe au bas de votre adresse électronique ou de votre mot de passe."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/update-email-and-password.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Courriel de mise à jour"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur le bouton de modification en bas de l'adresse électronique.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-email.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Saisissez la nouvelle adresse électronique et appuyez sur la touche Entrée</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/confirm-password.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Après confirmation du mot de passe, si l'adresse électronique n'existe pas, alors le courriel est mis à jour.</p></div>"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Changer le mot de passe"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur le bouton de changement de mot de passe comme indiqué dans l'image ci-dessous.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-password.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Entrez votre ancien mot de passe et le nouveau, puis appuyez sur la touche Entrée pour modifier le mot de passe.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/miscellaneous/change-password-model.png"
+		}
+	]
+}

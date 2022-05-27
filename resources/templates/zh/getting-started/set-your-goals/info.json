@@ -1,0 +1,46 @@
+{
+    "url": "/getting-started/set-your-goals/",
+    "title": "步骤1：设定目标",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "开始",
+            "crumbUrl": "/getting-started/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "在财务规划中最重要的事情是要开始。 最终的财务和平，默认情况下支付所有账单，随之而来。 所以，让我们 <strong>开始</strong>."
+		},
+        {
+            "tag": "h2",
+            "html": "¿Por qué tomar el control de sus finanzas?"
+		},
+        {
+            "tag": "p",
+            "html": "你没有决定计划你的财务状况，因为你喜欢数学。 那么，就是这样（Blitzbudget主要负责），但财务规划始于映射您的目标。 他们可以很简单，准备支付账单，或者可以是深刻的，就像你梦想的购买房子的计划！ 这里是如何"
+		},
+        {
+            "tag": "p",
+            "html": "什么是 <strong> 你的目标?</strong>"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "相关文章"
+		},
+        {
+            "tag": "ul",
+            "classInfo": "sub-category-list",
+            "html": "<li class=\"sub-category-li\"><i class=\"material-icons align-middle\">assignment</i><a class=\"sub-category-link\" href=\"https://help.blitzbudget.com/zh/getting-started/budget-your-money/\" >第2步：预算你的钱</a></li>"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+    "url": "/overview/networth-overview/",
+    "title": "Aperçu de la valeur nette",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Vue d'ensemble",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Le total de vos avoirs peut être consulté avec la page de résumé."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/networth-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Cliquez sur le bouton<strong> valeur nette </strong> comme indiqué dans l'image ci-dessus.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">La vue par défaut est séparée par comptes bancaires dans la catégorie des actifs et passifs.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Survolez le graphique"
+        }, {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+        }, {
+            "tag": "p",
+            "html": "En survolant le graphique linéaire, vous verrez le solde du compte qui a été négligé."
+        }
+	]
+}

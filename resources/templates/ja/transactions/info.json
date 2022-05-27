@@ -1,0 +1,11 @@
+{
+    "url": "/transactions/",
+    "title": "取引",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		}
+	]
+}

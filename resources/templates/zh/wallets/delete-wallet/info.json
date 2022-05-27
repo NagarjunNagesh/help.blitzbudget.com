@@ -1,0 +1,40 @@
+{
+    "url": "/wallets/delete-wallet/",
+    "title": "删除投资组合",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "投资组合",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "通过点击 <strong>'删除投资组合'</strong> 来调用一个弹出窗口，通知你取走钱包的效果。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "确认密码后会删除钱包，并切换到 <strong>'选择钱包'</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet-popup.png"
+		},
+        {
+            "tag": "p",
+            "classInfo": "tripleNineColor",
+            "html": "P.S - <i> 通过点击 </i><strong>进入</strong><i> 删减组合的流动将被启动.</i> "
+		}
+	]
+}

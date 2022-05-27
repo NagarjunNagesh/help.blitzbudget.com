@@ -1,0 +1,68 @@
+{
+    "url": "/financial-accounts/unsynchronized-bank-account/",
+    "title": "Acréscimo de Contas Financeiras Não-Sincronizadas",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Contas financeiras",
+            "crumbUrl": "/financial-accounts/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Acrescentar uma contagem é tão simples como 1,2,3. É isso mesmo!"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-type.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Escolha o seu tipo de conta.</strong> Escolha a opção conta não sincronizada a partir do menu pendente.</p></div>"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image w-30",
+            "srcUrl": "/img/financial-accounts/unsync-financial-account.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\"><strong>Introduza os dados da conta.</strong> Indique o tipo de conta, nome e saldo da conta.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">Clique no botão <strong>Criar uma conta</strong>.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Confundido pelo tipo de conta?"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/know-more.png"
+		},
+        {
+            "tag": "p",
+            "html": "Há algumas contas como a caixa, que tem de se ajustar à falta de sincronização, enquanto as outras dependem de si para decidir. Vamos ver a diferença entre as duas!"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image half-width",
+            "srcUrl": "/img/financial-accounts/account-difference.png"
+		},
+        {
+            "tag": "p",
+            "html": "Pense na conta bancária não sincronizada como uma conta manual em que todas as transacções devem ser introduzidas manualmente e nas contas sincronizadas como uma conta automática em que a actualização das transacções é automática."
+		}
+	]
+}

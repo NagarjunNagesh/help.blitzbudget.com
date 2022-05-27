@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/delete-transactions/",
+    "title": "删除交易",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "帮助中心",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "交易",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "可以删除一项交易，但要记住，删除一项已经执行但未记入预算的交易对你的财务计划是相当有害的。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/delete-transactions.gif"
+		}
+	]
+}

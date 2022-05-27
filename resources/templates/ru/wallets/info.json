@@ -1,0 +1,11 @@
+{
+    "url": "/wallets/",
+    "title": "Кошельки",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		}
+	]
+}

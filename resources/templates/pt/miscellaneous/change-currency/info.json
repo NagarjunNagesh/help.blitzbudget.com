@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-currency/",
+    "title": "Mudança de moeda",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Diversos",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Por defeito, nós escolhemos a moeda do seu respectivo país. Compreendemos que poderá ter necessidade de a alterar de vez em quando. Temos a opção pronta para si na página de definições."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-currency.png"
+		}
+	]
+}

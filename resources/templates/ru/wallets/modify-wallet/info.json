@@ -1,0 +1,148 @@
+{
+    "url": "/wallets/modify-wallet/",
+    "title": "изменить портфель",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Кошельки",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "изменение кошелька возможно после нажатия кнопки <strong>'управление кошельками'</strong> в правом верхнем углу страницы кошельков."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets.png"
+		},
+        {
+            "tag": "p",
+            "html": "кошельки будут отображать значок редактирования рядом с каждым кошельком, и теперь мы можем нажать на кошелек, чтобы начать редактирование."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallets-display.png"
+		},
+        {
+            "tag": "p",
+            "html": "отображается страница изменения кошелька с возможностью редактирования названия кошелька и валюты."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/modify-wallet.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Редактирование записей бумажник.</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Нажмите на кнопку <strong>'Сохранить'</strong> чтобы изменить портфель.</p></div></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "mx-5",
+            "html": "<div class=\"item-container ml-5\"><div class=\"icon\">3</div><div class=\"copy-container\"><p class=\"description mb-3\">vista изменяется на <i>'Выберите кошелек'</i> страницы.</p></div></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "редактирование основного портфеля"
+		},
+        {
+            "tag": "p",
+            "html": "при редактировании основного кошелька <i> (идентифицированного звездой)</i > исключается возможность переименования, там разрешается возможность изменения только валюты."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/primary-wallet.png"
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "Выбор валюты"
+		},
+        {
+            "tag": "p",
+            "html": "выпадающее меню откроется, как только вы нажмете стрелку вниз рядом с монетой, где вы сможете увидеть все монеты с кошельком и монеты без кошелька."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.png"
+		},
+        {
+            "tag": "p",
+            "html": "вы можете начать вводить валюту по вашему выбору и нажать стрелку вниз / вверх, чтобы переключаться между монетами без раздела кошелька."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-currency-modify.gif"
+		},
+        {
+            "tag": "h4",
+            "html": "выбор валюты с кошельком"
+		},
+        {
+            "tag": "p",
+            "html": "вы не можете создать несколько кошельков для одной и той же валюты."
+		},
+        {
+            "tag": "h4",
+            "html": "Условия поиска"
+		},
+        {
+            "tag": "p",
+            "html": "когда результат не отображается, разумно изменить условия поиска на что-то более простое."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/no-result-modify-wallet.gif"
+		},
+        {
+            "tag": "p",
+            "html": "результат не отображается на монетах без кошелька, поскольку опция <strong> 'индийская рупия' </strong> уже существует как опция кошелька."
+		},
+        {
+            "tag": "hr",
+            "classInfo": "text-center w-80"
+		},
+        {
+            "tag": "h3",
+            "html": "отменить изменение"
+		},
+        {
+            "tag": "p",
+            "html": "отмена изменения перенаправит страницу на страницу 'выбрать кошелек'."
+		},
+        {
+            "tag": "h3",
+            "html": "изменение сделано"
+		},
+        {
+            "tag": "p",
+            "html": "нажав кнопку <strong> 'готово'' </strong>, вы переключитесь на страницу 'выбрать кошельки'."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/done-wallet.png"
+		}
+	]
+}

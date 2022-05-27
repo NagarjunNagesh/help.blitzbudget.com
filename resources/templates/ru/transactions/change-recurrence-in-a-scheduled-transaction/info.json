@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-recurrence-in-a-scheduled-transaction/",
+    "title": "Периодичность изменений в запланированной операции",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Изменение рецидива в запланированной транзакции может быть выполнено с помощью следующих действий <a href=\"https://help.blitzbudget.com/ru/transactions/sorted-by-scheduled-transactions/\" class=\"article-anchor\">изменение сортировки на запланированные сделки</a> а затем просто перетащить повторяющуюся транзакцию на соответствующий рецидив."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-recurrence.gif"
+		}
+    ]
+}

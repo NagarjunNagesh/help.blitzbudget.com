@@ -1,0 +1,115 @@
+{
+    "url": "/overview/expense-overview/",
+    "title": "Resumen de gastos",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de ayuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Visión general",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "El resumen de gastos tiene algunos de los detalles disponibles."
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de un año.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de gastos.</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">Resumen de la cuenta.</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "Resumen de un año"
+		},
+        {
+            "tag": "p",
+            "html": "El resumen de un año está diseñado para proporcionar una visión general de hasta un lapso de 12 meses con un gráfico interactivo."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-one-year-overview.png"
+		},
+        {
+            "tag": "p",
+            "html": "El resumen proporciona la opción de pasar el cursor sobre el punto para averiguar la cantidad de gastos de ese mes."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-line-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Resumen de gastos"
+		},
+        {
+            "tag": "p",
+            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "El resumen de gastos está diseñado para proporcionar un gráfico de donuts categorizados para el mes seleccionado."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Visión general de la cuenta"
+		},
+        {
+            "tag": "p",
+            "html": "La visión general de la cuenta está diseñada para proporcionar una tabla de donuts categorizada para el mes seleccionado con las cuentas."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account.png"
+		},
+        {
+            "tag": "p",
+            "html": "El resumen ofrece la opción de pasar el cursor sobre cualquier sección para averiguar el gasto de esa cuenta para el mes."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/expense-donut-chart-account-hover.png"
+		},
+        {
+            "tag": "h3",
+            "html": "Las transacciones de cheques que constituyen el gráfico"
+		},
+        {
+            "tag": "p",
+            "html": "Al hacer clic en cualquier sección de la tabla se pueden ver todas las transacciones de esa sección."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/show-transactions-on-click-slice.gif"
+		}
+	]
+}

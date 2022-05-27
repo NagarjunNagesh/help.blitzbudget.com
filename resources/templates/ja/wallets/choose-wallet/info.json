@@ -1,0 +1,26 @@
+{
+    "url": "/wallets/choose-wallet/",
+    "title": "ポートフォリオを選ぶ",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "ポートフォリオ",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "財布を選ぶのはクリックするだけの簡単なことです。"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-wallet.png"
+		}
+	]
+}

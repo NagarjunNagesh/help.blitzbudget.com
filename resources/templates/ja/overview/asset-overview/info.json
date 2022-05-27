@@ -1,0 +1,49 @@
+{
+    "url": "/overview/asset-overview/",
+    "title": "資産の概要",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "概要",
+            "crumbUrl": "/overview/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "これはあなたの資産の概要、興味深い見落としではないですか？"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/asset-overview.png"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">1</div><div class=\"copy-container\"><p class=\"description mb-3\">を押してください<strong> 資産 </strong> 上の写真のように</p></div>"
+		},
+        {
+            "tag": "div",
+            "classInfo": "item-container",
+            "html": "<div class=\"icon\">2</div><div class=\"copy-container\"><p class=\"description mb-3\">デフォルトビューは、資産区分の銀行口座別に分けて表示しています。</p></div>"
+		},
+        {
+            "tag": "h3",
+            "html": "グラフィックの上にカーソルを置く"
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/overview/hover-bar-chart.png"
+		},
+        {
+            "tag": "p",
+            "html": "折れ線グラフにカーソルを合わせると、見落としていた口座の残高が表示されます。"
+		}
+	]
+}

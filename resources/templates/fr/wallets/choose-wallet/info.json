@@ -1,0 +1,26 @@
+{
+    "url": "/wallets/choose-wallet/",
+    "title": "Choisissez un portefeuille",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centre d'aide",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Portefeuilles",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Choisir un portefeuille est aussi simple que de cliquer sur le portefeuille."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-wallet.png"
+		}
+	]
+}

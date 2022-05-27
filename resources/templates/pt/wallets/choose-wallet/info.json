@@ -1,0 +1,26 @@
+{
+    "url": "/wallets/choose-wallet/",
+    "title": "Escolha uma carteira",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Portfólios",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Escolher uma carteira é tão simples como clicar na carteira."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/choose-wallet.png"
+		}
+	]
+}

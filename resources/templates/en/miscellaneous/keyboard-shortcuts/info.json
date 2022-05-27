@@ -1,0 +1,134 @@
+{
+    "url": "/miscellaneous/keyboard-shortcuts/",
+    "title": "Keyboard Shortcuts",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Help Center",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Miscellaneous",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "We know, you love to keep your hand's on the keyboard!"
+		},
+        {
+            "tag": "h3",
+            "html": "Global Shortcuts"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Add an item</i></div><div class=\"col-lg-5 py-2\">a</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Save changes</i></div><div class=\"col-lg-5 py-2\">Enter</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Cancel changes / Close modal</i></div><div class=\"col-lg-5 py-2\">Esc</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Navigate a dropdown menu</i></div><div class=\"col-lg-5 py-2\">Up arrow / Down arrow</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Toggle fullscreen</i></div><div class=\"col-lg-5 py-2\">z</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Navigation Shortcuts"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Overview page</i></div><div class=\"col-lg-5 py-2\">1</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Transactions page</i></div><div class=\"col-lg-5 py-2\">2</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Budgets page</i></div><div class=\"col-lg-5 py-2\">3</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Goals page</i></div><div class=\"col-lg-5 py-2\">4</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Settings page</i></div><div class=\"col-lg-5 py-2\">5</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Profile page</i></div><div class=\"col-lg-5 py-2\">6</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Bank Accounts page</i></div><div class=\"col-lg-5 py-2\">7</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Wallets page</i></div><div class=\"col-lg-5 py-2\">8</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Open Help center</i></div><div class=\"col-lg-5 py-2\">/ or ?</div>"
+        },
+        {
+            "tag": "h3",
+            "html": "Date Picker Shortcuts"
+		},
+        {
+            "tag": "div",
+            "classInfo": "row",
+            "html": "<div class=\"col-lg-7 py-2\"><strong>Action</strong></div><div class=\"col-lg-5 py-2\"><strong>Shortcut</strong></div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Move the date one month backward</i></div><div class=\"col-lg-5 py-2\">Left Arrow</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Move the date one month forward</i></div><div class=\"col-lg-5 py-2\">Right Arrow</div>"
+        },
+        {
+            "tag": "div",
+            "classInfo": "row ksbordertop",
+            "html": "<div class=\"col-lg-7 py-2\"><i>Select today</i></div><div class=\"col-lg-5 py-2\">t</div>"
+        }
+
+	]
+}

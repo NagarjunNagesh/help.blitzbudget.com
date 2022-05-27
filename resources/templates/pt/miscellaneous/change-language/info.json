@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-language/",
+    "title": "Alterar Idioma",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Diversos",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Esforçamo-nos por proporcionar a melhor experiência possível na sua língua. Deve estar disponível para si na página de definições."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-language.png"
+		}
+	]
+}

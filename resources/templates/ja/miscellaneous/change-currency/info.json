@@ -1,0 +1,26 @@
+{
+    "url": "/miscellaneous/change-currency/",
+    "title": "通貨の変更",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "ヘルプセンター",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "その他",
+            "crumbUrl": "/miscellaneous/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "デフォルトでは、お客様の国の通貨が選択されています。あなたが時々変更する必要があるかもしれないことを理解しています。私たちは、設定ページであなたのために準備ができているオプションを持っています."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/miscellaneous/change-currency.png"
+		}
+	]
+}

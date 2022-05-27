@@ -1,0 +1,26 @@
+{
+    "url": "/transactions/change-the-account/",
+    "title": "Изменить учетную запись транзакции",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "справочный центр",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Транзакций",
+            "crumbUrl": "/transactions/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "изменение учетной записи транзакции так же просто, как перетаскивание транзакции в предпочтительную учетную запись. Проверьте опцию <a href=\"https://help.blitzbudget.com/ru/transactions/sort-by/\" class=\"article-anchor\"> Сортировать по </a> чтобы перейти к опции сортировки учетной записи."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/transactions/change-account.png"
+		}
+	]
+}

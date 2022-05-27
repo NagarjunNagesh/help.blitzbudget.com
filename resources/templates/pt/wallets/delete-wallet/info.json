@@ -1,0 +1,40 @@
+{
+    "url": "/wallets/delete-wallet/",
+    "title": "Eliminar carteira",
+    "subcategoryPresent": false,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Centro de Ajuda",
+            "crumbUrl": "/"
+		},
+        {
+            "crumbTitle": "Portfólios",
+            "crumbUrl": "/wallets/"
+		}
+	],
+    "content": [
+        {
+            "tag": "p",
+            "html": "Ao clicar no botão <strong>'Eliminar carteira'</strong> para invocar um popup que o informe dos efeitos da remoção da bolsa."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet.png"
+		},
+        {
+            "tag": "p",
+            "html": "Confirmando a senha, a carteira será apagada e mudará para a <strong>'Escolha as carteiras'</strong>."
+		},
+        {
+            "tag": "img",
+            "classInfo": "article-image",
+            "srcUrl": "/img/wallets/delete-wallet-popup.png"
+		},
+        {
+            "tag": "p",
+            "classInfo": "tripleNineColor",
+            "html": "P.S - <i> Ao clicar no botão </i><strong>Entrar em</strong><i> o fluxo da carteira de eliminação será iniciado.</i> "
+		}
+	]
+}
