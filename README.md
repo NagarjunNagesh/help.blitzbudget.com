@@ -1,5 +1,9 @@
-# bb-bootstrap
+# help.blitzbudget.com
 Blitz Budget Bootstrap front end
+
+## Sonarcloud Status
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=BlitzBudget_help.blitzbudget.com)
 
 Instructions to install and run the server
 
