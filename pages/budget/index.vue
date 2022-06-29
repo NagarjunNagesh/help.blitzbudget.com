@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg24.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg39.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">Budget</h2>
+            <h4>Help Center</h4>
           </div>
         </div>
       </div>
@@ -27,7 +27,17 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Budget</h3>
+              <br>
+              <br>
               <img src="img/gifs/budget/budget.gif" alt="Budget">
+              <br>
+              <br>
+              Any budget can be added and viewed to the Blitzbudget. These budgets can be seen by clicking the
+              <i>"Budgets"</i> option present in the sidebar.
+              <br>
+              <br>
+              This page can be used to view budgets to control the expenses on the categories.
             </div>
           </div>
         </div>
