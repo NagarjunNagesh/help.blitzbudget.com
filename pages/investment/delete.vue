@@ -39,6 +39,9 @@
               <br>
               This would indeed show a confirmation popup which inturn has to be confirmed for the deletion of the
               investment to occur.
+              <br>
+              <br>
+              <nuxt-link to="/investment">#Investment</nuxt-link>
             </div>
           </div>
         </div>

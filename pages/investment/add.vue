@@ -37,7 +37,11 @@
               analyse the financial portfolio of the user and how it has performed.
               <br>
               <br>
-              An investment has three simple fields that could be added. <strong>Invested Capital</strong>, <strong>Actual value of the current </strong>
+              An investment has three simple fields that could be added. <strong>Invested Capital</strong>,
+              <strong>Actual value of the current </strong>
+              <br>
+              <br>
+              <nuxt-link to="/investment">#Investment</nuxt-link>
             </div>
           </div>
         </div>

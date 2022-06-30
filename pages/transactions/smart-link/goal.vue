@@ -41,6 +41,11 @@
               <br>
               We give you the liberty to link the transaction and the goal. It could be done by adding the <strong>
                 Transaction Description </strong> and the <strong>Goal</strong>.
+              <br>
+              <br>
+              <nuxt-link to="/goal/goal-link#article">#View Link
+                Transactions and Goals</nuxt-link>
+              <nuxt-link to="/goal#article">#Goal</nuxt-link>
             </div>
           </div>
         </div>

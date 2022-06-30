@@ -41,6 +41,11 @@
               <br>
               We give you the liberty to link the transaction and the debt. It could be done by adding the <strong>
                 Transaction Description </strong> and the <strong>Debt</strong>.
+              <br>
+              <br>
+              <nuxt-link to="/debt/debt-link#article">#View Link
+                Transactions and Debts</nuxt-link>
+              <nuxt-link to="/debt#article">#Debt</nuxt-link>
             </div>
           </div>
         </div>

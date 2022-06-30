@@ -42,6 +42,19 @@
               <br>
               <i>Note - The current invested value can be updated by linking the <nuxt-link
                   to="/transactions/smart-link/investment">transaction and the investments.</nuxt-link></i>
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/investment/add">Add Investment</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/investment/edit">Edit Investment</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/investment/delete">Delete Investment</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

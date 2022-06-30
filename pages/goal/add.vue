@@ -39,6 +39,9 @@
               <br>
               A goal has three simple fields that could be added. <strong>Goal to Reach</strong>,
               <strong>Target Date before which to achieve the goal</strong> and the name of the goal.
+              <br>
+              <br>
+              <nuxt-link to="/goal">#Goal</nuxt-link>
             </div>
           </div>
         </div>

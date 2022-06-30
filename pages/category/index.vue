@@ -42,6 +42,19 @@
               <br>
               <i>Note - The categories can be updated by linking the <nuxt-link to="/transactions/smart-link/category">
                   transaction and the categories.</nuxt-link></i>
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/category/add">Add Category</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/category/edit">Edit Category</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/category/delete">Delete Category</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

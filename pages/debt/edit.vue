@@ -39,6 +39,9 @@
               <br>
               This can be done by clicking on the edit <i>(pencil)</i> icon which would redirect you (the user) to the
               appropriate edit debt page.
+              <br>
+              <br>
+              <nuxt-link to="/debt">#Debt</nuxt-link>
             </div>
           </div>
         </div>

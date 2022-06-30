@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Add Budget</h3>
+              <h3 class="title">Delete Budget</h3>
               <br>
               <br>
               <img src="img/gifs/budget/delete-budget.gif" alt="Budget">
@@ -39,6 +39,9 @@
               <br>
               This would indeed show a confirmation popup which inturn has to be confirmed for the deletion of the
               budgets to occur.
+              <br>
+              <br>
+              <nuxt-link to="/budget">#Budget</nuxt-link>
             </div>
           </div>
         </div>

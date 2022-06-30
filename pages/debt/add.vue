@@ -39,6 +39,9 @@
               <br>
               A debt has three simple fields that could be added. <strong>Debted amount</strong>,
               <strong>Total amount repaid</strong> and the name of the debt.
+              <br>
+              <br>
+              <nuxt-link to="/debt">#Debt</nuxt-link>
             </div>
           </div>
         </div>

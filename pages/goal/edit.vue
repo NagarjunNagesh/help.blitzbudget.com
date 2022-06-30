@@ -44,6 +44,9 @@
               <br>
               This can be done by clicking on the edit <i>(pencil)</i> icon which would redirect you (the user) to the
               appropriate edit goal page.
+              <br>
+              <br>
+              <nuxt-link to="/goal">#Goal</nuxt-link>
             </div>
           </div>
         </div>

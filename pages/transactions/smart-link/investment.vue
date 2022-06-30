@@ -48,6 +48,11 @@
                             adding the
                             <strong>
                                 Transaction Description </strong> and the <strong>Investment</strong>.
+                            <br>
+                            <br>
+                            <nuxt-link to="/investment/investment-link#article">#View Link
+                                Transactions and Investments</nuxt-link>
+                            <nuxt-link to="/investment#article">#Investment</nuxt-link>
                         </div>
                     </div>
                 </div>

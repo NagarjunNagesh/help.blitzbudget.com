@@ -39,6 +39,9 @@
               <br>
               This would indeed show a confirmation popup which inturn has to be confirmed for the deletion of the
               goals to occur.
+              <br>
+              <br>
+              <nuxt-link to="/goal">#Goal</nuxt-link>
             </div>
           </div>
         </div>

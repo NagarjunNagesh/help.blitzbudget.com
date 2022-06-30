@@ -40,6 +40,19 @@
                 <br>
                 As seen in the image above, We can search the transaction by month and by default <i>the current
                   month</i> is chosen and the data is populated in the table.
+                  <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/investment/add">Add Investment</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/investment/edit">Edit Investment</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/investment/delete">Delete Investment</nuxt-link>
+                </li>
+              </ul>
               </p>
             </div>
           </div>

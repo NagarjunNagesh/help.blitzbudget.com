@@ -27,6 +27,7 @@ import Pagination from './Pagination.vue'
 
 import Comment from './Comments/Comment'
 import InfoSection from './InfoSection'
+import BaseInput from './Inputs/BaseInput.vue';
 
 export {
   Alert,
@@ -53,5 +54,6 @@ export {
   Collapse,
   CollapseItem,
   Comment,
-  InfoSection
+  InfoSection,
+  BaseInput
 }

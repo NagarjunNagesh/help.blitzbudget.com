@@ -38,6 +38,9 @@
               <br>
               This can be done by clicking on the edit <i>(pencil)</i> icon which would redirect you (the user) to the
               appropriate edit budget page.
+              <br>
+              <br>
+              <nuxt-link to="/budget">#Budget</nuxt-link>
             </div>
           </div>
         </div>

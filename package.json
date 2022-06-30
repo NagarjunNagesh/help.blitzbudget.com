@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-now-ui-kit-pro",
+  "name": "blitzbudget-help-center",
   "version": "1.1.0",
-  "description": "Nuxt Now UI Kit PRO - Premium Nuxt.js UI Kit for Bootstrap",
-  "author": "cristijora",
+  "description": "Blitzbudget Help Center knowledge base",
+  "author": "Nagarjun Nagesh",
   "private": true,
   "scripts": {
     "dev": "nuxt",

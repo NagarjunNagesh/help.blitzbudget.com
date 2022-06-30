@@ -40,6 +40,11 @@
               <br>
               We give you the liberty to link the transaction and the category. It could be done by adding the <strong>
                 Transaction Description </strong> and the <strong>Category</strong>.
+              <br>
+              <br>
+              <nuxt-link to="/category/category-link#article">#View Link
+                Transactions and Categories</nuxt-link>
+              <nuxt-link to="/category#article">#Category</nuxt-link>
             </div>
           </div>
         </div>

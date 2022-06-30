@@ -40,8 +40,21 @@
               This page can be used to view the debts and the debts repaid.
               <br>
               <br>
-              <i>Note - The debts can be updated by linking the <nuxt-link
-                  to="/transactions/smart-link/debt">transaction and the debts.</nuxt-link></i>
+              <i>Note - The debts can be updated by linking the <nuxt-link to="/transactions/smart-link/debt">
+                  transaction and the debts.</nuxt-link></i>
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/debt/add">Add Debt</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/debt/edit">Edit Debt</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/debt/delete">Delete Debt</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

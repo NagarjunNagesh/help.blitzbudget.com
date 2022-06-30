@@ -45,10 +45,18 @@
               The current vision of the dashboard provides an overview of,
               <ul>
                 <li>Net expenditure, income and per month left over categorized by month for 12 months.</li>
-                <li>Average Expenses</li>,
-                <li>Average Income</li>,
-                <li>Total Investments</li>,
-                <li>Total Debt</li>
+                <li>
+                  <nuxt-link to="/transactions">Average Expenses</nuxt-link>
+                </li>,
+                <li>
+                  <nuxt-link to="/transactions">Average Income</nuxt-link>
+                </li>,
+                <li>
+                  <nuxt-link to="/investment">Total Investments</nuxt-link>
+                </li>,
+                <li>
+                  <nuxt-link to="/debt">Total Debt</nuxt-link>
+                </li>
               </ul>
             </div>
           </div>

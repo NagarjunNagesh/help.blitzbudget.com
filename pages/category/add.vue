@@ -39,6 +39,9 @@
               <br>
               A category just has two simple fields that could be added. <strong>Category Type</strong>
               and the name of the category.
+              <br>
+              <br>
+              <nuxt-link to="/category">#Category</nuxt-link>
             </div>
           </div>
         </div>

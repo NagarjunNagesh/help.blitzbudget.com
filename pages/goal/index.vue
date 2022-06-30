@@ -42,6 +42,19 @@
               <br>
               <i>Note - The goals can be updated by linking the <nuxt-link to="/transactions/smart-link/goal">
                   transaction and the goals.</nuxt-link></i>
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/goal/add">Add Goal</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/goal/edit">Edit Goal</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/goal/delete">Delete Goal</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -39,6 +39,9 @@
               <br>
               This would indeed show a confirmation popup which inturn has to be confirmed for the deletion of the
               categories to occur.
+              <br>
+              <br>
+              <nuxt-link to="/category">#Category</nuxt-link>
             </div>
           </div>
         </div>

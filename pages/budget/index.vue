@@ -38,6 +38,19 @@
               <br>
               <br>
               This page can be used to view budgets to control the expenses on the categories.
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/budget/add">Add Budget</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/budget/edit">Edit Budget</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/budget/delete">Delete Budget</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

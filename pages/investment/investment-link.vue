@@ -40,6 +40,11 @@
                             <br>
                             <br>
                             This page shows that link and all the links established by you (the user).
+                            <br>
+                            <br>
+                            <nuxt-link to="/investment">#Investment</nuxt-link>
+                            <nuxt-link to="/transactions/smart-link/investment#article">#Smart Link
+                                Transactions and Investments</nuxt-link>
                         </div>
                     </div>
                 </div>

@@ -39,6 +39,9 @@
               <br>
               A budget has two simple fields that could be added. <strong>Budgeted Amount</strong> and the name of the
               budget.
+              <br>
+              <br>
+              <nuxt-link to="/budget">#Budget</nuxt-link>
             </div>
           </div>
         </div>
