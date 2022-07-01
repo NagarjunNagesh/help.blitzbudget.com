@@ -49,9 +49,6 @@
                   <nuxt-link to="/category/add">Add Category</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/category/edit">Edit Category</nuxt-link>
-                </li>
-                <li>
                   <nuxt-link to="/category/delete">Delete Category</nuxt-link>
                 </li>
               </ul>
