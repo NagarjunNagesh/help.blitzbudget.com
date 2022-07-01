@@ -56,7 +56,7 @@
 export default {
     name: "blog-posts",
     head: {
-        title: 'Goal',
+        title: 'View Linked Transaction and Goals',
     },
     layout: "default",
 }

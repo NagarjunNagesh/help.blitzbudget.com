@@ -57,7 +57,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Transaction Link',
+    title: 'Smart Link Transaction and Debt',
   },
   layout: "default",
 }

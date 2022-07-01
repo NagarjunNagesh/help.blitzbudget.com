@@ -53,7 +53,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Delete Budget',
+    title: 'Delete Category',
   },
   layout: "default",
 }

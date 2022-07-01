@@ -48,7 +48,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Add Budgets',
+    title: 'Add Wallet',
   },
   layout: "default",
 }

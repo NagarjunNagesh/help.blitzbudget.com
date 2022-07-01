@@ -63,7 +63,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Budget',
+    title: 'Category',
   },
   layout: "default",
 }
