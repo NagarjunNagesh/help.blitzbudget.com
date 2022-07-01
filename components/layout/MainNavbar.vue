@@ -108,6 +108,9 @@
           <nav-link to="/debt/debt-link#article">
             View Linked Transactions and Debt
           </nav-link>
+          <nav-link to="/transaction/smart-link/debt#article">
+            Smart Link Transactions and Debt
+          </nav-link>
         </drop-down>
         <drop-down tag="li" title="Transactions" icon="now-ui-icons business_money-coins" class="nav-item">
           <nav-link to="/transactions#article">
