@@ -82,26 +82,6 @@ function isNotEqual(obj1, obj2) {
     return !isEqual(obj1, obj2);
 };
 
-function formatLargeCurrencies(value) {
-
-    if (value >= 1000000000) {
-        value = (value / 1000000000) + 'B';
-        return value;
-    }
-
-    if (value >= 1000000) {
-        value = (value / 1000000) + 'M';
-        return value;
-    }
-
-    if (value >= 1000) {
-        value = (value / 1000) + 'k';
-        return value;
-    }
-
-    return value;
-};
-
 // IE 7 Or Less support
 function stringIncludes(s, sub) {
     if (isEmpty(s) || isEmpty(sub)) {
@@ -167,7 +147,6 @@ Vue.prototype.$notIncludesStr = notIncludesStr;
 Vue.prototype.$fetchFirstElement = fetchFirstElement;
 Vue.prototype.$isEqual = isEqual;
 Vue.prototype.$isNotEqual = isNotEqual;
-Vue.prototype.$formatLargeCurrencies = formatLargeCurrencies;
 Vue.prototype.$stringIncludes = stringIncludes;
 Vue.prototype.$round = round;
 Vue.prototype.$formatNumber = formatNumber;
