@@ -41,7 +41,7 @@
               appropriate edit debt page.
               <br>
               <br>
-              <nuxt-link to="/debt">#Debt</nuxt-link>
+              <nuxt-link to="/debts">#Debt</nuxt-link>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@
     <template slot="navbar-menu">
       <ul class="navbar-nav mr-5">
         <drop-down tag="li" title="Wallet" icon="now-ui-icons business_briefcase-24" class="nav-item">
-          <nav-link to="/wallet#article">
+          <nav-link to="/wallets#article">
             Wallet
           </nav-link>
           <nav-link to="/wallet/add#article">
@@ -22,7 +22,7 @@
           </nav-link>
         </drop-down>
         <drop-down tag="li" title="Category" icon="now-ui-icons files_single-copy-04" class="nav-item">
-          <nav-link to="/category#article">
+          <nav-link to="/categories#article">
             Category
           </nav-link>
           <nav-link to="/category/add#article">
@@ -34,12 +34,12 @@
           <nav-link to="/category/category-link#article">
             View Linked Transactions and Category
           </nav-link>
-          <nav-link to="/transactions/smart-link/category#article">
+          <nav-link to="/transaction/smart-link/category#article">
             Smart Link Transactions and Category
           </nav-link>
         </drop-down>
         <drop-down tag="li" title="Investment" icon="now-ui-icons business_chart-bar-32" class="nav-item">
-          <nav-link to="/investment#article">
+          <nav-link to="/investments#article">
             Investment
           </nav-link>
           <nav-link to="/investment/add#article">
@@ -54,12 +54,12 @@
           <nav-link to="/investment/investment-link#article">
             View Linked Transactions and Investment
           </nav-link>
-          <nav-link to="/transactions/smart-link/investment#article">
+          <nav-link to="/transaction/smart-link/investment#article">
             Smart Link Transactions and Investment
           </nav-link>
         </drop-down>
         <drop-down tag="li" title="Goal" icon="now-ui-icons sport_trophy" class="nav-item">
-          <nav-link to="/goal#article">
+          <nav-link to="/goals#article">
             Goal
           </nav-link>
           <nav-link to="/goal/add#article">
@@ -74,12 +74,12 @@
           <nav-link to="/goal/goal-link#article">
             View Linked Transactions and Goal
           </nav-link>
-          <nav-link to="/transactions/smart-link/goal#article">
+          <nav-link to="/transaction/smart-link/goal#article">
             Smart Link Transactions and Goal
           </nav-link>
         </drop-down>
         <drop-down tag="li" title="Budget" icon="now-ui-icons files_paper" class="nav-item">
-          <nav-link to="/budget#article">
+          <nav-link to="/budgets#article">
             Budget
           </nav-link>
           <nav-link to="/budget/add#article">
@@ -93,7 +93,7 @@
           </nav-link>
         </drop-down>
         <drop-down tag="li" title="Debt" icon="now-ui-icons shopping_credit-card" class="nav-item">
-          <nav-link to="/debt#article">
+          <nav-link to="/debts#article">
             Debt
           </nav-link>
           <nav-link to="/debt/add#article">
@@ -113,13 +113,13 @@
           <nav-link to="/transactions#article">
             Transactions
           </nav-link>
-          <nav-link to="/transactions/add#article">
+          <nav-link to="/transaction/add#article">
             Add Transactions
           </nav-link>
-          <nav-link to="/transactions/delete#article">
+          <nav-link to="/transaction/delete#article">
             Delete Transactions
           </nav-link>
-          <nav-link to="/transactions/edit#article">
+          <nav-link to="/transaction/edit#article">
             Edit Transactions
           </nav-link>
         </drop-down>

@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg32.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg11.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Budget</h2>
+            <h2 class="title">Smart Link Transaction and Goal</h2>
             <h4>Help Center</h4>
           </div>
         </div>
@@ -27,34 +27,25 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Category</h3>
+              <h3 class="title">Smart Link Transaction and Goal</h3>
               <br>
               <br>
-              <img src="img/gifs/category/category.gif" alt="Budget">
+              <img src="img/gifs/transaction/smart-link/goal.gif" alt="Goal">
               <br>
               <br>
-              Any categories can be added and viewed to the Blitzbudget. These categories can be seen by clicking the
-              <i>"Categories"</i> dropdown present in the profile top navigation.
+              Smart linking the transaction and goal enables any future addition of the transaction with the said
+              description and /or transaction amount to be automatically linked to the goal. This smart linking is
+              extremely useful as it
+              reduces the management overhead of continually requiring to manage the transaction and the application.
               <br>
               <br>
-              This page can be used to view the categories and the category types.
+              We give you the liberty to link the transaction and the goal. It could be done by adding the <strong>
+                Transaction Description </strong> and the <strong>Goal</strong>.
               <br>
               <br>
-              <i>Note - The categories can be updated by linking the <nuxt-link to="/transactions/smart-link/category">
-                  transaction and the categories.</nuxt-link></i>
-              <br>
-              <br>
-              <ul>
-                <li>
-                  <nuxt-link to="/category/add">Add Category</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="/category/edit">Edit Category</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="/category/delete">Delete Category</nuxt-link>
-                </li>
-              </ul>
+              <nuxt-link to="/goal/goal-link#article">#View Link
+                Transactions and Goals</nuxt-link>
+              <nuxt-link to="/goals#article">#Goal</nuxt-link>
             </div>
           </div>
         </div>
@@ -66,7 +57,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Budget',
+    title: 'Delete Transaction',
   },
   layout: "default",
 }

@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Add Budget</h3>
+              <h3 class="title">Edit Budget</h3>
               <br>
               <br>
               <img src="img/gifs/budget/edit-budget.gif" alt="Budget">
@@ -40,7 +40,7 @@
               appropriate edit budget page.
               <br>
               <br>
-              <nuxt-link to="/budget">#Budget</nuxt-link>
+              <nuxt-link to="/budgets">#Budget</nuxt-link>
             </div>
           </div>
         </div>

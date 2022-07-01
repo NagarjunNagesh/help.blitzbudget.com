@@ -41,7 +41,7 @@
               <strong>Actual value of the current </strong>
               <br>
               <br>
-              <nuxt-link to="/investment">#Investment</nuxt-link>
+              <nuxt-link to="/investments">#Investment</nuxt-link>
             </div>
           </div>
         </div>

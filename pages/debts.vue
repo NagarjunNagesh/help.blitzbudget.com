@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg15.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg26.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Smart Link Transaction and Category</h2>
+            <h2 class="title">Debt</h2>
             <h4>Help Center</h4>
           </div>
         </div>
@@ -27,24 +27,34 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Smart Link Transaction and Category</h3>
+              <h3 class="title">Debt</h3>
               <br>
               <br>
-              <img src="img/gifs/transaction/smart-link/category.gif" alt="Category">
+              <img src="img/gifs/debt/debt.gif" alt="Budget">
               <br>
               <br>
-              Smart linking the transaction and categories enables any future addition of the transaction with the said
-              description to be automatically linked to the category. This smart linking is extremely useful as it
-              reduces the management overhead of continually requiring to manage the transaction and the application.
+              Any debt can be added and viewed to the Blitzbudget. These debts can be seen by clicking the
+              <i>"Add Debt"</i> option present in the sidebar.
               <br>
               <br>
-              We give you the liberty to link the transaction and the category. It could be done by adding the <strong>
-                Transaction Description </strong> and the <strong>Category</strong>.
+              This page can be used to view the debts and the debts repaid.
               <br>
               <br>
-              <nuxt-link to="/category/category-link#article">#View Link
-                Transactions and Categories</nuxt-link>
-              <nuxt-link to="/category#article">#Category</nuxt-link>
+              <i>Note - The debts can be updated by linking the <nuxt-link to="/transaction/smart-link/debt">
+                  transaction and the debts.</nuxt-link></i>
+              <br>
+              <br>
+              <ul>
+                <li>
+                  <nuxt-link to="/debt/add">Add Debt</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/debt/edit">Edit Debt</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/debt/delete">Delete Debt</nuxt-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -56,7 +66,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Add Transaction',
+    title: 'Debt',
   },
   layout: "default",
 }

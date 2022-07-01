@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg31.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg32.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Dashboard</h2>
+            <h2 class="title">Budget</h2>
             <h4>Help Center</h4>
           </div>
         </div>
@@ -27,35 +27,32 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Dashboard</h3>
+              <h3 class="title">Category</h3>
               <br>
               <br>
-              <img src="img/gifs/dashboard/dashboard.gif" alt="Budget">
+              <img src="img/gifs/category/category.gif" alt="Budget">
               <br>
               <br>
-              A dashboard provides a comprehensive overview of your financial habits and the actual deviation from the
-              expectations. Let's be honest with ourselves. We can all optimize our financial habits to reach where we
-              want to reach.
+              Any categories can be added and viewed to the Blitzbudget. These categories can be seen by clicking the
+              <i>"Categories"</i> dropdown present in the profile top navigation.
               <br>
               <br>
-              We are constantly adding new features to the dashboard to make it a bit more comprehensive and easy to
-              understand.
+              This page can be used to view the categories and the category types.
               <br>
               <br>
-              The current vision of the dashboard provides an overview of,
+              <i>Note - The categories can be updated by linking the <nuxt-link to="/transaction/smart-link/category">
+                  transaction and the categories.</nuxt-link></i>
+              <br>
+              <br>
               <ul>
-                <li>Net expenditure, income and per month left over categorized by month for 12 months.</li>
                 <li>
-                  <nuxt-link to="/transactions">Average Expenses</nuxt-link>
-                </li>,
+                  <nuxt-link to="/category/add">Add Category</nuxt-link>
+                </li>
                 <li>
-                  <nuxt-link to="/transactions">Average Income</nuxt-link>
-                </li>,
+                  <nuxt-link to="/category/edit">Edit Category</nuxt-link>
+                </li>
                 <li>
-                  <nuxt-link to="/investment">Total Investments</nuxt-link>
-                </li>,
-                <li>
-                  <nuxt-link to="/debt">Total Debt</nuxt-link>
+                  <nuxt-link to="/category/delete">Delete Category</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -69,7 +66,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Dashboard',
+    title: 'Budget',
   },
   layout: "default",
 }

@@ -40,7 +40,7 @@
               This page can be used to view the expected goal to reach and the current goal amount.
               <br>
               <br>
-              <i>Note - The goals can be updated by linking the <nuxt-link to="/transactions/smart-link/goal">
+              <i>Note - The goals can be updated by linking the <nuxt-link to="/transaction/smart-link/goal">
                   transaction and the goals.</nuxt-link></i>
               <br>
               <br>

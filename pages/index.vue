@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper presentation-page">
-        <div class="page-header clear-filter">
+        <div class="page-header page-header-image clear-filter">
             <div class="page-header-image" style="background-image: url('img/bg32.jpg')">
             </div>
             <div class="content-center">
@@ -10,9 +10,18 @@
                         <base-input required v-model="model.search" name="search" type="text" autofocus
                             placeholder="Add a budget">
                         </base-input>
-                        <div>
-                            {{ showResults }}
-                        </div>
+                        <card type="blog" class="searchPages">
+                            <nuxt-link v-for="result in showResults" class="btn btn-link btn-secondary m-0 d-block"
+                                :to="result.url" :key="result.title">
+                                <p class="m-0">{{ result.title }}</p>
+                            </nuxt-link>
+                            <div :class="[
+                                { 'show d-block': showNoSearchResults },
+                                { 'd-none': !showNoSearchResults }
+                            ]" v-show="showNoSearchResults" tabindex="-1" :aria-hidden="!showNoSearchResults"
+                                class="text-secondary">No
+                                Results</div>
+                        </card>
                     </div>
                 </div>
             </div>
@@ -38,7 +47,7 @@
                                 </p>
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/budget" class="text-success">Budget</nuxt-link>
+                                <nuxt-link to="/budgets" class="text-success">Budget</nuxt-link>
                             </h6>
                         </div>
                         <div class="col-md-5">
@@ -47,10 +56,10 @@
                                 style="background-image: url('img/home/category.png')">
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/category" class="text-success">View</nuxt-link>
+                                <nuxt-link to="/categories" class="text-success">View</nuxt-link>
                             </h6>
                             <h4 class="card-title">
-                                <nuxt-link to="/category">Category</nuxt-link>
+                                <nuxt-link to="/categories">Category</nuxt-link>
                             </h4>
                             <p>
                                 We all need to categroize the transaction to understand what we are spending on and how
@@ -70,7 +79,7 @@
                                 </p>
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/debt" class="text-success">Debt</nuxt-link>
+                                <nuxt-link to="/debts" class="text-success">Debt</nuxt-link>
                             </h6>
                         </div>
                         <div class="col-md-5">
@@ -78,10 +87,10 @@
                             <div class="image-container image-right" style="background-image: url('img/home/goal.png')">
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/goal" class="text-success">View</nuxt-link>
+                                <nuxt-link to="/goals" class="text-success">View</nuxt-link>
                             </h6>
                             <h4 class="card-title">
-                                <nuxt-link to="/goal">Goal</nuxt-link>
+                                <nuxt-link to="/goals">Goal</nuxt-link>
                             </h4>
                             <p>
                                 Goals are an important way to set a target for our financial life and get us moving in a
@@ -104,7 +113,7 @@
                                 </p>
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/investment" class="text-success">Investment</nuxt-link>
+                                <nuxt-link to="/investments" class="text-success">Investment</nuxt-link>
                             </h6>
                         </div>
                         <div class="col-md-5">
@@ -138,7 +147,7 @@
                                 </p>
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/wallet" class="text-success">Wallet</nuxt-link>
+                                <nuxt-link to="/wallets" class="text-success">Wallet</nuxt-link>
                             </h6>
                         </div>
                         <div class="col-md-5">
@@ -147,10 +156,10 @@
                                 style="background-image: url('img/home/smart-link.png')">
                             </div>
                             <h6 class="category">
-                                <nuxt-link to="/transactions/smart-link" class="text-success">View</nuxt-link>
+                                <nuxt-link to="/transactions" class="text-success">View</nuxt-link>
                             </h6>
                             <h4 class="card-title">
-                                <nuxt-link to="/transactions/smart-link">Smart Link</nuxt-link>
+                                <nuxt-link to="/transactions">Smart Link</nuxt-link>
                             </h4>
                             <p>
                                 We have found a smart way for you to link your transactions with the investments,
@@ -179,12 +188,166 @@ export default {
         return {
             model: {
                 search: null,
-            }
+            },
+            showNoSearchResults: true,
+            pages: [
+                {
+                    "title": "How to add a Budget?",
+                    "url": "/budget/add"
+                },
+                {
+                    "title": "How to delete a Budget?",
+                    "url": "/budget/delete"
+                },
+                {
+                    "title": "How to edit a Budget?",
+                    "url": "/budget/edit"
+                },
+                {
+                    "title": "How to view Budgets?",
+                    "url": "/budgets"
+                },
+                {
+                    "title": "How to view Categories?",
+                    "url": "/categories"
+                },
+                {
+                    "title": "How to add a Category?",
+                    "url": "/category/add"
+                },
+                {
+                    "title": "How to delete a Category?",
+                    "url": "/category/delete"
+                },
+                {
+                    "title": "View Transaction and Category Link",
+                    "url": "/category/category-link"
+                },
+                {
+                    "title": "View Dashboard",
+                    "url": "/dashboard"
+                },
+                {
+                    "title": "View Debt",
+                    "url": "/debts"
+                },
+                {
+                    "title": "How to add a debt?",
+                    "url": "/debt/add"
+                },
+                {
+                    "title": "How to delete a debt?",
+                    "url": "/debt/delete"
+                },
+                {
+                    "title": "How to edit a debt?",
+                    "url": "/debt/edit"
+                },
+                {
+                    "title": "View Transaction and Debt Link",
+                    "url": "/debt/debt-link"
+                },
+                {
+                    "title": "View Goal",
+                    "url": "/goals"
+                },
+                {
+                    "title": "How to add a goal?",
+                    "url": "/goal/add"
+                },
+                {
+                    "title": "How to delete a goal?",
+                    "url": "/goal/delete"
+                },
+                {
+                    "title": "How to edit a goal?",
+                    "url": "/goal/edit"
+                },
+                {
+                    "title": "View Transaction and Goal Link",
+                    "url": "/goal/goal-link"
+                },
+                {
+                    "title": "View Investment",
+                    "url": "/investments"
+                },
+                {
+                    "title": "How to add an Investment?",
+                    "url": "/investment/add"
+                },
+                {
+                    "title": "How to delete an Investment?",
+                    "url": "/investment/delete"
+                },
+                {
+                    "title": "How to edit an Investment?",
+                    "url": "/investment/edit"
+                },
+                {
+                    "title": "View Transaction and Investment Link",
+                    "url": "/investment/investment-link"
+                },
+                {
+                    "title": "View Transactions",
+                    "url": "/transactions"
+                },
+                {
+                    "title": "How to add Transactions?",
+                    "url": "/transaction/add"
+                },
+                {
+                    "title": "How to delete a Transaction?",
+                    "url": "/transaction/delete"
+                },
+                {
+                    "title": "How to edit a Transaction?",
+                    "url": "/transaction/edit"
+                },
+                {
+                    "title": "Smart Link Transactions and Category",
+                    "url": "/transaction/smart-link/category"
+                },
+                {
+                    "title": "Smart Link Transactions and Debt",
+                    "url": "/transaction/smart-link/debt"
+                },
+                {
+                    "title": "Smart Link Transactions and Goal",
+                    "url": "/transaction/smart-link/goal"
+                },
+                {
+                    "title": "Smart Link Transactions and Investment",
+                    "url": "/transaction/smart-link/investment"
+                }
+            ]
         }
     },
     computed: {
         showResults() {
-            return this.model.search;
+            let search = this.model.search;
+            let filteredPages = [];
+
+            if (this.$isEmpty(search)) {
+                filteredPages = [];
+                // Show no Results
+                this.showNoSearchResults = true;
+                return filteredPages;
+            }
+
+            // Show Search Results
+            this.showNoSearchResults = false;
+
+            for (let i = 0, length = this.pages.length; i < length; i++) {
+                let page = this.pages[i];
+
+                /* check if the starting characters match */
+                let startsWithChar = page.title.substr(0, search.length).toUpperCase() == search.toUpperCase();
+                /*check if the item starts with the same letters as the text field value:*/
+                if (startsWithChar || this.$includesStr(page.title.toUpperCase(), search.toUpperCase())) {
+                    filteredPages.push(page);
+                }
+            }
+            return filteredPages;
         }
     },
     components: {

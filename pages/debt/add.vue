@@ -41,7 +41,7 @@
               <strong>Total amount repaid</strong> and the name of the debt.
               <br>
               <br>
-              <nuxt-link to="/debt">#Debt</nuxt-link>
+              <nuxt-link to="/debts">#Debt</nuxt-link>
             </div>
           </div>
         </div>

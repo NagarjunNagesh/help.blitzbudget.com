@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg26.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg17.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Debt</h2>
+            <h2 class="title">Investment</h2>
             <h4>Help Center</h4>
           </div>
         </div>
@@ -27,32 +27,32 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Debt</h3>
+              <h3 class="title">Investment</h3>
               <br>
               <br>
-              <img src="img/gifs/debt/debt.gif" alt="Budget">
+              <img src="img/gifs/investment/investment.gif" alt="Investment">
               <br>
               <br>
-              Any debt can be added and viewed to the Blitzbudget. These debts can be seen by clicking the
-              <i>"Add Debt"</i> option present in the sidebar.
+              Any investment can be added and viewed to the Blitzbudget. These investments can be seen by clicking the
+              <i>"Add Investment"</i> in the dashboard page.
               <br>
               <br>
-              This page can be used to view the debts and the debts repaid.
+              This page can be used to view the invested capital and the current investment value.
               <br>
               <br>
-              <i>Note - The debts can be updated by linking the <nuxt-link to="/transactions/smart-link/debt">
-                  transaction and the debts.</nuxt-link></i>
+              <i>Note - The current invested value can be updated by linking the <nuxt-link
+                  to="/transaction/smart-link/investment#article">transaction and the investments.</nuxt-link></i>
               <br>
               <br>
               <ul>
                 <li>
-                  <nuxt-link to="/debt/add">Add Debt</nuxt-link>
+                  <nuxt-link to="/investment/add">Add Investment</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/debt/edit">Edit Debt</nuxt-link>
+                  <nuxt-link to="/investment/edit">Edit Investment</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/debt/delete">Delete Debt</nuxt-link>
+                  <nuxt-link to="/investment/delete">Delete Investment</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -66,7 +66,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Debt',
+    title: 'Investments',
   },
   layout: "default",
 }

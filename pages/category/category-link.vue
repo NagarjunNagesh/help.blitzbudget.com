@@ -42,8 +42,8 @@
                             This page shows that link and all the links established by you (the user).
                             <br>
                             <br>
-                            <nuxt-link to="/category">#Category</nuxt-link>
-                            <nuxt-link to="/transactions/smart-link/category#article">#Smart Link
+                            <nuxt-link to="/categories">#Category</nuxt-link>
+                            <nuxt-link to="/transaction/smart-link/category#article">#Smart Link
                                 Transactions and Categories</nuxt-link>
                         </div>
                     </div>

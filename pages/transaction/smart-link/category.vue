@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/bg17.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/bg15.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Investment</h2>
+            <h2 class="title">Smart Link Transaction and Category</h2>
             <h4>Help Center</h4>
           </div>
         </div>
@@ -27,34 +27,24 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Investment</h3>
+              <h3 class="title">Smart Link Transaction and Category</h3>
               <br>
               <br>
-              <img src="img/gifs/investment/investment.gif" alt="Investment">
+              <img src="img/gifs/transaction/smart-link/category.gif" alt="Category">
               <br>
               <br>
-              Any investment can be added and viewed to the Blitzbudget. These investments can be seen by clicking the
-              <i>"Add Investment"</i> in the dashboard page.
+              Smart linking the transaction and categories enables any future addition of the transaction with the said
+              description to be automatically linked to the category. This smart linking is extremely useful as it
+              reduces the management overhead of continually requiring to manage the transaction and the application.
               <br>
               <br>
-              This page can be used to view the invested capital and the current investment value.
+              We give you the liberty to link the transaction and the category. It could be done by adding the <strong>
+                Transaction Description </strong> and the <strong>Category</strong>.
               <br>
               <br>
-              <i>Note - The current invested value can be updated by linking the <nuxt-link
-                  to="/transactions/smart-link/investment">transaction and the investments.</nuxt-link></i>
-              <br>
-              <br>
-              <ul>
-                <li>
-                  <nuxt-link to="/investment/add">Add Investment</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="/investment/edit">Edit Investment</nuxt-link>
-                </li>
-                <li>
-                  <nuxt-link to="/investment/delete">Delete Investment</nuxt-link>
-                </li>
-              </ul>
+              <nuxt-link to="/category/category-link#article">#View Link
+                Transactions and Categories</nuxt-link>
+              <nuxt-link to="/categories#article">#Category</nuxt-link>
             </div>
           </div>
         </div>
@@ -66,7 +56,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Investments',
+    title: 'Add Transaction',
   },
   layout: "default",
 }

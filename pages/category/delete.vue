@@ -41,7 +41,7 @@
               categories to occur.
               <br>
               <br>
-              <nuxt-link to="/category">#Category</nuxt-link>
+              <nuxt-link to="/categories">#Category</nuxt-link>
             </div>
           </div>
         </div>

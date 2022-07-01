@@ -46,7 +46,7 @@
               appropriate edit goal page.
               <br>
               <br>
-              <nuxt-link to="/goal">#Goal</nuxt-link>
+              <nuxt-link to="/goals">#Goal</nuxt-link>
             </div>
           </div>
         </div>

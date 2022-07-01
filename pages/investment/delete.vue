@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Add Investment</h3>
+              <h3 class="title">Delete Investment</h3>
               <br>
               <br>
               <img src="img/gifs/investment/delete-investment.gif" alt="Delete Investment">
@@ -41,7 +41,7 @@
               investment to occur.
               <br>
               <br>
-              <nuxt-link to="/investment">#Investment</nuxt-link>
+              <nuxt-link to="/investments">#Investment</nuxt-link>
             </div>
           </div>
         </div>

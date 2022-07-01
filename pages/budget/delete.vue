@@ -41,7 +41,7 @@
               budgets to occur.
               <br>
               <br>
-              <nuxt-link to="/budget">#Budget</nuxt-link>
+              <nuxt-link to="/budgets">#Budget</nuxt-link>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@
             <a href="https://blitzbudget.com/privacy" target="_blank"> Privacy Policy </a>
           </li>
           <li>
-            <a href="https://help.blitzbudget.com/"> Help Center </a>
+            <a href="https://learn.blitzbudget.com/"> Learn </a>
           </li>
           <li>
             <a href="https://app.blitzbudget.com/"> Get Started </a>

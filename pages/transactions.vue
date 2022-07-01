@@ -40,8 +40,8 @@
                 <br>
                 As seen in the image above, We can search the transaction by month and by default <i>the current
                   month</i> is chosen and the data is populated in the table.
-                  <br>
-              <br>
+                <br>
+                <br>
               <ul>
                 <li>
                   <nuxt-link to="/investment/add">Add Investment</nuxt-link>
@@ -51,6 +51,18 @@
                 </li>
                 <li>
                   <nuxt-link to="/investment/delete">Delete Investment</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/transaction/smart-link/category">Smart Link Transaction and Category</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/transaction/smart-link/debt">Smart Link Transaction and Debt</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/transaction/smart-link/goal">Smart Link Transaction and Goal</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link to="/transaction/smart-link/investment">Smart Link Transaction and Investment</nuxt-link>
                 </li>
               </ul>
               </p>
