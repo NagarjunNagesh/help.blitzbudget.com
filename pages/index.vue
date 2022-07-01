@@ -193,131 +193,131 @@ export default {
             pages: [
                 {
                     "title": "How to add a Budget?",
-                    "url": "/budget/add"
+                    "url": "/budget/add#article"
                 },
                 {
                     "title": "How to delete a Budget?",
-                    "url": "/budget/delete"
+                    "url": "/budget/delete#article"
                 },
                 {
                     "title": "How to edit a Budget?",
-                    "url": "/budget/edit"
+                    "url": "/budget/edit#article"
                 },
                 {
                     "title": "How to view Budgets?",
-                    "url": "/budgets"
+                    "url": "/budgets#article"
                 },
                 {
                     "title": "How to view Categories?",
-                    "url": "/categories"
+                    "url": "/categories#article"
                 },
                 {
                     "title": "How to add a Category?",
-                    "url": "/category/add"
+                    "url": "/category/add#article"
                 },
                 {
                     "title": "How to delete a Category?",
-                    "url": "/category/delete"
+                    "url": "/category/delete#article"
                 },
                 {
                     "title": "View Transaction and Category Link",
-                    "url": "/category/category-link"
+                    "url": "/category/category-link#article"
                 },
                 {
                     "title": "View Dashboard",
-                    "url": "/dashboard"
+                    "url": "/dashboard#article"
                 },
                 {
                     "title": "View Debt",
-                    "url": "/debts"
+                    "url": "/debts#article"
                 },
                 {
                     "title": "How to add a debt?",
-                    "url": "/debt/add"
+                    "url": "/debt/add#article"
                 },
                 {
                     "title": "How to delete a debt?",
-                    "url": "/debt/delete"
+                    "url": "/debt/delete#article"
                 },
                 {
                     "title": "How to edit a debt?",
-                    "url": "/debt/edit"
+                    "url": "/debt/edit#article"
                 },
                 {
                     "title": "View Transaction and Debt Link",
-                    "url": "/debt/debt-link"
+                    "url": "/debt/debt-link#article"
                 },
                 {
                     "title": "View Goal",
-                    "url": "/goals"
+                    "url": "/goals#article"
                 },
                 {
                     "title": "How to add a goal?",
-                    "url": "/goal/add"
+                    "url": "/goal/add#article"
                 },
                 {
                     "title": "How to delete a goal?",
-                    "url": "/goal/delete"
+                    "url": "/goal/delete#article"
                 },
                 {
                     "title": "How to edit a goal?",
-                    "url": "/goal/edit"
+                    "url": "/goal/edit#article"
                 },
                 {
                     "title": "View Transaction and Goal Link",
-                    "url": "/goal/goal-link"
+                    "url": "/goal/goal-link#article"
                 },
                 {
                     "title": "View Investment",
-                    "url": "/investments"
+                    "url": "/investments#article"
                 },
                 {
                     "title": "How to add an Investment?",
-                    "url": "/investment/add"
+                    "url": "/investment/add#article"
                 },
                 {
                     "title": "How to delete an Investment?",
-                    "url": "/investment/delete"
+                    "url": "/investment/delete#article"
                 },
                 {
                     "title": "How to edit an Investment?",
-                    "url": "/investment/edit"
+                    "url": "/investment/edit#article"
                 },
                 {
                     "title": "View Transaction and Investment Link",
-                    "url": "/investment/investment-link"
+                    "url": "/investment/investment-link#article"
                 },
                 {
                     "title": "View Transactions",
-                    "url": "/transactions"
+                    "url": "/transactions#article"
                 },
                 {
                     "title": "How to add Transactions?",
-                    "url": "/transaction/add"
+                    "url": "/transaction/add#article"
                 },
                 {
                     "title": "How to delete a Transaction?",
-                    "url": "/transaction/delete"
+                    "url": "/transaction/delete#article"
                 },
                 {
                     "title": "How to edit a Transaction?",
-                    "url": "/transaction/edit"
+                    "url": "/transaction/edit#article"
                 },
                 {
                     "title": "Smart Link Transactions and Category",
-                    "url": "/transaction/smart-link/category"
+                    "url": "/transaction/smart-link/category#article"
                 },
                 {
                     "title": "Smart Link Transactions and Debt",
-                    "url": "/transaction/smart-link/debt"
+                    "url": "/transaction/smart-link/debt#article"
                 },
                 {
                     "title": "Smart Link Transactions and Goal",
-                    "url": "/transaction/smart-link/goal"
+                    "url": "/transaction/smart-link/goal#article"
                 },
                 {
                     "title": "Smart Link Transactions and Investment",
-                    "url": "/transaction/smart-link/investment"
+                    "url": "/transaction/smart-link/investment#article"
                 }
             ]
         }
