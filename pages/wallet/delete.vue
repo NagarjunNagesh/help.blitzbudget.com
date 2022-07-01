@@ -51,7 +51,7 @@
 export default {
   name: "blog-posts",
   head: {
-    title: 'Delete Budget',
+    title: 'Delete Wallet',
   },
   layout: "default",
 }

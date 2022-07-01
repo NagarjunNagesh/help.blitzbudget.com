@@ -56,7 +56,7 @@
 export default {
     name: "blog-posts",
     head: {
-        title: 'Add Investment',
+        title: 'View Linked Transaction and Investments',
     },
     layout: "default",
 }
