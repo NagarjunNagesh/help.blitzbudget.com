@@ -85,11 +85,15 @@ h6,
     text-transform: uppercase;
 }
 
-li,
 p {
     line-height: 1.61em;
     font-weight: 300;
     font-size: 1.2em;
+}
+
+li {
+    line-height: 1.61em;
+    font-weight: 300;
 }
 
 .title {
