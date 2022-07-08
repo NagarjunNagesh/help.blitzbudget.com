@@ -49,6 +49,12 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
   ],
+  /**
+   * Create a 404 HTML when generating static resources.
+   */
+  generate: {
+    fallback: '404.html'
+  },
   /*
   ** Build configuration
   */
